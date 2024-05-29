@@ -1,1 +1,121 @@
-{"type":"footer","name":"Footer group","sections":{"text-with-icons":{"type":"text-with-icons","blocks":{"item-1":{"type":"item","settings":{"icon":"picto-box","title":"Free shipping","content":"<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"}},"item-2":{"type":"item","settings":{"icon":"picto-phone","title":"Customer service","content":"<p>We are available from monday to friday to answer your questions.<\/p>"}},"item-3":{"type":"item","settings":{"icon":"picto-lock","title":"Secure payment","content":"<p>Your payment information is processed securely.<\/p>"}},"item-4":{"type":"item","settings":{"icon":"picto-email","title":"Contact us","content":"<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"}}},"block_order":["item-1","item-2","item-3","item-4"],"settings":{}},"newsletter":{"type":"newsletter","settings":{}},"footer":{"type":"footer","blocks":{"text":{"type":"text","settings":{}},"links":{"type":"links","settings":{"menu":"footer"}},"newsletter":{"type":"newsletter","settings":{}},"social_media":{"type":"social_media","settings":{}}},"block_order":["text","links","newsletter","social_media"],"settings":{}}},"order":["text-with-icons","newsletter","footer"]}
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon_width": 50,
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon_width": 50,
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon_width": 50,
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon_width": 50,
+            "title": "Contact us",
+            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Subscribe to our newsletter",
+        "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "About our store",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "social_media": {
+          "type": "social_media",
+          "settings": {
+            "title": "Follow us",
+            "content": "<p>To configure social media, go to your social media settings. Change this text in the theme editor.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "links",
+        "newsletter",
+        "social_media"
+      ],
+      "settings": {
+        "show_payment_icons": true,
+        "enable_follow_on_shop": true,
+        "show_country_selector": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "text-with-icons",
+    "newsletter",
+    "footer"
+  ]
+}
