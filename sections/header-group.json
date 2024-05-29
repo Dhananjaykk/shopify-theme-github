@@ -25,8 +25,8 @@
         "announcement_text_size": "normal",
         "autoplay": true,
         "cycle_speed": 5,
-        "background": "#f7aea6",
-        "text_color": "#56112a",
+        "background": "#1a1a1a",
+        "text_color": "#f5f1ec",
         "button_background": "#56112a",
         "button_text_color": "#ffffff"
       }
