@@ -33,6 +33,88 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_aYtGTE": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Shop",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega_menu_mCnC4C": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Collection",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega_menu_zJH93y": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Accessories",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_aYtGTE",
+        "mega_menu_mCnC4C",
+        "mega_menu_zJH93y"
+      ],
       "settings": {
         "enable_sticky_header": true,
         "logo": "{{ shop.brand.logo }}",
