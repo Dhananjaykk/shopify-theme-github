@@ -7880,7 +7880,7 @@ input:checked + .popover__choice-label:is(:lang(ae), :lang(ar), :lang(arc), :lan
 
 @media screen and (min-width: 741px) {
   .header__wrapper {
-    padding: calc(27px - var(--reduce-header-padding) * 6px) 0;
+    padding: calc(0px - var(--reduce-header-padding) * 6px) 0;
   }
 }
 
