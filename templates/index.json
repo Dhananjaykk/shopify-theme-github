@@ -215,6 +215,9 @@
         "collection-3",
         "collection_PdHa9c"
       ],
+      "custom_css": [
+        ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -11px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}"
+      ],
       "settings": {
         "reveal_on_scroll": false,
         "layout": "carousel",
