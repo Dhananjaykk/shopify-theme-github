@@ -6,7 +6,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "text_position": "middle_center",
+            "text_position": "bottom_center",
             "subheading": "",
             "title": "NEW ARRIVALS",
             "button_1_text": "DISCOVER NOW",
