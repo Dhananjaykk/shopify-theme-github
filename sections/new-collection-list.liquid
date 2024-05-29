@@ -76,7 +76,7 @@
               {%- endif -%}
 
               {%- if block.settings.link_text != blank -%}
-                <span class="heading heading--small link" {% if section.settings.reveal_on_scroll %}reveal{% endif %}>{{ block.settings.link_text | escape }}</span>
+                <span class="button button--primary" {% if section.settings.reveal_on_scroll %}reveal{% endif %}>{{ block.settings.link_text | escape }}</span>
               {%- endif -%}
             {%- endcapture -%}
 
