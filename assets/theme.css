@@ -1,3 +1,18 @@
+/* -------------custom css start------------------ */
+
+.list-collections__item-info.text-container.list-info {
+    bottom: 0;
+    top: auto;
+}
+span.button.button--primary {
+    color: black;
+    background: white;
+}
+
+
+
+/* ----------------custom css end-------------------------- */
+
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 /*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
 @media screen and (max-width: 740px) {
