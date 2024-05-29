@@ -32,63 +32,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "layout": "collage",
-        "subheading": "Subheading",
-        "title": "Collection list",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "new_collection_list_e8jhYQ": {
       "type": "new-collection-list",
       "blocks": {
@@ -154,6 +97,64 @@
       "settings": {
         "reveal_on_scroll": false,
         "layout": "carousel",
+        "subheading": "",
+        "title": "CATEGORIES",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "collage",
         "subheading": "Subheading",
         "title": "Collection list",
         "background": "rgba(0,0,0,0)",
@@ -163,7 +164,7 @@
   },
   "order": [
     "slideshow",
-    "collection-list",
-    "new_collection_list_e8jhYQ"
+    "new_collection_list_e8jhYQ",
+    "collection-list"
   ]
 }
