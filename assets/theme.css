@@ -7855,7 +7855,7 @@ input:checked + .popover__choice-label:is(:lang(ae), :lang(ar), :lang(arc), :lan
 
 .header__wrapper {
   align-items: center;
-  padding: 20px 0;
+  padding: 0px 0;
   display: flex;
 }
 
