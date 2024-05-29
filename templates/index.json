@@ -88,10 +88,82 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "new_collection_list_e8jhYQ": {
+      "type": "new-collection-list",
+      "blocks": {
+        "collection_4NBCmf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "NEW IN",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_wiPagi": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "BESTSELLERS",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_ybqUHf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "KURTA SET",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_FxpBik": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "KURTA SET",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_4NBCmf",
+        "collection_wiPagi",
+        "collection_ybqUHf",
+        "collection_FxpBik"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "Subheading",
+        "title": "Collection list",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "slideshow",
-    "collection-list"
+    "collection-list",
+    "new_collection_list_e8jhYQ"
   ]
 }
