@@ -103,6 +103,38 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "slideshow_8GRXMD": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XdkWcG": {
+          "type": "image",
+          "settings": {
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "THIS RAKHI STAND OUT WITH MULMUL",
+            "button_1_text": "shop now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_XdkWcG"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -165,6 +197,7 @@
   "order": [
     "slideshow",
     "new_collection_list_e8jhYQ",
+    "slideshow_8GRXMD",
     "collection-list"
   ]
 }
