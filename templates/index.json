@@ -162,7 +162,7 @@
             "collection": "",
             "subheading": "",
             "title": "",
-            "link_text": "",
+            "link_text": "Khushi Kapoor",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
@@ -175,7 +175,7 @@
             "collection": "",
             "subheading": "",
             "title": "",
-            "link_text": "",
+            "link_text": "Sanchita Arora",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
@@ -188,7 +188,20 @@
             "collection": "",
             "subheading": "",
             "title": "",
-            "link_text": "",
+            "link_text": "Alia Bhatt",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_PdHa9c": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "Name",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
@@ -199,14 +212,14 @@
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection-3"
+        "collection-3",
+        "collection_PdHa9c"
       ],
-      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
-        "layout": "collage",
-        "subheading": "Subheading",
-        "title": "Collection list",
+        "layout": "carousel",
+        "subheading": "",
+        "title": "AS SEEN ON",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
