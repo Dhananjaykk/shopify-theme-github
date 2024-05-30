@@ -260,6 +260,49 @@
         "label": "Shop the looks"
       }
     },
+    "new_collection_list_amrLP7": {
+      "type": "new-collection-list",
+      "blocks": {
+        "collection_LpbFyh": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "ACCESSORIES",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_M8XKWG": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "MULMUL GIFTS",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_LpbFyh",
+        "collection_M8XKWG"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "new_collection_list_kKfBEK": {
       "type": "new-collection-list",
       "blocks": {
@@ -367,6 +410,7 @@
     "rich_text_VKjBDM",
     "collection-list",
     "shop_the_look_LL7CN8",
+    "new_collection_list_amrLP7",
     "new_collection_list_kKfBEK"
   ]
 }
