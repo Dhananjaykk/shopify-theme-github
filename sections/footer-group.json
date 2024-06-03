@@ -73,6 +73,7 @@
       "blocks": {
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "About our store",
             "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
@@ -84,24 +85,31 @@
             "menu": "footer"
           }
         },
+        "links_JEtecA": {
+          "type": "links",
+          "settings": {
+            "menu": "help"
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "settings": {
             "title": "Newsletter",
-            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "content": "<p>Be the first to know about our new launches and much more!<\/p>"
           }
         },
         "social_media": {
           "type": "social_media",
           "settings": {
-            "title": "Follow us",
-            "content": "<p>To configure social media, go to your social media settings. Change this text in the theme editor.<\/p>"
+            "title": "Contact us",
+            "content": "<p>+91-9810220059<br\/><br\/>orders@shopmulmul.com<br\/><br\/>D-388, Ground Floor, 100 Feet Road Chattarpur, New Delhi- 110074 (Next to Dhan Mill)<\/p>"
           }
         }
       },
       "block_order": [
         "text",
         "links",
+        "links_JEtecA",
         "newsletter",
         "social_media"
       ],

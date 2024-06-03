@@ -1,6 +1,6 @@
 {
   "current": {
-    "button_border_radius": 4,
+    "button_border_radius": 2,
     "block_border_radius": "small",
     "heading_color": "#1a1a1a",
     "text_color": "#1a1a1a",
@@ -33,6 +33,8 @@
     "product_color_display": "count",
     "product_image_size": "natural",
     "cart_type": "drawer",
+    "social_facebook": "https:\/\/www.facebook.com\/shopmulmul\/",
+    "social_instagram": "https:\/\/www.instagram.com\/shopmulmul\/",
     "accent_color": "#405de6",
     "checkout_sidebar_background_color": "#f6f3ed",
     "checkout_accent_color": "#353535",
