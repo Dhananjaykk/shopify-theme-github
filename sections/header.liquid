@@ -128,6 +128,9 @@ IMPLEMENTATION NOTE: the header in Focal is pretty complex as it allows a lot of
         {%- endif -%}
 
         <div class="header__icon-list {% if section.settings.header_layout == 'logo_center_search_open' %}hidden-desk{% endif %}">
+          <a href="{{ routes.search_url }}" is="toggle-link" class="header__icon-wrapper tap-area {% if section.settings.header_layout == 'logo_center_search_open' %}hidden-lap{% endif %} hidden-desk" aria-controls="search-drawer" aria-expanded="false" aria-label="{{ 'search.general.title' | t | escape }}">
+            {%- render 'icon' with 'header-search' -%}
+          </a>
           {%- if menu.links.size > 0 -%}
             <button is="toggle-button" class="header__icon-wrapper tap-area {% unless section.settings.header_layout == 'drawer' %}hidden-desk{% endunless %}" aria-controls="mobile-menu-drawer" aria-expanded="false">
               <span class="visually-hidden">{{ 'header.general.navigation' | t }}</span>
@@ -135,9 +138,7 @@ IMPLEMENTATION NOTE: the header in Focal is pretty complex as it allows a lot of
             </button>
           {%- endif -%}
 
-          <a href="{{ routes.search_url }}" is="toggle-link" class="header__icon-wrapper tap-area {% if section.settings.header_layout == 'logo_center_search_open' %}hidden-lap{% endif %} hidden-desk" aria-controls="search-drawer" aria-expanded="false" aria-label="{{ 'search.general.title' | t | escape }}">
-            {%- render 'icon' with 'header-search' -%}
-          </a>
+         
         </div>
 
         {%- if section.settings.header_layout == 'logo_center_search_open' -%}
