@@ -38,27 +38,27 @@
         "collection_4NBCmf": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "new-in",
             "subheading": "",
             "title": "",
             "link_text": "NEW IN",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_wiPagi": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kurta-sets",
             "subheading": "",
             "title": "",
             "link_text": "BESTSELLERS",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_ybqUHf": {
