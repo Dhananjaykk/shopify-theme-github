@@ -14,7 +14,34 @@
   TOP PART (IMAGE AND BREADCRUMB)
   ------------------------------------------------------------------------------------------
   {%- endcomment -%}
+<<<<<<< HEAD
  
+=======
+
+ {% if collection.metafields.custom.dekstop_banner !=blank or collection.metafields.custom.mobile_banner.value !=blank %}
+<style>
+  .main-collection-banner{
+    display:none;
+  }
+  .mobile-banner{
+      display:none;
+    }
+  @media only screen and (max-width: 600px) {
+    .desktop-banner{
+      display:none;
+    }
+    .mobile-banner{
+      display:block;
+    }
+  }
+</style>
+    <div class="custom-coll-banner">
+     <img src="{{ collection.metafields.custom.dekstop_banner.value | img_url: 'master' }}" class="desktop-banner">
+  <img src="{{ collection.metafields.custom.mobile_banner.value | img_url: 'master' }}" class="mobile-banner">
+  </div>
+{% else %}
+
+>>>>>>> aca502fb4cdd1b117237d8416e307177ea976b30
   {%- capture breadcrumb -%}
     <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb breadcrumb--floating text--xsmall hidden-phone">
       <ol class="breadcrumb__list" role="list">
@@ -117,6 +144,7 @@
       </div>
     </link-bar>
   {%- endif -%}
+  {% endif %}
 </section>
 
 {% schema %}
