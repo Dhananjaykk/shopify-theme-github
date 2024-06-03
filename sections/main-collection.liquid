@@ -84,6 +84,15 @@
       }
     }
   {%- endif -%}
+   @media only screen and (min-width: 999px) {
+  .imagestaticmainblock{
+    display:none;
+  }
+
+  }
+      .imagestaticmainblock {
+    grid-column: 1 / -1;
+}
 </style>
 
 <section>
@@ -228,10 +237,58 @@
                 {%- assign gap_width = 24.0 | divided_by: section.settings.desktop_products_per_row | times: desktop_number_of_products_minus_one -%}
                 {%- capture sizes_attribute -%}(max-width: 740px) calc({{ 100.0 | divided_by: section.settings.mobile_products_per_row | ceil }}vw - 24px), calc((min(100vw - 80px, 1520px) - {{ sidebar_width }}px) / {{ section.settings.desktop_products_per_row }} - {{ gap_width | ceil }}px){%- endcapture -%}
 
+                {% assign il = 0 %}
+             {% assign datacheck = 0 %}
+            
                 {%- for product in collection.products -%}
-                  {%- render 'product-item', product: product, collection: collection, sizes_attribute: sizes_attribute, reveal: settings.stagger_products_apparition -%}
-                {%- endfor -%}
-              </div>
+                  {% if product.available %}
+                  {% if collection.metafields.custom_fields["static_block_"] != blank %} <!-- 1 -->
+                   {% assign loop-index = forloop.index | modulo:2 %} 
+                  {% assign totalsizeblock = collection.metafields.custom_fields["static_block_"] | size %}
+
+                     {% if totalsizeblock > il %} <!-- totalblockif --> 
+
+                        {% if loop-index == 0 %} <!-- loop-index -->
+                          
+ {%- render 'product-item', product: product, collection: collection, block: block, sizes_attribute: sizes_attribute, reveal: settings.stagger_products_apparition, startreview: true -%}
+                    
+                            <!-- static block af-->
+                    <div class="imagestaticmainblock">
+              
+                      {% if collection.metafields.custom_fields["static_block_"][il]["image"] != blank %} 
+                      
+                      <div class="collectionstaticblock">
+                     		<a {% if collection.metafields.custom_fields["static_block_"][il]["link"] != blank %}  href="{{ collection.metafields.custom_fields["static_block_"][il]["link"] }}" {% endif %}>
+                              	{{ collection.metafields.custom_fields["static_block_"][il]["image"] }}
+                     		 </a>  
+                      </div>
+                     
+                       {% assign il = il | plus: 1 %}
+                        {% assign datacheck = datacheck | plus: 1 %}
+                          
+                      	{%endif%}
+                        </div>      
+                            <!-- static block n-->
+                          
+                         {% else %} <!-- loop-index -->
+
+                            {%- render 'product-item', product: product, collection: collection, block: block, sizes_attribute: sizes_attribute, reveal: settings.stagger_products_apparition, startreview: true -%}
+                    
+                          {% endif %} <!-- loop-index -->
+                    
+                       {% else %} <!-- totalblockif -->
+                    
+                      {%- render 'product-item', product: product, collection: collection, block: block, sizes_attribute: sizes_attribute, reveal: settings.stagger_products_apparition, startreview: true -%}
+                     
+                      {% endif %}  <!-- totalblockif -->
+                    
+                  {% else %}  <!-- 1 -->                    
+                  {%- render 'product-item', product: product, collection: collection, block: block, sizes_attribute: sizes_attribute, reveal: settings.stagger_products_apparition, startreview: true -%}
+                 {% endif %} <!-- 1 -->
+                  {% endif %}
+               {%- endfor -%} <!-- productmainloop -->
+                
+              </div> <!--product-list__inner -->
             </product-list>
 
             {%- render 'pagination', paginate: paginate, use_ajax: true -%}
