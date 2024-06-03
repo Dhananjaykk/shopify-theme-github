@@ -5,6 +5,14 @@ IMPLEMENTATION NOTE: the header in Focal is pretty complex as it allows a lot of
 {%- endcomment -%}
 
 <style>
+a.header__icon-wrapper.tap-area.hidden-pocket.hidden-lap {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 0px 5px;
+}
   :root {
     --enable-sticky-header: {% if section.settings.enable_sticky_header %}1{% else %}0{% endif %};
     --enable-transparent-header: {% if request.page_type == 'index' and section.settings.enable_transparent_header %}1{% else %}0{% endif %};
