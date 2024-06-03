@@ -504,6 +504,7 @@
         "item_W8nD3m",
         "item_cfhGaL"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
