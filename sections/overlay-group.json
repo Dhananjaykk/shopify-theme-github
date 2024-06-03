@@ -8,7 +8,7 @@
         "apparition_delay": 5,
         "show_only_on_index": false,
         "show_only_for_visitors": false,
-        "show_only_once": true,
+        "show_only_once": false,
         "image_position": "left",
         "title": "Get 10% off",
         "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
