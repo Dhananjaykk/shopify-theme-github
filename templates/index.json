@@ -401,6 +401,38 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "slideshow_JGPKBj": {
+      "type": "slideshow",
+      "blocks": {
+        "image_TQwAwk": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "OUR FABRICS",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_TQwAwk"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -411,6 +443,7 @@
     "collection-list",
     "shop_the_look_LL7CN8",
     "new_collection_list_amrLP7",
-    "new_collection_list_kKfBEK"
+    "new_collection_list_kKfBEK",
+    "slideshow_JGPKBj"
   ]
 }
