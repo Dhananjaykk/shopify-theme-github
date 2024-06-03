@@ -73,6 +73,7 @@
       "blocks": {
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "About our store",
             "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
@@ -82,6 +83,12 @@
           "type": "links",
           "settings": {
             "menu": "footer"
+          }
+        },
+        "links_JEtecA": {
+          "type": "links",
+          "settings": {
+            "menu": "help"
           }
         },
         "newsletter": {
@@ -102,6 +109,7 @@
       "block_order": [
         "text",
         "links",
+        "links_JEtecA",
         "newsletter",
         "social_media"
       ],
