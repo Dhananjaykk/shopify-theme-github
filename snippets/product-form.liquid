@@ -441,7 +441,11 @@
             {%- endform -%}
           </div>
         {%- endif -%}
-
+          {% if product.available %}
+              {% if product.tags contains '48 hours' %}
+              <div style="margin-top: 10px;margin-top: 10px;"><b>Ships within 48 hours</b></div>
+                {% endif %}
+                 {% endif %}
         {%- if template.suffix != 'quick-buy-popover' -%}
           <store-pickup form-id="{{ product_form_id }}" class="product-form__store-availability-container">
             {%- render 'store-availability', product_variant: product.selected_or_first_available_variant -%}
