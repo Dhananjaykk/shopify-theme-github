@@ -68,6 +68,12 @@
     "product-content": {
       "type": "product-content",
       "blocks": {
+        "complementary_products_jGYhPb": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Featured products"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -79,18 +85,12 @@
             "title": "Need Help",
             "liquid": "<style>\n    .mai_help {\n      padding: 0 6px;\n    }\n\n    .mai_help a {\n      color: black;\n      font-weight: bold;\n    }\n\n    .content_help {\n      display: flex;\n      gap: 10px;\n    }\n  <\/style>\n  <div class=\"main_help\">\n    <div class=\"inner_help\">\n      <div class=\"head_help\">We have a team of skilled stylists who are readily available to assist you. Please feel\n        free to contact us and we will be more than happy to help!<\/div>\n      <div class=\"content_help\">\n        <div class=\"mai_help\"><a href=\"mailto:Orders@shopmulmul.com\"><img style=\"\n                width: 33px;\n                vertical-align: middle;\n                margin: 8px;\n            \" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0088\/4031\/4931\/files\/2989993.png?v=1682341717\">Email Us<\/a>\n        <\/div>\n        <div class=\"mai_help\"><a href=\"tel:+919810220059\"><img style=\"width: 30px;\n                vertical-align: middle;\n                margin: 10px;\"\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0088\/4031\/4931\/files\/phone-512.webp?v=1682341781\">Call\n            Us<\/a><\/div>\n            <div class=\"mai_help\"><a href=\"https:\/\/api.whatsapp.com\/send?phone=919810220059\"><img style=\"width: 30px;\n              vertical-align: middle;\n              margin: 10px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0088\/4031\/4931\/files\/free-whatsapp-icon-121-thumb.png?v=1683104811\">Whats App<\/a><\/div>\n      <\/div>\n      \n    <\/div>\n  <\/div>\n  <\/div>"
           }
-        },
-        "complementary_products_jGYhPb": {
-          "type": "complementary_products",
-          "settings": {
-            "title": "Featured products"
-          }
         }
       },
       "block_order": [
+        "complementary_products_jGYhPb",
         "description",
-        "liquid_naXJhy",
-        "complementary_products_jGYhPb"
+        "liquid_naXJhy"
       ],
       "settings": {
       }
