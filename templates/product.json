@@ -82,7 +82,6 @@
         },
         "complementary_products_jGYhPb": {
           "type": "complementary_products",
-          "source": "{{ product.metafields.custom.new_add_product.value }}",
           "settings": {
             "title": "Featured products"
           }

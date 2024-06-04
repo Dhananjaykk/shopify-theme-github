@@ -293,7 +293,8 @@
         <div class="scroller">
           <div class="scroller__inner">
             <div class="product-content__featured-products-list">
-              {%- for product in recommendations.products -%}
+              {% assign buyitnow =product.metafields.custom.buy_it_with.value %}
+              {%- for product in buyitnow -%}
                 {%- render 'product-item', product: product, reduced_content: true, reduced_font_size: true, sizes_attribute: '(max-width: 740px) 105px, 215px' -%}
               {%- endfor -%}
             </div>
