@@ -1,0 +1,76 @@
+<style>
+    .giftandtext {
+      display: flex;
+      gap: 10px;
+  }
+    .texttext{
+     width: 80%;
+      border: 1px solid;
+      padding: 4px;
+      height: min-content;
+      display: flex;
+          border-radius: 5px;
+    }
+    .giftboxmainblock{
+      width:20%;
+    }
+            div.giftboxmainblock {
+            display: block;
+          }
+          div.giftboxmainblock .giftboxinnerblock {
+            display: inline-block;
+            box-sizing: border-box; margin-left: 10px;    position: relative;
+          }
+          div.giftboxmainblock .giftboxinnerblock label {
+            display: block;
+            height: 100%;
+            width: 100%;
+            padding: 3px;
+            border-radius: 6px;
+            border: 1px solid #062234;
+            color: #062234;
+            cursor: pointer;
+            opacity: .6;
+            transition: none;
+            text-align: center;
+            margin: 0 !important;
+          }
+            div.giftboxmainblock .giftboxinnerblock label img {
+            display: block;
+          /*  height: 60px;*/
+            width: 90px;
+            border-radius: 6px;
+          }
+
+          div.giftboxmainblock .giftboxinnerblock input[type="radio"] {
+            opacity: 0 !important;
+            width: 0 !important;
+            height: 0 !important;position: absolute;
+          }
+
+          div.giftboxmainblock .giftboxinnerblock input[type="radio"]:checked ~ label {
+            opacity: 1;
+            border: none;
+            background-color: #062234;
+          }
+</style>
+
+<div class="headingblockgiftbox"><span>Add a gift box?</span></div>
+<div class="giftboxmainblock">
+  <div class="giftboxinnerblock" style="text-align: center;">
+    <input
+      type="radio"
+      name="giftboxdesign"
+      id="giftboxdesign2"
+      value="Pink"
+      otherid="31568276324403"
+      class="radioBtnClass"
+      aria-invalid="false"
+      style=""
+    >
+    <label for="giftboxdesign2" class="giftboxkabelclass ">
+      <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/2_1_85e7dc93-20fe-456b-9388-12f38799562f.png?v=1672729329">
+    </label>
+    <span class="price price--large">₹ 295</span>
+  </div>
+</div>
