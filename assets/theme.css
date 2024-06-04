@@ -14,6 +14,9 @@ button#AddToCart{
 .testimonial-bg{
   background: linear-gradient(to bottom, transparent 20%, #fcf6ee 20%);
 }
+.testimonial-bg img.multi-column__image {
+    border-radius: 50%;
+}
 @media only screen and (max-width: 999px) {
 product-payment-container#MainPaymentContainer {
     display: flex;
