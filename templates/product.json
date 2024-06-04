@@ -24,6 +24,11 @@
           "settings": {
           }
         },
+        "others_color_options_rxVXhE": {
+          "type": "others_color_options",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -40,6 +45,7 @@
         "inventory_LiypNB",
         "variant_picker",
         "quantity_selector",
+        "others_color_options_rxVXhE",
         "buy_buttons"
       ],
       "settings": {
