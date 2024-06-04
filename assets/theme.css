@@ -8,8 +8,15 @@ span.button.button--primary {
     color: black;
     background: white;
 }
-
-
+product-payment-container#MainPaymentContainer {
+    display: flex;
+}
+button#AddToCart {
+    width: 50%;
+}
+.shopify-payment-button {
+    width: 50%;
+}
 
 /* ----------------custom css end-------------------------- */
 
