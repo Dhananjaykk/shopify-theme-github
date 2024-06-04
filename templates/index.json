@@ -440,6 +440,7 @@
         "item_MbFnNL": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Raheela",
@@ -454,6 +455,7 @@
         "item_EBygpP": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "pooja",
@@ -468,6 +470,7 @@
         "item_9d9drq": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Aasiyah",
