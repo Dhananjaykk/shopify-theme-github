@@ -434,13 +434,12 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "multi_column_DrXY9L": {
-      "type": "multi-column",
+    "new_testimonial_6Q8XCh": {
+      "type": "new-testimonial",
       "blocks": {
-        "item_CX3tjK": {
+        "item_MbFnNL": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Column 1",
@@ -452,10 +451,9 @@
             "vertical_alignment": "start"
           }
         },
-        "item_wB4Dba": {
+        "item_EBygpP": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Column 1",
@@ -467,10 +465,9 @@
             "vertical_alignment": "start"
           }
         },
-        "item_W8nD3m": {
+        "item_9d9drq": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Column 1",
@@ -482,10 +479,9 @@
             "vertical_alignment": "start"
           }
         },
-        "item_cfhGaL": {
+        "item_QhaRk9": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Column 1",
@@ -499,12 +495,11 @@
         }
       },
       "block_order": [
-        "item_CX3tjK",
-        "item_wB4Dba",
-        "item_W8nD3m",
-        "item_cfhGaL"
+        "item_MbFnNL",
+        "item_EBygpP",
+        "item_9d9drq",
+        "item_QhaRk9"
       ],
-      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
@@ -530,6 +525,6 @@
     "new_collection_list_amrLP7",
     "new_collection_list_kKfBEK",
     "slideshow_JGPKBj",
-    "multi_column_DrXY9L"
+    "new_testimonial_6Q8XCh"
   ]
 }

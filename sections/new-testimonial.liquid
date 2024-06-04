@@ -58,12 +58,12 @@
       {%- if section.settings.title != blank or section.settings.subheading != blank or section.settings.content != blank -%}
         <header class="section__header {% if section.settings.content != blank %}section__header--tight{% endif %} section__header--{{ section.settings.column_alignment }}">
           <div class="text-container">
-            {%- if section.settings.subheading != blank -%}
-              <h2 class="heading heading--small">{{ section.settings.subheading }}</h2>
-            {%- endif -%}
 
             {%- if section.settings.title != blank -%}
               <h3 class="heading h2">{{ section.settings.title }}</h3>
+            {%- endif -%}
+             {%- if section.settings.subheading != blank -%}
+              <h2 class="heading heading--small">{{ section.settings.subheading }}</h2>
             {%- endif -%}
 
             {%- if section.settings.content != blank -%}
