@@ -30,6 +30,9 @@ button#AddToCart {
     width: 50%;
   padding: 0 !important;
 }
+  button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+    padding: 0 !important;
+}
 }
 
 /* ----------------custom css end-------------------------- */
