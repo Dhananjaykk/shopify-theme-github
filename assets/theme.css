@@ -24,11 +24,11 @@ product-payment-container#MainPaymentContainer {
 }
 button#AddToCart {
     width: 50%;
-  padding: 0;
+  padding: 0 !important;
 }
 .shopify-payment-button {
     width: 50%;
-  padding: 0;
+  padding: 0 !important;
 }
 }
 
