@@ -11,6 +11,9 @@ span.button.button--primary {
 button#AddToCart{
       border: 1px solid;
 }
+.testimonial-bg{
+  background: linear-gradient(to bottom, transparent 20%, #fcf6ee 20%);
+}
 @media only screen and (max-width: 999px) {
 product-payment-container#MainPaymentContainer {
     display: flex;
