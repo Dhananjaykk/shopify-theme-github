@@ -442,8 +442,8 @@
           "settings": {
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Raheela",
+            "content": "<p>Absolutely loved wearing this one 💖<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -456,8 +456,8 @@
           "settings": {
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "pooja",
+            "content": "<p>Thank you so much for the beautiful outfit ♥️ Everybody just loved my outfit Can’t wait to shop more ✨🥹<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -470,8 +470,8 @@
           "settings": {
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Aasiyah",
+            "content": "<p>Got the most stunning eid outfits! Thank you ♥️<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -481,6 +481,7 @@
         },
         "item_QhaRk9": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
