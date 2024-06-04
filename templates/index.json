@@ -511,9 +511,9 @@
         "title": "MULMUL AND ME",
         "content": "",
         "column_alignment": "center",
-        "mobile_item_size": "medium",
+        "mobile_item_size": "large",
         "desktop_item_size": "medium",
-        "spacing": "normal",
+        "spacing": "tight",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
