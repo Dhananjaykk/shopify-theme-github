@@ -439,14 +439,15 @@
                 {%- endif -%}
               </product-payment-container>
             {%- endform -%}
-          </div>
-        {%- endif -%}
-      <div>Free Potli Bag Worth Rs 1000 with this purchase</div>
+             <div>Free Potli Bag Worth Rs 1000 with this purchase</div>
           {% if product.available %}
               {% if product.tags contains '48 hours' %}
               <div style="margin-top: 10px;margin-top: 10px;"><b>Ships within 48 hours</b></div>
                 {% endif %}
                  {% endif %}
+          </div>
+        {%- endif -%}
+     
         {%- if template.suffix != 'quick-buy-popover' -%}
           <store-pickup form-id="{{ product_form_id }}" class="product-form__store-availability-container">
             {%- render 'store-availability', product_variant: product.selected_or_first_available_variant -%}
