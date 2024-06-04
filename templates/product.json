@@ -55,7 +55,7 @@
         "show_taxes_included": true,
         "show_product_rating": true,
         "show_sticky_add_to_cart": true,
-        "show_share_buttons": true,
+        "show_share_buttons": false,
         "help_page": "",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
