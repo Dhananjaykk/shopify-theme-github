@@ -285,7 +285,7 @@
 
   {%- if complementary_products_block != blank -%}
     <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="2" product-id="{{ product.id }}" section-id="{{ section.id }}">
-    
+      {%- if recommendations.performed and recommendations.products_count > 0 -%}
         {%- if complementary_products_block.settings.title != blank -%}
           <p class="product-content__featured-products-title heading heading--small">{{ complementary_products_block.settings.title | escape }}</p>
         {%- endif -%}
@@ -293,14 +293,13 @@
         <div class="scroller">
           <div class="scroller__inner">
             <div class="product-content__featured-products-list">
-              {% assign buyitnow = product.metafields.custom.buy_it_with.value %}
-              {%- for product in buyitnow -%}
+              {%- for product in recommendations.products -%}
                 {%- render 'product-item', product: product, reduced_content: true, reduced_font_size: true, sizes_attribute: '(max-width: 740px) 105px, 215px' -%}
               {%- endfor -%}
             </div>
           </div>
         </div>
-      
+      {%- endif -%}
     </product-recommendations>
   {%- endif -%}
 {%- endcapture -%}
