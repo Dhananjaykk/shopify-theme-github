@@ -72,10 +72,18 @@
           "type": "description",
           "settings": {
           }
+        },
+        "liquid_naXJhy": {
+          "type": "liquid",
+          "settings": {
+            "title": "Need Help",
+            "liquid": ""
+          }
         }
       },
       "block_order": [
-        "description"
+        "description",
+        "liquid_naXJhy"
       ],
       "settings": {
       }
