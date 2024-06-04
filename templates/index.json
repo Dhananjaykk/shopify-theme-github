@@ -303,6 +303,90 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "new_testimonial_6Q8XCh": {
+      "type": "new-testimonial",
+      "blocks": {
+        "item_MbFnNL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Raheela",
+            "content": "<p>Absolutely loved wearing this one 💖<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_EBygpP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "pooja",
+            "content": "<p>Thank you so much for the beautiful outfit ♥️ Everybody just loved my outfit Can’t wait to shop more ✨🥹<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_9d9drq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Aasiyah",
+            "content": "<p>Got the most stunning eid outfits! Thank you ♥️<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_QhaRk9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_MbFnNL",
+        "item_EBygpP",
+        "item_9d9drq",
+        "item_QhaRk9"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "MULMUL AND ME",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "new_collection_list_kKfBEK": {
       "type": "new-collection-list",
       "blocks": {
@@ -433,90 +517,6 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
-    },
-    "new_testimonial_6Q8XCh": {
-      "type": "new-testimonial",
-      "blocks": {
-        "item_MbFnNL": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Raheela",
-            "content": "<p>Absolutely loved wearing this one 💖<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_EBygpP": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "pooja",
-            "content": "<p>Thank you so much for the beautiful outfit ♥️ Everybody just loved my outfit Can’t wait to shop more ✨🥹<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_9d9drq": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Aasiyah",
-            "content": "<p>Got the most stunning eid outfits! Thank you ♥️<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_QhaRk9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_MbFnNL",
-        "item_EBygpP",
-        "item_9d9drq",
-        "item_QhaRk9"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "stack_items": false,
-        "subheading": "",
-        "title": "MULMUL AND ME",
-        "content": "",
-        "column_alignment": "center",
-        "mobile_item_size": "large",
-        "desktop_item_size": "medium",
-        "spacing": "tight",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
@@ -527,8 +527,8 @@
     "collection-list",
     "shop_the_look_LL7CN8",
     "new_collection_list_amrLP7",
+    "new_testimonial_6Q8XCh",
     "new_collection_list_kKfBEK",
-    "slideshow_JGPKBj",
-    "new_testimonial_6Q8XCh"
+    "slideshow_JGPKBj"
   ]
 }
