@@ -12,7 +12,7 @@ button#AddToCart{
       border: 1px solid;
 }
 .testimonial-bg{
-  background: linear-gradient(to bottom, transparent 20%, #fcf6ee 20%);
+  background: linear-gradient(to bottom, transparent 25%, #fcf6ee 20%);
 }
 .testimonial-bg img.multi-column__image {
     border-radius: 50%;
