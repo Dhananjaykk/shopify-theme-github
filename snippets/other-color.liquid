@@ -1,0 +1,45 @@
+{% if product.metafields.custom_fields["others_color_field"] != blank %}
+        	<style>
+            .productotheroptions {
+              text-align:left; margin: 10px 0px;
+            }
+          	.othercolorproducttitle  {  display: block;
+    			margin-bottom: 5px;color:#7d7d7d;
+            } 
+            .othercolorblocks { 
+              width: 50px;
+    		  height: 35px;position: relative;    margin: auto;border-radius:20px;
+            } 
+            .othercolorblocks:after {
+           /*  content: "";*/
+              position: absolute;
+              width: calc(100% + 6px);
+              height: calc(100% + 6px);
+              top: -3px;
+              left: -3px; border: 1px solid #b7b4b4;border-radius:7px;
+            }
+            .otherproductscolors a {
+                display: inline-block;
+                margin: 6px;
+            }
+     .othercolorblocks.active1 {
+    border: 2px solid black;
+}
+          </style>         
+            <div class="productotheroptions">
+               <p class="othercolorproducttitle"><span class="ProductForm__Label--inner">Colours</span> </p>
+               <div class="otherproductscolors">
+      {% for item in product.metafields.custom_fields["others_color_field"] %}
+       
+           {% if item["product_data"] != blank %}            
+           
+          <a href="/products/{{ item["product_data"] }}" style="margin-right: 10px;" class="{{ item.url }}" >             
+               <div class="othercolorblocks {% if item["product_data"] == product.handle  %} active1 {% endif %}" style="background-color:{% if item["hexcode"] != blank %} {{ item["hexcode"] }} {% else %}white{% endif %}"></div>
+         </a>
+           
+           {% endif %}           
+       
+       {% endfor %}
+    	 </div>  
+   			</div>
+		{% endif %}
