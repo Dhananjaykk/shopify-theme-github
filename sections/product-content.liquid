@@ -272,6 +272,7 @@
     {%- comment -%}Output the various drawers for the trust badges, only once (if they exist){%- endcomment -%}
     {{- trust_drawer_content -}}
   {%- endcapture -%}
+  
 
   {%- if product_tabs != blank -%}
     <div class="product-content__tabs anchor" id="product-{{ product.id }}-tabs">
@@ -280,6 +281,7 @@
       </div>
     </div>
   {%- endif -%}
+
 
   {%- assign complementary_products_block = section.blocks | where: 'type', 'complementary_products' | first -%}
 
