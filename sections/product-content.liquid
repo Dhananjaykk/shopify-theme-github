@@ -1,12 +1,17 @@
 <style>
-  product-item.product-item {
+  /* product-item.product-item {
     flex: 0 0 24%;
 }
   .product-content__featured-products-list {
     display: flex;
         justify-content: flex-start;
     overflow-x: scroll;
-}
+} */
+  .product-content__featured-products-list {
+        grid-template-columns: none;
+        grid-auto-columns: minmax(64vw, 1fr);
+        grid-auto-flow: column;
+    }
 </style>
 
 {%- capture product_content -%}
