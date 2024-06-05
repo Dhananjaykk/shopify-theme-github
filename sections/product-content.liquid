@@ -1,4 +1,12 @@
-{%- assign complementary_products_block = section.blocks | where: 'type', 'complementary_products' | first -%}
+
+
+{%- capture product_content -%}
+  {%- capture product_tabs -%}
+    {%- capture product_tabs_nav_items -%}
+      {%- assign processed_blocks = 0 -%}
+
+      {%- for block in section.blocks -%}
+        {%- assign complementary_products_block = section.blocks | where: 'type', 'complementary_products' | first -%}
 <p>new</p>
   {%- if complementary_products_block != blank -%}
     <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="2" product-id="{{ product.id }}" section-id="{{ section.id }}">
@@ -26,13 +34,6 @@
     </div>
   </section>
 {%- endif -%}
-
-{%- capture product_content -%}
-  {%- capture product_tabs -%}
-    {%- capture product_tabs_nav_items -%}
-      {%- assign processed_blocks = 0 -%}
-
-      {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'description' -%}
             {%- if product.description != blank -%}
