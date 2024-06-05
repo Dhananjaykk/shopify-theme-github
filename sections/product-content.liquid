@@ -281,7 +281,7 @@
     </div>
   {%- endif -%}
 
-  {%- assign complementary_products_block = section.blocks | where: 'type', 'complementary_products' | first -%}
+  {%- assign complementary_products_block = product.metafields.custom.buy_it_with.value | where: 'type', 'complementary_products' | first -%}
 
   {%- if complementary_products_block != blank -%}
     <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="2" product-id="{{ product.id }}" section-id="{{ section.id }}">
