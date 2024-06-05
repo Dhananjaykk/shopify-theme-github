@@ -284,7 +284,7 @@
   {%- assign complementary_products_block = section.blocks | where: 'type', 'complementary_products' | first -%}
 
   {%- if complementary_products_block != blank -%}
-    <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="2" product-id="{{ product.id }}" section-id="{{ section.id }}">
+    <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="4" product-id="{{ product.id }}" section-id="{{ section.id }}">
       {%- if product.metafields.custom.buy_it_with.value !=blank -%}
         {%- if complementary_products_block.settings.title != blank -%}
           <p class="product-content__featured-products-title heading heading--small">{{ complementary_products_block.settings.title | escape }}</p>
