@@ -307,9 +307,9 @@
 
     <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="4" product-id="{{ product.id }}" section-id="{{ section.id }}">
       {%- if product.metafields.custom.buy_it_with.value !=blank -%}
-        {%- if complementary_products_block.settings.title != blank -%}
+        
           <p class="product-content__featured-products-title heading heading--small" style="text-align:center;">Style your mulmul with</p>
-        {%- endif -%}
+       
 {% assign buyitnow = product.metafields.custom.buy_it_with.value %}
         <div class="scroller">
           <div class="scroller__inner">
