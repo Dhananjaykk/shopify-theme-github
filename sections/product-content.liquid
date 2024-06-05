@@ -1,26 +1,3 @@
-<style>
-  /* product-item.product-item {
-    flex: 0 0 20%;
-}
-  .product-content__featured-products-list {
-    display: flex;
-        justify-content: flex-start;
-    overflow-x: scroll;
-} */
-  @media only screen and (min-width: 760px) {
-    .product-content__featured-products-list{
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    
-  }
-  @media screen and (min-width: 741px) and (max-width: 999px) {
-    .product-content__featured-products-list{
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-  }
-  
-</style>
-
 {%- capture product_content -%}
   {%- capture product_tabs -%}
     {%- capture product_tabs_nav_items -%}
@@ -304,16 +281,19 @@
     </div>
   {%- endif -%}
 
+  {%- assign complementary_products_block = section.blocks | where: 'type', 'complementary_products' | first -%}
 
-    <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="4" product-id="{{ product.id }}" section-id="{{ section.id }}">
-      {%- if product.metafields.custom.buy_it_with.value !=blank -%}
-          <p class="product-content__featured-products-title heading heading--small" style="text-align:center;">Style your mulmul with</p>
+  {%- if complementary_products_block != blank -%}
+    <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="2" product-id="{{ product.id }}" section-id="{{ section.id }}">
+      {%- if recommendations.performed and recommendations.products_count > 0 -%}
+        {%- if complementary_products_block.settings.title != blank -%}
+          <p class="product-content__featured-products-title heading heading--small">{{ complementary_products_block.settings.title | escape }}</p>
+        {%- endif -%}
 
-{% assign buyitnow = product.metafields.custom.buy_it_with.value %}
         <div class="scroller">
           <div class="scroller__inner">
             <div class="product-content__featured-products-list">
-              {%- for product in buyitnow -%}
+              {%- for product in recommendations.products -%}
                 {%- render 'product-item', product: product, reduced_content: true, reduced_font_size: true, sizes_attribute: '(max-width: 740px) 105px, 215px' -%}
               {%- endfor -%}
             </div>
@@ -321,7 +301,7 @@
         </div>
       {%- endif -%}
     </product-recommendations>
-
+  {%- endif -%}
 {%- endcapture -%}
 
 {%- if product_content != blank -%}
