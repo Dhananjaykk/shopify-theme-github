@@ -1,3 +1,11 @@
+{%- if product_content != blank -%}
+  <section class="container">
+    <div id="product-{{ product.id }}-content" class="product-content anchor">
+      {{- product_content -}}
+    </div>
+  </section>
+{%- endif -%}
+
 {%- capture product_content -%}
   {%- capture product_tabs -%}
     {%- capture product_tabs_nav_items -%}
@@ -304,13 +312,7 @@
   {%- endif -%}
 {%- endcapture -%}
 
-{%- if product_content != blank -%}
-  <section class="container">
-    <div id="product-{{ product.id }}-content" class="product-content anchor">
-      {{- product_content -}}
-    </div>
-  </section>
-{%- endif -%}
+
 
 {% schema %}
 {
