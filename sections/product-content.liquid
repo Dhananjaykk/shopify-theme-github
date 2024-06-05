@@ -8,9 +8,6 @@
     overflow-x: scroll;
 } */
   @media only screen and (min-width: 999px) {
-    .product-content__featured-products-list{
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
     .product-content__featured-products-list {
        display: flex;
         justify-content: center;
@@ -20,6 +17,10 @@
     }
   }
   @media screen and (min-width: 741px) and (max-width: 999px) {
+    .product-content__featured-products-list {
+       display: flex;
+        justify-content: center;
+    }
         product-item.product-item {
             flex: 0 0 25%;
         }
