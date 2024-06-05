@@ -105,6 +105,7 @@
       {%- endif -%}
 
       <div class="featured-collections">
+        {% assign newpro = product.metafields.custom.buy_it_with.value %}
         {%- for block in section.blocks -%}
           {%- assign collection = block.settings.collection -%}
           {%- assign smallest_image_aspect_ratio = 0 -%}
@@ -116,7 +117,7 @@
                 {%- assign gap_width = 24.0 | divided_by: section.settings.products_per_row | times: number_of_products_minus_one -%}
                 {%- capture sizes_attribute -%}(max-width: 740px) 52vw, calc(min(100vw - 80px, 1520px) / {{ section.settings.products_per_row }} - {{ gap_width | ceil }}px){%- endcapture -%}
 
-                {%- for product in collection.products limit: section.settings.products_count -%}
+                {%- for product in newpro limit: 4 -%}
                   {%- if product.featured_media -%}
                     {%- assign smallest_image_aspect_ratio = smallest_image_aspect_ratio | at_least: product.featured_media.aspect_ratio -%}
                   {%- endif -%}
