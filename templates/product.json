@@ -82,6 +82,7 @@
         },
         "complementary_products_g6AMQA": {
           "type": "complementary_products",
+          "source": "{{ product.metafields.custom.new_add_product.value }}",
           "settings": {
             "title": "Featured products"
           }
