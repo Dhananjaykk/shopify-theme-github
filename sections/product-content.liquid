@@ -9,9 +9,17 @@
 } */
   .product-content__featured-products-list {
         grid-template-columns: none;
-        grid-auto-columns: minmax(64vw, 1fr);
+        grid-auto-columns: minmax(10vw, 1fr);
         grid-auto-flow: column;
     }
+      .scroller {
+        scroll-snap-type: x mandatory;
+        margin-inline: calc(-1* var(--container-gutter));
+        scrollbar-width: none;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+  
 </style>
 
 {%- capture product_content -%}
