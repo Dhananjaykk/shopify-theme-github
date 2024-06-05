@@ -281,7 +281,7 @@
     </div>
   {%- endif -%}
 
-  {%- assign complementary_products_block = section.blocks | where: 'type', 'complementary_products' | first -%}
+ 
 
   {%- if complementary_products_block != blank -%}
     <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="4" product-id="{{ product.id }}" section-id="{{ section.id }}">
