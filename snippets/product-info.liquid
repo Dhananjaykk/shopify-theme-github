@@ -23,6 +23,7 @@
         <a href="{{ product.url }}">{{ product.title }}</a>
       </h2>
     {% endunless %}
+     <div style="margin: 10px auto;"><a href="#looxReviews"><div class="loox-rating" data-id="{{ product.id }}" data-rating="{{ product.metafields.loox.avg_rating }}" data-raters="{{ product.metafields.loox.num_reviews }}" style="margin-top:15px"></div></a></div>
 
     <div class="product-meta__price-list-container" role="region" aria-live="polite">
       <div class="price-list" data-product-price-list>
