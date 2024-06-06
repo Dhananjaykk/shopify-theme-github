@@ -42,13 +42,33 @@
                  </div>
 
         <script>
-        $(document).ready(function(){
-  $("input[name='giftboxdesign']").click(function(){       
-     var giftboxidother = parseInt($("input[name='giftboxdesign']:checked").attr('otherid'));
-       var giftboxname = $("input[name='giftboxdesign']:checked").val();
-       jQuery.post('/cart/add.js', { items: [ { quantity: 1, id: giftboxidother } ] });     
-  }); 
+     document.addEventListener("DOMContentLoaded", function() {
+    var giftboxDesignInputs = document.querySelectorAll("input[name='giftboxdesign']");
+    
+    giftboxDesignInputs.forEach(function(input) {
+        input.addEventListener("click", function() {
+            var checkedInput = document.querySelector("input[name='giftboxdesign']:checked");
+            var giftboxidother = parseInt(checkedInput.getAttribute('otherid'));
+            var giftboxname = checkedInput.value;
+            
+            fetch('/cart/add.js', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    items: [
+                        { quantity: 1, id: giftboxidother }
+                    ]
+                })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error));
+        });
+    });
 });
+
 
 
         </script>
