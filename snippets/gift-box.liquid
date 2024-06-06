@@ -6,26 +6,41 @@
         </div>
 
         <script>
-          $(document).ready(function() {
-    $("input[name='giftboxdesign']").click(function() {
-        // Get the ID and name of the selected gift box
-        var giftboxidother = parseInt($("input[name='giftboxdesign']:checked").attr('otherid'));
-        var giftboxname = $("input[name='giftboxdesign']:checked").val();
+         document.addEventListener('DOMContentLoaded', function() {
+    var giftboxInputs = document.querySelectorAll("input[name='giftboxdesign']");
 
-        // Check if the ID is valid before making the POST request
-        if (!isNaN(giftboxidother)) {
-            // Make the POST request to add the item to the cart
-            $.post('/cart/add.js', {
-                items: [{ quantity: 1, id: giftboxidother }]
-            }).done(function(response) {
-                console.log('Item added to cart:', response);
-            }).fail(function(error) {
-                console.error('Error adding item to cart:', error);
-            });
-        } else {
-            console.error('Invalid gift box ID:', giftboxidother);
-        }
+    giftboxInputs.forEach(function(input) {
+        input.addEventListener('click', function() {
+            var checkedInput = document.querySelector("input[name='giftboxdesign']:checked");
+            if (checkedInput) {
+                var giftboxidother = parseInt(checkedInput.getAttribute('otherid'));
+                var giftboxname = checkedInput.value;
+
+                // Check if the ID is valid before making the POST request
+                if (!isNaN(giftboxidother)) {
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('POST', '/cart/add.js', true);
+                    xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+                    xhr.onreadystatechange = function() {
+                        if (xhr.readyState === XMLHttpRequest.DONE) {
+                            if (xhr.status === 200) {
+                                console.log('Item added to cart:', xhr.responseText);
+                            } else {
+                                console.error('Error adding item to cart:', xhr.status, xhr.statusText);
+                            }
+                        }
+                    };
+                    var data = JSON.stringify({
+                        items: [{ quantity: 1, id: giftboxidother }]
+                    });
+                    xhr.send(data);
+                } else {
+                    console.error('Invalid gift box ID:', giftboxidother);
+                }
+            }
+        });
     });
 });
+
 
         </script>
