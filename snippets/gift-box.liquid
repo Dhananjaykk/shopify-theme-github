@@ -74,3 +74,15 @@
     <span class="price price--large">₹ 295</span>
   </div>
 </div>
+<script>
+ $(document).ready(function(){
+  $("input[name='giftboxdesign']").click(function(){  
+     
+     var giftboxidother = parseInt($("input[name='giftboxdesign']:checked").attr('otherid'));
+       var giftboxname = $("input[name='giftboxdesign']:checked").val();
+       jQuery.post('/cart/add.js', { items: [ { quantity: 1, id: giftboxidother } ] });
+      // $('#giftboxdesignname').val(giftboxname);
+     
+  });
+     
+  </script>
