@@ -9,10 +9,21 @@
 } */
   @media only screen and (min-width: 999px) {
     .product-content__featured-products-list {
-       display: flex;
-        justify-content: center;
-      overflow-x: scroll;
-    }
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+  -ms-overflow-style: none;  /* Edge/IE */
+  scrollbar-width: none;  /* Firefox */
+  cursor: grab;  /* Open hand cursor */
+}
+
+.product-content__featured-products-list::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, and Opera */
+}
+
+.product-content__featured-products-list:active {
+  cursor: grabbing;  /* Closed hand cursor when dragging */
+}
     product-item.product-item {
           flex: 0 0 15%;
     }
