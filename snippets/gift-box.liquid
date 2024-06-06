@@ -74,16 +74,39 @@
     <span class="price price--large">₹ 295</span>
   </div>
 </div>
+
 <script>
- $(document).ready(function(){
-  $("input[name='giftboxdesign']").click(function(){  
-     
-     var giftboxidother = parseInt($("input[name='giftboxdesign']:checked").attr('otherid'));
-       var giftboxname = $("input[name='giftboxdesign']:checked").val();
-       jQuery.post('/cart/add.js', { items: [ { quantity: 1, id: giftboxidother } ] });
-      // $('#giftboxdesignname').val(giftboxname);
-     
+  document.addEventListener('DOMContentLoaded', function() {
+    // Select all the input elements with the name 'giftboxdesign'
+    var giftboxInputs = document.querySelectorAll("input[name='giftboxdesign']");
+
+    // Add click event listeners to each input element
+    giftboxInputs.forEach(function(input) {
+      input.addEventListener('click', function() {
+        // Get the 'otherid' attribute of the checked input and convert it to an integer
+        var giftboxidother = parseInt(document.querySelector("input[name='giftboxdesign']:checked").getAttribute('otherid'));
+
+        // Get the value of the checked input
+        var giftboxname = document.querySelector("input[name='giftboxdesign']:checked").value;
+
+        // Create a new FormData object to hold the data for the AJAX request
+        var data = new FormData();
+        data.append('items[0][quantity]', 1);
+        data.append('items[0][id]', giftboxidother);
+
+        // Create a new XMLHttpRequest object
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '/cart/add.js', true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+
+        // Send the AJAX request with the JSON stringified data
+        xhr.send(JSON.stringify({
+          items: [{ quantity: 1, id: giftboxidother }]
+        }));
+
+        // If you need to set the value of another element, uncomment the line below
+        // document.getElementById('giftboxdesignname').value = giftboxname;
+      });
+    });
   });
-   });
-     
-  </script>
+</script>
