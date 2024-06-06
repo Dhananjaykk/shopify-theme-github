@@ -38,7 +38,7 @@
         "collection_4NBCmf": {
           "type": "collection",
           "settings": {
-            "collection": "new-in",
+            "collection": "",
             "subheading": "",
             "title": "",
             "link_text": "NEW IN",
@@ -51,7 +51,7 @@
         "collection_wiPagi": {
           "type": "collection",
           "settings": {
-            "collection": "kurta-sets",
+            "collection": "",
             "subheading": "",
             "title": "",
             "link_text": "BESTSELLERS",
@@ -472,6 +472,7 @@
         "item_9d9drq",
         "item_QhaRk9"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
