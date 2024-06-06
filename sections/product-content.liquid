@@ -10,20 +10,12 @@
   @media only screen and (min-width: 999px) {
     .product-content__featured-products-list {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   overflow-x: scroll;
-  -ms-overflow-style: none;  /* Edge/IE */
-  scrollbar-width: none;  /* Firefox */
-  cursor: grab;  /* Open hand cursor */
+
 }
 
-.product-content__featured-products-list::-webkit-scrollbar {
-  display: none;  /* Chrome, Safari, and Opera */
-}
 
-.product-content__featured-products-list:active {
-  cursor: grabbing;  /* Closed hand cursor when dragging */
-}
     product-item.product-item {
           flex: 0 0 20%;
     }
@@ -352,39 +344,7 @@
     </div>
   </section>
 {%- endif -%}
-<script>
- document.addEventListener('DOMContentLoaded', (event) => {
-      const slider = document.querySelector('.product-content__featured-products-list');
-      let isDown = false;
-      let startX;
-      let scrollLeft;
 
-      slider.addEventListener('mousedown', (e) => {
-        isDown = true;
-        slider.classList.add('active');
-        startX = e.pageX - slider.offsetLeft;
-        scrollLeft = slider.scrollLeft;
-      });
-
-      slider.addEventListener('mouseleave', () => {
-        isDown = false;
-        slider.classList.remove('active');
-      });
-
-      slider.addEventListener('mouseup', () => {
-        isDown = false;
-        slider.classList.remove('active');
-      });
-
-      slider.addEventListener('mousemove', (e) => {
-        if (!isDown) return;
-        e.preventDefault();
-        const x = e.pageX - slider.offsetLeft;
-        const walk = (x - startX) * 2; //scroll speed
-        slider.scrollLeft = scrollLeft - walk;
-      });
-    });
-  </script>
 
 {% schema %}
 {
