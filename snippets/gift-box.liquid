@@ -1,240 +1,89 @@
- <!-- gift box-->
 <style>
- span.popupbtn {
-    cursor: pointer;
-}
-  .line-item-property__field.texttext:focus-within {
-    outline: auto !important;
-}
-  .nnpopup {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-        z-index: 99;
-  text-align: center;
-}
-.nnpopup .nnpopup__content {
-  width: 30%;
-  overflow: auto;
-  padding: 25px;
-  background: white;
-  color: black;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-sizing: border-box;
-}
-.nnpopup .nnpopup__content .close {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  width: 20px;
-  display: block;
-}
-.nnpopup .nnpopup__content .close span {
-  cursor: pointer;
-  position: fixed;
-  width: 20px;
-  height: 3px;
-  background: #099ccc;
-}
-.nnpopup .nnpopup__content .close span:nth-child(1) {
-  transform: rotate(45deg);
-}
-.nnpopup .nnpopup__content .close span:nth-child(2) {
-  transform: rotate(135deg);
-}
-.headingblockgiftbox {
-    margin: 10px;
-}
-#your-name::placeholder {
-  color: #d5576d;
-  font-weight:400;
-  opacity: 1; /* Firefox */
-}
-  .texttext textarea{
-  width:100%;height: 55px;background: #fde7e4;border: none;font-weight: bolder;
+    .giftandtext {
+      display: flex;
+      gap: 10px;
   }
+    .texttext{
+     width: 80%;
+      border: 1px solid;
+      padding: 4px;
+      height: min-content;
+      display: flex;
+          border-radius: 5px;
+    }
+    .giftboxmainblock{
+      width:20%;
+    }
+            div.giftboxmainblock {
+            display: block;
+          }
+          div.giftboxmainblock .giftboxinnerblock {
+            display: inline-block;
+            box-sizing: border-box; margin-left: 10px;    position: relative;
+          }
+          div.giftboxmainblock .giftboxinnerblock label {
+            display: block;
+            height: 100%;
+            width: 100%;
+            padding: 3px;
+            border-radius: 6px;
+            border: 1px solid #062234;
+            color: #062234;
+            cursor: pointer;
+            opacity: .6;
+            transition: none;
+            text-align: center;
+            margin: 0 !important;
+          }
+            div.giftboxmainblock .giftboxinnerblock label img {
+            display: block;
+          /*  height: 60px;*/
+            width: 90px;
+            border-radius: 6px;
+          }
 
-  .giftandtext {
-    display: flex;
-    gap: 10px;
-}
-  .texttext{
-   width: 80%;
-    border: 1px solid;
-    padding: 4px;
-    height: min-content;
-    display: flex;
-        border-radius: 5px;
-  }
-  .giftboxmainblocknew{
-    width:20%;
-  }
-          div.giftboxmainblock {
-          display: block;
-        }
-        div.giftboxmainblock .giftboxinnerblock {
-          display: inline-block;         
-          box-sizing: border-box; margin-left: 10px;    position: relative;     
-        }
-        div.giftboxmainblock .giftboxinnerblock label {
-          display: block;
-          height: 100%;
-          width: 100%;
-          padding: 3px;
-          border-radius: 6px;
-          border: 1px solid #062234;
-          color: #062234;
-          cursor: pointer;
-          opacity: .6;
-          transition: none;
-          text-align: center;
-          margin: 0 !important;
-        }
-          div.giftboxmainblock .giftboxinnerblock label img {
-          display: block;
-        /*  height: 60px;*/
-          width: 90px;          
-          border-radius: 6px;         
-        }
-        
-        div.giftboxmainblock .giftboxinnerblock input[type="radio"] {
-          opacity: 0 !important;
-          width: 0 !important;
-          height: 0 !important;position: absolute;
-        }
-        
-        div.giftboxmainblock .giftboxinnerblock input[type="radio"]:checked ~ label {
-          opacity: 1;
-          border: none;
-          background-color: #062234;
-        }
- @media only screen and (max-width: 600px) {
-    #your-name textarea{
-  width:100%;height: 45px;background: #fde7e4;border: none;
-  }
-    .nnpopup .nnpopup__content {
-      width:90%;
-          padding: 25px;
-    }
-    .texttext textarea{
-      height:45px;
-    }
-    div.giftboxmainblocknew .giftboxinnerblock label.giftboxkabelclass.mmm img {
-       height:45px;
-    }
-    .giftboxmainblocknew {
-    width: 30%;
-}
-    .texttext {
-    width: 70%;
-    }
-    
-  }
+          div.giftboxmainblock .giftboxinnerblock input[type="radio"] {
+            opacity: 0 !important;
+            width: 0 !important;
+            height: 0 !important;position: absolute;
+          }
+
+          div.giftboxmainblock .giftboxinnerblock input[type="radio"]:checked ~ label {
+            opacity: 1;
+            border: none;
+            background-color: #062234;
+          }
 </style>
 
-  {% if product.tags contains 'Mothers Day' %}
-    <div class="headingblockgiftbox"> <span style="color:#d5576d;">Add a free gift box & a hand written note</span> <span class="popupbtn"><u>Note Preview</u></span> </div>
-              <section class="nnpopup">
-  <div class="nnpopup__content">
-    <div class="close">
-      <span></span>
-      <span></span>
-    </div>
-<img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/letter_1.png?v=1714635290">
+<div class="headingblockgiftbox" style="margin-top:20px;"><span>Add a gift box?</span></div>
+<div class="giftboxmainblock">
+  <div class="giftboxinnerblock" style="text-align: center;">
+    <input
+      type="radio"
+      name="giftboxdesign"
+      id="giftboxdesign2"
+      value="Pink"
+      otherid="42156102680627"
+      class="radioBtnClass"
+      aria-invalid="false"
+      style=""
+    >
+    <label for="giftboxdesign2" class="giftboxkabelclass ">
+      <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/2_1_85e7dc93-20fe-456b-9388-12f38799562f.png?v=1672729329">
+    </label>
+    <span class="price price--large">₹ 295</span>
   </div>
-</section>
-              <div class="giftandtext">
-                <div class="giftboxmainblock giftboxmainblocknew">     
-        <div class="giftboxinnerblock" style="text-align: center;">
-          <input type="radio" name="giftboxdesign" id="giftboxdesign1" value="Pink" otherid="41456108175469" class="radioBtnClass" aria-invalid="false" style="">
-          <label for="giftboxdesign1" class="giftboxkabelclass mmm"> <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/1_1fe44de3-70b1-4528-a6a6-fbbe28734640.png?v=1672729329"> </label>
-        </div>
-  </div>
-                <div class="line-item-property__field texttext">
-  <textarea id="your-name" name="properties[Message]" style="" placeholder="Write Message for..."></textarea>
 </div>
-           
-  
-</div>
-                {% else %}
-  <div class="headingblockgiftbox"> <span>Add a gift box?</span> </div>
-    
-  <div class="giftboxmainblock">
-        <div class="giftboxinnerblock">
-          <input type="radio" name="giftboxdesign" id="giftboxdesign1" value="Grey" otherid="31906473246829" class="radioBtnClass" aria-invalid="false" style="">
-          <label for="giftboxdesign1"> <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/1_1fe44de3-70b1-4528-a6a6-fbbe28734640.png?v=1672729329"> </label>
-           <span class="price price--large">€ 6</span>
-        </div>
-
-    {% comment %}
-      
-        <div class="giftboxinnerblock">
-          <input type="radio" name="giftboxdesign" id="giftboxdesign2" value="Pink" otherid="31568276324403" class="radioBtnClass" aria-invalid="false" style="">
-          <label for="giftboxdesign2"> <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/2_1_85e7dc93-20fe-456b-9388-12f38799562f.png?v=1672729329"> </label>
-        </div>
-    {% endcomment %}
-
-</div>
-    {% endif %}
-      <script>
-   $(".popupbtn u").click(function() {
-  $(".nnpopup").fadeIn(500);
-});
-$(".close").click(function() {
-  $(".nnpopup").fadeOut(500);
-});
-
- </script>
-  <script>
-  $(document).ready(function(){
-     $("input[name='giftboxdesign']").click(function(){  
+<script>
+ $(document).ready(function(){
+  $("input[name='giftboxdesign']").click(function(){  
+     
      var giftboxidother = parseInt($("input[name='giftboxdesign']:checked").attr('otherid'));
        var giftboxname = $("input[name='giftboxdesign']:checked").val();
        jQuery.post('/cart/add.js', { items: [ { quantity: 1, id: giftboxidother } ] });
-       $('#giftboxdesignname').val(giftboxname);
+      // $('#giftboxdesignname').val(giftboxname);
+     
   });
-      /*  	var giftboxid = parseInt($("input[name='giftboxdesign']:checked").val());
-         var giftboxidother = parseInt($("input[name='giftboxdesign']:checked").attr('otherid'));
-            if(giftboxid){    
-                 var itemvarientids = [];
-              jQuery.getJSON('/cart.js', function(cart) {
-                    let items = cart.items;
-               for(var i=0; i < items.length; i++){                
-                 itemvarientids.push(items[i].id); 
-                }
-
-              if(jQuery.inArray( giftboxid, itemvarientids ) === -1){
-                      jQuery.ajax({
-                          type: 'POST',
-                          url: '/cart/update.js', 
-                          data: { updates: { 41162890215475: 1 }, attributes: { 'gift-boxtwo': true } }, 
-                          dataType: 'json',
-                          success: function() { console.log(); }
-                        });                 
-              } else {
-                 console.log('noye');
-              }
-                
-                console.log(Array.isArray(itemvarientids));
-              console.log( jQuery.inArray( giftboxid, itemvarientids ));
-                console.log(itemvarientids);console.log(giftboxid);console.log(giftboxidother);
-       
-                
-                });
-                          console.log(itemvarientids);console.log(giftboxid);
-           // jQuery.post('/cart/update.js', { items: [ { quantity: 1, id: giftboxid } ] });
-            
-            }
-    }); */
-  });
+   });
+     
   </script>
-  <!--gift box -->
