@@ -407,7 +407,6 @@
       "blocks": {
         "item_MbFnNL": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
@@ -473,6 +472,7 @@
         "item_9d9drq",
         "item_QhaRk9"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
