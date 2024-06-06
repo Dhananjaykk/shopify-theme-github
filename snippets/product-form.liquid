@@ -445,7 +445,23 @@
                 {% endif %}
                  {% endif %}
 
-            {% render 'gift-box' %}
+                 
+        <div class="giftboxinnerblock">
+          <input type="checkbox" name="giftboxdesign" id="giftboxdesign" otherid="5765638881331" class="radioBtnClass" aria-invalid="false">
+          <label for="giftboxdesign" class="giftboxkabelclass1">Fall and Pico - ₹200</label>
+        </div>
+
+        <script>
+        $(document).ready(function(){
+  $("input[name='giftboxdesign']").click(function(){       
+     var giftboxidother = parseInt($("input[name='giftboxdesign']:checked").attr('otherid'));
+       var giftboxname = $("input[name='giftboxdesign']:checked").val();
+       jQuery.post('/cart/add.js', { items: [ { quantity: 1, id: giftboxidother } ] });     
+  }); 
+});
+
+
+        </script>
             {%- endform -%}
             
           </div>
