@@ -54,7 +54,34 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "13396495102645618393": {
+        "type": "shopify:\/\/apps\/infinite-scroll\/blocks\/app-embed\/a3bc84f2-5d30-48ba-bdd2-bc9edbc709f6",
+        "disabled": false,
+        "settings": {
+          "autoLink": true,
+          "offset": -1,
+          "font_size": 1,
+          "borderSize": 1,
+          "borderRadius": 5,
+          "imageMaxWidth": 100,
+          "circleColor": "#016E52",
+          "backgroundButtonLoadmore": "#EFEFEF",
+          "borderColor": "#016E52",
+          "textLoadmoreColor": "",
+          "textLoadingColor": "#121212",
+          "colorArrowBacktotop": "#000000",
+          "prevMoreButtonText": "",
+          "loadingText": "Loading ...",
+          "loadMoreButtonText": "Load More",
+          "container": "",
+          "item": "",
+          "pagination": "",
+          "custom_css": ""
+        }
+      }
+    }
   },
   "presets": {
     "Carbon": {
