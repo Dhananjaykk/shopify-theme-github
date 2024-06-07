@@ -2,11 +2,48 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "slideshow_CXzAEa": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Bz8mQB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/You_need_to_create_an_account_on_our_website_to_enroll_yourself_in_the_Happiness_Club_program_and_earn_bliss_points_with_every_purchase._Bliss_points_can_only_be_redeemed_on_online_pu.webp",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Bz8mQB"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "slideshow_CXzAEa"
   ]
 }
