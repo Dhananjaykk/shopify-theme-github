@@ -126,11 +126,59 @@
       "settings": {
         "title": ""
       }
+    },
+    "store_locaters_Cbyj8J": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_9iWNRf": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_00e6a3d7-1bee-4ca4-a82b-3fba1da98404.jpg",
+            "heading": "MULMUL FLAGSHIP STORE",
+            "address": "59, Dr V.B Gandhi Marg, Ground Floor, Shop No 4110, Fort, Mumbai - 400023",
+            "phone": "9819283208",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.4938855,77.1830238\/mulmul+kala+ghoda\/@23.6950462,71.1976465,6z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7d1ce91946bdd:0x362be5369a2649c3!2m2!1d72.8322998!2d18.9281449",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 08:00PM"
+          }
+        },
+        "location_74mBce": {
+          "type": "location",
+          "settings": {
+            "heading": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "store-info-day": "",
+            "store-info-time": ""
+          }
+        },
+        "location_j788EH": {
+          "type": "location",
+          "settings": {
+            "heading": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "store-info-day": "",
+            "store-info-time": ""
+          }
+        }
+      },
+      "block_order": [
+        "location_9iWNRf",
+        "location_74mBce",
+        "location_j788EH"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
     "main",
     "slideshow_jVMCix",
-    "store_locaters_aPCDDi"
+    "store_locaters_aPCDDi",
+    "store_locaters_Cbyj8J"
   ]
 }
