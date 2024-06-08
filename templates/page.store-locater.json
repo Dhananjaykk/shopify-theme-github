@@ -234,6 +234,12 @@
       "settings": {
         "title": "KOLKATA"
       }
+    },
+    "store_locaters_DPnrx4": {
+      "type": "store-locaters",
+      "settings": {
+        "title": "PUNE"
+      }
     }
   },
   "order": [
@@ -242,6 +248,7 @@
     "store_locaters_aPCDDi",
     "store_locaters_Cbyj8J",
     "store_locaters_JAKWDy",
-    "store_locaters_jPxHPt"
+    "store_locaters_jPxHPt",
+    "store_locaters_DPnrx4"
   ]
 }
