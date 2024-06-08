@@ -211,6 +211,29 @@
       "settings": {
         "title": "BANGALORE"
       }
+    },
+    "store_locaters_jPxHPt": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_VY6zC4": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_3ec60d77-3bcd-45b7-87e6-6254846c27dd.jpg",
+            "heading": "4 Woodburn Court Elgin Road Kolkata - 700020",
+            "address": "4 Woodburn Court Elgin Road Kolkata - 700020",
+            "phone": "+91 8178236212",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.5649276,77.2060235\/4+woodburn+court+elgin+road+kolkata+-+20\/@25.5374396,78.3054139,6z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3a0277ee3397df89:0x8104ed3493435793!2m2!1d88.3519197!2d22.5382554",
+            "store-info-day": "Closed Today",
+            "store-info-time": "11:00AM - 8:30PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_VY6zC4"
+      ],
+      "settings": {
+        "title": "KOLKATA"
+      }
     }
   },
   "order": [
@@ -218,6 +241,7 @@
     "slideshow_jVMCix",
     "store_locaters_aPCDDi",
     "store_locaters_Cbyj8J",
-    "store_locaters_JAKWDy"
+    "store_locaters_JAKWDy",
+    "store_locaters_jPxHPt"
   ]
 }
