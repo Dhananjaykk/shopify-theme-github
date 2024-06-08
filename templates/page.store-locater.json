@@ -326,6 +326,29 @@
       "settings": {
         "title": "Ludhiana"
       }
+    },
+    "store_locaters_nwwbWd": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_dgqByr": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_f04078eb-0be9-4ad7-8fd5-bdbeb3bbbd50.jpg",
+            "heading": "Mulmul - Chennai",
+            "address": "New No.97, old No, 45, Nungambakkam High Rd, Subba Road Avenue, Nungambakkam, Chennai, Tamil Nadu 600034",
+            "phone": "‎+91 8130013793",
+            "url": "",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "10.30 AM to 8.00 PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_dgqByr"
+      ],
+      "settings": {
+        "title": "Chennai"
+      }
     }
   },
   "order": [
@@ -338,6 +361,7 @@
     "store_locaters_DPnrx4",
     "store_locaters_BjfTGU",
     "store_locaters_PaB7ix",
-    "store_locaters_mQaWeB"
+    "store_locaters_mQaWeB",
+    "store_locaters_nwwbWd"
   ]
 }
