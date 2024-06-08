@@ -38,10 +38,24 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
+    },
+    "store_locaters_3r7Eke": {
+      "type": "store-locaters",
+      "settings": {
+        "title": ""
+      }
+    },
+    "store_locaters_PyFRNc": {
+      "type": "store-locaters",
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_jVMCix"
+    "slideshow_jVMCix",
+    "store_locaters_3r7Eke",
+    "store_locaters_PyFRNc"
   ]
 }
