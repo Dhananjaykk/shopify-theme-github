@@ -1,6 +1,95 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+  .topoffers{
+    width: 93%;
+    margin: auto;
   }
+    .topoffers-inner {
+      display: flex;
+      gap: 30px;
+      margin: 20px;
+      justify-content: center;
+  }
+  .topinner {
+    flex: 0 0 30%;
+    padding: 0 7px;
+}
+  .topinner img{
+    width: 100%;
+  }
+  .abt_img_mob{
+    display: none;
+  }
+  
+    @media only screen and (max-width: 768px){
+      .topoffers-inner {
+      display: block;
+  }
+      .topoffers-inner{
+        margin: 0;
+      }
+      .topinner {
+    margin: 15px;
+}
+      .abt_img_mob{
+        display: block;
+        width:  100%;
+        margin: auto;
+      }
+      .img_abt_dsk{
+        display: none;
+      }
+    }
+</style>
+<div class="topoffers">
+  <h3 class="heading h2" style="text-align: center;">{{ section.settings.headingtext }}</h3>
+  <div class="topoffers-inner">
+    {% for block in section.blocks %}
+      <div class="topinner">
+          <img src="{{ block.settings.image | img_url: 'master' }}" class="img_abt_dsk">
+      </div>
+    {% endfor %}
+          <img src="{{ section.settings.imagemob | img_url: 'master' }}" class="abt_img_mob">
+    
+  </div>
+</div><br>
+<hr style="height:0.8px;border-width:0;color:black;background-color:black; width: 85%;margin: 30px auto 0;">
+{% schema %}
+   {
+   "name": "Our Story",
+    "settings": [
+      {
+        "type": "text",
+        "id": "headingtext",
+        "label": "Heading"
+      },
+      {
+             "type" : "image_picker",
+             "id" : "imagemob",
+             "label" : "Image mobile"
+           }
+    ],
+     "blocks" : [
+       {
+         "type" : "image",
+         "name" : "image blocks",
+         "settings":[
+           {
+             "type" : "image_picker",
+             "id" : "image",
+             "label" : "Image"
+           }
+         ]
+       }
+     ],
+"presets": [{
+       "name": "Our Story",
+       "category": "image"
+     }]
+ }
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
