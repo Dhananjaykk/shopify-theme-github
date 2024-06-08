@@ -81,12 +81,13 @@
         "location_4xdr97": {
           "type": "location",
           "settings": {
-            "heading": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "store-info-day": "",
-            "store-info-time": ""
+            "image": "shopify:\/\/shop_images\/store_page_images_6_a0f50f69-aec1-41a0-8cfe-ecde405971ee.png",
+            "heading": "MULMUL STORE, GURGAON",
+            "address": "First Floor, F-159A, Ambience Mall Ambience Island N H 8,  Gurgaon, Haryana, 122010",
+            "phone": "+91 9289395849",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.5624968,77.1804881\/ambience+mall\/@28.5405344,77.1023218,13z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390d1938456789c7:0x45a757aa37e73026!2m2!1d77.0958086!2d28.505752",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 10:00PM"
           }
         },
         "location_LDG7Um": {
