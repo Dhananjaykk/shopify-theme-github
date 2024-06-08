@@ -1,6 +1,118 @@
+<section class="section">
+  <div class="container ">
+    <header class="section__header text-container"><h3 class="heading h2">{{ section.settings.title }}</h3></header>
+    
+    <div class="store_locator">
+      {% for block in section.blocks %}
+      <div class="store_item">
+        <div class="store_image">
+          <img src="{{ block.settings.image| img_url: 'master' }}">
+        </div>
+        <div class="store_data">
+            <h4 class="Heading u-h2">{{ block.settings.heading }}</h4>
+          <p class="address-text">{{ block.settings.address }} </p>
+      	<p class="phone-text">{{ block.settings.phone }}</p>
+      	<a class="store-info-cta" href="{{ block.settings.url }}">GET DIRECTIONS</a>
+      	<p class="store-info-day">{{ block.settings.store-info-day }}</p> 
+      	<p class="store-info-time">{{ block.settings.store-info-time }}</p> 
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<style>
+  .store_locator {
+      display: flex;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+    text-align:center;
+}
+  .store_item{
+    width:32.33%;
+  }
+ 
+  .store_data{
+        background: #fff;
+     justify-self: center;
+    margin-bottom:50px;
+        padding: 15px;
+}
+  .store_data a{
+    border: 1px solid;
+    padding: 7px 15px;
+    border-radius: 3px;
+    background: black;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .store_item{
+      width:100%;
+    }
+  }
+</style>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "store-locatore",
+    "settings": [
+      {
+      "type": "text",
+      "id": "title",
+      "label": "heading"
+    }
+    ],
+    "blocks": [
+     {
+       "name": "location",
+       "type": "location",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }, {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },  {
+      "type": "text",
+      "id": "address",
+      "label": "Address"
+    }, {
+      "type": "text",
+      "id": "phone",
+      "label": "Phone"
+    },{
+      "type": "url",
+      "id": "url",
+      "label": "Map url"
+    }, {
+      "type": "text",
+      "id": "store-info-day",
+      "label": "store-info-day"
+    }, {
+      "type": "text",
+      "id": "store-info-time",
+      "label": "store-info-time"
+    }
+       ]
+     }
+  ],
+  "presets": [
+    {
+      "name": "store-locatore",
+      "settings": {}
+    }
+  ]
   }
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
