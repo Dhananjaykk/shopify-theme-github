@@ -101,6 +101,18 @@
             "store-info-day": "Monday - Sunday",
             "store-info-time": "11:00AM - 9:00PM"
           }
+        },
+        "location_GaMwqR": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_4a224226-9480-44d1-a581-466abb75fbbf.png",
+            "heading": "PACIFIC MALL, TAGORE GARDEN",
+            "address": "Pacific Mall Tagore Garden, Tilak Nagar, New Delhi - 110018",
+            "phone": "+91 ‎1141622668",
+            "url": "https:\/\/www.google.co.in\/maps\/place\/Pacific+Mall+Tagore+Garden\/@28.6423767,77.1041903,17z\/data=!3m1!4b1!4m5!3m4!1s0x390d0363c4edf747:0x240c75aa3d09de7a!8m2!3d28.642372!4d77.106379?hl=en&authuser=0",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
+          }
         }
       },
       "block_order": [
@@ -108,7 +120,8 @@
         "location_6fnUP8",
         "location_JhKRzL",
         "location_4xdr97",
-        "location_LDG7Um"
+        "location_LDG7Um",
+        "location_GaMwqR"
       ],
       "settings": {
         "title": ""
