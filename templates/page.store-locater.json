@@ -69,12 +69,13 @@
         "location_JhKRzL": {
           "type": "location",
           "settings": {
-            "heading": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "store-info-day": "",
-            "store-info-time": ""
+            "image": "shopify:\/\/shop_images\/3_cfb457c5-6b5a-4894-a7b5-c825308753ff.jpg",
+            "heading": "DLF MALL OF INDIA, NOIDA",
+            "address": "Shop E355 Second Floor, DLF Mall of India, Noida Sector-18",
+            "phone": "+91 98102 20059",
+            "url": "https:\/\/www.google.co.in\/maps\/place\/DLF+Mall+of+India,+Noida\/@28.5673409,77.3189416,17z\/data=!3m1!4b1!4m5!3m4!1s0x390ce521218557b5:0x45051fcfc696f085!8m2!3d28.5673409!4d77.3211303",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
           }
         },
         "location_4xdr97": {
