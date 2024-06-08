@@ -1,6 +1,105 @@
+<style>
+  .core-teaminner{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 85%; 
+    margin: auto;
+  }
+  .coreinner{
+    flex: 0 0 33%;
+    padding: 25px;
+    text-align: center;
+  }
+  .cename{
+    text-align: center;
+  }
+  .cecontent{
+    text-align: center;
+  }
+  @media only screen and (max-width: 768px){
+    .coreinner{
+    flex: 0 0 48%;
+      padding: 8px;
+    }
+    .core-teaminner{
+    width: 93%;
+    }
+  }
+  .btnurl{
+    text-align: center;
+    margin: 30px;
+  }
+  .btninnerlink{
+    background: black;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size:  20px;
+  }
+</style>
+<div class="core-teamm">
+  <h3 class="heading h2" style="text-align: center;">{{ section.settings.headingtext | escape }}</h3>
+  <div class="core-teaminner">
+    {% for block in section.blocks %}
+        <div class="coreinner">
+          <img src="{{ block.settings.image | img_url: 'master' }}">
+          <h3 class="cename">{{ block.settings.name }}</h3>
+          <p class="cecontent">{{ block.settings.content }}</p>
+        </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="btnurl">
+  <a class="btninnerlink" href="{{ section.settings.btnurl }}">Read More About Us</a>
+</div><br>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+   "name": "core team",
+    "settings": [
+      {
+        "type": "text",
+        "id": "headingtext",
+        "label": "Heading"
+      },
+      {
+        "type": "url",
+        "id": "btnurl",
+        "label": "Button URL"
+      }
+    ],
+     "blocks" : [
+       {
+         "type" : "image",
+         "name" : "image blocks",
+         "settings":[
+           {
+             "type" : "image_picker",
+             "id" : "image",
+             "label" : "Offer Image"
+           },
+           {
+             "type" : "text",
+             "id" : "name",
+             "label" : "Name"
+           },
+           {
+             "type" : "text",
+             "id" : "content",
+             "label" : "Content"
+           }
+         ]
+       }
+     ],
+"presets": [{
+       "name": "core team",
+       "category": "image"
+     }]
+ }
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
