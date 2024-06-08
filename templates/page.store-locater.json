@@ -39,14 +39,73 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "store_locaters_3r7Eke": {
+    "store_locaters_aPCDDi": {
       "type": "store-locaters",
-      "settings": {
-        "title": ""
-      }
-    },
-    "store_locaters_PyFRNc": {
-      "type": "store-locaters",
+      "blocks": {
+        "location_qL8d3Q": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_4a1512c3-f9d8-4b36-a549-607a99969213.jpg",
+            "heading": "FLAGSHIP- CHHATARPUR",
+            "address": "D-388, Ground Floor, 100 Feet Road, Chhatarpur, New Delhi - 110074",
+            "phone": "+91 8178239680",
+            "url": "https:\/\/www.google.com\/maps\/dir\/\/28.505907,77.18515\/@28.505907,77.1829613,17z\/data=!4m2!4m1!3e0?hl=en-IN",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 8:00PM"
+          }
+        },
+        "location_6fnUP8": {
+          "type": "location",
+          "settings": {
+            "heading": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "store-info-day": "",
+            "store-info-time": ""
+          }
+        },
+        "location_JhKRzL": {
+          "type": "location",
+          "settings": {
+            "heading": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "store-info-day": "",
+            "store-info-time": ""
+          }
+        },
+        "location_4xdr97": {
+          "type": "location",
+          "settings": {
+            "heading": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "store-info-day": "",
+            "store-info-time": ""
+          }
+        },
+        "location_LDG7Um": {
+          "type": "location",
+          "settings": {
+            "heading": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "store-info-day": "",
+            "store-info-time": ""
+          }
+        }
+      },
+      "block_order": [
+        "location_qL8d3Q",
+        "location_6fnUP8",
+        "location_JhKRzL",
+        "location_4xdr97",
+        "location_LDG7Um"
+      ],
       "settings": {
         "title": ""
       }
@@ -55,7 +114,6 @@
   "order": [
     "main",
     "slideshow_jVMCix",
-    "store_locaters_3r7Eke",
-    "store_locaters_PyFRNc"
+    "store_locaters_aPCDDi"
   ]
 }
