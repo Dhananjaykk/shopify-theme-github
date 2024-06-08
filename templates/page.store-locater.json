@@ -260,6 +260,23 @@
     },
     "store_locaters_BjfTGU": {
       "type": "store-locaters",
+      "blocks": {
+        "location_ikLHBP": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_cab7b834-bb96-4577-98e3-b25f3e04c837.jpg",
+            "heading": "FLAGSHIP - AHMEDABAD",
+            "address": "202, One 42 complex, Second Floor Iscon Ambli road Ahmedabad -  380058",
+            "phone": "+91 8238823272",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.5627323,77.1830238\/202,+One+42+complex,Second+Floor+++Iscon+Ambli+road+Ahmedabad+-++380058\/@25.4336128,72.7740638,7z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x395e9be076f48a3f:0xae32593b4b5310b8!2m2!1d72.4926413!2d23.0304546",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_ikLHBP"
+      ],
       "settings": {
         "title": "AHMEDABAD"
       }
