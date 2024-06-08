@@ -93,12 +93,13 @@
         "location_LDG7Um": {
           "type": "location",
           "settings": {
-            "heading": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "store-info-day": "",
-            "store-info-time": ""
+            "image": "shopify:\/\/shop_images\/3_dfb825db-3a7d-48fb-9380-4a5d897a302a.png",
+            "heading": "DLF PROMENADE, VASANT KUNJ",
+            "address": "Shop No. 263A First Floor, DLF Promenade Mall, Vasant Kunj, New Delhi - 110070",
+            "phone": "+91 96670 53506",
+            "url": "https:\/\/www.google.co.in\/maps\/place\/DLF+Promenade\/@28.5418981,77.1556357,17z\/data=!3m1!4b1!4m5!3m4!1s0x390d1dce96eb3acd:0xd39b01d0a6ebd44f!8m2!3d28.5418981!4d77.1556357?hl=en&authuser=0",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
           }
         }
       },
