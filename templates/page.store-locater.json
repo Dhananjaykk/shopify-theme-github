@@ -257,6 +257,12 @@
       "settings": {
         "title": "PUNE"
       }
+    },
+    "store_locaters_BjfTGU": {
+      "type": "store-locaters",
+      "settings": {
+        "title": "AHMEDABAD"
+      }
     }
   },
   "order": [
@@ -266,6 +272,7 @@
     "store_locaters_Cbyj8J",
     "store_locaters_JAKWDy",
     "store_locaters_jPxHPt",
-    "store_locaters_DPnrx4"
+    "store_locaters_DPnrx4",
+    "store_locaters_BjfTGU"
   ]
 }
