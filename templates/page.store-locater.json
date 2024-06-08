@@ -157,12 +157,13 @@
         "location_j788EH": {
           "type": "location",
           "settings": {
-            "heading": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "store-info-day": "",
-            "store-info-time": ""
+            "image": "shopify:\/\/shop_images\/6_fc615d02-3e86-4934-8f69-04363153eb84.jpg",
+            "heading": "JIO WORLD DRIVE , MUMBAI",
+            "address": "Unit F33A Maker Maxity, opposite MMRDA, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051",
+            "phone": "8691929190",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.4938855,77.1830238\/Jio+World+Drive,+Bandra+Kurla+Complex,+Bandra+East,+Mumbai,+Maharashtra\/@23.781038,70.7058928,6z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7c9fd9f9c278f:0x232a618a57d623cf!2m2!1d72.8516474!2d19.054037",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 10:00PM"
           }
         }
       },
