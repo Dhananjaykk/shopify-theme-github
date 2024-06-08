@@ -178,6 +178,35 @@
     },
     "store_locaters_JAKWDy": {
       "type": "store-locaters",
+      "blocks": {
+        "location_UFwmYq": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_5fd8740f-cc3f-4328-9cd4-e3d2072d0d1e.png",
+            "heading": "MULMUL FLAGSHIP - BENGALURU",
+            "address": "2 JP Manor, 7, Walton Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka-560001",
+            "phone": "+91 9810220059",
+            "url": "",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 8:00PM"
+          }
+        },
+        "location_cFHUrE": {
+          "type": "location",
+          "settings": {
+            "heading": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "store-info-day": "",
+            "store-info-time": ""
+          }
+        }
+      },
+      "block_order": [
+        "location_UFwmYq",
+        "location_cFHUrE"
+      ],
       "settings": {
         "title": "BANGALORE"
       }
