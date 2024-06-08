@@ -280,6 +280,29 @@
       "settings": {
         "title": "AHMEDABAD"
       }
+    },
+    "store_locaters_PaB7ix": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_xtBwkD": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_3310a765-c847-435e-8e0e-fe455f409992.jpg",
+            "heading": "Flagship - Hyderabad",
+            "address": "Sub plot No.2 of Plot No 48 in Survey No. 107,111 & 112, Banjara Hills Rd No. 10 Next to Aisha Rao, Hyderabad 500034",
+            "phone": "+91 98108 94653",
+            "url": "https:\/\/www.google.com\/maps\/place\/17%C2%B024'56.1%22N+78%C2%B026'31.2%22E\/@17.4155922,78.4398112,17z\/data=!3m1!4b1!4m4!3m3!8m2!3d17.4155922!4d78.4419999?hl=en-IN",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "10:30Am - 9:00PM (Closed on 13 May due to election)"
+          }
+        }
+      },
+      "block_order": [
+        "location_xtBwkD"
+      ],
+      "settings": {
+        "title": "HYDERABAD"
+      }
     }
   },
   "order": [
@@ -290,6 +313,7 @@
     "store_locaters_JAKWDy",
     "store_locaters_jPxHPt",
     "store_locaters_DPnrx4",
-    "store_locaters_BjfTGU"
+    "store_locaters_BjfTGU",
+    "store_locaters_PaB7ix"
   ]
 }
