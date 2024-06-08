@@ -194,12 +194,13 @@
         "location_cFHUrE": {
           "type": "location",
           "settings": {
-            "heading": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "store-info-day": "",
-            "store-info-time": ""
+            "image": "shopify:\/\/shop_images\/11_6f9268e2-858a-491d-bad6-0db4ae860e25.png",
+            "heading": "PHOENIX MARKET CITY MALL",
+            "address": "First Floor, Unit F-71, Whitefield Road, Bengaluru, Karnataka, 560048",
+            "phone": "+91 9810220059",
+            "url": "https:\/\/www.google.com\/maps\/dir\/25.6080374,85.143043\/phoenix+market+city+bangalore\/@19.0183571,76.8664515,6z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bae110b04a3be4b:0xcffb252dab2e9643!2m2!1d77.6963968!2d12.9958017",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
           }
         }
       },
