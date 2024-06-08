@@ -3,10 +3,45 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "slideshow_jVMCix": {
+      "type": "slideshow",
+      "blocks": {
+        "image_P9CqpF": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_P9CqpF"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "slideshow_jVMCix"
   ]
 }
