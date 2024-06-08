@@ -57,12 +57,13 @@
         "location_6fnUP8": {
           "type": "location",
           "settings": {
-            "heading": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "store-info-day": "",
-            "store-info-time": ""
+            "image": "shopify:\/\/shop_images\/2_6379d6b4-6592-4a2b-88ae-99820c335cc3.jpg",
+            "heading": "DLF AVENUE, SAKET",
+            "address": "Shop No. 249 First Floor, DLF Avenue Mall, Saket, New Delhi - 110017",
+            "phone": "+91 9810893540",
+            "url": "https:\/\/www.google.co.in\/maps\/place\/DLF+Avenue+Saket\/@28.5281027,77.2146231,17z\/data=!3m2!4b1!5s0x390ce1f4d03bccf5:0xa1ae2c7ec4527c65!4m5!3m4!1s0x390ce1f4d9f62005:0x3aee569514ba9326!8m2!3d28.528098!4d77.2168118?hl=en&authuser=0",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
           }
         },
         "location_JhKRzL": {
