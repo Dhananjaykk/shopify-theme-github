@@ -237,6 +237,23 @@
     },
     "store_locaters_DPnrx4": {
       "type": "store-locaters",
+      "blocks": {
+        "location_bUX6eW": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13_85db6428-f156-4235-a656-bc1b11ead5d5.png",
+            "heading": "MULMUL STORE,PUNE",
+            "address": "Row house 4, Gold Field Enclave  Society, South Mainroad, Koregaon park, Pune1",
+            "phone": "+91 7745033444",
+            "url": "",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_bUX6eW"
+      ],
       "settings": {
         "title": "PUNE"
       }
