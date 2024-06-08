@@ -303,6 +303,29 @@
       "settings": {
         "title": "HYDERABAD"
       }
+    },
+    "store_locaters_mQaWeB": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_adeptX": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Store_Page-_Caraousel_c0971db0-4282-4959-a63d-ca3e3a3518b1.jpg",
+            "heading": "Ludhiana",
+            "address": "Sunview enclave, Village Ayali Kalan, Ludhiana, Punjab -141027",
+            "phone": "+91 96670 53818",
+            "url": "https:\/\/maps.app.goo.gl\/F9LU6cLgLrnGCq68A",
+            "store-info-day": "Closed Today",
+            "store-info-time": "10.30 AM  to 8.00 PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_adeptX"
+      ],
+      "settings": {
+        "title": "Ludhiana"
+      }
     }
   },
   "order": [
@@ -314,6 +337,7 @@
     "store_locaters_jPxHPt",
     "store_locaters_DPnrx4",
     "store_locaters_BjfTGU",
-    "store_locaters_PaB7ix"
+    "store_locaters_PaB7ix",
+    "store_locaters_mQaWeB"
   ]
 }
