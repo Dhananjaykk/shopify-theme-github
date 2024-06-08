@@ -31,6 +31,56 @@
         "firstImage": "shopify:\/\/shop_images\/field-5842174_2_1_89ecb7f9-0885-4438-91bd-d7b648ca3d44.png"
       }
     },
+    "rich_text_g8xxCn": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>The mulmul fabric first originated in erstwhile India. Bengal was the world’s largest exporter of superior-quality mulmul.<br\/><br\/><strong>Reserved almost exclusively for royalty, mulmul (called Mulboos khas) was so light-weight and delicate that it was often referred to as “wonder gossamer”, which means woven air. <\/strong><br\/><br\/>The British made aggressive efforts to repress the knowledge and put an end to the production of mulmul weaving. Their machine-made imported fabrics were not able to stand up to this superior handwoven counterpart. For this, the production of mulmul fabric suffered greatly for nearly two centuries. <\/p><p>Thankfully for us, despite the repressions, the knowledge of mulmul weaving persisted. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "our_story_about_JcQ6Ax": {
+      "type": "our-story-about",
+      "blocks": {
+        "image_JMmfL6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_6bea24d5-f08b-496e-9731-631be025a6a9.png"
+          }
+        },
+        "image_46hKFi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_6096c4f5-886f-48a7-a7a1-9d7d147b421a.png"
+          }
+        },
+        "image_yTaRpk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_1_e44e7a5b-1033-4416-a030-083ac94526f7.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_JMmfL6",
+        "image_46hKFi",
+        "image_yTaRpk"
+      ],
+      "settings": {
+        "headingtext": "Our Story",
+        "imagemob": "shopify:\/\/shop_images\/Group_39_d96c5f1f-ba7f-436b-a68a-b8136d10ed22.png"
+      }
+    },
     "rich_text_MAcFtF": {
       "type": "rich-text",
       "settings": {
@@ -80,13 +130,67 @@
         "headingtext": "Our Roots",
         "imagemob": "shopify:\/\/shop_images\/Group_40_3a980ba2-eb90-41eb-9a71-b4b0f6a41988.png"
       }
+    },
+    "rich_text_6CT96W": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>One of the first major steps after the birth of the brand was to decide on the product line. Born in India, and fiercely proud of our Indian-ness, the answer came quite naturally to us. It had to be the quintessential and timeless kurta. From formal meetings to casual dinners with friends or family, the kurta fits everywhere. <br\/><strong>We made up our minds to restore this regal piece of garment, once the attire of Mughal royalty to its erstwhile glory. <br\/><\/strong><br\/>The next question was obvious – how? <br\/>To bring the kurta out of the clutter and make it cool again, <strong>we chose to infuse the traditional silhouette with a modern and youthful spirit<\/strong>, and in doing that, we had ourselves a winner.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "our_story_about_YGgf7U": {
+      "type": "our-story-about",
+      "blocks": {
+        "image_7RzKLh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_1_5063519a-058a-47ed-a791-63e1cc97904f.png"
+          }
+        },
+        "image_RTE7zt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_777d767d-14ab-4347-aff1-3af82d4d7be6.png"
+          }
+        },
+        "image_ADAzPm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_5997dc55-6a72-49c9-9b8b-5479206f1913.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_7RzKLh",
+        "image_RTE7zt",
+        "image_ADAzPm"
+      ],
+      "settings": {
+        "headingtext": "Our Vision",
+        "imagemob": "shopify:\/\/shop_images\/Group_41_88311fdf-4c8a-4821-baa6-755586c16b55.png"
+      }
     }
   },
   "order": [
     "main",
     "rich_text_D8VpnN",
     "two_image_about_GPGwnr",
+    "rich_text_g8xxCn",
+    "our_story_about_JcQ6Ax",
     "rich_text_MAcFtF",
-    "our_story_about_G7xBWi"
+    "our_story_about_G7xBWi",
+    "rich_text_6CT96W",
+    "our_story_about_YGgf7U"
   ]
 }
