@@ -175,12 +175,19 @@
       "settings": {
         "title": "MUMBAI"
       }
+    },
+    "store_locaters_JAKWDy": {
+      "type": "store-locaters",
+      "settings": {
+        "title": "BANGALORE"
+      }
     }
   },
   "order": [
     "main",
     "slideshow_jVMCix",
     "store_locaters_aPCDDi",
-    "store_locaters_Cbyj8J"
+    "store_locaters_Cbyj8J",
+    "store_locaters_JAKWDy"
   ]
 }
