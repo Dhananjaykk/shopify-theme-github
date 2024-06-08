@@ -198,6 +198,71 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "core_team_about_eyGycq": {
+      "type": "core-team-about",
+      "blocks": {
+        "image_HdtVUm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/KK_Modi_c3949eee-aba9-45d5-907f-243abdbb7b03.png",
+            "name": "KK Modi | Chairman",
+            "content": ""
+          }
+        },
+        "image_MyjMTG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Harsh_Hari_Modi_970ee64c-ea0d-4b65-9326-08eb776029c9.png",
+            "name": "Harsh Hari Modi | CEO",
+            "content": ""
+          }
+        },
+        "image_tBGyQm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anuradha_Modi_e10dab5a-83d9-496d-8a37-875bcd56bde0.png",
+            "name": "Anuradha Modi | Chief Happiness Officer",
+            "content": ""
+          }
+        },
+        "image_b3h79V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Saumya_Modi_5ad17e34-3951-4829-b144-99dc389f5e74.png",
+            "name": "Soumya Modi | Chief Designer",
+            "content": ""
+          }
+        },
+        "image_qT4wgX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bhavini_Modi_8f9a7bfc-caf7-40b5-aba6-a9f7d82b01e1.png",
+            "name": "Bhavini Modi | Chief Designer",
+            "content": ""
+          }
+        },
+        "image_HCqjcz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Aniha_Modi_368a5a62-90ec-4869-ab6f-a09e8cafcba6.png",
+            "name": "Aniha Modi | Creative Head",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HdtVUm",
+        "image_MyjMTG",
+        "image_tBGyQm",
+        "image_b3h79V",
+        "image_qT4wgX",
+        "image_HCqjcz"
+      ],
+      "settings": {
+        "headingtext": "Our Core Team",
+        "btnurl": "https:\/\/shopmulmul.com\/pages\/giving-back"
+      }
     }
   },
   "order": [
@@ -210,6 +275,7 @@
     "our_story_about_G7xBWi",
     "rich_text_6CT96W",
     "our_story_about_YGgf7U",
-    "rich_text_KPLHqz"
+    "rich_text_KPLHqz",
+    "core_team_about_eyGycq"
   ]
 }
