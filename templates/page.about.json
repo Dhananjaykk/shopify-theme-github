@@ -180,6 +180,24 @@
         "headingtext": "Our Vision",
         "imagemob": "shopify:\/\/shop_images\/Group_41_88311fdf-4c8a-4821-baa6-755586c16b55.png"
       }
+    },
+    "rich_text_KPLHqz": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>The next question you may have is - why? and we have one word for it – happiness.<\/strong><br\/><br\/>The reason for our tireless efforts to bring you the best quality of fabrics, effortless designs, and flattering silhouettes, is to make you happy. In that, we find our happiness – to be able to bring a smile to your faces and pride – in reviving a piece of heritage we feel so deeply for. <br\/><br\/><strong>Our smiles keep getting wider as we keep adding to our Mulmul community, making our workplace a space full of laughter, and creating magic that reaches you<\/strong><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "left",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -191,6 +209,7 @@
     "rich_text_MAcFtF",
     "our_story_about_G7xBWi",
     "rich_text_6CT96W",
-    "our_story_about_YGgf7U"
+    "our_story_about_YGgf7U",
+    "rich_text_KPLHqz"
   ]
 }
