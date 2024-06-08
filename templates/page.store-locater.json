@@ -145,12 +145,13 @@
         "location_74mBce": {
           "type": "location",
           "settings": {
-            "heading": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "store-info-day": "",
-            "store-info-time": ""
+            "image": "shopify:\/\/shop_images\/4_8d7e448b-44f9-4436-8bad-2e698cb7220c.jpg",
+            "heading": "MULMUL STORE , JUHU",
+            "address": "Shop No.3 Ground, Fiona, Juhu Road, 176,Chandrabai Nagar, Juhu, Mumbai, Maharashtra 400049",
+            "phone": "8425944712",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.5627323,77.1830238\/SHOP+NO.3+GROUND,+176,+Juhu+Tara+Rd,+Chandrabai+Nagar,+Juhu,+Mumbai,+Maharashtra+400049\/@23.7723407,70.7058906,6z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7c998a5622d2f:0xdbc9eb90e699d846!2m2!1d72.8273775!2d19.0871833",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 8:30PM"
           }
         },
         "location_j788EH": {
