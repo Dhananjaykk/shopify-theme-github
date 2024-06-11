@@ -6,7 +6,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-2_654c3201-9909-4a7c-a8f9-0c3298d54e5d.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled-1_554f7d4d-5158-4eff-95ea-15b25b60463f.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "NEW ARRIVALS",
@@ -18,7 +18,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 10
+            "overlay_opacity": 0
           }
         }
       },
