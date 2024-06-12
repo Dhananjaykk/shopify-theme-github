@@ -53,7 +53,7 @@
         "collection_wiPagi": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "best-sellers",
             "subheading": "",
             "title": "",
             "link_text": "BESTSELLERS",
@@ -66,27 +66,108 @@
         "collection_ybqUHf": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kurta-sets",
             "subheading": "",
             "title": "",
             "link_text": "KURTA SET",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
+          }
+        },
+        "collection_9L4GHY": {
+          "type": "collection",
+          "settings": {
+            "collection": "lehenga",
+            "image": "shopify:\/\/shop_images\/almora-green-lehenga.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_q7QkRd": {
+          "type": "collection",
+          "settings": {
+            "collection": "kurtas-1",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_y6rXCE": {
+          "type": "collection",
+          "settings": {
+            "collection": "saree",
+            "image": "shopify:\/\/shop_images\/7_e22f771c-6af8-4570-aa32-d12cc0458390.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
         "collection_FxpBik": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "mulmul-studio-western",
             "subheading": "",
             "title": "",
-            "link_text": "KURTA SET",
+            "link_text": "{{ block.settings.collection.title }}",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
+          }
+        },
+        "collection_FDzMDr": {
+          "type": "collection",
+          "settings": {
+            "collection": "mulmul-footwear",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_tHGC6W": {
+          "type": "collection",
+          "settings": {
+            "collection": "mulmul-potli",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_JEEW4E": {
+          "type": "collection",
+          "settings": {
+            "collection": "jewelry",
+            "image": "shopify:\/\/shop_images\/11_00693a99-eb6c-45fe-af4a-38c3697d68b2.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
@@ -94,7 +175,13 @@
         "collection_4NBCmf",
         "collection_wiPagi",
         "collection_ybqUHf",
-        "collection_FxpBik"
+        "collection_9L4GHY",
+        "collection_q7QkRd",
+        "collection_y6rXCE",
+        "collection_FxpBik",
+        "collection_FDzMDr",
+        "collection_tHGC6W",
+        "collection_JEEW4E"
       ],
       "settings": {
         "reveal_on_scroll": false,
