@@ -478,7 +478,7 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "layout": "carousel",
+        "layout": "collage",
         "subheading": "",
         "title": "",
         "background": "rgba(0,0,0,0)",
