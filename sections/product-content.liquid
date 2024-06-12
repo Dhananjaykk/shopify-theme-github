@@ -1,4 +1,16 @@
 {%- capture product_content -%}
+  <style>
+    @media screen and (min-width: 1000px) {
+    .product-content__featured-products-list {
+        margin-block-start: 32px;
+        display: flex;
+        overflow-x: scroll;
+    }
+      .product-item {
+    flex: 0 0 50%;
+}
+}
+  </style>
   {%- capture product_tabs -%}
     {%- capture product_tabs_nav_items -%}
       {%- assign processed_blocks = 0 -%}
