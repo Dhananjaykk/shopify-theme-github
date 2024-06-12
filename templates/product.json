@@ -68,12 +68,6 @@
     "product-content": {
       "type": "product-content",
       "blocks": {
-        "complementary_products_g6AMQA": {
-          "type": "complementary_products",
-          "settings": {
-            "title": "Featured products"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -88,7 +82,6 @@
         }
       },
       "block_order": [
-        "complementary_products_g6AMQA",
         "description",
         "liquid_naXJhy"
       ],
