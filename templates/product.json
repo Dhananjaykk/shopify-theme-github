@@ -9,6 +9,11 @@
             "low_inventory_threshold": 10
           }
         },
+        "others_color_options_rxVXhE": {
+          "type": "others_color_options",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -22,11 +27,6 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
-        },
-        "others_color_options_rxVXhE": {
-          "type": "others_color_options",
           "settings": {
           }
         },
@@ -44,9 +44,9 @@
       },
       "block_order": [
         "inventory_LiypNB",
+        "others_color_options_rxVXhE",
         "variant_picker",
         "quantity_selector",
-        "others_color_options_rxVXhE",
         "buy_buttons"
       ],
       "settings": {
