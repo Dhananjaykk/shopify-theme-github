@@ -75,7 +75,6 @@
         },
         "liquid_naXJhy": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "title": "Need Help",
             "liquid": "{% render 'need-help' %}"
@@ -86,21 +85,12 @@
           "settings": {
             "title": "Featured products"
           }
-        },
-        "content_rN9GQV": {
-          "type": "content",
-          "settings": {
-            "title": "test",
-            "content": "<p>help<\/p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "description",
         "liquid_naXJhy",
-        "complementary_products_Anqzde",
-        "content_rN9GQV"
+        "complementary_products_Anqzde"
       ],
       "settings": {
       }
