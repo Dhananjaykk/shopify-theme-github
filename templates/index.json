@@ -411,7 +411,9 @@
         "look_aKMcAP": {
           "type": "look",
           "settings": {
-            "dot_type": "inverted",
+            "image": "shopify:\/\/shop_images\/shop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Shop_the_Look_-_Mobile_a24106c6-74d8-4324-bfc9-e5cec024bb63.jpg",
+            "dot_type": "normal",
             "product_1": "",
             "product_1_horizontal_position": 41,
             "product_1_vertical_position": 41,
