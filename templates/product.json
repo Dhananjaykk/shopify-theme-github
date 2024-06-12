@@ -77,7 +77,7 @@
           "type": "liquid",
           "settings": {
             "title": "Need Help",
-            "liquid": "help"
+            "liquid": "{% render 'need-help' %}"
           }
         },
         "complementary_products_Anqzde": {
