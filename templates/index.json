@@ -198,6 +198,7 @@
         "image_XdkWcG": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/rakhi.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "THIS RAKHI STAND OUT WITH MULMUL",
@@ -209,7 +210,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
