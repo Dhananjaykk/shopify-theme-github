@@ -443,6 +443,46 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "featured_collections_3wbdgX": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_kWzYed": {
+          "type": "collection",
+          "settings": {
+            "collection": "organza",
+            "label": "Mulmul Organzas",
+            "button_text": "Mulmul Organzas",
+            "button_url": ""
+          }
+        },
+        "collection_pz7ADt": {
+          "type": "collection",
+          "settings": {
+            "collection": "mulmul-cottons",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_kWzYed",
+        "collection_pz7ADt"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Most Loved Fabrics",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "new_collection_list_kKfBEK": {
       "type": "new-collection-list",
       "blocks": {
@@ -667,6 +707,7 @@
     "collection-list",
     "shop_the_look_LL7CN8",
     "new_collection_list_amrLP7",
+    "featured_collections_3wbdgX",
     "new_collection_list_kKfBEK",
     "new_testimonial_6Q8XCh",
     "slideshow_JGPKBj"
