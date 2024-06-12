@@ -199,9 +199,6 @@
           </div>
         {%- endif -%}
 
-      {%- when 'others_color_options' -%} 
-      {% render 'other-color' %}
-
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------
       IMAGE
@@ -438,19 +435,10 @@
                   {%- endunless -%}
                 {%- endif -%}
               </product-payment-container>
-               <div  style="margin-top: 10px;"><b>Free Potli</b> Bag Worth Rs 1000 with this purchase</div>
-          {% if product.available %}
-              {% if product.tags contains '48 hours' %}
-              <div style="margin-top: 5px;"><b>Ships within 48 hours</b></div>
-                {% endif %}
-                 {% endif %}
-
-           
             {%- endform -%}
-             {% render 'gift-box' %}
           </div>
         {%- endif -%}
-     
+
         {%- if template.suffix != 'quick-buy-popover' -%}
           <store-pickup form-id="{{ product_form_id }}" class="product-form__store-availability-container">
             {%- render 'store-availability', product_variant: product.selected_or_first_available_variant -%}
