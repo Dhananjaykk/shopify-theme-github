@@ -3440,7 +3440,7 @@ var ProductRecommendations = class extends HTMLElement {
     return this.getAttribute("section-id");
   }
   get recommendationsCount() {
-    return parseInt(this.getAttribute("recommendations-count") || 14);
+    return parseInt(this.getAttribute("recommendations-count") || 4);
   }
   get intent() {
     return this.getAttribute("intent");
