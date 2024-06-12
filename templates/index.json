@@ -199,6 +199,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/rakhi.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_-_rakhi_section_1.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "THIS RAKHI STAND OUT WITH MULMUL",
@@ -250,26 +251,70 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/4_b07826af-3ec3-48e7-94da-39656963996b.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Khushi Kapoor",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0
           }
         },
         "collection-2": {
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Sanchita Arora",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
+          }
+        },
+        "collection_kJ4Ui3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Sanchita Arora",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_QXNqia": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Sanchita Arora",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_NVapd8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Sanchita Arora",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
         "collection-3": {
@@ -302,6 +347,9 @@
       "block_order": [
         "collection-1",
         "collection-2",
+        "collection_kJ4Ui3",
+        "collection_QXNqia",
+        "collection_NVapd8",
         "collection-3",
         "collection_PdHa9c"
       ],
@@ -356,20 +404,20 @@
         "collection_LpbFyh": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "mulmul-accessories",
             "subheading": "",
             "title": "",
             "link_text": "ACCESSORIES",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_M8XKWG": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "gift",
             "subheading": "",
             "title": "",
             "link_text": "MULMUL GIFTS",
