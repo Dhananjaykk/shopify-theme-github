@@ -405,6 +405,7 @@
           "type": "collection",
           "settings": {
             "collection": "mulmul-accessories",
+            "image": "shopify:\/\/shop_images\/1_1fe9df08-0807-4c6e-ae2c-ab83450c4efc.jpg",
             "subheading": "",
             "title": "",
             "link_text": "ACCESSORIES",
@@ -418,13 +419,14 @@
           "type": "collection",
           "settings": {
             "collection": "gift",
+            "image": "shopify:\/\/shop_images\/2_d456429f-5c58-4cfc-ae0c-711dc1148695.jpg",
             "subheading": "",
             "title": "",
             "link_text": "MULMUL GIFTS",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
@@ -434,7 +436,7 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "layout": "grid",
+        "layout": "carousel",
         "subheading": "",
         "title": "",
         "background": "rgba(0,0,0,0)",
