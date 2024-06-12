@@ -476,6 +476,9 @@
         "collection_LpbFyh",
         "collection_M8XKWG"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 1000px) {.list-collections--collage .list-collections__item-list {margin-inline: 0; }}"
+      ],
       "settings": {
         "reveal_on_scroll": false,
         "layout": "collage",
