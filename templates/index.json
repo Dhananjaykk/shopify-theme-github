@@ -575,6 +575,7 @@
         "collection_AgFPxG",
         "collection_kift9n"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "layout": "carousel",
