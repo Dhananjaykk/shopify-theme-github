@@ -1,1 +1,138 @@
-{"sections":{"main":{"type":"main-product","blocks":{"variant_picker":{"type":"variant_picker","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{}}},"block_order":["variant_picker","quantity_selector","buy_buttons"],"settings":{}},"product-content":{"type":"product-content","blocks":{"description":{"type":"description","settings":{}}},"block_order":["description"],"settings":{}},"product-recommendations":{"type":"product-recommendations","settings":{}}},"order":["main","product-content","product-recommendations"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "inventory_LiypNB": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 10
+          }
+        },
+        "others_color_options_rxVXhE": {
+          "type": "others_color_options",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#f5f1ec",
+            "atc_button_text_color": "#1a1a1a",
+            "buy_now_button_background": "#1a1a1a",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "inventory_LiypNB",
+        "others_color_options_rxVXhE",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": true,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "liquid_naXJhy": {
+          "type": "liquid",
+          "settings": {
+            "title": "Need Help",
+            "liquid": "{% render 'need-help' %}"
+          }
+        },
+        "complementary_products_Anqzde": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Style your mulmul with"
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "liquid_naXJhy",
+        "complementary_products_Anqzde"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1717493181be4c08ec": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_TfgMfY": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_TfgMfY"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "product-recommendations",
+    "1717493181be4c08ec"
+  ]
+}

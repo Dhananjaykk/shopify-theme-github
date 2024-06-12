@@ -1,0 +1,60 @@
+<style>
+  .imagesectionblock img {margin:auto;}
+  .imagesectionblock .imageblocks {text-align:center;}
+  .happinessformobile {display:none;}
+  @media (max-width:768px){
+    .happinessfordesktop {display:none;}
+    .happinessformobile {display:block;}
+  }
+</style>
+<section class="section">
+ <div class="imagesectionblock">
+     {%- if section.blocks.size > 0  -%}
+       
+        {%- for block in section.blocks -%} 
+          <div class="imageblocks">
+          <a {% if block.settings.button_link %} href="{{ block.settings.button_link }}" {% endif %}>
+            <img src="{{ block.settings.image | img_url:"master" }}" class="happinessfordesktop">
+            <img src="{{ block.settings.mobileimage | img_url:"master" }}" class="happinessformobile">
+          </a>
+          </div>
+         {% endfor %}
+       
+        {%- endif -%}      
+  </div>
+</section>  
+
+{% schema %}
+  {
+    "name": "Happiness blocks",
+     "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Desktop Images"          
+        }, 
+        {
+          "type": "image_picker",
+          "id": "mobileimage",
+          "label": "Mobile Images"          
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "image link"
+        }
+      ]
+    }
+  ],
+      "settings": [
+   {
+      "type": "header",
+      "content": "Happiness Club"
+    }    
+  ]
+  }
+{% endschema %}

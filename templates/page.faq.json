@@ -1,1 +1,130 @@
-{"sections":{"main":{"type":"main-page","settings":{}},"faq":{"type":"faq","blocks":{"category-1":{"type":"category","settings":{"title":"Shipping"}},"question-1":{"type":"question","settings":{"title":"Do you ship overseas?","answer":"<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"}}},"settings":{"show_navigation":true,"title":""}}},"order":["main","faq"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "aaa34189-e00b-4e29-9ba8-6e8f6127b32b": {
+          "type": "category",
+          "settings": {
+            "title": "Shopping"
+          }
+        },
+        "b6f19ea3-56f5-494d-8abf-3bf0fbe228a3": {
+          "type": "question",
+          "settings": {
+            "title": "HOW DO I MAKE A PURCHASE?",
+            "answer": "<p>Browse through our shop section. Once you have found an item, click on the 'Add to Shopping Bag’ button below each item. Review your selection by clicking the bag icon at the top right of the page and selecting ‘View Cart’. You can use the 'Remove Item' link to delete items from your shopping bag. If you wish to continue browsing, click on the 'Continue Shopping' button. To complete your order, click on 'Proceed to Check Out' button.<\/p>"
+          }
+        },
+        "5984b193-96de-41a6-a29a-4ed17a385637": {
+          "type": "question",
+          "settings": {
+            "title": "DO I NEED TO SET UP AN ACCOUNT TO PLACE AN ORDER?",
+            "answer": "<p>YES. You can browse through the collections without creating an account and select merchandise you like. But to be able to buy, you need to set up an account which is a fairly easy process. Register with us and you'll be able to enjoy the following benefits through your Mulmul account:<\/p><p>To create an account, simply click on ‘REGISTER' at the top right of the page to fill in your details.<\/p>"
+          }
+        },
+        "ccfc0886-dd69-47b9-b0ab-291508d8379a": {
+          "type": "question",
+          "settings": {
+            "title": "I´VE FORGOTTEN MY PASSWORD.WHAT SHOULD I DO?",
+            "answer": "<p>If you have forgotten your password, follow the 'FORGOTTEN PASSWORD' instructions on the SIGN IN page.<\/p>"
+          }
+        },
+        "eee3c961-eaff-4dbf-9359-4b9fb7f03b58": {
+          "type": "category",
+          "settings": {
+            "title": "Payment"
+          }
+        },
+        "ee3b9cf2-9ad0-449f-a8c3-d026100b1445": {
+          "type": "question",
+          "settings": {
+            "title": "What are the accepted payment methods for domestic transactions?",
+            "answer": "<p>We accept the following modes of payment for domestic transactions: <\/p><p>• Credit cards - Mastercard, Visa and American Express <br\/>• Net Banking - all major banks <\/p><p>• Debit Carts - all major banks <\/p><p>• Wallets<\/p><p>Bank transfers are accepted upon special request.<\/p><p>If you are not able to make a payment via the above listed methods, please send us an e-mail at info@mulmul.co and we will send you options to pay.<\/p>"
+          }
+        },
+        "1736e99c-c840-4248-94fc-5b5e3a40286e": {
+          "type": "question",
+          "settings": {
+            "title": "IS IT SAFE TO USE MY CREDIT CARD ONLINE AT MULMUL?",
+            "answer": "<p>At Mulmul, your personal online security is important to us. We use the latest SSL encryption technology to store and safely transmit your personal and credit card information through our systems. All orders are processed through a secure checkout system. Additionally, for your safety and protection, we will confirm that the billing address you provide matches the address on file with your credit card company.<\/p><p>You may also choose to securely store your credit card details with us. This means you will not have to enter them again during future purchases, making it quicker and simpler to shop<\/p>"
+          }
+        },
+        "25f5544c-91e5-43e4-8084-b22e4878efab": {
+          "type": "question",
+          "settings": {
+            "title": "What if my card has been charged multiple times for the same order?",
+            "answer": "<p>If your card has been debited multiple times at the payment gateway(s) while making a single purchase, call our customer care at …  or write to us at info@mulmul.co, and we will resolve it for you. <br\/>Our customer care team is available from Monday to Saturday, from 9:00 am till 6:00 pm.<\/p>"
+          }
+        },
+        "f7ef7e64-12f1-4b97-b761-8b20aded213b": {
+          "type": "category",
+          "settings": {
+            "title": "Delivery"
+          }
+        },
+        "14d9055c-f79b-45ce-bbf6-adbdd5f3caca": {
+          "type": "question",
+          "settings": {
+            "title": "When will I get my order?",
+            "answer": "<p>We process your orders within 24 hours and ship them  via our trusted logistic partners. Any order placed shall be delivered to you within 4-5 business days.<\/p>"
+          }
+        },
+        "d2d12509-bff2-4abd-a1bb-8c4fb7754e04": {
+          "type": "question",
+          "settings": {
+            "title": "What are the delivery charges?",
+            "answer": "<p>• We offer free shipping for all domestic orders above INR 5,000.<\/p><p>For orders that do not qualify for free shipping, a base charge of Rs. 99 is levied.<\/p>"
+          }
+        },
+        "b6983592-21e0-4526-aff9-8e4e2ae7e276": {
+          "type": "question",
+          "settings": {
+            "title": "How do I track my order?",
+            "answer": "<p>Once your order is shipped, the Airway Bill number (AWB no.) and courier partner name is sent to you via email. Please visit the courier partner website (Bluedart, Delhivery) and enter the AWB no. shared with you in the relevant form to track the current location of your shipment and expected date of delivery. <\/p><p>Should you have any questions about your order dispatch, we’re just a quick email or phone call away<\/p>"
+          }
+        },
+        "e63517b6-b8b1-4a9f-b163-eccf5a7186e1": {
+          "type": "question",
+          "settings": {
+            "title": "Who will deliver my order?",
+            "answer": "<p>Within India, we ship through registered courier companies Delhivery and Bluedart. Our delivery partners will attempt to deliver the package thrice before they return it to us.<br\/>Please provide a mobile number that you are available at, and your complete shipping address including the pin-code. This will help us ensure smooth delivery of your order. At the time of delivery, if the packaging looks damaged or tampered, please do not accept the package.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "aaa34189-e00b-4e29-9ba8-6e8f6127b32b",
+        "b6f19ea3-56f5-494d-8abf-3bf0fbe228a3",
+        "5984b193-96de-41a6-a29a-4ed17a385637",
+        "ccfc0886-dd69-47b9-b0ab-291508d8379a",
+        "eee3c961-eaff-4dbf-9359-4b9fb7f03b58",
+        "ee3b9cf2-9ad0-449f-a8c3-d026100b1445",
+        "1736e99c-c840-4248-94fc-5b5e3a40286e",
+        "25f5544c-91e5-43e4-8084-b22e4878efab",
+        "f7ef7e64-12f1-4b97-b761-8b20aded213b",
+        "14d9055c-f79b-45ce-bbf6-adbdd5f3caca",
+        "d2d12509-bff2-4abd-a1bb-8c4fb7754e04",
+        "b6983592-21e0-4526-aff9-8e4e2ae7e276",
+        "e63517b6-b8b1-4a9f-b163-eccf5a7186e1"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}

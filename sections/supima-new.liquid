@@ -1,0 +1,118 @@
+<div class="supima_section">
+   {%- for block in section.blocks -%}
+  <div class="imagewithtextnew">
+      {%- if block.type == 'banner' -%}
+    <div class="supima_banner">
+      <img src="{{ block.settings.image | img_url: 'master' }}">
+    </div>
+ {%- else -%}
+    <div class="img_with_text">
+      <div class="image_section-2">
+       <img src="{{ block.settings.image2 | img_url: 'master' }}">
+      </div>
+      <div class="text__section-3">
+        <img src="{{ block.settings.image3 | img_url: 'master' }}">
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+  .image_section-2{
+    width:50%
+  }
+  .text__section-3{
+    width:50%;
+  }
+  .img_with_text{
+    display:flex;
+    gap:10px;
+  }
+  @media only screen and (max-width: 768px){
+       z-index: 1;
+    }
+  }
+</style>
+<div class="image-with-textsection">
+ 
+</div>
+
+{% schema %}
+  {
+    "name": "supima-new",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "first_image",
+        "label": "First Image"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "fullarea_text",
+        "label": "Text Full Area"
+      },
+      {
+        "type": "image_picker",
+        "id": "second_image",
+        "label": "Second Image Banner"
+      },
+      {
+        "type": "text",
+        "id": "fullarea_text2",
+        "label": "Text Full Area2"
+      },
+      {
+        "type": "text",
+        "id": "fullarea_text3",
+        "label": "Text Full Area3"
+      }
+    ],
+  "blocks": [
+    {
+      "type": "banner",
+      "name": "banner",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Banner"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Banner Link"
+        }
+      ]
+    },
+    {
+      "type": "image-with-text",
+      "name": "image-with-text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image3",
+          "label": "image"
+        }
+      ]
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

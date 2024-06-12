@@ -1,0 +1,281 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "rich_text_D8VpnN": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Mulmul",
+        "content": "<p><strong>(noun) mul·mul<\/strong><\/p><ul><li>A type of thin, soft, fine muslin, specially woven in India, and renowned for its delicateness, softness, and breathability<\/li><li>As of 2018, an Indian-wear brand, that celebrates the glorious heritage of this fabric.<\/li><\/ul>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "two_image_about_GPGwnr": {
+      "type": "two-image-about",
+      "settings": {
+        "firstImage": "shopify:\/\/shop_images\/field-5842174_2_1_89ecb7f9-0885-4438-91bd-d7b648ca3d44.png"
+      }
+    },
+    "rich_text_g8xxCn": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>The mulmul fabric first originated in erstwhile India. Bengal was the world’s largest exporter of superior-quality mulmul.<br\/><br\/><strong>Reserved almost exclusively for royalty, mulmul (called Mulboos khas) was so light-weight and delicate that it was often referred to as “wonder gossamer”, which means woven air. <\/strong><br\/><br\/>The British made aggressive efforts to repress the knowledge and put an end to the production of mulmul weaving. Their machine-made imported fabrics were not able to stand up to this superior handwoven counterpart. For this, the production of mulmul fabric suffered greatly for nearly two centuries. <\/p><p>Thankfully for us, despite the repressions, the knowledge of mulmul weaving persisted. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "our_story_about_JcQ6Ax": {
+      "type": "our-story-about",
+      "blocks": {
+        "image_JMmfL6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_6bea24d5-f08b-496e-9731-631be025a6a9.png"
+          }
+        },
+        "image_46hKFi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_6096c4f5-886f-48a7-a7a1-9d7d147b421a.png"
+          }
+        },
+        "image_yTaRpk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_1_e44e7a5b-1033-4416-a030-083ac94526f7.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_JMmfL6",
+        "image_46hKFi",
+        "image_yTaRpk"
+      ],
+      "settings": {
+        "headingtext": "Our Story",
+        "imagemob": "shopify:\/\/shop_images\/Group_39_d96c5f1f-ba7f-436b-a68a-b8136d10ed22.png"
+      }
+    },
+    "rich_text_MAcFtF": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>The modern Indian fashion landscape has restricted ethnic wear to occasion wear. Our team of co-founders noticed a dearth of good quality Indian daily wear. Unfortunately, modern women have been forced to boil down their purchasing decisions to a choice between style and comfort, coerced to prioritize one over the other. We were not okay with that. <br\/><br\/>This dearth gave rise to a promise - to curate daily wear that was equal parts stylish, comfortable, and affordable. A small team came together with a vision to fulfill this promise. Endless sampling of fabrics, numerous design ideations, and sketches later a brand was born – MULMUL.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "our_story_about_G7xBWi": {
+      "type": "our-story-about",
+      "blocks": {
+        "image_wTeRpn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_1_474e0b8a-6eef-4c60-a276-9a6b3a0557b8.png"
+          }
+        },
+        "image_zJDtPq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_e26b83da-aaf8-482f-be28-7c5fd56a0447.png"
+          }
+        },
+        "image_EjzM8e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_1_52327602-e207-4128-91c2-2353d5efb982.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_wTeRpn",
+        "image_zJDtPq",
+        "image_EjzM8e"
+      ],
+      "settings": {
+        "headingtext": "Our Roots",
+        "imagemob": "shopify:\/\/shop_images\/Group_40_3a980ba2-eb90-41eb-9a71-b4b0f6a41988.png"
+      }
+    },
+    "rich_text_6CT96W": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>One of the first major steps after the birth of the brand was to decide on the product line. Born in India, and fiercely proud of our Indian-ness, the answer came quite naturally to us. It had to be the quintessential and timeless kurta. From formal meetings to casual dinners with friends or family, the kurta fits everywhere. <br\/><strong>We made up our minds to restore this regal piece of garment, once the attire of Mughal royalty to its erstwhile glory. <br\/><\/strong><br\/>The next question was obvious – how? <br\/>To bring the kurta out of the clutter and make it cool again, <strong>we chose to infuse the traditional silhouette with a modern and youthful spirit<\/strong>, and in doing that, we had ourselves a winner.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "our_story_about_YGgf7U": {
+      "type": "our-story-about",
+      "blocks": {
+        "image_7RzKLh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_1_5063519a-058a-47ed-a791-63e1cc97904f.png"
+          }
+        },
+        "image_RTE7zt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_777d767d-14ab-4347-aff1-3af82d4d7be6.png"
+          }
+        },
+        "image_ADAzPm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_5997dc55-6a72-49c9-9b8b-5479206f1913.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_7RzKLh",
+        "image_RTE7zt",
+        "image_ADAzPm"
+      ],
+      "settings": {
+        "headingtext": "Our Vision",
+        "imagemob": "shopify:\/\/shop_images\/Group_41_88311fdf-4c8a-4821-baa6-755586c16b55.png"
+      }
+    },
+    "rich_text_KPLHqz": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>The next question you may have is - why? and we have one word for it – happiness.<\/strong><br\/><br\/>The reason for our tireless efforts to bring you the best quality of fabrics, effortless designs, and flattering silhouettes, is to make you happy. In that, we find our happiness – to be able to bring a smile to your faces and pride – in reviving a piece of heritage we feel so deeply for. <br\/><br\/><strong>Our smiles keep getting wider as we keep adding to our Mulmul community, making our workplace a space full of laughter, and creating magic that reaches you<\/strong><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "core_team_about_eyGycq": {
+      "type": "core-team-about",
+      "blocks": {
+        "image_HdtVUm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/KK_Modi_c3949eee-aba9-45d5-907f-243abdbb7b03.png",
+            "name": "KK Modi | Chairman",
+            "content": ""
+          }
+        },
+        "image_MyjMTG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Harsh_Hari_Modi_970ee64c-ea0d-4b65-9326-08eb776029c9.png",
+            "name": "Harsh Hari Modi | CEO",
+            "content": ""
+          }
+        },
+        "image_tBGyQm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anuradha_Modi_e10dab5a-83d9-496d-8a37-875bcd56bde0.png",
+            "name": "Anuradha Modi | Chief Happiness Officer",
+            "content": ""
+          }
+        },
+        "image_b3h79V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Saumya_Modi_5ad17e34-3951-4829-b144-99dc389f5e74.png",
+            "name": "Soumya Modi | Chief Designer",
+            "content": ""
+          }
+        },
+        "image_qT4wgX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bhavini_Modi_8f9a7bfc-caf7-40b5-aba6-a9f7d82b01e1.png",
+            "name": "Bhavini Modi | Chief Designer",
+            "content": ""
+          }
+        },
+        "image_HCqjcz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Aniha_Modi_368a5a62-90ec-4869-ab6f-a09e8cafcba6.png",
+            "name": "Aniha Modi | Creative Head",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HdtVUm",
+        "image_MyjMTG",
+        "image_tBGyQm",
+        "image_b3h79V",
+        "image_qT4wgX",
+        "image_HCqjcz"
+      ],
+      "settings": {
+        "headingtext": "Our Core Team",
+        "btnurl": "https:\/\/shopmulmul.com\/pages\/giving-back"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_D8VpnN",
+    "two_image_about_GPGwnr",
+    "rich_text_g8xxCn",
+    "our_story_about_JcQ6Ax",
+    "rich_text_MAcFtF",
+    "our_story_about_G7xBWi",
+    "rich_text_6CT96W",
+    "our_story_about_YGgf7U",
+    "rich_text_KPLHqz",
+    "core_team_about_eyGycq"
+  ]
+}

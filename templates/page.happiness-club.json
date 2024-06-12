@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "main": {
+      "type": "happiness-main-top",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "happiness_club": {
+      "type": "happiness_blockimage",
+      "blocks": {
+        "e3c3e3b6-10fa-4b3e-bf93-6a00fb379237": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_8e80550f-ed18-4ee4-8517-0c182864da69.png",
+            "mobileimage": "shopify:\/\/shop_images\/You_need_to_create_an_account_on_our_website_to_enroll_yourself_in_the_Happiness_Club_program_and_earn_bliss_points_with_every_purchase._Bliss_points_can_only_be_redeemed_on_online_pu.png",
+            "button_link": ""
+          }
+        },
+        "da8dc58e-f57d-4e11-aa08-d8c079c25c36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_0834b923-7a50-4de8-8347-7053dacfa15d.png",
+            "mobileimage": "shopify:\/\/shop_images\/1_d99c19d3-69df-439b-a3c6-b1fefbd059b9.png",
+            "button_link": ""
+          }
+        },
+        "4b04c16b-5576-4b6a-90be-428df98f9788": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_af38de37-37fa-4afd-90df-d7073348e86c.png",
+            "mobileimage": "shopify:\/\/shop_images\/2_ae5f12a1-2070-4643-8ece-9ff047d79531.png",
+            "button_link": ""
+          }
+        },
+        "5bc8823f-b5ea-4a05-911c-9a2d127531ef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_fcab4e08-f87f-415a-ad0c-e182b41bc007.png",
+            "mobileimage": "shopify:\/\/shop_images\/TERMS_CONDITIONS.png",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e3c3e3b6-10fa-4b3e-bf93-6a00fb379237",
+        "da8dc58e-f57d-4e11-aa08-d8c079c25c36",
+        "4b04c16b-5576-4b6a-90be-428df98f9788",
+        "5bc8823f-b5ea-4a05-911c-9a2d127531ef"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "happiness_club"
+  ]
+}

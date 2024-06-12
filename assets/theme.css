@@ -8,8 +8,32 @@ span.button.button--primary {
     color: black;
     background: white;
 }
+button#AddToCart{
+      border: 1px solid;
+}
+.testimonial-bg{
+  background: linear-gradient(to bottom, transparent 25%, #fcf6ee 20%);
+}
+.testimonial-bg img.multi-column__image {
+    border-radius: 50%;
 
-
+}
+@media only screen and (max-width: 999px) {
+product-payment-container#MainPaymentContainer {
+    display: flex;
+}
+button#AddToCart {
+    width: 50%;
+  padding: 0 !important;
+}
+.shopify-payment-button {
+    width: 50%;
+  padding: 0 !important;
+}
+  button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+    padding: 0 !important;
+}
+}
 
 /* ----------------custom css end-------------------------- */
 

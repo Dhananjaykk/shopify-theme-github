@@ -1,0 +1,566 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "slideshow_jVMCix": {
+      "type": "slideshow",
+      "blocks": {
+        "image_P9CqpF": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_P9CqpF"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "store_locaters_aPCDDi": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_qL8d3Q": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_4a1512c3-f9d8-4b36-a549-607a99969213.jpg",
+            "heading": "FLAGSHIP- CHHATARPUR",
+            "address": "D-388, Ground Floor, 100 Feet Road, Chhatarpur, New Delhi - 110074",
+            "phone": "+91 8178239680",
+            "url": "https:\/\/www.google.com\/maps\/dir\/\/28.505907,77.18515\/@28.505907,77.1829613,17z\/data=!4m2!4m1!3e0?hl=en-IN",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 8:00PM"
+          }
+        },
+        "location_6fnUP8": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_6379d6b4-6592-4a2b-88ae-99820c335cc3.jpg",
+            "heading": "DLF AVENUE, SAKET",
+            "address": "Shop No. 249 First Floor, DLF Avenue Mall, Saket, New Delhi - 110017",
+            "phone": "+91 9810893540",
+            "url": "https:\/\/www.google.co.in\/maps\/place\/DLF+Avenue+Saket\/@28.5281027,77.2146231,17z\/data=!3m2!4b1!5s0x390ce1f4d03bccf5:0xa1ae2c7ec4527c65!4m5!3m4!1s0x390ce1f4d9f62005:0x3aee569514ba9326!8m2!3d28.528098!4d77.2168118?hl=en&authuser=0",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
+          }
+        },
+        "location_JhKRzL": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_cfb457c5-6b5a-4894-a7b5-c825308753ff.jpg",
+            "heading": "DLF MALL OF INDIA, NOIDA",
+            "address": "Shop E355 Second Floor, DLF Mall of India, Noida Sector-18",
+            "phone": "+91 98102 20059",
+            "url": "https:\/\/www.google.co.in\/maps\/place\/DLF+Mall+of+India,+Noida\/@28.5673409,77.3189416,17z\/data=!3m1!4b1!4m5!3m4!1s0x390ce521218557b5:0x45051fcfc696f085!8m2!3d28.5673409!4d77.3211303",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
+          }
+        },
+        "location_4xdr97": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store_page_images_6_a0f50f69-aec1-41a0-8cfe-ecde405971ee.png",
+            "heading": "MULMUL STORE, GURGAON",
+            "address": "First Floor, F-159A, Ambience Mall Ambience Island N H 8,  Gurgaon, Haryana, 122010",
+            "phone": "+91 9289395849",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.5624968,77.1804881\/ambience+mall\/@28.5405344,77.1023218,13z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390d1938456789c7:0x45a757aa37e73026!2m2!1d77.0958086!2d28.505752",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 10:00PM"
+          }
+        },
+        "location_LDG7Um": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_dfb825db-3a7d-48fb-9380-4a5d897a302a.png",
+            "heading": "DLF PROMENADE, VASANT KUNJ",
+            "address": "Shop No. 263A First Floor, DLF Promenade Mall, Vasant Kunj, New Delhi - 110070",
+            "phone": "+91 96670 53506",
+            "url": "https:\/\/www.google.co.in\/maps\/place\/DLF+Promenade\/@28.5418981,77.1556357,17z\/data=!3m1!4b1!4m5!3m4!1s0x390d1dce96eb3acd:0xd39b01d0a6ebd44f!8m2!3d28.5418981!4d77.1556357?hl=en&authuser=0",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
+          }
+        },
+        "location_GaMwqR": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_4a224226-9480-44d1-a581-466abb75fbbf.png",
+            "heading": "PACIFIC MALL, TAGORE GARDEN",
+            "address": "Pacific Mall Tagore Garden, Tilak Nagar, New Delhi - 110018",
+            "phone": "+91 ‎1141622668",
+            "url": "https:\/\/www.google.co.in\/maps\/place\/Pacific+Mall+Tagore+Garden\/@28.6423767,77.1041903,17z\/data=!3m1!4b1!4m5!3m4!1s0x390d0363c4edf747:0x240c75aa3d09de7a!8m2!3d28.642372!4d77.106379?hl=en&authuser=0",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_qL8d3Q",
+        "location_6fnUP8",
+        "location_JhKRzL",
+        "location_4xdr97",
+        "location_LDG7Um",
+        "location_GaMwqR"
+      ],
+      "settings": {
+        "title": "DELHI NCR"
+      }
+    },
+    "store_locaters_Cbyj8J": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_9iWNRf": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_00e6a3d7-1bee-4ca4-a82b-3fba1da98404.jpg",
+            "heading": "MULMUL FLAGSHIP STORE",
+            "address": "59, Dr V.B Gandhi Marg, Ground Floor, Shop No 4110, Fort, Mumbai - 400023",
+            "phone": "9819283208",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.4938855,77.1830238\/mulmul+kala+ghoda\/@23.6950462,71.1976465,6z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7d1ce91946bdd:0x362be5369a2649c3!2m2!1d72.8322998!2d18.9281449",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 08:00PM"
+          }
+        },
+        "location_74mBce": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_8d7e448b-44f9-4436-8bad-2e698cb7220c.jpg",
+            "heading": "MULMUL STORE , JUHU",
+            "address": "Shop No.3 Ground, Fiona, Juhu Road, 176,Chandrabai Nagar, Juhu, Mumbai, Maharashtra 400049",
+            "phone": "8425944712",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.5627323,77.1830238\/SHOP+NO.3+GROUND,+176,+Juhu+Tara+Rd,+Chandrabai+Nagar,+Juhu,+Mumbai,+Maharashtra+400049\/@23.7723407,70.7058906,6z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7c998a5622d2f:0xdbc9eb90e699d846!2m2!1d72.8273775!2d19.0871833",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 8:30PM"
+          }
+        },
+        "location_j788EH": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_fc615d02-3e86-4934-8f69-04363153eb84.jpg",
+            "heading": "JIO WORLD DRIVE , MUMBAI",
+            "address": "Unit F33A Maker Maxity, opposite MMRDA, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051",
+            "phone": "8691929190",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.4938855,77.1830238\/Jio+World+Drive,+Bandra+Kurla+Complex,+Bandra+East,+Mumbai,+Maharashtra\/@23.781038,70.7058928,6z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7c9fd9f9c278f:0x232a618a57d623cf!2m2!1d72.8516474!2d19.054037",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 10:00PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_9iWNRf",
+        "location_74mBce",
+        "location_j788EH"
+      ],
+      "settings": {
+        "title": "MUMBAI"
+      }
+    },
+    "store_locaters_JAKWDy": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_UFwmYq": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_5fd8740f-cc3f-4328-9cd4-e3d2072d0d1e.png",
+            "heading": "MULMUL FLAGSHIP - BENGALURU",
+            "address": "2 JP Manor, 7, Walton Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka-560001",
+            "phone": "+91 9810220059",
+            "url": "",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 8:00PM"
+          }
+        },
+        "location_cFHUrE": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11_6f9268e2-858a-491d-bad6-0db4ae860e25.png",
+            "heading": "PHOENIX MARKET CITY MALL",
+            "address": "First Floor, Unit F-71, Whitefield Road, Bengaluru, Karnataka, 560048",
+            "phone": "+91 9810220059",
+            "url": "https:\/\/www.google.com\/maps\/dir\/25.6080374,85.143043\/phoenix+market+city+bangalore\/@19.0183571,76.8664515,6z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bae110b04a3be4b:0xcffb252dab2e9643!2m2!1d77.6963968!2d12.9958017",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_UFwmYq",
+        "location_cFHUrE"
+      ],
+      "settings": {
+        "title": "BANGALORE"
+      }
+    },
+    "store_locaters_jPxHPt": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_VY6zC4": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_3ec60d77-3bcd-45b7-87e6-6254846c27dd.jpg",
+            "heading": "4 Woodburn Court Elgin Road Kolkata - 700020",
+            "address": "4 Woodburn Court Elgin Road Kolkata - 700020",
+            "phone": "+91 8178236212",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.5649276,77.2060235\/4+woodburn+court+elgin+road+kolkata+-+20\/@25.5374396,78.3054139,6z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3a0277ee3397df89:0x8104ed3493435793!2m2!1d88.3519197!2d22.5382554",
+            "store-info-day": "Closed Today",
+            "store-info-time": "11:00AM - 8:30PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_VY6zC4"
+      ],
+      "settings": {
+        "title": "KOLKATA"
+      }
+    },
+    "store_locaters_DPnrx4": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_bUX6eW": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13_85db6428-f156-4235-a656-bc1b11ead5d5.png",
+            "heading": "MULMUL STORE,PUNE",
+            "address": "Row house 4, Gold Field Enclave  Society, South Mainroad, Koregaon park, Pune1",
+            "phone": "+91 7745033444",
+            "url": "",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_bUX6eW"
+      ],
+      "settings": {
+        "title": "PUNE"
+      }
+    },
+    "store_locaters_BjfTGU": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_ikLHBP": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_cab7b834-bb96-4577-98e3-b25f3e04c837.jpg",
+            "heading": "FLAGSHIP - AHMEDABAD",
+            "address": "202, One 42 complex, Second Floor Iscon Ambli road Ahmedabad -  380058",
+            "phone": "+91 8238823272",
+            "url": "https:\/\/www.google.com\/maps\/dir\/28.5627323,77.1830238\/202,+One+42+complex,Second+Floor+++Iscon+Ambli+road+Ahmedabad+-++380058\/@25.4336128,72.7740638,7z\/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x395e9be076f48a3f:0xae32593b4b5310b8!2m2!1d72.4926413!2d23.0304546",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "11:00AM - 9:00PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_ikLHBP"
+      ],
+      "settings": {
+        "title": "AHMEDABAD"
+      }
+    },
+    "store_locaters_PaB7ix": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_xtBwkD": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_3310a765-c847-435e-8e0e-fe455f409992.jpg",
+            "heading": "Flagship - Hyderabad",
+            "address": "Sub plot No.2 of Plot No 48 in Survey No. 107,111 & 112, Banjara Hills Rd No. 10 Next to Aisha Rao, Hyderabad 500034",
+            "phone": "+91 98108 94653",
+            "url": "https:\/\/www.google.com\/maps\/place\/17%C2%B024'56.1%22N+78%C2%B026'31.2%22E\/@17.4155922,78.4398112,17z\/data=!3m1!4b1!4m4!3m3!8m2!3d17.4155922!4d78.4419999?hl=en-IN",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "10:30Am - 9:00PM (Closed on 13 May due to election)"
+          }
+        }
+      },
+      "block_order": [
+        "location_xtBwkD"
+      ],
+      "settings": {
+        "title": "HYDERABAD"
+      }
+    },
+    "store_locaters_mQaWeB": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_adeptX": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Store_Page-_Caraousel_c0971db0-4282-4959-a63d-ca3e3a3518b1.jpg",
+            "heading": "Ludhiana",
+            "address": "Sunview enclave, Village Ayali Kalan, Ludhiana, Punjab -141027",
+            "phone": "+91 96670 53818",
+            "url": "https:\/\/maps.app.goo.gl\/F9LU6cLgLrnGCq68A",
+            "store-info-day": "Closed Today",
+            "store-info-time": "10.30 AM  to 8.00 PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_adeptX"
+      ],
+      "settings": {
+        "title": "Ludhiana"
+      }
+    },
+    "store_locaters_nwwbWd": {
+      "type": "store-locaters",
+      "blocks": {
+        "location_dgqByr": {
+          "type": "location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_f04078eb-0be9-4ad7-8fd5-bdbeb3bbbd50.jpg",
+            "heading": "Mulmul - Chennai",
+            "address": "New No.97, old No, 45, Nungambakkam High Rd, Subba Road Avenue, Nungambakkam, Chennai, Tamil Nadu 600034",
+            "phone": "‎+91 8130013793",
+            "url": "",
+            "store-info-day": "Monday - Sunday",
+            "store-info-time": "10.30 AM to 8.00 PM"
+          }
+        }
+      },
+      "block_order": [
+        "location_dgqByr"
+      ],
+      "settings": {
+        "title": "Chennai"
+      }
+    },
+    "gallery_jBKNpQ": {
+      "type": "gallery",
+      "blocks": {
+        "image_xV3AwD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_05f295a0-87f4-4255-b7ed-5b9e0d1f8c1d.png",
+            "caption": ""
+          }
+        },
+        "image_cFRdAV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_4a010dfd-76e6-4e74-a3a2-02f12933373b.png",
+            "caption": ""
+          }
+        },
+        "image_fwmfEf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_b533aaea-730a-4cba-b0d6-32ee30a57448_1.png",
+            "caption": ""
+          }
+        },
+        "image_dNVdix": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_ea3ed3ad-7c61-47e0-a7a6-1dfa57587d36.png",
+            "caption": ""
+          }
+        },
+        "image_JBBpW7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_9c69b0cc-9e20-4e46-911c-54b7cd0c7e3e.png",
+            "caption": ""
+          }
+        },
+        "image_HKKpYr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_b27388e5-b83d-4780-9c91-64980edcbc99.png",
+            "caption": ""
+          }
+        },
+        "image_rHeg4m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_81e796d6-5161-4591-8939-27b0e08dc5b8.png",
+            "caption": ""
+          }
+        },
+        "image_mciy4k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_3e85f1f8-07b9-42ce-9397-8e1e588efc49.png",
+            "caption": ""
+          }
+        },
+        "image_RtBEy3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-2_54f68933-20eb-43da-a66a-52fe36ac987a.jpg",
+            "caption": ""
+          }
+        },
+        "image_eTypKQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_efadda48-90dc-4269-828f-acde71bc2679.png",
+            "caption": ""
+          }
+        },
+        "image_z7PHzN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_e924c019-aeec-448c-b31d-46d9a24e0e38_1.png",
+            "caption": ""
+          }
+        },
+        "image_kd6gAA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_a30bb419-75bd-4e6c-ad54-44724d9e0ef9.png",
+            "caption": ""
+          }
+        },
+        "image_8hdjjT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_b6858a17-066c-40fa-8682-903174bc285b.png",
+            "caption": ""
+          }
+        },
+        "image_cBqCPH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_1ffee55e-ebc4-4923-ac7b-a89b4783b055.png",
+            "caption": ""
+          }
+        },
+        "image_ntKcD4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_7f3bab75-02b3-4bf2-a131-541162615cb0.png",
+            "caption": ""
+          }
+        },
+        "image_iqjn6p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_e142df06-164f-46ce-8455-61f6673ef77c.png",
+            "caption": ""
+          }
+        },
+        "image_HWpUD8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_d6addf1e-a34b-49f1-8f94-1479b800e168.png",
+            "caption": ""
+          }
+        },
+        "image_wbUmqw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_353cd7ca-3e56-4953-b2a2-1f0dfaa024e2.png",
+            "caption": ""
+          }
+        },
+        "image_F9xeMi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_55016dd2-3e29-43f5-b9f6-62cbab999aee.png",
+            "caption": ""
+          }
+        },
+        "image_hMKVep": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_b945f731-973f-4cdc-98d6-c8e556aab7c5.png",
+            "caption": ""
+          }
+        },
+        "image_tcfgTV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_84c92e0c-ee5a-40b0-a551-52d094b84483.png",
+            "caption": ""
+          }
+        },
+        "image_pt9f3L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11_81a178f0-d64c-4273-b8e3-b1fba78299b4.png",
+            "caption": ""
+          }
+        },
+        "image_PNyMWE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13_94812806-bdc0-455e-ac0d-6f727a792ae0.png",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xV3AwD",
+        "image_cFRdAV",
+        "image_fwmfEf",
+        "image_dNVdix",
+        "image_JBBpW7",
+        "image_HKKpYr",
+        "image_rHeg4m",
+        "image_mciy4k",
+        "image_RtBEy3",
+        "image_eTypKQ",
+        "image_z7PHzN",
+        "image_kd6gAA",
+        "image_8hdjjT",
+        "image_cBqCPH",
+        "image_ntKcD4",
+        "image_iqjn6p",
+        "image_HWpUD8",
+        "image_wbUmqw",
+        "image_F9xeMi",
+        "image_hMKVep",
+        "image_tcfgTV",
+        "image_pt9f3L",
+        "image_PNyMWE"
+      ],
+      "settings": {
+        "subheading": "Subheading",
+        "title": "Gallery",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_jVMCix",
+    "store_locaters_aPCDDi",
+    "store_locaters_Cbyj8J",
+    "store_locaters_JAKWDy",
+    "store_locaters_jPxHPt",
+    "store_locaters_DPnrx4",
+    "store_locaters_BjfTGU",
+    "store_locaters_PaB7ix",
+    "store_locaters_mQaWeB",
+    "store_locaters_nwwbWd",
+    "gallery_jBKNpQ"
+  ]
+}

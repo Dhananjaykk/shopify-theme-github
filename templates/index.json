@@ -3,9 +3,11 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide-1": {
+        "image_UP4XC6": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_fe620acc-1618-43a0-abfa-bd128c126ef6.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobine.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "NEW ARRIVALS",
@@ -17,12 +19,12 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide-1"
+        "image_UP4XC6"
       ],
       "settings": {
         "section_height": "auto",
@@ -51,7 +53,7 @@
         "collection_wiPagi": {
           "type": "collection",
           "settings": {
-            "collection": "kurta-sets",
+            "collection": "best-sellers",
             "subheading": "",
             "title": "",
             "link_text": "BESTSELLERS",
@@ -64,27 +66,108 @@
         "collection_ybqUHf": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kurta-sets",
             "subheading": "",
             "title": "",
             "link_text": "KURTA SET",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
+          }
+        },
+        "collection_9L4GHY": {
+          "type": "collection",
+          "settings": {
+            "collection": "lehenga",
+            "image": "shopify:\/\/shop_images\/almora-green-lehenga.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_q7QkRd": {
+          "type": "collection",
+          "settings": {
+            "collection": "kurtas-1",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_y6rXCE": {
+          "type": "collection",
+          "settings": {
+            "collection": "saree",
+            "image": "shopify:\/\/shop_images\/7_e22f771c-6af8-4570-aa32-d12cc0458390.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
         "collection_FxpBik": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "mulmul-studio-western",
             "subheading": "",
             "title": "",
-            "link_text": "KURTA SET",
+            "link_text": "{{ block.settings.collection.title }}",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
+          }
+        },
+        "collection_FDzMDr": {
+          "type": "collection",
+          "settings": {
+            "collection": "mulmul-footwear",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_tHGC6W": {
+          "type": "collection",
+          "settings": {
+            "collection": "mulmul-potli",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_JEEW4E": {
+          "type": "collection",
+          "settings": {
+            "collection": "jewelry",
+            "image": "shopify:\/\/shop_images\/11_00693a99-eb6c-45fe-af4a-38c3697d68b2.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
@@ -92,15 +175,61 @@
         "collection_4NBCmf",
         "collection_wiPagi",
         "collection_ybqUHf",
-        "collection_FxpBik"
+        "collection_9L4GHY",
+        "collection_q7QkRd",
+        "collection_y6rXCE",
+        "collection_FxpBik",
+        "collection_FDzMDr",
+        "collection_tHGC6W",
+        "collection_JEEW4E"
       ],
       "settings": {
         "reveal_on_scroll": false,
         "layout": "carousel",
         "subheading": "",
-        "title": "CATEGORIES",
+        "title": "Categories",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_3wbdgX": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_kWzYed": {
+          "type": "collection",
+          "settings": {
+            "collection": "organza",
+            "label": "Mulmul Organzas",
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/organza"
+          }
+        },
+        "collection_pz7ADt": {
+          "type": "collection",
+          "settings": {
+            "collection": "mulmul-cottons",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_kWzYed",
+        "collection_pz7ADt"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Most Loved Fabrics",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "slideshow_8GRXMD": {
@@ -109,6 +238,8 @@
         "image_XdkWcG": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/rakhi.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_-_rakhi_section_1.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "THIS RAKHI STAND OUT WITH MULMUL",
@@ -120,7 +251,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
@@ -139,7 +270,7 @@
       "type": "rich-text",
       "settings": {
         "subheading": "",
-        "title": "RAKHI EDIT",
+        "title": "Rakhi Edit",
         "content": "<p>This Mother's Day, let us pay homage to the women who have shaped our lives with their boundless love and unwavering support. Let us celebrate their timeless beauty, inner strength, and indomitable spirit. And above all, let us honor them with the gift of elegance and sophistication, for they deserve nothing less than the very best.<\/p>",
         "button_text": "",
         "button_link": "",
@@ -160,26 +291,70 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/4_b07826af-3ec3-48e7-94da-39656963996b.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Khushi Kapoor",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0
           }
         },
         "collection-2": {
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Sanchita Arora",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
+          }
+        },
+        "collection_kJ4Ui3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Sanchita Arora",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_QXNqia": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Sanchita Arora",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_NVapd8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Sanchita Arora",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
         "collection-3": {
@@ -212,17 +387,20 @@
       "block_order": [
         "collection-1",
         "collection-2",
+        "collection_kJ4Ui3",
+        "collection_QXNqia",
+        "collection_NVapd8",
         "collection-3",
         "collection_PdHa9c"
       ],
       "custom_css": [
-        ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -11px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}"
+        ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -17px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
         "layout": "carousel",
         "subheading": "",
-        "title": "AS SEEN ON",
+        "title": "As Seen On",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -233,7 +411,9 @@
         "look_aKMcAP": {
           "type": "look",
           "settings": {
-            "dot_type": "inverted",
+            "image": "shopify:\/\/shop_images\/shop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Shop_the_Look_-_Mobile_a24106c6-74d8-4324-bfc9-e5cec024bb63.jpg",
+            "dot_type": "normal",
             "product_1": "",
             "product_1_horizontal_position": 41,
             "product_1_vertical_position": 41,
@@ -266,27 +446,29 @@
         "collection_LpbFyh": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "mulmul-accessories",
+            "image": "shopify:\/\/shop_images\/1_1fe9df08-0807-4c6e-ae2c-ab83450c4efc.jpg",
             "subheading": "",
             "title": "",
             "link_text": "ACCESSORIES",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_M8XKWG": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "gift",
+            "image": "shopify:\/\/shop_images\/2_d456429f-5c58-4cfc-ae0c-711dc1148695.jpg",
             "subheading": "",
             "title": "",
             "link_text": "MULMUL GIFTS",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
@@ -294,9 +476,12 @@
         "collection_LpbFyh",
         "collection_M8XKWG"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 1000px) {.list-collections--collage .list-collections__item-list {margin-inline: 0; }}"
+      ],
       "settings": {
         "reveal_on_scroll": false,
-        "layout": "grid",
+        "layout": "collage",
         "subheading": "",
         "title": "",
         "background": "rgba(0,0,0,0)",
@@ -393,11 +578,96 @@
         "collection_AgFPxG",
         "collection_kift9n"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "layout": "carousel",
         "subheading": "",
         "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "new_testimonial_6Q8XCh": {
+      "type": "new-testimonial",
+      "blocks": {
+        "item_MbFnNL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Raheela",
+            "content": "<p>Absolutely loved wearing this one 💖<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_EBygpP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "pooja",
+            "content": "<p>Thank you so much for the beautiful outfit ♥️ Everybody just loved my outfit Can’t wait to shop more ✨🥹<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_9d9drq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Aasiyah",
+            "content": "<p>Got the most stunning eid outfits! Thank you ♥️<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_QhaRk9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_MbFnNL",
+        "item_EBygpP",
+        "item_9d9drq",
+        "item_QhaRk9"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "Love shared by you",
+        "title": "MULMUL AND ME",
+        "content": "<p><a href=\"\/pages\/mulmul-and-me\" title=\"Mulmul and Me\">View all<\/a><\/p>",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -412,7 +682,7 @@
             "subheading": "",
             "title": "",
             "button_1_text": "OUR FABRICS",
-            "button_1_link": "",
+            "button_1_link": "shopify:\/\/pages\/fabrics",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -433,102 +703,19 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
-    },
-    "multi_column_DrXY9L": {
-      "type": "multi-column",
-      "blocks": {
-        "item_CX3tjK": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_wB4Dba": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_W8nD3m": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_cfhGaL": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_CX3tjK",
-        "item_wB4Dba",
-        "item_W8nD3m",
-        "item_cfhGaL"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "stack_items": false,
-        "subheading": "Subheading",
-        "title": "Multi-column",
-        "content": "",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "medium",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
     "slideshow",
     "new_collection_list_e8jhYQ",
+    "featured_collections_3wbdgX",
     "slideshow_8GRXMD",
     "rich_text_VKjBDM",
     "collection-list",
     "shop_the_look_LL7CN8",
     "new_collection_list_amrLP7",
     "new_collection_list_kKfBEK",
-    "slideshow_JGPKBj",
-    "multi_column_DrXY9L"
+    "new_testimonial_6Q8XCh",
+    "slideshow_JGPKBj"
   ]
 }
