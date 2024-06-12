@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_fe620acc-1618-43a0-abfa-bd128c126ef6.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobine.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "NEW ARRIVALS",
