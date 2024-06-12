@@ -3,24 +3,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-1_554f7d4d-5158-4eff-95ea-15b25b60463f.jpg",
-            "text_position": "bottom_center",
-            "subheading": "",
-            "title": "NEW ARRIVALS",
-            "button_1_text": "DISCOVER NOW",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "image_UP4XC6": {
           "type": "image",
           "settings": {
@@ -41,7 +23,6 @@
         }
       },
       "block_order": [
-        "slide-1",
         "image_UP4XC6"
       ],
       "settings": {
