@@ -258,12 +258,23 @@
       "block_order": [
         "image_XdkWcG"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "auto",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_marquee_R3BzXJ": {
+      "type": "image-with-marquee",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rakhi.jpg",
+        "split_image": "shopify:\/\/shop_images\/Shop_the_Look_-_Mobile_a24106c6-74d8-4324-bfc9-e5cec024bb63.jpg",
+        "button_1_text": "SHOP NOW",
+        "button_1_link": "",
+        "conten": "<p><strong>THIS RAKHI <\/strong>STAND OUT WITH MULMUL<\/p>"
       }
     },
     "rich_text_VKjBDM": {
@@ -703,16 +714,6 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
-    },
-    "image_with_marquee_R3BzXJ": {
-      "type": "image-with-marquee",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Shop_the_Look_-_Desktop.jpg",
-        "split_image": "shopify:\/\/shop_images\/Shop_the_Look_-_Mobile_a24106c6-74d8-4324-bfc9-e5cec024bb63.jpg",
-        "button_1_text": "SHOP NOW",
-        "button_1_link": "",
-        "conten": "<p><strong>THIS RAKHI <\/strong>STAND OUT WITH MULMUL<\/p>"
-      }
     }
   },
   "order": [
@@ -720,13 +721,13 @@
     "new_collection_list_e8jhYQ",
     "featured_collections_3wbdgX",
     "slideshow_8GRXMD",
+    "image_with_marquee_R3BzXJ",
     "rich_text_VKjBDM",
     "collection-list",
     "shop_the_look_LL7CN8",
     "new_collection_list_amrLP7",
     "new_collection_list_kKfBEK",
     "new_testimonial_6Q8XCh",
-    "slideshow_JGPKBj",
-    "image_with_marquee_R3BzXJ"
+    "slideshow_JGPKBj"
   ]
 }
