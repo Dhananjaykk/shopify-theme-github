@@ -17,6 +17,39 @@
 .image-with-marquee img{
   width:100%;
 }
+.marquee-row{
+  width: 100%;
+  overflow-x: hidden;
+}
+  .marquee-block{
+  position:relative;
+  display: flex;
+  width: 100%;  
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  justify-content: space-between;
+}
+.marquee-item-list{
+ display: inline-flex;
+}
+.marquee-item-list{
+width: 100%;
+list-style: none;
+padding-right: 30px;
+font-size: 40px;
+white-space: nowrap
+}
+.marquee1{animation-name: marquee1;}
+.marquee2{animation-name: marquee2;}
+@keyframes marquee1 {
+  0% { left: 0; }
+  100% {left: -100%;}
+}
+@keyframes marquee2 {
+  100% { left: 0; }
+  0% {left: -100%;}
+}
 @media only screen and (max-width: 786px) {
   .desktop_image{
     display:none;
@@ -27,14 +60,53 @@
 <img src="{{section.settings.image  | img_url: 'master'}}" class="desktop_image">
 <img src="{{section.settings.split_image  | img_url: 'master'}}" class="mobile_image">
 <div class="marquee-conten">
+<div class="marquee-row">
+<div class="marquee-block marquee1">
+<div class="marquee-item-list">
 <div class="marquee-text">
 <div class="heading heading--large">{{section.settings.conten}}</div>
+</div>
+</div>
+<div class="marquee-item-list">
+<div class="marquee-text">
+<div class="heading heading--large">{{section.settings.conten}}</div>
+</div>
+</div>
+<div class="marquee-item-list">
+<div class="marquee-text">
+<div class="heading heading--large">{{section.settings.conten}}</div>
+</div>
+</div>
+<div class="marquee-item-list">
+<div class="marquee-text">
+<div class="heading heading--large">{{section.settings.conten}}</div>
+</div>
+</div>
+</div>
 </div>
 <div class="button-wrapper" reveal="" style="opacity: 1; visibility: visible;">
 <a href="{{section.settings.button_1_text}}" class="button button--primary">{{section.settings.button_1_text}}</a>
 </div>
 </div>
 </div>
+
+<script>
+// Get the number of elements with class "marquee-item-list"
+var elements = document.querySelectorAll('.marquee-item-list').length;
+
+// Loop from 0 to the number of elements
+for (var i = 0; i < elements; i++) {
+  // Clone each element and prepend it to the element with class "marquee-block"
+  var clone = document.querySelector('.marquee-item-list').cloneNode(true);
+  document.querySelector('.marquee-block').insertBefore(clone, document.querySelector('.marquee-block').firstChild);
+}
+
+// Initialize an array
+var liEle = [];
+
+// Assign all elements with class "marquee-item-list" to the array
+liEle = Array.from(document.querySelectorAll('.marquee-item-list'));
+</script>
 {% schema %}
   {
     "name": "image-with-marquee",
