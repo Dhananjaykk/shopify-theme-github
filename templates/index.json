@@ -271,7 +271,6 @@
       "type": "image-with-marquee",
       "settings": {
         "image": "shopify:\/\/shop_images\/rakhi.jpg",
-        "split_image": "shopify:\/\/shop_images\/Shop_the_Look_-_Mobile_a24106c6-74d8-4324-bfc9-e5cec024bb63.jpg",
         "button_1_text": "SHOP NOW",
         "button_1_link": "",
         "conten": "<p><strong>THIS RAKHI <\/strong>STAND OUT WITH MULMUL<\/p>"
