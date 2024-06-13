@@ -703,6 +703,13 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
+    },
+    "image_with_marquee_R3BzXJ": {
+      "type": "image-with-marquee",
+      "settings": {
+        "button_1_text": "",
+        "button_1_link": ""
+      }
     }
   },
   "order": [
@@ -716,6 +723,7 @@
     "new_collection_list_amrLP7",
     "new_collection_list_kKfBEK",
     "new_testimonial_6Q8XCh",
-    "slideshow_JGPKBj"
+    "slideshow_JGPKBj",
+    "image_with_marquee_R3BzXJ"
   ]
 }
