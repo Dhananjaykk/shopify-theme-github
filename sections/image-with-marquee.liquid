@@ -2,6 +2,19 @@
 .mobile_image{
   display:none;
 }
+.marquee-conten {
+       position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    margin:auto;
+}
+.image-with-marquee {
+    position: relative;
+}
+
 @media only screen and (max-width: 786px) {
   .desktop_image{
     display:none;
@@ -13,7 +26,7 @@
 <img src="{{section.settings.split_image  | img_url: 'master'}}" class="mobile_image">
 <div class="marquee-conten">
 <div class="marquee-text">
-{{section.settings.conten}}
+<div class="heading heading--large">{{section.settings.conten}}</div>
 </div>
 <div class="button-wrapper" reveal="" style="opacity: 1; visibility: visible;">
 <a href="{{section.settings.button_1_text}}" class="button button--primary">{{section.settings.button_1_text}}</a>
