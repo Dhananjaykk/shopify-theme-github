@@ -326,11 +326,11 @@
             "overlay_opacity": 0
           }
         },
-        "collection_kJ4Ui3": {
+        "collection_QXNqia": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
+            "image": "shopify:\/\/shop_images\/5_aec4bfa6-c63c-4da6-a3da-55d4e610a3f4.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Sanchita Arora",
@@ -340,9 +340,8 @@
             "overlay_opacity": 0
           }
         },
-        "collection_QXNqia": {
+        "collection_kJ4Ui3": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
@@ -402,8 +401,8 @@
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection_kJ4Ui3",
         "collection_QXNqia",
+        "collection_kJ4Ui3",
         "collection_NVapd8",
         "collection-3",
         "collection_PdHa9c"
