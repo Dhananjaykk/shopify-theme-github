@@ -488,11 +488,12 @@
         "collection_M8XKWG"
       ],
       "custom_css": [
-        "@media screen and (min-width: 1000px) {.list-collections--collage .list-collections__item-list {margin-inline: 0; }}"
+        "@media screen and (min-width: 1000px) {.list-collections--collage .list-collections__item-list {margin-inline: 0; }}",
+        "@media screen and (min-width: 741px) {.list-collections__item-list {grid-template-columns: repeat(auto-fit, calc(100% \/ 2 - var(--container-gutter)* 2 \/ 3)); grid-gap: var(--container-gutter); justify-content: safe center; }}"
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "layout": "collage",
+        "layout": "grid",
         "subheading": "",
         "title": "",
         "background": "rgba(0,0,0,0)",
