@@ -492,7 +492,7 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "layout": "collage",
+        "layout": "grid",
         "subheading": "",
         "title": "",
         "background": "rgba(0,0,0,0)",
