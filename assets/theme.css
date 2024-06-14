@@ -1,4 +1,7 @@
 /* -------------custom css start------------------ */
+.text-with-icons__item {
+  background: #fcf7f0;
+}
 
 .list-collections__item-info.text-container.list-info {
     bottom: 0;
