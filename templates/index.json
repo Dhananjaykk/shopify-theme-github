@@ -409,7 +409,8 @@
         "collection_PdHa9c"
       ],
       "custom_css": [
-        ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -17px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}"
+        ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -17px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}",
+        "@media screen and (min-width: 1000px) {.list-collections--carousel .list-collections__item-list {grid-auto-columns: 29vw; }}"
       ],
       "settings": {
         "reveal_on_scroll": false,
