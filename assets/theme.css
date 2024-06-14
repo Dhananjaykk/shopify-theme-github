@@ -36,6 +36,12 @@ button#AddToCart {
   button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
     padding: 0 !important;
 }
+.text-with-icons__item {
+  background: transparent;
+}
+.text-with-icons__item {
+
+}
 }
 
 /* ----------------custom css end-------------------------- */
