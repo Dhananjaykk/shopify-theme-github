@@ -80,6 +80,12 @@
           "pagination": "",
           "custom_css": ""
         }
+      },
+      "8183701962187534751": {
+        "type": "shopify:\/\/apps\/wishlist-club\/blocks\/wishlist-script\/582a225b-bd58-49d0-b0b6-9479192e79c5",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
