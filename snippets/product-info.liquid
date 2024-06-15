@@ -73,6 +73,7 @@
           </div>
         {%- endif -%}
       </div>
+      <div class="th_prd_wl_btn" data-product_id="{{product.id}}" data-variant_id="{{product.selected_or_first_available_variant.id}}"></div>
 
       <div class="product-meta__label-list label-list" data-product-label-list>
         {%- unless product.selected_or_first_available_variant.available -%}
