@@ -54,11 +54,18 @@
                     <span id="{{ option_id }}-value" class="product-form__option-value">{{ option.selected_value }}</span>
                   {%- endif -%}
 
-                  {%- if size_chart_page != blank and size_label_list contains option_downcase -%}
+                  {%- assign producttypes = product.type | downcase -%} 
+                  {%- if size_chart_page != blank and size_label_list contains option_downcase and option.name != 'Bottom Size' -%} {% comment %}   {% endcomment %}
                     {%- assign found_size_option = true -%}
                     <button type="button" is="toggle-button" class="product-form__option-link link text--subdued hidden-phone" aria-controls="product-{{ section.id }}-{{ product.id }}-size-chart-drawer" aria-expanded="false">{{ 'product.general.size_chart' | t }}</button>
                     <button type="button" is="toggle-button" class="product-form__option-link link text--subdued hidden-tablet-and-up" aria-controls="product-{{ section.id }}-{{ product.id }}-size-chart-popover" aria-expanded="false">{{ 'product.general.size_chart' | t }}</button>
-                  {%- endif -%}
+                {% elsif size_chart_page != blank and size_label_list contains option_downcase and producttypes contains 'pajama' %} 
+                   {%- assign found_size_option = true -%}
+                    <button type="button" is="toggle-button" class="product-form__option-link link text--subdued hidden-phone" aria-controls="product-{{ section.id }}-{{ product.id }}-size-chart-drawer" aria-expanded="false">{{ 'product.general.size_chart' | t }}</button>
+                    <button type="button" is="toggle-button" class="product-form__option-link link text--subdued hidden-tablet-and-up" aria-controls="product-{{ section.id }}-{{ product.id }}-size-chart-popover" aria-expanded="false">{{ 'product.general.size_chart' | t }}</button>
+                 {% else %}
+                    <span>.</span>
+                    {%- endif -%}
                 </div>
 
                 {%- case selector_type -%}
@@ -483,13 +490,32 @@
 IMPLEMENTATION NOTE: if during the iteration of the options we have found an option matching a size chart, we add it here
 {%- endcomment -%}
 
+<style>
+  .sizechartcustom {max-width:600px;}
+  .sizechartcustom .table th, .sizechartcustom .table td {
+    padding: 7px;  
+}
+ .sizechartcustom .table tr {
+     border-bottom: 1px solid #dad6d0;
+ }
+ .sizechartcustom .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #dedada;
+}
+ .sizechartcustom .table-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+  .sizechartcustom .rte table th:first-child {padding-left:12px;}
+</style>
+
 {%- if found_size_option and size_chart_page != blank -%}
   {%- comment -%}Drawer is for tablet and desktop{%- endcomment -%}
-  <drawer-content id="product-{{ section.id }}-{{ product.id }}-size-chart-drawer" class="drawer drawer--large hidden-phone">
+  <drawer-content id="product-{{ section.id }}-{{ product.id }}-size-chart-drawer" class="sizechartcustom drawer drawer--large hidden-phone">
     <span class="drawer__overlay"></span>
 
     <header class="drawer__header">
-      <p class="drawer__title heading h6">{{ size_chart_page.title }}</p>
+      <p class="drawer__title heading h6">Size Chart{%- comment -%}{{ size_chart_page.title }}{%- endcomment -%}</p>
 
       <button type="button" class="drawer__close-button tap-area" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
         {%- render 'icon' with 'close' -%}
@@ -498,7 +524,277 @@ IMPLEMENTATION NOTE: if during the iteration of the options we have found an opt
 
     <div class="drawer__content drawer__content--padded-start">
       <div class="rte">
-        {{- size_chart_page.content -}}
+     {% comment %}   {{- size_chart_page.content -}} {% endcomment %}
+     {% if product.type == 'KURTA SET' or product.type == 'KURTA SETS' or product.type == 'Kurta sets' or product.type == 'Kurta Sets'or product.type == 'Co-ord Set'or product.type == 'Dress' or product.type == 'Shirt' or product.type == 'Top'or product.type == 'Kaftan' or product.type =='Pajama'%}
+                   <div>
+    <img style="margin:0px" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/1_cbcfabcd-ccf8-436b-8d16-6b98d565476b.jpg?v=1710570602"> 
+                     <img style="margin:0px" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/2_315bf334-a1a4-46dd-95df-0377c9053204.jpg?v=1710570602">
+                   </div>
+<!--     <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+    	<tr>
+      <th scope="col">KURTAS</th>
+      <th scope="col" class="table-cell">XS</th>
+      <th scope="col" class="table-cell">S</th>
+      <th scope="col" class="table-cell">M</th>
+      <th scope="col" class="table-cell">L</th>
+      <th scope="col" class="table-cell">XL</th>
+      <th scope="col" class="table-cell">XXL</th>
+      <th scope="col" class="table-cell">XXXL</th>
+    </tr>
+   </thead> 
+  <tbody>
+    <tr>
+      <th scope="row">UK</th>
+      <td class="table-cell">8</td>
+      <td class="table-cell">10</td>
+      <td class="table-cell">12</td>
+      <td class="table-cell">14</td>
+      <td class="table-cell">16</td>
+      <td class="table-cell">18</td>
+      <td class="table-cell">20</td>
+    </tr>
+    <tr>
+      <th scope="row">Bust</th>
+      <td class="table-cell">37</td>
+      <td class="table-cell">39</td>
+      <td class="table-cell">41</td>
+      <td class="table-cell">43</td>
+      <td class="table-cell">45</td>
+      <td class="table-cell">49</td>
+      <td class="table-cell">51</td>
+    </tr>
+    <tr>
+      <th scope="row">Waist</th>
+      <td class="table-cell">35</td>
+      <td class="table-cell">37</td>
+      <td class="table-cell">39</td>
+      <td class="table-cell">41</td>
+      <td class="table-cell">43</td>
+      <td class="table-cell">47</td>
+      <td class="table-cell">49</td>
+    </tr>
+    <tr>
+      <th scope="row">Hip</th>
+      <td class="table-cell">40</td>
+      <td class="table-cell">42</td>
+      <td class="table-cell">44</td>
+      <td class="table-cell">46</td>
+      <td class="table-cell">48</td>
+      <td class="table-cell">50</td>
+      <td class="table-cell">52</td>
+    </tr>
+    <tr>
+      <th scope="row">Shoulder</th>
+      <td class="table-cell">14.5</td>
+      <td class="table-cell">15</td>
+      <td class="table-cell">15.5</td>
+      <td class="table-cell">16</td>
+      <td class="table-cell">16.5</td>
+      <td class="table-cell">17.5</td>
+      <td class="table-cell">18</td>
+    </tr>
+  </tbody>
+   </table>
+   </div> 
+        
+    <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+    	 <tr>
+      <th scope="col">PAJAMA</th>
+      <th scope="col" class="table-cell">XS</th>
+      <th scope="col" class="table-cell">S</th>
+      <th scope="col" class="table-cell">M</th>
+      <th scope="col" class="table-cell">L</th>
+      <th scope="col" class="table-cell">XL</th>
+      <th scope="col" class="table-cell">XXL</th>
+      <th scope="col" class="table-cell">XXXL</th>
+    </tr>
+   </thead> 
+  <tbody>
+
+    <tr>
+      <th scope="row">Waist</th>
+      <td class="table-cell">25.5</td>
+      <td class="table-cell">27</td>
+      <td class="table-cell">28.5</td>
+      <td class="table-cell">30</td>
+      <td class="table-cell">31.5</td>
+      <td class="table-cell">33.5</td>
+      <td class="table-cell">35</td>
+    </tr>
+    <tr>
+      <th scope="row">Hip</th>
+      <td class="table-cell">38</td>
+      <td class="table-cell">40</td>
+      <td class="table-cell">42</td>
+      <td class="table-cell">44</td>
+      <td class="table-cell">46</td>
+      <td class="table-cell">49</td>
+      <td class="table-cell">51</td>
+    </tr>
+   
+  </tbody>
+      </table>
+   </div>  -->
+         {% elsif product.type  == 'Lehenga'%}  
+        <div><img style="margin:0px" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/lehengas_26bcde92-481d-412d-aea1-124ac9bb1a27.png?v=1670318314"></div>
+      
+      {% elsif product.type  == 'KIDS'or product.type == 'Kids'%}  
+        <div><img style="margin:0px" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/Kids.png?v=1665141513"></div>
+        
+{% elsif product.type  == 'Men'or product.type == 'men'%}  
+        <div><img style="margin:0px" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/men.jpg?v=1698146382"></div>
+        {% elsif product.type  == 'Footwear'%}  
+        <div><img style="margin:0px" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/size_chart_footwear_22_05_2024.jpg?v=1716388709"></div>
+        
+        {% elsif productTags contains "pre_stitched_saree"%}  
+        <div><img style="margin:0px" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/IMG_9988_1.png?v=1716447336"></div>
+    {% else %}
+    
+    <form method="post" action="/cart/add" accept-charset="UTF-8" enctype="multipart/form-data" class="sizechartmodaldesktop">
+      <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+      <th scope="col">Select</th>
+        {% for variant in product.variants %}
+      <th scope="col" class="table-cell"><label class="container_Radio">
+  <input class="variant-item" data-index="{{ forloop.index }}" type="radio"{% if variant.id == product.selected_or_first_available_variant.id %} checked="checked"{% endif %} name="id" value="{{ variant.id }}">
+  <span class="checkmark"></span>
+</label></th>
+      {% endfor %}
+    </tr>
+        </thead>
+{% if product.type == 'KURTA'or product.type == 'kurta' or product.type == 'Kurta'%}
+    <thead>
+      <tr>
+      <th scope="col">KURTAS</th>
+      <th scope="col" class="table-cell">XS</th>
+      <th scope="col" class="table-cell">S</th>
+      <th scope="col" class="table-cell">M</th>
+      <th scope="col" class="table-cell">L</th>
+      <th scope="col" class="table-cell">XL</th>
+      <th scope="col" class="table-cell">XXL</th>
+      <th scope="col" class="table-cell">XXXL</th>
+    </tr>
+   </thead> 
+  <tbody>
+    <tr>
+      <th scope="row">UK</th>
+      <td class="table-cell">8</td>
+      <td class="table-cell">10</td>
+      <td class="table-cell">12</td>
+      <td class="table-cell">14</td>
+      <td class="table-cell">16</td>
+      <td class="table-cell">18</td>
+      <td class="table-cell">20</td>
+    </tr>
+    <tr>
+      <th scope="row">Bust</th>
+      <td class="table-cell">37</td>
+      <td class="table-cell">39</td>
+      <td class="table-cell">41</td>
+      <td class="table-cell">43</td>
+      <td class="table-cell">45</td>
+      <td class="table-cell">49</td>
+      <td class="table-cell">51</td>
+    </tr>
+    <tr>
+      <th scope="row">Waist</th>
+      <td class="table-cell">35</td>
+      <td class="table-cell">37</td>
+      <td class="table-cell">39</td>
+      <td class="table-cell">41</td>
+      <td class="table-cell">43</td>
+      <td class="table-cell">47</td>
+      <td class="table-cell">49</td>
+    </tr>
+    <tr>
+      <th scope="row">Hip</th>
+      <td class="table-cell">40</td>
+      <td class="table-cell">42</td>
+      <td class="table-cell">44</td>
+      <td class="table-cell">46</td>
+      <td class="table-cell">48</td>
+      <td class="table-cell">50</td>
+      <td class="table-cell">52</td>
+    </tr>
+    <tr>
+      <th scope="row">Shoulder</th>
+      <td class="table-cell">14.5</td>
+      <td class="table-cell">15</td>
+      <td class="table-cell">15.5</td>
+      <td class="table-cell">16</td>
+      <td class="table-cell">16.5</td>
+      <td class="table-cell">17.5</td>
+      <td class="table-cell">18</td>
+    </tr>
+  </tbody>
+
+       {% elsif product.type == 'Mens' %}
+       <div><img style="margin:0px" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/WhatsApp_Image_2022-10-14_at_12.45.02_1.jpg?v=1665731941"></div>
+      
+ {% elsif product.type == 'Footwear' %}
+       <div><img style="margin:0px" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/size_chart_footwear_22_05_2024.jpg?v=1716388709"></div>
+      
+   {% elsif product.type == 'PAJAMA' %}   
+          <div><img style="margin:0px" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/pyajamas.png?v=1670318314"></div>
+
+<!--       <thead>
+          <tr>
+      <th scope="col">PAJAMA</th>
+      <th scope="col" class="table-cell">XS</th>
+      <th scope="col" class="table-cell">S</th>
+      <th scope="col" class="table-cell">M</th>
+      <th scope="col" class="table-cell">L</th>
+      <th scope="col" class="table-cell">XL</th>
+      <th scope="col" class="table-cell">XXL</th>
+      <th scope="col" class="table-cell">XXXL</th>
+    </tr>
+   </thead> 
+  <tbody>
+
+    <tr>
+      <th scope="row">Waist</th>
+      <td class="table-cell">25.5</td>
+      <td class="table-cell">27</td>
+      <td class="table-cell">28.5</td>
+      <td class="table-cell">30</td>
+      <td class="table-cell">31.5</td>
+      <td class="table-cell">33.5</td>
+      <td class="table-cell">35</td>
+    </tr>
+    <tr>
+      <th scope="row">Hip</th>
+      <td class="table-cell">38</td>
+      <td class="table-cell">40</td>
+      <td class="table-cell">42</td>
+      <td class="table-cell">44</td>
+      <td class="table-cell">46</td>
+      <td class="table-cell">49</td>
+      <td class="table-cell">51</td>
+    </tr>
+   
+  </tbody> -->
+{% endif %}
+      
+      
+</table>
+        
+
+        
+        
+
+      </div> <input type="hidden" name="quantity" value="1">
+<button type="submit" data-use-primary-button="false" class="button button--primary button--full modaldesktopaddtocart" ><span>Add to cart</span></button>    
+    </form>
+
+      
+      <center><div id="size-form-successdesktop" style="display:none;color:green">ITEM ADDED</div></center>
+  {% endif %}
       </div>
     </div>
   </drawer-content>
