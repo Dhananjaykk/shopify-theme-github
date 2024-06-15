@@ -10696,7 +10696,7 @@ shopify-payment-terms {
 
   @supports (height: min(1px, 2px)) {
     .product-sticky-form__variants .select {
-      min-width: min(max(var(--largest-option-width), 115px), 250px);
+      min-width: min(max(var(--largest-option-width), 110px), 230px);
     }
   }
 
