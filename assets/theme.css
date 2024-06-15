@@ -1,4 +1,40 @@
 /* -------------custom css start------------------ */
+.Button__SeparatorDot {
+  display: inline-block;
+  margin: 0 18px;
+  content: "";
+  height: 3px;
+  width: 3px;
+  border-radius: 100%;
+  background: #fff;
+}
+       .soldcustomtext {
+  text-align: center;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 700;
+}
+.soldcustomtext p {
+  margin: 0px;
+}
+    .soldcustomtext a  {
+        vertical-align: middle;
+      }
+.hideforsolout {display:none;}
+    .pdppagechaticon{
+            background: black;
+            color: white;
+            border-radius: 5px;
+            padding: 14px;
+    }
+    .button-iconw{
+        position: relative;
+    }
+    .icon_cust{
+        position: absolute;
+  top: -35px;
+  left: 45%;
+    }
 .svg-mb.wishlist-icon {
   position: relative;    margin: 0 0px;
 }
