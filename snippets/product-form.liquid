@@ -47,7 +47,7 @@
               {%- endif -%}
 
               <div class="product-form__option-selector" data-selector-type="{{ selector_type | replace: '_', '-' | escape }}">
-                <div class="product-form__option-info {{ size_label_list }} -{{ option_downcase }}-">
+                <div class="product-form__option-info ">
                   <span class="product-form__option-name">{{ option.name }}:</span>
 
                   {%- if selector_type != 'dropdown' -%}
