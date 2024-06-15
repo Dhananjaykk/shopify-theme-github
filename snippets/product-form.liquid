@@ -55,11 +55,11 @@
                   {%- endif -%}
 
                   {%- assign producttypes = product.type | downcase -%} 
-                  {%- if size_chart_page != blank and size_label_list contains option_downcase and option.name != 'Bottom Size' -%} {% comment %}   {% endcomment %}
+                  {%- if size_chart_page != blank and option.name != 'Bottom Size' -%} {% comment %}   {% endcomment %}
                     {%- assign found_size_option = true -%}
                     <button type="button" is="toggle-button" class="product-form__option-link link text--subdued hidden-phone" aria-controls="product-{{ section.id }}-{{ product.id }}-size-chart-drawer" aria-expanded="false">{{ 'product.general.size_chart' | t }}</button>
                     <button type="button" is="toggle-button" class="product-form__option-link link text--subdued hidden-tablet-and-up" aria-controls="product-{{ section.id }}-{{ product.id }}-size-chart-popover" aria-expanded="false">{{ 'product.general.size_chart' | t }}</button>
-                {% elsif size_chart_page != blank and size_label_list contains option_downcase and producttypes contains 'pajama' %} 
+                {% elsif size_chart_page != blank and producttypes contains 'pajama' %} 
                    {%- assign found_size_option = true -%}
                     <button type="button" is="toggle-button" class="product-form__option-link link text--subdued hidden-phone" aria-controls="product-{{ section.id }}-{{ product.id }}-size-chart-drawer" aria-expanded="false">{{ 'product.general.size_chart' | t }}</button>
                     <button type="button" is="toggle-button" class="product-form__option-link link text--subdued hidden-tablet-and-up" aria-controls="product-{{ section.id }}-{{ product.id }}-size-chart-popover" aria-expanded="false">{{ 'product.general.size_chart' | t }}</button>
