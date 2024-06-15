@@ -19,8 +19,8 @@
 .text-with-icons__item {
   background: #fcf7f0;
 }
-
-element.style {
+.th_wlc_position_relative img{
+  max-width: fit-content !important;
 }
 .block-swatch__radio:checked+.block-swatch__item {
     background: #000 !important;
