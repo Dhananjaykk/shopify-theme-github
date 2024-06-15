@@ -288,6 +288,9 @@ a.header__icon-wrapper.tap-area.hidden-pocket.hidden-lap {
               {%- render 'icon' with 'header-customer' -%}
             </a>
           {%- endif -%}
+          <div class="svg-mb wishlist-icon">
+            <a href="/apps/wishlist" class="th_wlc_position_relative"><div class="th_wlc_product_count" style="background: white!important; color: black; top: -6px; right: -10px;"></div> <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/download.svg?v=1672224176" style="width: 23px;"> </a>
+           </div>
 
           <a href="{{ routes.cart_url }}" {% unless settings.cart_type == 'page' or request.page_type == 'cart' %}is="toggle-link" aria-controls="mini-cart" aria-expanded="false"{% endunless %} class="header__icon-wrapper tap-area {% unless section.settings.show_icons %}hidden-desk{% endunless %}" aria-label="{{ 'header.general.cart' | t | escape }}" data-no-instant>
             {%- case settings.cart_icon -%}
