@@ -30,6 +30,11 @@
           "settings": {
           }
         },
+        "unstitched_stitched_6REXMU": {
+          "type": "Unstitched-stitched",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -47,6 +52,7 @@
         "others_color_options_rxVXhE",
         "variant_picker",
         "quantity_selector",
+        "unstitched_stitched_6REXMU",
         "buy_buttons"
       ],
       "settings": {
