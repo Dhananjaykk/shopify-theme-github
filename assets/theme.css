@@ -6,7 +6,7 @@
 element.style {
 }
 .block-swatch__radio:checked+.block-swatch__item {
-    background: bl#000 !important;
+    background: #000 !important;
     color: #fff;
 }
 
