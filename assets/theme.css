@@ -9,6 +9,7 @@ element.style {
     background: black;
     color: #fff;
 }
+
 .list-collections__item-info.text-container.list-info {
     bottom: 0;
     top: auto;
