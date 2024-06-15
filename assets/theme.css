@@ -3,6 +3,12 @@
   background: #fcf7f0;
 }
 
+element.style {
+}
+.block-swatch__radio:checked+.block-swatch__item {
+    background: black;
+    color: #fff;
+}
 .list-collections__item-info.text-container.list-info {
     bottom: 0;
     top: auto;
