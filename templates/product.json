@@ -80,6 +80,14 @@
             "liquid": "{% render 'need-help' %}"
           }
         },
+        "content_npWDTL": {
+          "type": "content",
+          "settings": {
+            "title": "Sale: Terms and Conditions",
+            "content": "<ul><li> Your order may take up to 15 days to dispatch.<\/li><li>Orders once created can't be cancelled.<\/li><li>NO EXCHANGES & NO RETURNS on sale products.<\/li><li>Any existing bliss points can be redeemed on sale products.<\/li><li>No bliss points awarded on sale products (cannot be carried forward).<\/li><\/ul><p> <a href=\"\/pages\/happiness-sale-terms-and-conditions\" title=\"Sale: Terms and Conditions\">KNOW MORE<\/a><\/p>",
+            "page": ""
+          }
+        },
         "complementary_products_Anqzde": {
           "type": "complementary_products",
           "settings": {
@@ -90,6 +98,7 @@
       "block_order": [
         "description",
         "liquid_naXJhy",
+        "content_npWDTL",
         "complementary_products_Anqzde"
       ],
       "settings": {
