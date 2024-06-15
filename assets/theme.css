@@ -1,19 +1,11 @@
 /* -------------custom css start------------------ */
 .svg-mb.wishlist-icon {
-  position: relative;    margin: 0 20px;
+  position: relative;    margin: 0 0px;
 }
    span.swym-wishlist-header-counter { display: none;}                    
-                        span.swym-wishlist-header-counter.show-badge {
-    background-color: #fff !important;
-    color: #062234;
-    min-width: 21px;
-    min-height: 21px;
-    border-radius: 21px;font-size:11px;
-    text-align: center;
-    padding: 2px 0 0 1px;
-    position: absolute;
-    right: -15px;
-    top: -8px;display: block;font-weight: 900;
+   .th_wlc_product_count{
+    background-color: black !important;
+    color: white !important;
 }
 
 .text-with-icons__item {
