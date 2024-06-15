@@ -3,24 +3,20 @@
     "meta": {
       "page": "Page {{ page }}"
     },
-
     "label": {
       "color": "Color,Colour",
       "white": "White",
-      "size": "Size"
+      "size": "Size,top,top size,bottoms,age,lehenga size,kurta size"
     },
-
     "breadcrumb": {
       "title": "Breadcrumb",
       "home": "Home"
     },
-
     "pagination": {
       "previous_page": "Previous",
       "next_page": "Next",
       "go_to_page": "Navigate to page {{page}}"
     },
-
     "accessibility": {
       "skip_to_content": "Skip to content",
       "close": "Close",
@@ -32,7 +28,6 @@
       "show_product": "Show product {{title}}",
       "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars"
     },
-
     "social": {
       "facebook_share": "Share on Facebook",
       "pinterest_pin": "Pin on Pinterest",
@@ -41,21 +36,17 @@
       "email_label": "E-mail",
       "follow_label": "Follow us on {{ social_media }}"
     },
-
     "newsletter": {
       "email": "Your e-mail",
       "subscribe": "Subscribe",
       "success": "You have been subscribed to our newsletter"
     },
-
     "faq": {
       "categories": "Categories"
     },
-
     "form": {
       "max_characters": "{{ max_chars }} characters max"
     },
-
     "onboarding": {
       "blog_post_category": "Category",
       "blog_post_title": "Article",
@@ -65,7 +56,6 @@
       "collection_title": "Collection"
     }
   },
-
   "header": {
     "general": {
       "navigation": "Navigation",
@@ -74,29 +64,25 @@
       "account": "Account",
       "cart": "Cart",
       "language": "Language",
-      "country": "Country/region"
+      "country": "Country\/region"
     }
   },
-
   "footer": {
     "general": {
       "language": "Language",
-      "country": "Country/region",
+      "country": "Country\/region",
       "we_accept": "We accept"
     },
-
     "newsletter": {
       "email": "Your e-mail",
       "submit": "Register",
       "success": "You have been registered to our newsletter."
     },
-
     "cookie_bar": {
       "accept": "Accept",
       "decline": "Decline"
     }
   },
-
   "cart": {
     "general": {
       "title": "Cart",
@@ -131,7 +117,6 @@
         "other": "{{ count }} items"
       }
     },
-
     "shipping_estimator": {
       "estimate_shipping": "Estimate shipping",
       "country": "Country",
@@ -144,7 +129,6 @@
       "error": "One or more error occurred while retrieving shipping rates:"
     }
   },
-
   "collection": {
     "general": {
       "filters": "Filters",
@@ -170,7 +154,6 @@
         "other": "{{ count }} products"
       }
     },
-
     "product": {
       "sold_out": "Sold out",
       "discount_html": "Save {{ savings }}",
@@ -184,7 +167,6 @@
       }
     }
   },
-
   "product": {
     "general": {
       "description": "Description",
@@ -206,7 +188,6 @@
         "other": "{{ count }} reviews"
       }
     },
-
     "form": {
       "choose_options": "Choose options",
       "quantity": "Quantity",
@@ -225,7 +206,6 @@
       "contact_us": "Contact us"
     }
   },
-
   "store_availability": {
     "general": {
       "view_store_info": "View store information",
@@ -236,7 +216,6 @@
       "pick_up_unavailable_at": "Pickup currently unavailable at {{ location_name }}"
     }
   },
-
   "list_collections": {
     "general": {
       "title": "Collections",
@@ -249,7 +228,6 @@
       }
     }
   },
-
   "blog": {
     "general": {
       "empty": "This blog has no articles",
@@ -258,7 +236,6 @@
       "all_posts": "All posts"
     }
   },
-
   "article": {
     "general": {
       "written_by": "By {{ author }}",
@@ -273,7 +250,6 @@
         "other": "{{ count }} minutes"
       }
     },
-
     "comments": {
       "leave_comment": "Leave a comment",
       "moderated": "All comments are moderated before being published.",
@@ -290,12 +266,10 @@
       }
     }
   },
-
   "customer": {
     "general": {
       "title": "My account"
     },
-
     "login": {
       "title": "Login",
       "instructions": "Please enter your e-mail and password:",
@@ -306,7 +280,6 @@
       "new_customer": "New customer?",
       "create_account": "Create an account"
     },
-
     "recover_password": {
       "title": "Recover password",
       "instructions": "Please enter your e-mail:",
@@ -316,7 +289,6 @@
       "back_to_login": "Back to login",
       "success": "An e-mail has been sent to your address with instructions to recover your password."
     },
-
     "activate_account": {
       "title": "Activate account",
       "instructions": "Enter a password to create your account:",
@@ -325,7 +297,6 @@
       "submit": "Activate",
       "cancel": "Cancel"
     },
-
     "reset_password": {
       "title": "Reset password",
       "instructions": "Enter a new password for your account:",
@@ -333,7 +304,6 @@
       "password_confirmation": "Password confirmation",
       "submit": "Reset"
     },
-
     "register": {
       "title": "Register",
       "instructions": "Please fill in the fields below:",
@@ -345,7 +315,6 @@
       "already_have_account": "Already have an account?",
       "login": "Login"
     },
-
     "orders": {
       "title": "Orders",
       "no_orders": "You have not placed any orders yet.",
@@ -358,12 +327,12 @@
       "fulfillment_status": "Fulfillment status",
       "view_details": "View order details",
       "cancelled_at": "Cancelled at: {{date}}. Reason: {{reason}}",
-      "fulfillment_with_url_and_number_html": "All products have been sent on {{date}}. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
-      "fulfillment_with_url_html": "All products have been sent on {{date}}. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
+      "fulfillment_with_url_and_number_html": "All products have been sent on {{date}}. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "fulfillment_with_url_html": "All products have been sent on {{date}}. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
       "fulfillment_with_number_html": "All products have been sent on {{date}}. Track the shipment with number {{tracking_number}}.",
       "fulfillment_html": "All products have been sent on {{date}}.",
-      "line_fulfillment_with_url_and_number_html": "This product has been sent on {{date}}. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
-      "line_fulfillment_with_url_html": "This product has been sent on {{date}}. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
+      "line_fulfillment_with_url_and_number_html": "This product has been sent on {{date}}. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "line_fulfillment_with_url_html": "This product has been sent on {{date}}. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
       "line_fulfillment_with_number_html": "This product has been sent on {{date}}. Track the shipment with number {{tracking_number}}.",
       "line_fulfillment_html": "This product has been sent on {{date}}.",
       "total": "Total",
@@ -378,7 +347,6 @@
       "shipping_address": "Shipping address",
       "billing_address": "Billing address"
     },
-
     "addresses": {
       "title": "Addresses",
       "no_address": "You have not saved any addresses yet.",
@@ -402,12 +370,10 @@
       "province": "Province",
       "set_default": "Set as default"
     },
-
     "logout": {
       "title": "Logout"
     }
   },
-
   "search": {
     "general": {
       "title": "Search",
@@ -423,7 +389,6 @@
       "collections": "Collections"
     }
   },
-
   "contact": {
     "form": {
       "name": "Name",
@@ -433,7 +398,6 @@
       "successfully_sent": "Your e-mail has been sent."
     }
   },
-
   "gift_card": {
     "issued": {
       "subtext": "Here's your gift card!",
@@ -448,7 +412,6 @@
       "add_to_apple_wallet": "Add to Apple Wallet",
       "go_to_store": "Go to the store"
     },
-
     "recipient": {
       "checkbox": "I want to send this as a gift",
       "email_label": "Recipient email",
@@ -457,7 +420,6 @@
       "message_label": "Message (optional)"
     }
   },
-
   "password": {
     "general": {
       "store_owner": "Store owner?",
@@ -465,20 +427,17 @@
       "powered_by": "This store will be powered by",
       "enter_password": "Enter using password"
     },
-
     "password": {
       "label": "Please enter password to access the store",
       "input": "Password",
       "submit": "Enter"
     },
-
     "newsletter": {
       "success": "You have been registered to our newsletter",
       "email": "Your e-mail",
       "submit": "Notify me"
     }
   },
-
   "404": {
     "general": {
       "title": "Page not found",
