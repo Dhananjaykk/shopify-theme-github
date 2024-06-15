@@ -1,4 +1,10 @@
 /* -------------custom css start------------------ */
+.shopify-payment-button{
+  width:50%;
+}
+button#AddToCart {
+  width: 50%;
+}
 .Button__SeparatorDot {
   display: inline-block;
   margin: 0 18px;
