@@ -5,6 +5,9 @@
 button#AddToCart {
   width: 50%;
 }
+product-payment-container#MainPaymentContainer {
+  display: flex;
+}
 .Button__SeparatorDot {
   display: inline-block;
   margin: 0 18px;
