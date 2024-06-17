@@ -50,6 +50,122 @@
           "show_recommendations": true,
           "recommendations_title": "You may also like"
         }
+      },
+      "headingfabric": {
+        "type": "headingfabric",
+        "settings": {
+          "heading": ""
+        }
+      },
+      "supima-new": {
+        "type": "supima-new",
+        "blocks": {
+          "banner_eyJYrp": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_b9ce78c1-bcb5-47be-a492-e43aa6d3db3d.jpg",
+              "url": ""
+            }
+          },
+          "image_with_text_NbQX7X": {
+            "type": "image-with-text",
+            "settings": {
+              "image2": "shopify:\/\/shop_images\/2_c6236f9f-993f-4d0b-ba8d-d0d0c328c8ef.jpg",
+              "image3": "shopify:\/\/shop_images\/1_063438a9-fd4a-42c4-bdbc-690a52557595.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "banner_eyJYrp",
+          "image_with_text_NbQX7X"
+        ],
+        "settings": {
+          "text": "",
+          "fullarea_text": "",
+          "fullarea_text2": "",
+          "fullarea_text3": ""
+        }
+      },
+      "tencel-luxe-new": {
+        "type": "tencel-luxe-new",
+        "settings": {
+          "text": "",
+          "fullarea_text": "",
+          "fullarea_text2": "",
+          "fullarea_text3": ""
+        }
+      },
+      "pima-satin": {
+        "type": "pima-satin",
+        "settings": {
+          "text": "",
+          "fullarea_text": "",
+          "fullarea_text2": "",
+          "fullarea_text3": ""
+        }
+      },
+      "modal-satin": {
+        "type": "modal-satin",
+        "settings": {
+          "text": "",
+          "fullarea_text": "",
+          "fullarea_text2": "",
+          "fullarea_text3": ""
+        }
+      },
+      "cupro-silk": {
+        "type": "cupro-silk",
+        "settings": {
+          "text": "",
+          "fullarea_text": "",
+          "fullarea_text2": "",
+          "fullarea_text3": ""
+        }
+      },
+      "crepe": {
+        "type": "crepe",
+        "settings": {
+          "text": "",
+          "fullarea_text": "",
+          "fullarea_text2": "",
+          "fullarea_text3": ""
+        }
+      },
+      "velvet": {
+        "type": "velvet",
+        "settings": {
+          "text": "",
+          "fullarea_text": "",
+          "fullarea_text2": "",
+          "fullarea_text3": ""
+        }
+      },
+      "tissue-luxe": {
+        "type": "tissue-luxe",
+        "settings": {
+          "text": "",
+          "fullarea_text": "",
+          "fullarea_text2": "",
+          "fullarea_text3": ""
+        }
+      },
+      "tissue-satin": {
+        "type": "tissue-satin",
+        "settings": {
+          "text": "",
+          "fullarea_text": "",
+          "fullarea_text2": "",
+          "fullarea_text3": ""
+        }
+      },
+      "banarsi": {
+        "type": "banarsi",
+        "settings": {
+          "text": "",
+          "fullarea_text": "",
+          "fullarea_text2": "",
+          "fullarea_text3": ""
+        }
       }
     },
     "content_for_index": [
