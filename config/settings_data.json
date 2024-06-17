@@ -246,13 +246,21 @@
               "image2": "shopify:\/\/shop_images\/18_5708231d-7c36-4728-ac53-5a26040bac38.jpg",
               "image3": "shopify:\/\/shop_images\/19_fd7989c3-a82f-4449-9461-86571b425a28.jpg"
             }
+          },
+          "banner_iRywqr": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/15_fa04fe4e-02e2-4c34-bedd-682090644e74.jpg",
+              "url": ""
+            }
           }
         },
         "block_order": [
           "banner_gCicAz",
           "image_with_text_hXw336",
           "banner_zmHaic",
-          "image_with_text_w7yPww"
+          "image_with_text_w7yPww",
+          "banner_iRywqr"
         ],
         "settings": {
           "text": "",
