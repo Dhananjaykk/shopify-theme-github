@@ -2,6 +2,9 @@
 .shopify-payment-button{
   width:50%;
 }
+.block-swatch.is-disabled:checked .block-swatch__item{
+color: red;
+}
 button#AddToCart {
   width: 50%;
 }
