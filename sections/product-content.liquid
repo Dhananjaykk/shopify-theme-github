@@ -264,12 +264,16 @@
               <div class="bg-overlay"></div>
               </div>
               <script>
-              $("#custompopup").on('click', function () {
-              $(".custom-model-main").addClass('model-open');
+                document.getElementById('custompopup').addEventListener('click', function() {
+                  document.querySelector('.custom-model-main').classList.add('model-open');
               });
-              $(".close-btn, .bg-overlay").click(function () {
-              $(".custom-model-main").removeClass('model-open');
+              
+              document.querySelectorAll('.close-btn, .bg-overlay').forEach(function(element) {
+                  element.addEventListener('click', function() {
+                      document.querySelector('.custom-model-main').classList.remove('model-open');
+                  });
               });
+              
               </script>
                 <div class="custom-model-mainone">
               <div class="custom-model-inner1">
@@ -281,11 +285,14 @@
               <div class="bg-overlay"></div>
               </div>
               <script>
-              $("#custompopupreturn").on('click', function () {
-              $(".custom-model-mainone").addClass('model-open');
+                document.getElementById('custompopupreturn').addEventListener('click', function() {
+                  document.querySelector('.custom-model-mainone').classList.add('model-open');
               });
-              $(".close-btn1, .bg-overlay").click(function () {
-              $(".custom-model-mainone").removeClass('model-open');
+              
+              document.querySelectorAll('.close-btn1, .bg-overlay').forEach(function(element) {
+                  element.addEventListener('click', function() {
+                      document.querySelector('.custom-model-mainone').classList.remove('model-open');
+                  });
               });
               </script>
                       
