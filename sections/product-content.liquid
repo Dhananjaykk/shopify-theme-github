@@ -214,7 +214,9 @@
 
                 {%- assign processed_blocks = processed_blocks | plus: 1 -%}
               {%- endif -%}
-
+              {%- when 'DeliveryInfo' -%}
+                {% render 'DeliveryInfo' %}
+                
           {%- when 'content' -%}
             {%- if block.settings.page != blank -%}
               {%- assign title = block.settings.title | default: block.settings.page.title -%}
