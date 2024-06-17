@@ -112,6 +112,50 @@
       },
       "tencel-luxe-new": {
         "type": "tencel-luxe-new",
+        "blocks": {
+          "banner_ckAxAB": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_2a10a940-da39-4be0-aff6-488b190c6988.jpg",
+              "url": ""
+            }
+          },
+          "image_with_text_bTjtt3": {
+            "type": "image-with-text",
+            "settings": {
+              "image2": "shopify:\/\/shop_images\/7_ac563b4f-e2ba-4bfd-a1f6-c8bd0969f50a_2.jpg",
+              "image3": "shopify:\/\/shop_images\/6_92ba0795-cce0-4b92-a13e-593c2a41b0af.jpg"
+            }
+          },
+          "banner_wpxrxr": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6_79f5b0c1-712b-4ff4-b4b6-128601a13f63.jpg",
+              "url": ""
+            }
+          },
+          "image_with_text_Wm8gMc": {
+            "type": "image-with-text",
+            "settings": {
+              "image2": "shopify:\/\/shop_images\/8_f15024b5-aab6-497c-8dbe-e1e597cf8920.jpg",
+              "image3": "shopify:\/\/shop_images\/9_e40613bd-3b71-4972-8bb4-b9f6c01c400b.jpg"
+            }
+          },
+          "banner_aAPHaQ": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/7_15ab2332-8367-4453-985d-620fc837113e.jpg",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "banner_ckAxAB",
+          "image_with_text_bTjtt3",
+          "banner_wpxrxr",
+          "image_with_text_Wm8gMc",
+          "banner_aAPHaQ"
+        ],
         "settings": {
           "text": "",
           "fullarea_text": "",
