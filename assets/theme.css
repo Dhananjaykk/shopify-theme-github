@@ -95,6 +95,9 @@ button#AddToCart {
 .text-with-icons {
   overflow: hidden;
 }
+h1.product-meta__title.heading.h3 {
+  font-size: 18px;
+}
 }
 
 /* ----------------custom css end-------------------------- */
