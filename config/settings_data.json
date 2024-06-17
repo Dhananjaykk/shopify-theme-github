@@ -165,6 +165,50 @@
       },
       "pima-satin": {
         "type": "pima-satin",
+        "blocks": {
+          "banner_xXiTJw": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9_62655f59-c5ab-466f-b003-02634809d826.jpg",
+              "url": ""
+            }
+          },
+          "image_with_text_wUkCaj": {
+            "type": "image-with-text",
+            "settings": {
+              "image2": "shopify:\/\/shop_images\/12_c3986f0e-2fd6-4a34-a9ec-cadcfee44797.jpg",
+              "image3": "shopify:\/\/shop_images\/11_c2664b19-9e6e-4227-ba98-a91367443fe5.jpg"
+            }
+          },
+          "banner_tyewYm": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/10_c21f9342-2215-4adb-8548-6a61fdfd21ad.jpg",
+              "url": ""
+            }
+          },
+          "image_with_text_Gc8WwL": {
+            "type": "image-with-text",
+            "settings": {
+              "image2": "shopify:\/\/shop_images\/13_c0c76148-08db-4a18-a59b-95e08ef9c6bd.jpg",
+              "image3": "shopify:\/\/shop_images\/14_9fac4f6e-d441-4109-b407-dd55d7d0789e.jpg"
+            }
+          },
+          "banner_4c7FAc": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/11_19dcf424-6229-4708-9e0e-e5bb22ea2e10.jpg",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "banner_xXiTJw",
+          "image_with_text_wUkCaj",
+          "banner_tyewYm",
+          "image_with_text_Gc8WwL",
+          "banner_4c7FAc"
+        ],
         "settings": {
           "text": "",
           "fullarea_text": "",
