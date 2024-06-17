@@ -79,6 +79,12 @@
           "settings": {
           }
         },
+        "fabric_7wEdJg": {
+          "type": "fabric",
+          "settings": {
+            "fabrictitle": "Fabric"
+          }
+        },
         "liquid_naXJhy": {
           "type": "liquid",
           "settings": {
@@ -114,6 +120,7 @@
       },
       "block_order": [
         "description",
+        "fabric_7wEdJg",
         "liquid_naXJhy",
         "content_npWDTL",
         "delivery_info_jTYnaG",
