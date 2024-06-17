@@ -11,6 +11,112 @@
 }
 }
   </style>
+  <style>
+            
+    .custom-model-main, .custom-model-mainone {
+      text-align: center;
+      overflow: hidden;
+      position: fixed;
+      top: 43%;
+      right: 0;
+      left: 0; 
+      outline: 0;
+      opacity: 0;
+      z-index: -1;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    
+    .model-open {
+      z-index: 99999;
+      opacity: 1;
+      overflow: hidden;
+    }
+    .custom-model-inner, .custom-model-inner1 {
+      -webkit-transform: translate(0, -25%);
+      -ms-transform: translate(0, -25%);
+      transform: translate(0, -25%);
+      -webkit-transition: -webkit-transform 0.3s ease-out;
+      -o-transition: -o-transform 0.3s ease-out;
+      transition: -webkit-transform 0.3s ease-out;
+      -o-transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+      display: inline-block;
+      vertical-align: middle;
+      width: 600px;
+      margin: 30px auto;
+      max-width: 97%;
+    }
+    .custom-model-wrap, .custom-model-wrap1 {
+      display: block;
+      width: 100%;
+      position: relative;
+      background-color: #fff;
+      border-radius: 6px;
+      box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      outline: 0;
+      text-align: left;
+      padding: 20px;
+      max-height: calc(100vh - 70px);
+      overflow-y: auto;
+    }
+    .model-open .custom-model-inner, .model-open .custom-model-inner1 {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+      position: relative;
+      z-index: 999;
+    }
+    .model-open .bg-overlay {
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 99;
+    }
+    .bg-overlay {
+      background: rgba(0, 0, 0, 0);
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+    }
+    .close-btn {
+      position: absolute;
+      right: 0;
+      top: -45px;
+      cursor: pointer;
+      z-index: 99;
+      font-size: 30px;
+      color: #fff;
+    }
+    
+      .close-btn1 {
+        position: absolute;
+        right: 0;
+        top: -45px;
+        cursor: pointer;
+        z-index: 99;
+        font-size: 30px;
+        color: #fff;
+      }
+                </style>
+    <style>
+      .fabricblock p {
+        margin-top: 0px !important;
+        margin-bottom: 10px;
+        line-height: 24px;
+      }
+    .fabricblock {
+        margin-bottom: 30px;
+    }
+      .fabricblock img  {
+        max-width: 200px;
+        margin-bottom: 10px;
+      }
+    </style>
   {%- capture product_tabs -%}
     {%- capture product_tabs_nav_items -%}
       {%- assign processed_blocks = 0 -%}
@@ -418,6 +524,22 @@
       "name": "Description",
       "type": "description",
       "limit": 1
+    },
+    {
+      "name": "Fabric",
+      "type": "fabric",
+      "settings": [
+        {
+          "type": "text",
+          "id": "fabrictitle",
+          "label": "Title",
+          "default": "Fabric"
+        },
+        {
+          "type": "header",
+          "content": "Fabric content"
+        }
+      ]
     },
 
     {
