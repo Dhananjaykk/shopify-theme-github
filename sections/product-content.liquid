@@ -132,6 +132,40 @@
               {%- assign processed_blocks = processed_blocks | plus: 1 -%}
             {%- endif -%}
 
+            {% assign productcollection = false %}
+            {% for data in product.collections %}
+              {% if data.handle contains 'jewelry' %} 
+                {% assign productcollection = true %}      
+              {% endif %}
+             {% endfor %} 
+           {% if productcollection %}
+          <style>
+            button.tabs-nav__item.heading.heading--small.andFabric {
+                display: none;
+            }
+          </style>
+        {% endif %}
+                {% when 'fabric' %}
+                 {%- assign fabrictitle = block.settings.fabrictitle -%}             
+                {%- if fabrictitle != blank -%}
+                    <button type="button" class="tabs-nav__item heading heading--small  and{{- fabrictitle -}}" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                      {{- fabrictitle -}}
+                    </button>
+      
+                    {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+                  {%- endif -%}
+      
+                 {%- when 'DeliveryInfo' -%} 
+                 {% if productstagsdata contains 'sale' %}
+                   {% else %}
+                 {%- assign deltitlecustom = block.settings.titlecustom -%}             
+                {%- if deltitlecustom != blank -%}
+                    <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                      {{- deltitlecustom -}}
+                    </button>
+                    {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+                  {%- endif -%}{% endif %}
+
           {%- when 'reviews' -%}
             <button type="button" id="product-{{ product.id }}-reviews-desktop" class="tabs-nav__item heading heading--small anchor" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
               {%- assign rating_count = product.metafields.reviews.rating_count.value | default: 0 -%}
