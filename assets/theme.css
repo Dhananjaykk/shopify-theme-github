@@ -5069,9 +5069,9 @@ input:checked + .popover__choice-label:is(:lang(ae), :lang(ar), :lang(arc), :lan
   text-align: center;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
-  min-width: 56px;
+  min-width: 40px;
   margin: 4px;
-  padding: 11px 18px 13px;
+  padding: 7px 10px 7px;
   transition: background .2s;
   display: block;
   position: relative;
