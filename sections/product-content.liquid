@@ -215,8 +215,84 @@
                 {%- assign processed_blocks = processed_blocks | plus: 1 -%}
               {%- endif -%}
               {%- when 'DeliveryInfo' -%}
-                {% render 'DeliveryInfo' %}
-                
+                {% if productstagsdata contains 'sale' %}
+                  {% else %}
+              
+                 <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
+                    <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
+                      {{ block.settings.titlecustom }}
+                      {%- render 'icon' with 'chevron' -%}
+                    </button>
+              
+                    <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+               
+                <div class="product-tabs__tab-item-content rte">
+                                   {% if product.tags contains '10Days' or product.tags contains '10days' or product.tags contains '10 day' or  product.tags contains '10Days'%}
+                      <b style="display: flex;align-items: center;">Lightening fast delivery <img id="custompopup" style="    width: 20px;cursor: pointer;
+              height: 20px;
+              margin: 0 0 0 19px;" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/new-window.png?v=1683014180"></b>
+              <li>Ships within 8-10 working days </li><li>Free shipping within India on orders above ₹3,500</li>
+              <li>International shipping charges vary from country to country</li>
+              
+                        {% elsif product.tags contains '48 hours' or product.tags contains '48hours' or product.tags contains '48 hour' or  product.tags contains '48hour'%}
+                      <b style="display: flex;align-items: center;">Lightening fast delivery <img id="custompopup" style="    width: 20px;cursor: pointer;
+              height: 20px;
+              margin: 0 0 0 19px;" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/new-window.png?v=1683014180"></b>
+              <li>Ships within 48 Hours </li><li>Free shipping within India on orders above ₹3,500</li>
+              <li>International shipping charges vary from country to country</li>
+                          
+                  {% else %}
+                          <p>{{ block.settings.lightingtext }}</p>{% endif %}
+                          <p>{{ block.settings.returntext }}</p>
+                <div class="custom-model-main">
+              <div class="custom-model-inner">
+              <div class="close-btn">×</div>
+              <div class="custom-model-wrap">
+                {% if product.tags contains '10Days' or product.tags contains '10days' or product.tags contains '10 day' or  product.tags contains '10Days' %}
+                  <div class="pop-up-content-wrap">Delivery
+              <li>Free shipping within India on orders above ₹3,500</li>
+              <li>We ship within 8-10 days of you placing your order.</li>
+              <li>We send your order via a third-party logistic partner (Bluedart)</li></div>
+              {% elsif product.tags contains '48 hours' or product.tags contains '48hours' or product.tags contains '48 hour' or  product.tags contains '48hour' %}
+                  <div class="pop-up-content-wrap">Delivery
+              <li>Free shipping within India on orders above ₹3,500</li>
+              <li>We ship within 48 Hours of you placing your order.</li>
+              <li>We send your order via a third-party logistic partner (Bluedart)</li></div>
+              {% else %} <div class="pop-up-content-wrap">{{ block.settings.lightingpopuptext }}</div>{% endif %}
+              </div>
+              </div>
+              <div class="bg-overlay"></div>
+              </div>
+              <script>
+              $("#custompopup").on('click', function () {
+              $(".custom-model-main").addClass('model-open');
+              });
+              $(".close-btn, .bg-overlay").click(function () {
+              $(".custom-model-main").removeClass('model-open');
+              });
+              </script>
+                <div class="custom-model-mainone">
+              <div class="custom-model-inner1">
+              <div class="close-btn1">×</div>
+              <div class="custom-model-wrap1">
+              <div class="pop-up-content-wrap">{{ block.settings.returnpopuptext }}</div>
+              </div>
+              </div>
+              <div class="bg-overlay"></div>
+              </div>
+              <script>
+              $("#custompopupreturn").on('click', function () {
+              $(".custom-model-mainone").addClass('model-open');
+              });
+              $(".close-btn1, .bg-overlay").click(function () {
+              $(".custom-model-mainone").removeClass('model-open');
+              });
+              </script>
+                      
+                      </div>
+                    </collapsible-content>
+                  </div>{% endif %}
+
           {%- when 'content' -%}
             {%- if block.settings.page != blank -%}
               {%- assign title = block.settings.title | default: block.settings.page.title -%}
