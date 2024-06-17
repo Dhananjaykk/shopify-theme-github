@@ -4,6 +4,7 @@
 }
 .block-swatch.is-disabled:checked .block-swatch__item{
 color: red;
+background-color: transparent;
 }
 button#AddToCart {
   width: 50%;
