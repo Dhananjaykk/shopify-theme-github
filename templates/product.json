@@ -99,13 +99,24 @@
           "settings": {
             "title": "Style your mulmul with"
           }
+        },
+        "delivery_info_jTYnaG": {
+          "type": "DeliveryInfo",
+          "settings": {
+            "titlecustom": "",
+            "lightingtext": "",
+            "returntext": "",
+            "lightingpopuptext": "",
+            "returnpopuptext": ""
+          }
         }
       },
       "block_order": [
         "description",
         "liquid_naXJhy",
         "content_npWDTL",
-        "complementary_products_Anqzde"
+        "complementary_products_Anqzde",
+        "delivery_info_jTYnaG"
       ],
       "settings": {
       }
