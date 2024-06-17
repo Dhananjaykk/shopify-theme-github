@@ -111,10 +111,12 @@
             "returnpopuptext": "Returns and exchanges:\n  <li>We offer 100% refund within 7 days from the date of delivery.<\/li>\n  <li>We offer product exchange within 15 days from the date of delivery.<\/li>\n  <li>In case of return or exchange, the customer is required to self-ship the package and share details with us on mail at: orders@shopmulmul.com<\/li>\n  <li>Incase you’d like a pick-up, a charge of Rs.300 is levied<\/li>\n  <li>All our refunds happen via bank transfer only.<\/li>\n  <li>Make sure all items are clean and unworn. All original tags must be included.<\/li>\nPackaging information:\nWe use a special Mulmul Perfume on the butter paper as part of our packaging process."
           }
         },
-        "complementary_products_Anqzde": {
-          "type": "complementary_products",
+        "featured_products_AWM6cG": {
+          "type": "featured_products",
           "settings": {
-            "title": "Style your mulmul with"
+            "title": "Featured products",
+            "product_1": "",
+            "product_2": ""
           }
         }
       },
@@ -124,7 +126,7 @@
         "liquid_naXJhy",
         "content_npWDTL",
         "delivery_info_jTYnaG",
-        "complementary_products_Anqzde"
+        "featured_products_AWM6cG"
       ],
       "settings": {
       }
