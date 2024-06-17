@@ -430,6 +430,50 @@
       },
       "tissue-luxe": {
         "type": "tissue-luxe",
+        "blocks": {
+          "banner_g9VT3e": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/33_40c3e5e9-911c-40a7-9516-513ab70cd8d7.jpg",
+              "url": ""
+            }
+          },
+          "image_with_text_B8iaVe": {
+            "type": "image-with-text",
+            "settings": {
+              "image2": "shopify:\/\/shop_images\/42_b82b1435-5ecf-4042-8884-55085fce3ad0.jpg",
+              "image3": "shopify:\/\/shop_images\/41_508ff210-73a7-4856-9e20-3a40f4d8020f.jpg"
+            }
+          },
+          "banner_zAHx9R": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/34_fc638c96-2c6a-476e-a1bc-2dfda4abe40c.jpg",
+              "url": ""
+            }
+          },
+          "image_with_text_EhCyCi": {
+            "type": "image-with-text",
+            "settings": {
+              "image2": "shopify:\/\/shop_images\/43_9afb645b-6d08-42ec-9036-51c7e2e1891e.jpg",
+              "image3": "shopify:\/\/shop_images\/44_1501ca33-4edc-4704-9c5a-dc535a11dc78.jpg"
+            }
+          },
+          "banner_FND4rB": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/35_1a2d7cf5-eaaa-4c27-8e93-39305423657c.jpg",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "banner_g9VT3e",
+          "image_with_text_B8iaVe",
+          "banner_zAHx9R",
+          "image_with_text_EhCyCi",
+          "banner_FND4rB"
+        ],
         "settings": {
           "text": "",
           "fullarea_text": "",
