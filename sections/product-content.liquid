@@ -1,89 +1,87 @@
-{%- capture product_content -%}
-  <style>
-    @media screen and (min-width: 750px) {
-    .product-content__featured-products-list {
-        margin-block-start: 32px;
-        display: flex;
-        overflow-x: scroll;
-    }
-      .product-content__featured-products .product-item {
-    flex: 0 0 40%;
-}
-}
-  </style>
-  <style>
+
+<style>
             
-    .custom-model-main, .custom-model-mainone {
-      text-align: center;
-      overflow: hidden;
-      position: fixed;
-      top: 43%;
-      right: 0;
-      left: 0; 
-      outline: 0;
-      opacity: 0;
-      z-index: -1;
-      overflow-x: hidden;
-      overflow-y: auto;
-    }
-    
-    .model-open {
-      z-index: 99999;
-      opacity: 1;
-      overflow: hidden;
-    }
-    .custom-model-inner, .custom-model-inner1 {
-      -webkit-transform: translate(0, -25%);
-      -ms-transform: translate(0, -25%);
-      transform: translate(0, -25%);
-      -webkit-transition: -webkit-transform 0.3s ease-out;
-      -o-transition: -o-transform 0.3s ease-out;
-      transition: -webkit-transform 0.3s ease-out;
-      -o-transition: transform 0.3s ease-out;
-      transition: transform 0.3s ease-out;
-      transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
-      display: inline-block;
-      vertical-align: middle;
-      width: 600px;
-      margin: 30px auto;
-      max-width: 97%;
-    }
-    .custom-model-wrap, .custom-model-wrap1 {
-      display: block;
-      width: 100%;
-      position: relative;
-      background-color: #fff;
-      border-radius: 6px;
-      box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-      outline: 0;
-      text-align: left;
-      padding: 20px;
-      max-height: calc(100vh - 70px);
-      overflow-y: auto;
-    }
-    .model-open .custom-model-inner, .model-open .custom-model-inner1 {
-      -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-      transform: translate(0, 0);
-      position: relative;
-      z-index: 999;
-    }
-    .model-open .bg-overlay {
-      background: rgba(0, 0, 0, 0.6);
-      z-index: 99;
-    }
-    .bg-overlay {
-      background: rgba(0, 0, 0, 0);
-      height: 100vh;
-      width: 100%;
-      position: fixed;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 0;
-    }
-    .close-btn {
+  .custom-model-main, .custom-model-mainone {
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 43%;
+    right: 0;
+    left: 0; 
+    outline: 0;
+    opacity: 0;
+    z-index: -1;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  .model-open {
+    z-index: 99999;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .custom-model-inner, .custom-model-inner1 {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    display: inline-block;
+    vertical-align: middle;
+    width: 600px;
+    margin: 30px auto;
+    max-width: 97%;
+  }
+  .custom-model-wrap, .custom-model-wrap1 {
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    outline: 0;
+    text-align: left;
+    padding: 20px;
+    max-height: calc(100vh - 70px);
+    overflow-y: auto;
+  }
+  .model-open .custom-model-inner, .model-open .custom-model-inner1 {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    position: relative;
+    z-index: 999;
+  }
+  .model-open .bg-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+  }
+  .bg-overlay {
+    background: rgba(0, 0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+  .close-btn {
+    position: absolute;
+    right: 0;
+    top: -45px;
+    cursor: pointer;
+    z-index: 99;
+    font-size: 30px;
+    color: #fff;
+  }
+  
+    .close-btn1 {
       position: absolute;
       right: 0;
       top: -45px;
@@ -92,258 +90,615 @@
       font-size: 30px;
       color: #fff;
     }
-    
-      .close-btn1 {
-        position: absolute;
-        right: 0;
-        top: -45px;
-        cursor: pointer;
-        z-index: 99;
-        font-size: 30px;
-        color: #fff;
-      }
-                </style>
-    <style>
-      .fabricblock p {
-        margin-top: 0px !important;
-        margin-bottom: 10px;
-        line-height: 24px;
-      }
-    .fabricblock {
-        margin-bottom: 30px;
+              </style>
+  <style>
+    .fabricblock p {
+      margin-top: 0px !important;
+      margin-bottom: 10px;
+      line-height: 24px;
     }
-      .fabricblock img  {
-        max-width: 200px;
-        margin-bottom: 10px;
-      }
-    </style>
-  {%- capture product_tabs -%}
-    {%- capture product_tabs_nav_items -%}
-      {%- assign processed_blocks = 0 -%}
-
-      {%- for block in section.blocks -%}
-        {%- case block.type -%}
-          {%- when 'description' -%}
-            {%- if product.description != blank -%}
-              <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
-                {{- 'product.general.description' | t -}}
-              </button>
-
-              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
-            {%- endif -%}
-
-            {% assign productcollection = false %}
-            {% for data in product.collections %}
-              {% if data.handle contains 'jewelry' %} 
-                {% assign productcollection = true %}      
-              {% endif %}
-             {% endfor %} 
-           {% if productcollection %}
-          <style>
-            button.tabs-nav__item.heading.heading--small.andFabric {
-                display: none;
-            }
-          </style>
-        {% endif %}
-                {% when 'fabric' %}
-                 {%- assign fabrictitle = block.settings.fabrictitle -%}             
-                {%- if fabrictitle != blank -%}
-                    <button type="button" class="tabs-nav__item heading heading--small  and{{- fabrictitle -}}" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
-                      {{- fabrictitle -}}
-                    </button>
-      
-                    {%- assign processed_blocks = processed_blocks | plus: 1 -%}
-                  {%- endif -%}
-      
-                 {%- when 'DeliveryInfo' -%} 
-                 {% if productstagsdata contains 'sale' %}
-                   {% else %}
-                 {%- assign deltitlecustom = block.settings.titlecustom -%}             
-                {%- if deltitlecustom != blank -%}
-                    <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
-                      {{- deltitlecustom -}}
-                    </button>
-                    {%- assign processed_blocks = processed_blocks | plus: 1 -%}
-                  {%- endif -%}{% endif %}
-
-          {%- when 'reviews' -%}
-            <button type="button" id="product-{{ product.id }}-reviews-desktop" class="tabs-nav__item heading heading--small anchor" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
-              {%- assign rating_count = product.metafields.reviews.rating_count.value | default: 0 -%}
-              {{- 'product.general.reviews' | t: rating_count: rating_count }}
-            </button>
-
-            {%- assign processed_blocks = processed_blocks | plus: 1 -%}
-
-          {%- when 'content' -%}
-            {%- if block.settings.page != blank -%}
-              {%- assign title = block.settings.title | default: block.settings.page.title -%}
-              {%- assign content = block.settings.page.content -%}
-            {%- else -%}
-              {%- assign title = block.settings.title -%}
-              {%- assign content = block.settings.content -%}
-            {%- endif -%}
-
-            {%- if title != blank and content != blank -%}
-              <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
-                {{- title -}}
-              </button>
-
-              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
-            {%- endif -%}
-
-          {%- when 'liquid' -%}
-            {%- if block.settings.title != blank and block.settings.liquid != blank -%}
-              <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
-                {{- block.settings.title | escape -}}
-              </button>
-
-              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
-            {%- endif -%}
-        {%- endcase -%}
-      {%- endfor -%}
-    {%- endcapture -%}
-
-    {%- if processed_blocks > 1 -%}
-      <tabs-nav arrows class="tabs-nav tabs-nav--loose hidden-pocket">
-        <scrollable-content class="tabs-nav__scroller hide-scrollbar">
-          <div class="tabs-nav__scroller-inner">
-            <div class="tabs-nav__item-list">
-              {{- product_tabs_nav_items -}}
-            </div>
-          </div>
-        </scrollable-content>
-
-        <div class="tabs-nav__arrows">
-          <button class="tabs-nav__arrow-item">
-            <span class="visually-hidden">{{ 'general.accessibility.previous' | t }}</span>
-            {%- render 'icon' with 'product-tab-left', direction_aware: true -%}
-          </button>
-
-          <button class="tabs-nav__arrow-item">
-            <span class="visually-hidden">{{ 'general.accessibility.next' | t }}</span>
-            {%- render 'icon' with 'product-tab-right', direction_aware: true -%}
-          </button>
-        </div>
-      </tabs-nav>
-    {%- endif -%}
-
-    {% assign trust_block = section.blocks | where: 'type', 'trust' | first %}
-
-    {%- if trust_block != blank -%}
-      {%- capture trust_content -%}
-        {%- for i in (1..3) -%}
-          {%- capture icon_setting -%}icon_{{ i }}{%- endcapture -%}
-          {%- capture custom_icon_setting -%}custom_icon_{{ i }}{%- endcapture -%}
-          {%- capture title_setting -%}title_{{ i }}{%- endcapture -%}
-          {%- capture content_setting -%}content_{{ i }}{%- endcapture -%}
-
-          {%- if trust_block.settings[title_setting] != blank -%}
-            {%- assign custom_icon = trust_block.settings[custom_icon_setting] -%}
-
-            {%- capture trust_icon -%}
-              {%- if custom_icon != blank -%}
-                {{- custom_icon | image_url: width: custom_icon.width | image_tag: loading: 'lazy', sizes: '24px', widths: '24,48,72,96', class: 'product-tabs__trust-icon' -}}
-              {%- else -%}
-                {%- render 'icon' with trust_block.settings[icon_setting], class: 'product-tabs__trust-icon' -%}
-              {%- endif -%}
-            {%- endcapture -%}
-
-            {%- if trust_block.settings[content_setting] != blank -%}
-              <button is="toggle-button" class="product-tabs__trust-title icon-text link text--subdued hidden-phone" aria-controls="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-drawer" aria-expanded="false">
-                {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
-              </button>
-
-              <button is="toggle-button" class="product-tabs__trust-title icon-text link text--subdued hidden-tablet-and-up" aria-controls="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-popover" aria-expanded="false">
-                {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
-              </button>
-            {%- else -%}
-              <span class="product-tabs__trust-title icon-text text--subdued">
-                {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
-              </span>
-            {%- endif -%}
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endcapture -%}
-
-      {%- capture trust_drawer_content -%}
-        {%- for i in (1..3) -%}
-          {%- capture icon_setting -%}icon_{{ i }}{%- endcapture -%}
-          {%- capture custom_icon_setting -%}custom_icon_{{ i }}{%- endcapture -%}
-          {%- capture title_setting -%}title_{{ i }}{%- endcapture -%}
-          {%- capture content_setting -%}content_{{ i }}{%- endcapture -%}
-
-          {%- if trust_block.settings[title_setting] != blank and trust_block.settings[content_setting] != blank -%}
-            {%- assign custom_icon = trust_block.settings[custom_icon_setting] -%}
-
-            {%- capture trust_icon -%}
-              {%- if custom_icon != blank -%}
-                {{- custom_icon | image_url: width: custom_icon.width | image_tag: loading: 'lazy', sizes: '24px', widths: '24,48,72,96', class: 'product-tabs__trust-icon' -}}
-              {%- else -%}
-                {%- render 'icon' with trust_block.settings[icon_setting], class: 'product-tabs__trust-icon' -%}
-              {%- endif -%}
-            {%- endcapture -%}
-
-            {%- comment -%}Drawer is for tablet and desktop{%- endcomment -%}
-            <drawer-content id="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-drawer" class="drawer drawer--large hidden-phone">
-              <span class="drawer__overlay"></span>
-
-              <header class="drawer__header">
-                <p class="drawer__title heading h6">{{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}</p>
-
-                <button type="button" class="drawer__close-button tap-area" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
-                  {%- render 'icon' with 'close' -%}
-                </button>
-              </header>
-
-              <div class="drawer__content drawer__content--padded-start">
-                <div class="rte">
-                  {{- trust_block.settings[content_setting] -}}
-                </div>
-              </div>
-            </drawer-content>
-
-            {%- comment -%}Popover is for mobile{%- endcomment -%}
-            <popover-content id="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-popover" class="popover hidden-tablet-and-up">
-              <span class="popover__overlay"></span>
-
-              <header class="popover__header">
-                <p class="popover__title heading h6">{{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}</p>
-
-                <button type="button" class="popover__close-button tap-area tap-area--large" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
-                  {%- render 'icon' with 'close' -%}
-                </button>
-              </header>
-
-              <div class="popover__content">
-                <div class="rte">
-                  {{- trust_block.settings[content_setting] -}}
-                </div>
-              </div>
-            </popover-content>
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endcapture -%}
-    {%- endif -%}
-
-    {%- if product_tabs_nav_items != blank -%}
-      <div class="product-tabs__content">
+  .fabricblock {
+      margin-bottom: 30px;
+  }
+    .fabricblock img  {
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+  </style>
+  {% assign productstagsdata = product.tags | downcase | join: "," %}
+  {%- capture product_content -%}
+    {%- capture product_tabs -%}
+      {%- capture product_tabs_nav_items -%}
         {%- assign processed_blocks = 0 -%}
-
+  
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'description' -%}
               {%- if product.description != blank -%}
-                <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper">
-                  <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-controls="block-{{ section.id }}-{{ block.id }}-content" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}">
-                    {{- 'product.general.description' | t -}}
+                <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                  {{- 'product.general.description' | t -}}
+                </button>
+  
+                {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+              {%- endif -%}
+              {% assign productcollection = false %}
+        {% for data in product.collections %}
+          {% if data.handle contains 'jewelry' %} 
+            {% assign productcollection = true %}      
+          {% endif %}
+         {% endfor %} 
+       {% if productcollection %}
+      <style>
+        button.tabs-nav__item.heading.heading--small.andFabric {
+            display: none;
+        }
+      </style>
+    {% endif %}
+            {% when 'fabric' %}
+             {%- assign fabrictitle = block.settings.fabrictitle -%}             
+            {%- if fabrictitle != blank -%}
+                <button type="button" class="tabs-nav__item heading heading--small  and{{- fabrictitle -}}" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                  {{- fabrictitle -}}
+                </button>
+  
+                {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+              {%- endif -%}
+  
+             {%- when 'DeliveryInfo' -%} 
+             {% if productstagsdata contains 'sale' %}
+               {% else %}
+             {%- assign deltitlecustom = block.settings.titlecustom -%}             
+            {%- if deltitlecustom != blank -%}
+                <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                  {{- deltitlecustom -}}
+                </button>
+                {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+              {%- endif -%}{% endif %}
+  
+            {%- when 'reviews' -%}
+              <button type="button" id="product-{{ product.id }}-reviews-desktop" class="tabs-nav__item heading heading--small anchor" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                {%- assign rating_count = product.metafields.reviews.rating_count.value | default: 0 -%}
+                {{- 'product.general.reviews' | t: rating_count: rating_count }}
+              </button>
+  
+              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+  
+            {%- when 'content' -%}
+              {%- if block.settings.page != blank -%}
+                {%- assign title = block.settings.page.title -%}
+                {%- assign content = block.settings.page.content -%}
+              {%- else -%}
+                {%- assign title = block.settings.title -%}
+                {%- assign content = block.settings.content -%}
+              {%- endif -%}
+  
+              {% if product.tags contains 'sale' %}
+                {%- if title != blank and content != blank -%}
+                <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                  {{- title -}}
+                </button>
+  
+                {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+              {%- endif -%}{% endif %}
+  
+            {%- when 'liquid' -%}
+              {%- if block.settings.title != blank and block.settings.liquid != blank -%}
+                <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                  {{- block.settings.title | escape -}}
+                </button>
+  
+                {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+              {%- endif -%}
+          {%- endcase -%}
+        {%- endfor -%}
+      {%- endcapture -%}
+  
+      {%- if processed_blocks > 1 -%}
+        <tabs-nav arrows class="tabs-nav tabs-nav--loose hidden-pocket">
+          <scrollable-content class="tabs-nav__scroller hide-scrollbar">
+            <div class="tabs-nav__scroller-inner">
+              <div class="tabs-nav__item-list">
+                {{- product_tabs_nav_items -}}
+              </div>
+            </div>
+          </scrollable-content>
+  
+          <div class="tabs-nav__arrows">
+            <button class="tabs-nav__arrow-item">
+              <span class="visually-hidden">{{ 'general.accessibility.previous' | t }}</span>
+              {%- render 'icon' with 'product-tab-left', direction_aware: true -%}
+            </button>
+  
+            <button class="tabs-nav__arrow-item">
+              <span class="visually-hidden">{{ 'general.accessibility.next' | t }}</span>
+              {%- render 'icon' with 'product-tab-right', direction_aware: true -%}
+            </button>
+          </div>
+        </tabs-nav>
+      {%- endif -%}
+  
+      {% assign trust_block = section.blocks | where: 'type', 'trust' | first %}
+  
+      {%- if trust_block != blank -%}
+        {%- capture trust_content -%}
+          {%- for i in (1..3) -%}
+            {%- capture icon_setting -%}icon_{{ i }}{%- endcapture -%}
+            {%- capture custom_icon_setting -%}custom_icon_{{ i }}{%- endcapture -%}
+            {%- capture title_setting -%}title_{{ i }}{%- endcapture -%}
+            {%- capture content_setting -%}content_{{ i }}{%- endcapture -%}
+  
+            {%- if trust_block.settings[title_setting] != blank -%}
+              {%- assign custom_icon = trust_block.settings[custom_icon_setting] -%}
+  
+              {%- capture trust_icon -%}
+                {%- if custom_icon != blank -%}
+                  <img class="product-tabs__trust-icon" loading="lazy" sizes="24px" {% render 'image-attributes', image: custom_icon, sizes: '24,48,72,96' %}>
+                {%- else -%}
+                  {%- render 'icon' with trust_block.settings[icon_setting], class: 'product-tabs__trust-icon' -%}
+                {%- endif -%}
+              {%- endcapture -%}
+  
+              {%- if trust_block.settings[content_setting] != blank -%}
+                <button is="toggle-button" class="product-tabs__trust-title icon-text link text--subdued hidden-phone" aria-controls="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-drawer" aria-expanded="false">
+                  {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
+                </button>
+  
+                <button is="toggle-button" class="product-tabs__trust-title icon-text link text--subdued hidden-tablet-and-up" aria-controls="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-popover" aria-expanded="false">
+                  {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
+                </button>
+              {%- else -%}
+                <span class="product-tabs__trust-title icon-text text--subdued">
+                  {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
+                </span>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endcapture -%}
+  
+        {%- capture trust_drawer_content -%}
+          {%- for i in (1..3) -%}
+            {%- capture icon_setting -%}icon_{{ i }}{%- endcapture -%}
+            {%- capture custom_icon_setting -%}custom_icon_{{ i }}{%- endcapture -%}
+            {%- capture title_setting -%}title_{{ i }}{%- endcapture -%}
+            {%- capture content_setting -%}content_{{ i }}{%- endcapture -%}
+  
+            {%- if trust_block.settings[title_setting] != blank and trust_block.settings[content_setting] != blank -%}
+              {%- assign custom_icon = trust_block.settings[custom_icon_setting] -%}
+  
+              {%- capture trust_icon -%}
+                {%- if custom_icon != blank -%}
+                  <img class="product-tabs__trust-icon" loading="lazy" sizes="24px" {% render 'image-attributes', image: custom_image, sizes: '24,48,72,96' %}>
+                {%- else -%}
+                  {%- render 'icon' with trust_block.settings[icon_setting], class: 'product-tabs__trust-icon' -%}
+                {%- endif -%}
+              {%- endcapture -%}
+  
+              {%- comment -%}Drawer is for tablet and desktop{%- endcomment -%}
+              <drawer-content id="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-drawer" class="drawer drawer--large hidden-phone">
+                <span class="drawer__overlay"></span>
+  
+                <header class="drawer__header">
+                  <p class="drawer__title heading h6">{{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}</p>
+  
+                  <button type="button" class="drawer__close-button tap-area" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
+                    {%- render 'icon' with 'close' -%}
+                  </button>
+                </header>
+  
+                <div class="drawer__content drawer__content--padded-start">
+                  <div class="rte">
+                    {{- trust_block.settings[content_setting] -}}
+                  </div>
+                </div>
+              </drawer-content>
+  
+              {%- comment -%}Popover is for mobile{%- endcomment -%}
+              <popover-content id="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-popover" class="popover hidden-tablet-and-up">
+                <span class="popover__overlay"></span>
+  
+                <header class="popover__header">
+                  <p class="popover__title heading h6">{{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}</p>
+  
+                  <button type="button" class="popover__close-button tap-area tap-area--large" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
+                    {%- render 'icon' with 'close' -%}
+                  </button>
+                </header>
+  
+                <div class="popover__content">
+                  <div class="rte">
+                    {{- trust_block.settings[content_setting] -}}
+                  </div>
+                </div>
+              </popover-content>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endcapture -%}
+      {%- endif -%}
+  
+      {%- if product_tabs_nav_items != blank -%}
+        <div class="product-tabs__content">
+          {%- assign processed_blocks = 0 -%}
+  
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'description' -%}
+                {%- if product.description != blank -%}
+                  <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper">
+                    <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-controls="block-{{ section.id }}-{{ block.id }}-content" aria-expanded="false">
+                      {{- 'product.general.description' | t -}}
+                      {%- render 'icon' with 'chevron' -%}
+                    </button>
+  
+                    <collapsible-content id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+                      <div class="product-tabs__tab-item-content rte">
+                        {{- product.description -}}
+                      </div>
+  
+                      {%- if trust_content != blank and processed_blocks == 0 -%}
+                        <div class="product-tabs__trust-list hidden-pocket">
+                          {{- trust_content -}}
+                        </div>
+                      {%- endif -%}
+                    </collapsible-content>
+                  </div>
+  
+                  {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+                {%- endif -%}
+  
+              {%- when 'reviews' -%}
+                <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
+                  <button is="toggle-button" id="product-{{ product.id }}-reviews-pocket" class="collapsible-toggle heading heading--small hidden-lap-and-up anchor" aria-controls="block-{{ section.id }}-{{ block.id }}-content" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}">
+                    {%- assign rating_count = product.metafields.reviews.rating_count.value | default: 0 -%}
+                    {{- 'product.general.reviews' | t: rating_count: rating_count }} {%- render 'icon' with 'chevron' -%}
+                  </button>
+  
+                  <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+                    <div class="product-tabs__tab-item-content">
+                      <div id="shopify-product-reviews" class="spr-reviews" data-id="{{ product.id }}">
+                        {{- product.metafields.spr.reviews -}}
+                      </div>
+                    </div>
+                  </collapsible-content>
+                </div>
+  
+                {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+  
+              {% when 'fabric' %}
+                {% assign producttag = product.tags | downcase | join: "," %}
+                    {%- assign fabrictitle = block.settings.fabrictitle -%}        
+                {%- if fabrictitle != blank -%}
+                <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
+                  <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
+                    {{- fabrictitle -}}
                     {%- render 'icon' with 'chevron' -%}
                   </button>
-
+  
+                  <collapsible-content  {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+                    <div class="product-tabs__tab-item-content rte">
+                    {% if producttag contains "summer23" or producttag contains "summer" or producttag contains "organza" %}
+                      <div class="fabricblock" >
+                        <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/logo.f89dd871.png?v=1678428215">
+                        <li>Tencel Luxe is an extremely strong lament which results in the production of light weight, fluid fabric with easy drapes. The innovation in Eco Filament Technology means transforming wood pulp directly to filament obtaining a silk like quality. </li>
+                          <li> The fabric helps regulate moisture, is breathable and adapts to the temperature on the skin. Perfect for the summer!</li>
+                          <li>Tencel Luxe Organza is a sustainably produced fabric which makes it easy on the environment and kind on the skin.</li>
+                      </div>
+                    {% endif %}
+                  {% if producttag contains "cotton23" or producttag contains "cotton" %}
+                      <div class="fabricblock">
+                        <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/SupimaLogo.png?v=1678428125">
+                    <ul>
+                       <li> We use Supima cotton which uses extra-long staple fiber that adds qualities such as strength, softness and colour retention.</li>
+                         <li>  Supima cotton is farmed using state of the art technology & processes with as little impact on the environment as is possible.</li>
+                         <li> Our Supima cotton fabric is natural, kind to your skin, easy on the environment, consciously grown, procured and sourced. </li>
+                         <li> It is breathable, lightweight and extremely soft making it perfect for the summers</p></li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+                  {% if producttag contains "pima" or producttag contains "Pima" %}
+                      <div class="fabricblock">
+                         <h3>Pima</h3>
+                    <ul>
+                       <li>A satin weave of long fibre cotton </li>
+                         <li>Smooth, glossy finish </li>
+                         <li>Ultra-soft fabric with luxurious texture </li>
+                         <li>Sustainably grown, harvested and processed</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+                  {% if producttag contains "satin" or producttag contains "Satin" %}
+                      <div class="fabricblock">
+                         <h3>Satin</h3>
+                    <ul>
+                       <li>Plant-based fabric, that is sustainably sourced and is biodegradable</li>
+  <li>Soft fabric with a luxurious sheen, that drapes beautifully</li>
+  <li>Resistant to shrinkage and pilling, and highly absorbent</li>
+  <li>Breathable and comfortable, suitable for wearing all year round</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+                  {% if producttag contains "cupro"or producttag contains "Cupro" %}
+                      <div class="fabricblock">
+                         <h3>Cupro</h3>
+                    <ul>
+                       <li> Plant-based fabric</li> 
+  <li> Made of by-products from cotton production </li>
+  <li> Resembles authentic silk in texture and sheen </li>
+  <li>Drapes elegantly to create beautiful silhouette</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+                      {% if producttag contains "SPACER"or producttag contains "Spacer" or producttag contains "spacer" %}
+                      <div class="fabricblock">
+                        <h3>Spacer</h3>
+                    <ul>
+                        <li>A knitted fabric featuring a smooth texture on both sides and boasting a flexible drape</li>
+                        <li>Remarkably breathable, it effectively regulates temperature for enhanced comfort.</li>
+                        <li>Exhibiting exceptional durability, making it a resilient and long-lasting fabric.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+   {% if producttag contains "crepe"or producttag contains "Crepe" %}
+                      <div class="fabricblock">
+                         <h3>Crepe</h3>
+                    <ul>
+  <li>A weaving technique that creates a rippled-three-dimensional texture</li>
+  <li>Thin and light-weight</li>
+  <li>Delicate and breathable and drapes beautifully</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+  {% if producttag contains "LUREX"or producttag contains "Lurex" or producttag contains "Lurex Net" %}
+                      <div class="fabricblock">
+                        <h3>Lurex Net</h3>
+                    <ul>
+                        <li>Lurex: A fabric renowned for its elegant sheen.</li>
+                        <li>Lightweight and pliable, it offers a delicate touch</li>
+                        <li>Resistant to tarnishing, ensuring enduring beauty.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+  {% if producttag contains "HOUNDSTOOTH" or producttag contains "Houndstooth" %}
+                      <div class="fabricblock">
+                         <h3>Houndstooth</h3>
+                        <ul>
+                        <li>An classic and timeless design</li>
+                        <li>Crafted from woven cotton for cozy warmth during winter</li>
+                        <li>Tailored for a polished and sophisticated silhouette</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+  {% if producttag contains "FLEECE" or producttag contains "Fleece" or producttag contains "fleece" %}
+                      <div class="fabricblock">
+                         <h3>Fleece</h3>
+                        <ul>
+                        <li>Luxuriously warm and snug fabric designed to efficiently retain body heat, making it an ideal choice for the winter season</li>
+                        <li> Guarantees optimal breathability and comfort, ensuring a cozy experience in chilly weather</li>
+                        <li>Exhibits exceptional durability, resistant to fraying, ensuring prolonged and reliable usage.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+                  {% if producttag contains "VEGAN SILK" or producttag contains "Vegan silk" or producttag contains "vegan silk" or producttag contains "Vegan Silk" %}
+                      <div class="fabricblock">
+                         <h3>VEGAN SILK </h3>
+                        <ul>
+                        <li>Sustainably sourced from wood pulp in carefully managed forests, our silk is a testament to environmental responsibility.</li>
+                        <li>Boasting a robust fiber structure, our fabric exhibits exceptional resistance to wear and tear, ensuring durability.</li>
+                        <li>Indulge in the opulence of a material that mirrors the look and feel of authentic silk, complete with its luxurious sheen and graceful drape.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+                      {% if producttag contains "COT-NET" or producttag contains "Cot-Net" or producttag contains "cot-net" or producttag contains "Cot-Net" %}
+                      <div class="fabricblock">
+                         <h3>COTTON NET</h3>
+                        <ul>
+                        <li>Crafted from a cotton base using a net weave</li>
+                        <li>Exhibits exceptional breathability</li>
+                        <li>Evokes a mystical allure, making it a coveted choice in the fashion industry</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+      {% if producttag contains "F-TS" or producttag contains "F-ts" or producttag contains "F-Ts" or producttag contains "FTS" or producttag contains "fts" %}
+                      <div class="fabricblock">
+                         <h3>Luxe Tissue Satin</h3>
+                        <ul>
+                        <li>Luxe Tissue Satin is known for its sophistication and exquisite composition.</li>
+                        <li>The fabric has a unique dual character with a crisp texture on one side and a smooth satin-like finish on the other.</li>
+                        <li>This duality provides versatility for creative design possibilities in the fashion industry.</li>
+                        <li>Luxe Tissue Satin possesses a lustrous quality that adds opulence to garments made from it.</li>
+                        <li>The fabric's sheen, combined with flexibility, creates a dynamic interplay of light and movement.</li>
+                        <li>It is an ideal choice for garments that require attention and elegance in their design.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+  
+                      {% if producttag contains "Luxe tissue" or producttag contains "luxe tissue" or producttag contains "Luxe Tissue" or producttag contains "Luxe-tissue" or producttag contains "Luxe-Tissue" %}
+                      <div class="fabricblock">
+                         <h3>Luxe tissue</h3>
+                        <ul>
+                        <li>Luxe Tissue, is a high-quality and lightweight textile known for its exquisite draping qualities.</li>
+                        <li>The fabric stands out due to the incorporation of metallic threads, giving it a delicate sheen that radiates luxury and sophistication.</li>
+                        <li>The use of metallic elements not only enhances the visual appeal but also gives the fabric a regal aura, justifying its name.</li>
+                        <li>The interplay of metallic threads with the fabric's delicacy creates a stunning visual effect.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+                      {% if producttag contains "F-OS" or producttag contains "f-os" or producttag contains "fos" or producttag contains "F-Os" or producttag contains "FOS" %}
+                      <div class="fabricblock">
+                         <h3>Organza Satin</h3>
+                        <ul>
+                        <li>It seamlessly combines the delicate translucency of organza with the sleek, lustrous surface of satin.</li>
+                        <li>The fabric has a unique ability to drape with unparalleled grace, forming a fluid silhouette.</li>
+                        <li>Organza satin exudes opulence, captivating observers with its luxurious sheen.</li>
+                        <li>The combination of organza and satin imparts a luminous quality, enhancing the overall visual appeal.</li>
+                        <li>The result is an ethereal beauty that transcends the ordinary, creating an atmosphere of refined splendor.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+                  {% if producttag contains "Luxe Silk" or producttag contains "Luxe silk" or producttag contains "luxe silk" or producttag contains "Luxe-Silk" or producttag contains "Luxe-silk" %}
+                      <div class="fabricblock">
+                         <h3>Luxe Silk</h3>
+                        <ul>
+                        <li>Luxe silk is highlighted for its exceptional quality and luxurious texture.</li>
+                        <li>It is renowned for its superior grade, ethereal translucency, and remarkably smooth finish.</li>
+                        <li>The fabric's elegance is attributed to both its luxurious nature and refined craftsmanship.</li>
+                       </ul>
+                      </div>
+                    {% endif %}
+  
+                  
+                  
+                  
+    </div>
+                  </collapsible-content>
+                </div>
+  
+                {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+              {%- endif -%}
+  
+            {%- when 'content' -%}
+              {%- if block.settings.page != blank -%}
+                {%- assign title = block.settings.page.title -%}
+                {%- assign content = block.settings.page.content -%}
+              {%- else -%}
+                {%- assign title = block.settings.title -%}
+                {%- assign content = block.settings.content -%}
+              {%- endif -%}
+  {% if productstagsdata contains 'sale' %}
+              {%- if title != blank and content != blank -%}
+                <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
+                  <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
+                    {{- title -}}
+                    {%- render 'icon' with 'chevron' -%}
+                  </button>
+  
                   <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
                     <div class="product-tabs__tab-item-content rte">
-                      {{- product.description -}}
+                      {{- content -}}
                     </div>
-
+  
+                    {%- if trust_content != blank and processed_blocks == 0 -%}
+                      <div class="product-tabs__trust-list hidden-pocket">
+                        {{- trust_content -}}
+                      </div>
+                    {%- endif -%}
+                  </collapsible-content>
+                </div>{% else %}{% endif %}
+  
+                {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+              {%- endif -%}
+  
+          
+              {%- when 'DeliveryInfo' -%} 
+              {% if productstagsdata contains 'sale' %}
+                {% else %}
+  
+               <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
+                  <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
+                    {{ block.settings.titlecustom }}
+                    {%- render 'icon' with 'chevron' -%}
+                  </button>
+  
+                  <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+             
+              <div class="product-tabs__tab-item-content rte">
+                                 {% if product.tags contains '10Days' or product.tags contains '10days' or product.tags contains '10 day' or  product.tags contains '10Days'%}
+                    <b style="display: flex;align-items: center;">Lightening fast delivery <img id="custompopup" style="    width: 20px;cursor: pointer;
+      height: 20px;
+      margin: 0 0 0 19px;" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/new-window.png?v=1683014180"></b>
+  <li>Ships within 8-10 working days </li><li>Free shipping within India on orders above ₹3,500</li>
+  <li>International shipping charges vary from country to country</li>
+  
+                      {% elsif product.tags contains '48 hours' or product.tags contains '48hours' or product.tags contains '48 hour' or  product.tags contains '48hour'%}
+                    <b style="display: flex;align-items: center;">Lightening fast delivery <img id="custompopup" style="    width: 20px;cursor: pointer;
+      height: 20px;
+      margin: 0 0 0 19px;" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/new-window.png?v=1683014180"></b>
+  <li>Ships within 48 Hours </li><li>Free shipping within India on orders above ₹3,500</li>
+  <li>International shipping charges vary from country to country</li>
+                        
+                {% else %}
+                        <p>{{ block.settings.lightingtext }}</p>{% endif %}
+                        <p>{{ block.settings.returntext }}</p>
+              <div class="custom-model-main">
+      <div class="custom-model-inner">
+        <div class="close-btn">×</div>
+        <div class="custom-model-wrap">
+              {% if product.tags contains '10Days' or product.tags contains '10days' or product.tags contains '10 day' or  product.tags contains '10Days' %}
+                <div class="pop-up-content-wrap">Delivery
+  <li>Free shipping within India on orders above ₹3,500</li>
+  <li>We ship within 8-10 days of you placing your order.</li>
+  <li>We send your order via a third-party logistic partner (Bluedart)</li></div>
+  {% elsif product.tags contains '48 hours' or product.tags contains '48hours' or product.tags contains '48 hour' or  product.tags contains '48hour' %}
+                <div class="pop-up-content-wrap">Delivery
+  <li>Free shipping within India on orders above ₹3,500</li>
+  <li>We ship within 48 Hours of you placing your order.</li>
+  <li>We send your order via a third-party logistic partner (Bluedart)</li></div>
+         {% else %} <div class="pop-up-content-wrap">{{ block.settings.lightingpopuptext }}</div>{% endif %}
+        </div>
+      </div>
+      <div class="bg-overlay"></div>
+    </div>
+    <script>
+      $("#custompopup").on('click', function () {
+        $(".custom-model-main").addClass('model-open');
+      });
+       $(".close-btn, .bg-overlay").click(function () {
+         $(".custom-model-main").removeClass('model-open');
+       });
+    </script>
+              <div class="custom-model-mainone">
+      <div class="custom-model-inner1">
+        <div class="close-btn1">×</div>
+        <div class="custom-model-wrap1">
+          <div class="pop-up-content-wrap">{{ block.settings.returnpopuptext }}</div>
+        </div>
+      </div>
+      <div class="bg-overlay"></div>
+    </div>
+    <script>
+      $("#custompopupreturn").on('click', function () {
+        $(".custom-model-mainone").addClass('model-open');
+      });
+      $(".close-btn1, .bg-overlay").click(function () {
+        $(".custom-model-mainone").removeClass('model-open');
+      });
+    </script>
+                    
+                    </div>
+                  </collapsible-content>
+                </div>{% endif %}
+  
+             
+  
+  
+  
+  
+  
+              
+            {%- when 'liquid' -%}
+              {%- if block.settings.title != blank and block.settings.liquid != blank -%}
+                <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
+                  <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
+                    {{- block.settings.title | escape -}}
+                    {%- render 'icon' with 'chevron' -%}
+                  </button>
+  
+                  <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+                    <div class="product-tabs__tab-item-content rte">
+                      {{- block.settings.liquid -}}
+                    </div>
+  
                     {%- if trust_content != blank and processed_blocks == 0 -%}
                       <div class="product-tabs__trust-list hidden-pocket">
                         {{- trust_content -}}
@@ -351,871 +706,757 @@
                     {%- endif -%}
                   </collapsible-content>
                 </div>
-
-                
-
+  
                 {%- assign processed_blocks = processed_blocks | plus: 1 -%}
               {%- endif -%}
-              {%- when 'DeliveryInfo' -%}
-                {% if productstagsdata contains 'sale' %}
-                  {% else %}
-              
-                 <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
-                    <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
-                      {{ block.settings.titlecustom }}
-                      {%- render 'icon' with 'chevron' -%}
-                    </button>
-              
-                    <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
-               
-                <div class="product-tabs__tab-item-content rte">
-                                   {% if product.tags contains '10Days' or product.tags contains '10days' or product.tags contains '10 day' or  product.tags contains '10Days'%}
-                      <b style="display: flex;align-items: center;">Lightening fast delivery <img id="custompopup" style="    width: 20px;cursor: pointer;
-              height: 20px;
-              margin: 0 0 0 19px;" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/new-window.png?v=1683014180"></b>
-              <li>Ships within 8-10 working days </li><li>Free shipping within India on orders above ₹3,500</li>
-              <li>International shipping charges vary from country to country</li>
-              
-                        {% elsif product.tags contains '48 hours' or product.tags contains '48hours' or product.tags contains '48 hour' or  product.tags contains '48hour'%}
-                      <b style="display: flex;align-items: center;">Lightening fast delivery <img id="custompopup" style="    width: 20px;cursor: pointer;
-              height: 20px;
-              margin: 0 0 0 19px;" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/new-window.png?v=1683014180"></b>
-              <li>Ships within 48 Hours </li><li>Free shipping within India on orders above ₹3,500</li>
-              <li>International shipping charges vary from country to country</li>
-                          
-                  {% else %}
-                          <p>{{ block.settings.lightingtext }}</p>{% endif %}
-                          <p>{{ block.settings.returntext }}</p>
-                <div class="custom-model-main">
-              <div class="custom-model-inner">
-              <div class="close-btn">×</div>
-              <div class="custom-model-wrap">
-                {% if product.tags contains '10Days' or product.tags contains '10days' or product.tags contains '10 day' or  product.tags contains '10Days' %}
-                  <div class="pop-up-content-wrap">Delivery
-              <li>Free shipping within India on orders above ₹3,500</li>
-              <li>We ship within 8-10 days of you placing your order.</li>
-              <li>We send your order via a third-party logistic partner (Bluedart)</li></div>
-              {% elsif product.tags contains '48 hours' or product.tags contains '48hours' or product.tags contains '48 hour' or  product.tags contains '48hour' %}
-                  <div class="pop-up-content-wrap">Delivery
-              <li>Free shipping within India on orders above ₹3,500</li>
-              <li>We ship within 48 Hours of you placing your order.</li>
-              <li>We send your order via a third-party logistic partner (Bluedart)</li></div>
-              {% else %} <div class="pop-up-content-wrap">{{ block.settings.lightingpopuptext }}</div>{% endif %}
-              </div>
-              </div>
-              <div class="bg-overlay"></div>
-              </div>
-              <script>
-                document.getElementById('custompopup').addEventListener('click', function() {
-                  document.querySelector('.custom-model-main').classList.add('model-open');
-              });
-              
-              document.querySelectorAll('.close-btn, .bg-overlay').forEach(function(element) {
-                  element.addEventListener('click', function() {
-                      document.querySelector('.custom-model-main').classList.remove('model-open');
-                  });
-              });
-              
-              </script>
-                <div class="custom-model-mainone">
-              <div class="custom-model-inner1">
-              <div class="close-btn1">×</div>
-              <div class="custom-model-wrap1">
-              <div class="pop-up-content-wrap">{{ block.settings.returnpopuptext }}</div>
-              </div>
-              </div>
-              <div class="bg-overlay"></div>
-              </div>
-              <script>
-                document.getElementById('custompopupreturn').addEventListener('click', function() {
-                  document.querySelector('.custom-model-mainone').classList.add('model-open');
-              });
-              
-              document.querySelectorAll('.close-btn1, .bg-overlay').forEach(function(element) {
-                  element.addEventListener('click', function() {
-                      document.querySelector('.custom-model-mainone').classList.remove('model-open');
-                  });
-              });
-              </script>
-                      
-                      </div>
-                    </collapsible-content>
-                  </div>{% endif %}
-
-          {%- when 'content' -%}
-            {%- if block.settings.page != blank -%}
-              {%- assign title = block.settings.title | default: block.settings.page.title -%}
-              {%- assign content = block.settings.page.content -%}
-            {%- else -%}
-              {%- assign title = block.settings.title -%}
-              {%- assign content = block.settings.content -%}
-            {%- endif -%}
-
-            {%- if title != blank and content != blank -%}
-              <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
-                <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
-                  {{- title -}}
-                  {%- render 'icon' with 'chevron' -%}
-                </button>
-
-                <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
-                  <div class="product-tabs__tab-item-content rte">
-                    {{- content -}}
-                  </div>
-
-                  {%- if trust_content != blank and processed_blocks == 0 -%}
-                    <div class="product-tabs__trust-list hidden-pocket">
-                      {{- trust_content -}}
-                    </div>
-                  {%- endif -%}
-                </collapsible-content>
-              </div>
-
-              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
-            {%- endif -%}
-
-          {%- when 'liquid' -%}
-            {%- if block.settings.title != blank and block.settings.liquid != blank -%}
-              <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
-                <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
-                  {{- block.settings.title | escape -}}
-                  {%- render 'icon' with 'chevron' -%}
-                </button>
-
-                <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
-                  <div class="product-tabs__tab-item-content rte">
-                    {{- block.settings.liquid -}}
-                  </div>
-
-                  {%- if trust_content != blank and processed_blocks == 0 -%}
-                    <div class="product-tabs__trust-list hidden-pocket">
-                      {{- trust_content -}}
-                    </div>
-                  {%- endif -%}
-                </collapsible-content>
-              </div>
-
-              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
-            {%- endif -%}
-          {%- endcase -%}
-        {%- endfor -%}
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+  
+      {%- if trust_content != blank -%}
+        <div class="product-tabs__trust-list container {% if product_tabs_nav_items != blank %}hidden-lap-and-up{% endif %}">
+          {{- trust_content -}}
+        </div>
+      {%- endif -%}
+  
+      {%- comment -%}Output the various drawers for the trust badges, only once (if they exist){%- endcomment -%}
+      {{- trust_drawer_content -}}
+    {%- endcapture -%}
+  
+    {%- if product_tabs != blank -%}
+      <div class="product-content__tabs anchor" id="product-{{ product.id }}-tabs">
+        <div class="product-tabs">
+          {{- product_tabs -}}
+        </div>
       </div>
     {%- endif -%}
-
-    {%- if trust_content != blank -%}
-      <div class="product-tabs__trust-list container {% if product_tabs_nav_items != blank %}hidden-lap-and-up{% endif %}">
-        {{- trust_content -}}
-      </div>
-    {%- endif -%}
-
-    {%- comment -%}Output the various drawers for the trust badges, only once (if they exist){%- endcomment -%}
-    {{- trust_drawer_content -}}
-  {%- endcapture -%}
-
-  {%- if product_tabs != blank -%}
-    <div class="product-content__tabs anchor" id="product-{{ product.id }}-tabs">
-      <div class="product-tabs">
-        {{- product_tabs -}}
-      </div>
-    </div>
-  {%- endif -%}
-
-  {%- assign complementary_products_block = section.blocks | where: 'type', 'complementary_products' | first -%}
-
-  {%- if complementary_products_block != blank -%}
-    <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="8" product-id="{{ product.id }}" section-id="{{ section.id }}">
-      {%- if recommendations.performed and recommendations.products_count > 0 -%}
-        {%- if complementary_products_block.settings.title != blank -%}
-          <p class="product-content__featured-products-title heading heading--small">{{ complementary_products_block.settings.title | escape }}</p>
-        {%- endif -%}
-
-        <div class="scroller">
-          <div class="scroller__inner">
-            <div class="product-content__featured-products-list">
-              {%- for product in recommendations.products -%}
-                {%- render 'product-item', product: product, reduced_content: true, reduced_font_size: true, sizes_attribute: '(max-width: 740px) 105px, 215px' -%}
-              {%- endfor -%}
+  
+    {%- assign featured_products_block = section.blocks | where: 'type', 'featured_products' | first -%}
+  
+    {%- if featured_products_block != blank -%}
+      {%- assign product_1 = featured_products_block.settings.product_1 -%}
+      {%- assign product_2 = featured_products_block.settings.product_2 -%}
+  
+      {%- if product_1 != blank or product_2 != blank -%}
+        <div class="product-content__featured-products">
+          {%- if featured_products_block.settings.title != blank -%}
+            <p class="product-content__featured-products-title heading heading--small">{{ featured_products_block.settings.title }}</p>
+          {%- endif -%}
+  
+          <div class="scroller">
+            <div class="scroller__inner">
+              <div class="product-content__featured-products-list">
+                {%- if product_1 != blank and product_1 != product -%}
+                  {%- render 'product-item', product: product_1, reduced_content: true, reduced_font_size: true, sizes_attribute: '(max-width: 740px) 105px, 215px' -%}
+                {%- endif -%}
+  
+                {%- if product_2 != blank and product_2 != product -%}
+                  {%- render 'product-item', product: product_2, reduced_content: true, reduced_font_size: true, sizes_attribute: '(max-width: 740px) 105px, 215px' -%}
+                {%- endif -%}
+              </div>
             </div>
           </div>
         </div>
       {%- endif -%}
-    </product-recommendations>
+    {%- endif -%}
+  {%- endcapture -%}
+  
+  {% unless product.handle == 'gift-card-1' or product.handle == 'gift-card-2' %}
+  {%- if product_content != blank -%}
+    <section class="container">
+      <div id="product-{{ product.id }}-content" class="product-content anchor">
+        {{- product_content -}}
+      </div>
+    </section>
   {%- endif -%}
-{%- endcapture -%}
-
-{%- if product_content != blank -%}
-  <section class="container">
-    <div id="product-{{ product.id }}-content" class="product-content anchor">
-      {{- product_content -}}
-    </div>
-  </section>
-{%- endif -%}
-
-{% schema %}
-{
-  "name": "Product content",
-  "class": "shopify-section--product-content",
-  "blocks": [
-    {
-      "name": "Description",
-      "type": "description",
-      "limit": 1
-    },
-    {
-      "name": "Fabric",
-      "type": "fabric",
-      "settings": [
-        {
-          "type": "text",
-          "id": "fabrictitle",
-          "label": "Title",
-          "default": "Fabric"
-        },
-        {
-          "type": "header",
-          "content": "Fabric content"
-        }
-      ]
-    },
-
-    {
-          "name": "DeliveryInfo",
-          "type": "DeliveryInfo",
-          "settings": [
-            {
-              "type": "text",
-              "id": "titlecustom",
-              "label": "Title"
-            },
-            {
-              "type": "html",
-              "id": "lightingtext",
-              "label": "Lighting Text"
-            },
-            {
-              "type": "html",
-              "id": "returntext",
-              "label": "Return Text"
-            },
-            {
-              "type": "html",
-              "id": "lightingpopuptext",
-              "label": "Lighting Popup Text"
-            },
-            {
-              "type": "html",
-              "id": "returnpopuptext",
-              "label": "Return Popup Text"
-            }
-          ]
-        },
-    {
-      "name": "Content",
-      "type": "content",
-      "settings": [
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title"
-        },
-        {
-          "type": "richtext",
-          "id": "content",
-          "label": "Content"
-        },
-        {
-          "type": "page",
-          "id": "page",
-          "label": "Content from page",
-          "info": "If specified, takes precedence over inline content."
-        }
-      ]
-    },
-    {
-      "name": "Custom Liquid",
-      "type": "liquid",
-      "settings": [
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title"
-        },
-        {
-          "type": "liquid",
-          "id": "liquid",
-          "label": "Liquid",
-          "info": "Add app snippets or other Liquid code to create advanced customizations."
-        }
-      ]
-    },
-    {
-      "name": "Complementary products",
-      "type": "complementary_products",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "To select complementary products, use the Search & Discovery app. Only the first two products are visible. [Learn more](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations#complementary-products)"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Heading",
-          "default": "Featured products"
-        }
-      ]
-    },
-    {
-      "name": "Trust icons",
-      "type": "trust",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "Show extra text next to your product description to improve trust."
-        },
-        {
-          "type": "header",
-          "content": "Text 1"
-        },
-        {
-          "type": "select",
-          "id": "icon_1",
-          "label": "Icon",
-          "options": [
-            {
-              "value": "picto-coupon",
-              "label": "Coupon",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-gift",
-              "label": "Gift",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-taxes",
-              "label": "Taxes",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-warranty",
-              "label": "Warranty",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-like",
-              "label": "Like",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-store",
-              "label": "Store",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-store-pickup",
-              "label": "Store pickup",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-love",
-              "label": "Love",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-donation",
-              "label": "Donation",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-box",
-              "label": "Box",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-address",
-              "label": "Address",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-address-pin",
-              "label": "Address pin",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-fast-delivery",
-              "label": "Fast delivery",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-delivery-truck",
-              "label": "Delivery truck",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-return-box",
-              "label": "Returns",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-worldwide",
-              "label": "World",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-plane",
-              "label": "Plane",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-credit-card",
-              "label": "Credit card",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-lock",
-              "label": "Lock",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-shield",
-              "label": "Shield",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-secure-payment",
-              "label": "Secure payment",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-mobile",
-              "label": "Mobile",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-phone",
-              "label": "Phone",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-chat",
-              "label": "Chat",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-send",
-              "label": "Send",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-email",
-              "label": "Email",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-customer-support",
-              "label": "Customer support",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-operator",
-              "label": "Support operator",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-virus",
-              "label": "Virus",
-              "group": "Health"
-            },
-            {
-              "value": "picto-mask",
-              "label": "Mask",
-              "group": "Health"
-            }
-          ],
-          "default": "picto-customer-support"
-        },
-        {
-          "type": "image_picker",
-          "id": "custom_icon_1",
-          "label": "Custom icon",
-          "info": "48 x 48px .png with transparency recommended"
-        },
-        {
-          "type": "text",
-          "id": "title_1",
-          "label": "Heading",
-          "default": "Shipping & Returns"
-        },
-        {
-          "type": "richtext",
-          "id": "content_1",
-          "label": "Content",
-          "default": "<p>Add text about your shipping policy</p>"
-        },
-        {
-          "type": "header",
-          "content": "Text 2"
-        },
-        {
-          "type": "select",
-          "id": "icon_2",
-          "label": "Icon",
-          "options": [
-            {
-              "value": "picto-coupon",
-              "label": "Coupon",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-gift",
-              "label": "Gift",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-taxes",
-              "label": "Taxes",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-warranty",
-              "label": "Warranty",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-like",
-              "label": "Like",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-store",
-              "label": "Store",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-store-pickup",
-              "label": "Store pickup",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-love",
-              "label": "Love",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-donation",
-              "label": "Donation",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-box",
-              "label": "Box",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-address",
-              "label": "Address",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-address-pin",
-              "label": "Address pin",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-fast-delivery",
-              "label": "Fast delivery",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-delivery-truck",
-              "label": "Delivery truck",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-return-box",
-              "label": "Returns",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-worldwide",
-              "label": "World",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-plane",
-              "label": "Plane",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-credit-card",
-              "label": "Credit card",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-lock",
-              "label": "Lock",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-shield",
-              "label": "Shield",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-secure-payment",
-              "label": "Secure payment",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-mobile",
-              "label": "Mobile",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-phone",
-              "label": "Phone",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-chat",
-              "label": "Chat",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-send",
-              "label": "Send",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-email",
-              "label": "Email",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-customer-support",
-              "label": "Customer support",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-operator",
-              "label": "Support operator",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-virus",
-              "label": "Virus",
-              "group": "Health"
-            },
-            {
-              "value": "picto-mask",
-              "label": "Mask",
-              "group": "Health"
-            }
-          ],
-          "default": "picto-warranty"
-        },
-        {
-          "type": "image_picker",
-          "id": "custom_icon_2",
-          "label": "Custom icon",
-          "info": "48 x 48px .png with transparency recommended"
-        },
-        {
-          "type": "text",
-          "id": "title_2",
-          "label": "Heading",
-          "default": "Warranty"
-        },
-        {
-          "type": "richtext",
-          "id": "content_2",
-          "label": "Content",
-          "default": "<p>Add text about your product warranty</p>"
-        },
-        {
-          "type": "header",
-          "content": "Text 3"
-        },
-        {
-          "type": "select",
-          "id": "icon_3",
-          "label": "Icon",
-          "options": [
-            {
-              "value": "picto-coupon",
-              "label": "Coupon",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-gift",
-              "label": "Gift",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-taxes",
-              "label": "Taxes",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-warranty",
-              "label": "Warranty",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-like",
-              "label": "Like",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-store",
-              "label": "Store",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-store-pickup",
-              "label": "Store pickup",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-love",
-              "label": "Love",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-donation",
-              "label": "Donation",
-              "group": "Shop"
-            },
-            {
-              "value": "picto-box",
-              "label": "Box",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-address",
-              "label": "Address",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-address-pin",
-              "label": "Address pin",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-fast-delivery",
-              "label": "Fast delivery",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-delivery-truck",
-              "label": "Delivery truck",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-return-box",
-              "label": "Returns",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-worldwide",
-              "label": "World",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-plane",
-              "label": "Plane",
-              "group": "Shipping"
-            },
-            {
-              "value": "picto-credit-card",
-              "label": "Credit card",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-lock",
-              "label": "Lock",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-shield",
-              "label": "Shield",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-secure-payment",
-              "label": "Secure payment",
-              "group": "Payment & Security"
-            },
-            {
-              "value": "picto-mobile",
-              "label": "Mobile",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-phone",
-              "label": "Phone",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-chat",
-              "label": "Chat",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-send",
-              "label": "Send",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-email",
-              "label": "Email",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-customer-support",
-              "label": "Customer support",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-operator",
-              "label": "Support operator",
-              "group": "Communication"
-            },
-            {
-              "value": "picto-virus",
-              "label": "Virus",
-              "group": "Health"
-            },
-            {
-              "value": "picto-mask",
-              "label": "Mask",
-              "group": "Health"
-            }
-          ],
-          "default": "picto-secure-payment"
-        },
-        {
-          "type": "image_picker",
-          "id": "custom_icon_3",
-          "label": "Custom icon",
-          "info": "48 x 48px .png with transparency recommended"
-        },
-        {
-          "type": "text",
-          "id": "title_3",
-          "label": "Heading",
-          "default": "Secure Payment"
-        },
-        {
-          "type": "richtext",
-          "id": "content_3",
-          "label": "Content",
-          "default": "<p>Add text about your payment</p>"
-        }
-      ]
-    }
-  ]
-}
-{% endschema %}
+  {% endunless %}
+  
+  {% schema %}
+  {
+    "name": "Product content",
+    "class": "shopify-section--product-content",
+    "blocks": [
+      {
+        "name": "Description",
+        "type": "description",
+        "limit": 1
+      },
+      {
+        "name": "Fabric",
+        "type": "fabric",
+        "settings": [
+          {
+            "type": "text",
+            "id": "fabrictitle",
+            "label": "Title",
+            "default": "Fabric"
+          },
+          {
+            "type": "header",
+            "content": "Fabric content"
+          }
+        ]
+      },
+      {
+        "name": "Content",
+        "type": "content",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          },
+          {
+            "type": "page",
+            "id": "page",
+            "label": "Content from page",
+            "info": "If specified, takes precedence over inline content."
+          }
+        ]
+      },
+  
+  {
+        "name": "DeliveryInfo",
+        "type": "DeliveryInfo",
+        "settings": [
+          {
+            "type": "text",
+            "id": "titlecustom",
+            "label": "Title"
+          },
+          {
+            "type": "html",
+            "id": "lightingtext",
+            "label": "Lighting Text"
+          },
+          {
+            "type": "html",
+            "id": "returntext",
+            "label": "Return Text"
+          },
+          {
+            "type": "html",
+            "id": "lightingpopuptext",
+            "label": "Lighting Popup Text"
+          },
+          {
+            "type": "html",
+            "id": "returnpopuptext",
+            "label": "Return Popup Text"
+          }
+        ]
+      },
+      
+  
+      
+      {
+        "name": "Custom Liquid",
+        "type": "liquid",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "liquid",
+            "id": "liquid",
+            "label": "Liquid",
+            "info": "Add app snippets or other Liquid code to create advanced customizations."
+          }
+        ]
+      },
+      {
+        "name": "Reviews",
+        "type": "reviews",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "paragraph",
+            "content": "To show review, add the official Product Reviews app. [Learn more](https://help.shopify.com/en/manual/products/product-reviews/installation)"
+          }
+        ]
+      },
+      {
+        "name": "Featured products",
+        "type": "featured_products",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Featured products"
+          },
+          {
+            "type": "product",
+            "id": "product_1",
+            "label": "Product 1"
+          },
+          {
+            "type": "product",
+            "id": "product_2",
+            "label": "Product 2"
+          }
+        ]
+      },
+      {
+        "name": "Trust icons",
+        "type": "trust",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "paragraph",
+            "content": "Show extra text next to your product description to improve trust."
+          },
+          {
+            "type": "header",
+            "content": "Text 1"
+          },
+          {
+            "type": "select",
+            "id": "icon_1",
+            "label": "Icon",
+            "options": [
+              {
+                "value": "picto-coupon",
+                "label": "Coupon",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-gift",
+                "label": "Gift",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-taxes",
+                "label": "Taxes",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-warranty",
+                "label": "Warranty",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-like",
+                "label": "Like",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-store",
+                "label": "Store",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-store-pickup",
+                "label": "Store pickup",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-love",
+                "label": "Love",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-donation",
+                "label": "Donation",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-box",
+                "label": "Box",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-address",
+                "label": "Address",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-address-pin",
+                "label": "Address pin",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-fast-delivery",
+                "label": "Fast delivery",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-delivery-truck",
+                "label": "Delivery truck",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-return-box",
+                "label": "Returns",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-worldwide",
+                "label": "World",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-plane",
+                "label": "Plane",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-credit-card",
+                "label": "Credit card",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-lock",
+                "label": "Lock",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-shield",
+                "label": "Shield",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-secure-payment",
+                "label": "Secure payment",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-mobile",
+                "label": "Mobile",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-phone",
+                "label": "Phone",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-chat",
+                "label": "Chat",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-send",
+                "label": "Send",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-email",
+                "label": "Email",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-customer-support",
+                "label": "Customer support",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-operator",
+                "label": "Support operator",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-virus",
+                "label": "Virus",
+                "group": "Health"
+              },
+              {
+                "value": "picto-mask",
+                "label": "Mask",
+                "group": "Health"
+              }
+            ],
+            "default": "picto-customer-support"
+          },
+          {
+            "type": "image_picker",
+            "id": "custom_icon_1",
+            "label": "Custom icon",
+            "info": "48 x 48px .png with transparency recommended"
+          },
+          {
+            "type": "text",
+            "id": "title_1",
+            "label": "Heading",
+            "default": "Shipping & Returns"
+          },
+          {
+            "type": "richtext",
+            "id": "content_1",
+            "label": "Content",
+            "default": "<p>Add text about your shipping policy</p>"
+          },
+          {
+            "type": "header",
+            "content": "Text 2"
+          },
+          {
+            "type": "select",
+            "id": "icon_2",
+            "label": "Icon",
+            "options": [
+              {
+                "value": "picto-coupon",
+                "label": "Coupon",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-gift",
+                "label": "Gift",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-taxes",
+                "label": "Taxes",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-warranty",
+                "label": "Warranty",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-like",
+                "label": "Like",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-store",
+                "label": "Store",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-store-pickup",
+                "label": "Store pickup",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-love",
+                "label": "Love",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-donation",
+                "label": "Donation",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-box",
+                "label": "Box",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-address",
+                "label": "Address",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-address-pin",
+                "label": "Address pin",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-fast-delivery",
+                "label": "Fast delivery",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-delivery-truck",
+                "label": "Delivery truck",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-return-box",
+                "label": "Returns",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-worldwide",
+                "label": "World",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-plane",
+                "label": "Plane",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-credit-card",
+                "label": "Credit card",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-lock",
+                "label": "Lock",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-shield",
+                "label": "Shield",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-secure-payment",
+                "label": "Secure payment",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-mobile",
+                "label": "Mobile",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-phone",
+                "label": "Phone",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-chat",
+                "label": "Chat",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-send",
+                "label": "Send",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-email",
+                "label": "Email",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-customer-support",
+                "label": "Customer support",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-operator",
+                "label": "Support operator",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-virus",
+                "label": "Virus",
+                "group": "Health"
+              },
+              {
+                "value": "picto-mask",
+                "label": "Mask",
+                "group": "Health"
+              }
+            ],
+            "default": "picto-warranty"
+          },
+          {
+            "type": "image_picker",
+            "id": "custom_icon_2",
+            "label": "Custom icon",
+            "info": "48 x 48px .png with transparency recommended"
+          },
+          {
+            "type": "text",
+            "id": "title_2",
+            "label": "Heading",
+            "default": "Warranty"
+          },
+          {
+            "type": "richtext",
+            "id": "content_2",
+            "label": "Content",
+            "default": "<p>Add text about your product warranty</p>"
+          },
+          {
+            "type": "header",
+            "content": "Text 3"
+          },
+          {
+            "type": "select",
+            "id": "icon_3",
+            "label": "Icon",
+            "options": [
+              {
+                "value": "picto-coupon",
+                "label": "Coupon",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-gift",
+                "label": "Gift",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-taxes",
+                "label": "Taxes",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-warranty",
+                "label": "Warranty",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-like",
+                "label": "Like",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-store",
+                "label": "Store",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-store-pickup",
+                "label": "Store pickup",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-love",
+                "label": "Love",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-donation",
+                "label": "Donation",
+                "group": "Shop"
+              },
+              {
+                "value": "picto-box",
+                "label": "Box",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-address",
+                "label": "Address",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-address-pin",
+                "label": "Address pin",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-fast-delivery",
+                "label": "Fast delivery",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-delivery-truck",
+                "label": "Delivery truck",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-return-box",
+                "label": "Returns",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-worldwide",
+                "label": "World",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-plane",
+                "label": "Plane",
+                "group": "Shipping"
+              },
+              {
+                "value": "picto-credit-card",
+                "label": "Credit card",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-lock",
+                "label": "Lock",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-shield",
+                "label": "Shield",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-secure-payment",
+                "label": "Secure payment",
+                "group": "Payment & Security"
+              },
+              {
+                "value": "picto-mobile",
+                "label": "Mobile",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-phone",
+                "label": "Phone",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-chat",
+                "label": "Chat",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-send",
+                "label": "Send",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-email",
+                "label": "Email",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-customer-support",
+                "label": "Customer support",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-operator",
+                "label": "Support operator",
+                "group": "Communication"
+              },
+              {
+                "value": "picto-virus",
+                "label": "Virus",
+                "group": "Health"
+              },
+              {
+                "value": "picto-mask",
+                "label": "Mask",
+                "group": "Health"
+              }
+            ],
+            "default": "picto-secure-payment"
+          },
+          {
+            "type": "image_picker",
+            "id": "custom_icon_3",
+            "label": "Custom icon",
+            "info": "48 x 48px .png with transparency recommended"
+          },
+          {
+            "type": "text",
+            "id": "title_3",
+            "label": "Heading",
+            "default": "Secure Payment"
+          },
+          {
+            "type": "richtext",
+            "id": "content_3",
+            "label": "Content",
+            "default": "<p>Add text about your payment</p>"
+          }
+        ]
+      }
+    ]
+  }
+  {% endschema %}
