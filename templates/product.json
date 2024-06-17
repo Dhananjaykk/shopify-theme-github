@@ -103,11 +103,11 @@
         "delivery_info_jTYnaG": {
           "type": "DeliveryInfo",
           "settings": {
-            "titlecustom": "",
-            "lightingtext": "",
-            "returntext": "",
-            "lightingpopuptext": "",
-            "returnpopuptext": ""
+            "titlecustom": "Delivery and Returns",
+            "lightingtext": "<b style=\"display: flex;align-items: center;\">Lightening fast delivery <img id=\"custompopup\" style=\"    width: 20px;cursor: pointer;\n    height: 20px;\n    margin: 0 0 0 19px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0088\/4031\/4931\/files\/new-window.png?v=1683014180\"><\/b>\n<li>Ships within 2-4 working days <\/li><li>Free shipping within India on orders above ₹3,500<\/li>\n<li>International shipping charges vary from country to country<\/li>",
+            "returntext": "<b style=\"display: flex;align-items: center;\">Easy returns and exchanges <img id=\"custompopupreturn\" style=\"    width: 20px;cursor: pointer;\n    height: 20px;\n    margin: 0 0 0 19px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0088\/4031\/4931\/files\/new-window.png?v=1683014180\"><\/b>\n\n<li>100% refund within 7 days of date of delivery <\/li><li>Exchange within 15 days <\/li><li>No return &amp; exchange  on international orders<\/li>",
+            "lightingpopuptext": "Delivery\n<li>Free shipping within India on orders above ₹3,500<\/li>\n<li>We ship within 2-4 days of you placing your order.<\/li>\n<li>We send your order via a third-party logistic partner (Bluedart)<\/li>",
+            "returnpopuptext": "Returns and exchanges:\n  <li>We offer 100% refund within 7 days from the date of delivery.<\/li>\n  <li>We offer product exchange within 15 days from the date of delivery.<\/li>\n  <li>In case of return or exchange, the customer is required to self-ship the package and share details with us on mail at: orders@shopmulmul.com<\/li>\n  <li>Incase you’d like a pick-up, a charge of Rs.300 is levied<\/li>\n  <li>All our refunds happen via bank transfer only.<\/li>\n  <li>Make sure all items are clean and unworn. All original tags must be included.<\/li>\nPackaging information:\nWe use a special Mulmul Perfume on the butter paper as part of our packaging process."
           }
         }
       },
