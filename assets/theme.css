@@ -97,6 +97,7 @@ button#AddToCart {
 }
 h1.product-meta__title.heading.h3 {
   font-size: 18px;
+  font-weight: bold;
 }
 }
 
