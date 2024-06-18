@@ -129,6 +129,13 @@
       "settings": {
       }
     },
+    "custom_image_with_text_a33iKV": {
+      "type": "custom-image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -166,6 +173,7 @@
   "order": [
     "main",
     "product-content",
+    "custom_image_with_text_a33iKV",
     "product-recommendations",
     "1717493181be4c08ec"
   ]
