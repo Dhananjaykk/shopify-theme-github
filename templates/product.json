@@ -129,6 +129,11 @@
       "settings": {
       }
     },
+    "product_video_Fabddj": {
+      "type": "product-video",
+      "settings": {
+      }
+    },
     "custom_image_with_text_a33iKV": {
       "type": "custom-image-with-text",
       "settings": {
@@ -173,6 +178,7 @@
   "order": [
     "main",
     "product-content",
+    "product_video_Fabddj",
     "custom_image_with_text_a33iKV",
     "product-recommendations",
     "1717493181be4c08ec"
