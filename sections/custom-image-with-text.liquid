@@ -1,0 +1,232 @@
+<style>
+    .popup .overlay {
+      position:fixed;
+      top:0px;
+      left:0px;
+      width:100vw;
+      height:100vh;
+      background:rgba(0,0,0,0.7);
+      z-index: 5;
+      display:none;
+    }
+  
+    .popup .content {
+      position:fixed;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%) scale(0);
+      width:35%;
+      z-index: 5;
+      text-align:center;
+      padding:20px;
+      box-sizing:border-box;
+    }
+  
+  
+    .popup .close-btn {
+      cursor:pointer;
+      position:absolute;
+      right:0px;
+      top:0px;
+      width:30px;
+      height:30px;
+      background:#222;
+      color:#fff;
+      font-size:25px;
+      font-weight:600;
+      line-height:30px;
+      text-align:center;
+      border-radius:50%;
+    }
+  
+    .popup.active .overlay {
+      display:block;
+    }
+    .section-width{
+      width:80%;
+      margin:auto;
+    }
+  
+    .popup.active .content {
+      transition:all 300ms ease-in-out;
+      transform:translate(-50%,-50%) scale(1);
+    }
+    @media only screen and (max-width: 480px){
+      .popup .content {
+          width: 100%;
+      }
+    }
+    @media only screen and (min-width: 481px) and (max-width: 700px){
+      .popup .content {
+          width: 60%;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      .section-width{
+      width:100%;
+    }
+    }
+   
+  </style>
+  {% if product.metafields["custom_fields"]["custom-image-with-text"] != blank %}
+  <section class="section section-width">
+    <div class="container">
+      <header class="section__header text-container"><h3 class="heading h2">{{ section.settings.title }}</h3></header>
+      <div class="video-box">
+          {% for item in product.metafields["custom_fields"]["custom-image-with-text"] %}
+        <div class="video-items" >
+          {% if item["image"] != blank %}
+         
+       <button class="open_popup" onclick="togglePopup('popup-{{ forloop.index }}')">
+                {{ item["image"] }}
+            </button>
+          {% endif %}
+            
+          <div class="absolute-block feature-details">
+            {% if item["sub-heading"] != blank %}
+                  <p class="title footnote"> {{ item["sub-heading"] }}</p>
+              {% endif %}
+            {% if item["headin1"] != blank %}
+                  <h2 class="para"> {{ item["headin1"] }} <br>{{ item["heading2"] }}</h2>
+            {% endif %}
+  <!--            {% if item["heading2"] != blank %}
+                   <h2 class="para">{{ item["heading2"] }}</h2>
+            {% endif %} -->
+          </div>
+        </div>
+  
+  
+          
+       
+        
+       {% endfor %}
+      </div>
+    </div>
+    {% for item in product.metafields["custom_fields"]["custom-image-with-text"] %} 
+    <div class="popup" id="popup-{{ forloop.index }}">
+            <div class="overlay" onclick="togglePopup('popup-{{ forloop.index }}')"></div>
+            <div class="content">
+              <div class="close-btn" onclick="togglePopup('popup-{{ forloop.index }}')">&times;</div>
+               {{ item["image"] }}
+            </div>
+          </div>
+     {% endfor %}
+  <script>
+        function togglePopup(idname){
+      document.getElementById(idname).classList.toggle("active");
+    }
+  
+    $("#playbtn1").click(function(event){
+        $('.videobox1').play();
+    });
+  </script>
+  </section>
+    
+    {% else %}
+      {% assign imgblocks = product.metafields.custom.popup_image.value %}
+  {% if imgblocks !=blank %}
+    <section class="section section-width">
+    <div class="container">
+      <header class="section__header text-container"><h3 class="heading h2">{{ section.settings.title }}</h3></header>
+  
+      <div class="video-box">
+       
+          {% for item in imgblocks %}
+        <div class="video-items" >      
+       <button class="open_popup" onclick="togglePopup('popup-{{ forloop.index }}')">
+               <img src="{{ item | img_url: 'master'}}">
+            </button>
+        </div>
+  
+  
+          
+       
+        
+       {% endfor %}
+      </div>
+    </div>
+    {% for item in imgblocks %} 
+    <div class="popup" id="popup-{{ forloop.index }}">
+            <div class="overlay" onclick="togglePopup('popup-{{ forloop.index }}')"></div>
+            <div class="content">
+              <div class="close-btn" onclick="togglePopup('popup-{{ forloop.index }}')">&times;</div>
+              <img src="{{ item | img_url: 'master'}}">
+            </div>
+          </div>
+     {% endfor %}
+  <script>
+        function togglePopup(idname){
+      document.getElementById(idname).classList.toggle("active");
+    }
+  
+    $("#playbtn1").click(function(event){
+        $('.videobox1').play();
+    });
+  </script>
+  </section>
+  {% endif %}
+  {% endif %}
+  
+    
+  
+  <style>
+  .feature-details{
+        position: absolute;
+      /* top: 0; */
+      bottom: 25%;
+      left: 10%;
+    color:#ffff;
+     text-transform: capitalize;
+  }
+    .video-items{
+      position:relative;
+         width:33.33%;
+    }
+    .video-box{
+      display:flex;
+      justify-content: center;
+    }
+    .video-items{
+      padding:10px;
+    }
+    .video-items img{
+      border-radius: 15px;
+    }
+    @media only screen and (max-width: 768px) {
+      .video-items{
+         width: 75%;
+      }
+    }
+  </style>
+ 
+  {% schema %}
+    {
+      "name": "custom-image-with-text",
+      "settings": [
+         {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "Your subheading"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Your title"
+      }
+      ],
+    "presets": [
+      {
+        "name": "custom-image-with-text",
+        "settings": {}
+      }
+    ]
+    }
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}
