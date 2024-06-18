@@ -1,0 +1,49 @@
+{% if product.metafields["custom_fields"]["product-video"] != blank %}
+    <section class="section mobile-video">
+      <div class="container">
+     <div class="section-video">
+      <video class="custom-video" controls loop muted autoplay>
+        <source src="{{ product.metafields["custom_fields"]["product-video"] }}" type="video/mp4">
+      </video>
+    </div>
+      </div>
+      
+    </section>
+    {% endif %}
+    <style>
+      .mobile-video{
+        display:none;
+      }
+      .section-video{
+    width:100%;
+    }
+    .custom-video{
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    }
+      @media only screen and (max-width: 768px) {
+        .mobile-video{
+        display:block;
+      }
+      }
+    </style>
+    
+    {% schema %}
+      {
+        "name": "product-video",
+        "settings": [
+        {
+          "type": "header",
+          "content": "video coming form custom filed app"
+        }
+        ],
+      "presets": [
+        {
+          "name": "product-video",
+          "settings": {}
+        }
+      ]
+      }
+      {% endschema %}
