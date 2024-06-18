@@ -2,6 +2,9 @@
 .shopify-payment-button{
   width:50%;
 }
+.product-sticky-form__content-wrapper.hidden-pocket{
+  width:35%;
+}
 .text-with-icons__item {
   border-radius: 10px;
 }
