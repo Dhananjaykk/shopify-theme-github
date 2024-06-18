@@ -142,8 +142,8 @@
     "custom_image_with_text_a33iKV": {
       "type": "custom-image-with-text",
       "settings": {
-        "subheading": "Your subheading",
-        "title": "Your title"
+        "subheading": "",
+        "title": ""
       }
     },
     "1717493181be4c08ec": {
