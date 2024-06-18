@@ -75,6 +75,17 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
 
 
     {{ content_for_header }}
+    <style>
+      {% unless template.name=='product' %}
+        .shopify-payment-button{
+          width:100%;
+        }
+        button#AddToCart {
+          width: 100%;
+        }
+        
+        {% endunless %}
+    </style>
   </head>
 
   {%- assign feature_classes = '' -%}
