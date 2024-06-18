@@ -10352,7 +10352,7 @@ input:checked + .popover__choice-label:is(:lang(ae), :lang(ar), :lang(arc), :lan
 }
 
 .product-form__option-selector + .product-form__option-selector {
-  margin-block-start: 16px;
+  margin-block-start: 20px;
 }
 
 .product-form__payment-container {
