@@ -139,6 +139,13 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "custom_image_with_text_a33iKV": {
+      "type": "custom-image-with-text",
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title"
+      }
+    },
     "1717493181be4c08ec": {
       "type": "apps",
       "blocks": {
@@ -167,6 +174,7 @@
     "main",
     "product-content",
     "product-recommendations",
+    "custom_image_with_text_a33iKV",
     "1717493181be4c08ec"
   ]
 }
