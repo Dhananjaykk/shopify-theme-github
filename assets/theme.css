@@ -1,5 +1,12 @@
 /* -------------custom css start------------------ */
 
+quick-buy-drawer .shopify-payment-button{
+  width:100%;
+}
+quick-buy-drawer button#AddToCart {
+  width: 100%;
+}
+
 .shopify-payment-button{
   width:50%;
 }
