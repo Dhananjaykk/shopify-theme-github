@@ -719,6 +719,61 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
+    },
+    "text_with_icons_TDyHYe": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_Y6xEKK": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/4_120x-removebg-preview_706f170a-510d-4e31-8e17-7780ad198f0b.png",
+            "custom_icon_width": 105,
+            "title": "OUR FABRICS",
+            "content": "<p>Made with love and 100% pure fabrics<\/p>"
+          }
+        },
+        "item_yBJL4B": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/2_180x-removebg-preview_c85f1246-5982-4676-8595-7fcded9af8c7.png",
+            "custom_icon_width": 170,
+            "title": "EXPRESS DELIVERY",
+            "content": "<p>We love getting our Muls to you as soon as you choose your favourites<\/p>"
+          }
+        },
+        "item_cAAa8r": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/1_120x-removebg-preview_14f569ea-a676-486e-bfa8-bc1f124a0353.png",
+            "custom_icon_width": 125,
+            "title": "HAPPINESS GURENTEED",
+            "content": "<p>100% money back guaranteed & easy exchanges. No questions asked<\/p>"
+          }
+        },
+        "item_rKKndG": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon": "shopify:\/\/shop_images\/3_140x-removebg-preview_0962bf48-96c8-47ee-b633-2b5cc03a1779.png",
+            "custom_icon_width": 130,
+            "title": "MADE IN INDIA",
+            "content": "<p>A brand of Indian values, we are made completely in India from thought to creation<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Y6xEKK",
+        "item_yBJL4B",
+        "item_cAAa8r",
+        "item_rKKndG"
+      ],
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -733,6 +788,7 @@
     "new_collection_list_amrLP7",
     "new_collection_list_kKfBEK",
     "new_testimonial_6Q8XCh",
-    "slideshow_JGPKBj"
+    "slideshow_JGPKBj",
+    "text_with_icons_TDyHYe"
   ]
 }
