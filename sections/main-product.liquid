@@ -226,7 +226,11 @@
 }
 </style>
 <script>
-   $('.product__media-item').click(function(){$('button.tap-area.product__zoom-button').click();})
+  document.querySelectorAll('.product__media-item').forEach(function(mediaItem) {
+    mediaItem.addEventListener('click', function() {
+        document.querySelector('button.tap-area.product__zoom-button').click();
+    });
+});
 </script>
 
 {% schema %}
