@@ -10236,8 +10236,8 @@ input:checked + .popover__choice-label:is(:lang(ae), :lang(ar), :lang(arc), :lan
 
 .product-meta {
   border-bottom: 1px solid rgb(var(--border-color));
-  margin: 24px 0;
-  padding-block-end: 16px;
+  margin: 14px 0;
+  padding-block-end: 0px;
   display: block;
 }
 
