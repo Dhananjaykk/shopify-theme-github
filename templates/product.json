@@ -129,6 +129,13 @@
       "settings": {
       }
     },
+    "custom_image_with_text_a33iKV": {
+      "type": "custom-image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -137,13 +144,6 @@
         "recommendations_count": 4,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "custom_image_with_text_a33iKV": {
-      "type": "custom-image-with-text",
-      "settings": {
-        "subheading": "",
-        "title": ""
       }
     },
     "1717493181be4c08ec": {
@@ -173,8 +173,8 @@
   "order": [
     "main",
     "product-content",
-    "product-recommendations",
     "custom_image_with_text_a33iKV",
+    "product-recommendations",
     "1717493181be4c08ec"
   ]
 }
