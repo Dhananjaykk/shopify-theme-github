@@ -104,6 +104,11 @@ button#AddToCart{
   border-radius: 0 !important;
 }
 @media only screen and (max-width: 999px) {
+  .product__media-nav .dots-nav {
+    position: absolute;
+    bottom: 30px;
+    left: -19px;
+}
   .product__media-item {
     padding-inline: 0 !important;
 }
