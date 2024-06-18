@@ -220,6 +220,14 @@
     </quick-buy-popover>
   {%- endif -%}
 {%- endunless -%}
+<style>
+  button.tap-area.product__zoom-button {
+    visibility: hidden;
+}
+</style>
+<script>
+   $('.product__media-item').click(function(){$('button.tap-area.product__zoom-button').click();})
+</script>
 
 {% schema %}
 {
