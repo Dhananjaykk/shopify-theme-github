@@ -1,12 +1,12 @@
 /* -------------custom css start------------------ */
-{% if template.name == 'product' %}
+
 .shopify-payment-button{
   width:50%;
 }
 button#AddToCart {
   width: 50%;
 }
-{% endif %}
+
 button.product__media-prev-next.hidden-lap-and-up.tap-area.tap-aera--large, button.product__media-prev-next.hidden-lap-and-up.tap-area.tap-area--large {
   display: none;
 }
