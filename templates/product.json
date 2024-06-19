@@ -186,7 +186,7 @@
       ],
       "settings": {
         "include_horizontal_margins": true,
-        "include_vertical_margins": true
+        "include_vertical_margins": false
       }
     }
   },
