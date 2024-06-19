@@ -110,7 +110,7 @@ button#AddToCart{
     left: -19px;
 }
 #header .summary {
-  justify-content: center;
+  justify-content: center !important;
 }
   .product__media-item {
     padding-inline: 0 !important;
