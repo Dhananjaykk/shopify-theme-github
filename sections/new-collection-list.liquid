@@ -152,15 +152,15 @@
                     {%- assign height_constraint = 800 | at_most: collection_image.height -%}
 
                     {%- if section.settings.reveal_on_scroll -%}
-                      {{- collection_image | image_url: width: collection_image.width, height: height_constraint, crop: 'center' | image_tag: , sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', reveal: true, class: 'list-collections__item-image' -}}
+                      {{- collection_image | image_url: width: collection_image.width, height: height_constraint, crop: 'center' | image_tag: loading: 'lazy', sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', reveal: true, class: 'list-collections__item-image' -}}
                     {%- else -%}
-                      {{- collection_image | image_url: width: collection_image.width, height: height_constraint, crop: 'center' | image_tag: , sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', class: 'list-collections__item-image' -}}
+                      {{- collection_image | image_url: width: collection_image.width, height: height_constraint, crop: 'center' | image_tag: loading: 'lazy', sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', class: 'list-collections__item-image' -}}
                     {%- endif -%}
                   {%- else -%}
                     {%- if section.settings.reveal_on_scroll -%}
-                      {{- collection_image | image_url: width: collection_image.width | image_tag: , sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', reveal: true, class: 'list-collections__item-image' -}}
+                      {{- collection_image | image_url: width: collection_image.width | image_tag:  sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', reveal: true, class: 'list-collections__item-image' -}}
                     {%- else -%}
-                      {{- collection_image | image_url: width: collection_image.width | image_tag: , sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', class: 'list-collections__item-image' -}}
+                      {{- collection_image | image_url: width: collection_image.width | image_tag: loading: 'lazy', sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', class: 'list-collections__item-image' -}}
                     {%- endif -%}
                   {%- endif -%}
                 {%- else -%}
