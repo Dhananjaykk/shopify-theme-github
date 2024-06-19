@@ -1,6 +1,7 @@
+{% if product.metafields.custom.single_image_with_text.value !=blank %}
 {% assign metaObject_product = shop.metaobjects.image_with_text.values %}
 {% assign metaObject_product = product.metafields.custom.single_image_with_text.value %}
-    <section class="">
+    <section class="section">
      <div class="custom-fabricimage desktopfabricimg">
         {{ metaObject_product.desktop_image | metafield_tag }}
         <div class="fabricimg_content">{{ metaObject_product.content | metafield_tag }}</div>
@@ -41,7 +42,7 @@
 }
       }
     </style>
-    
+{% endif %}
     {% schema %}
       {
         "name": "image-with-text-product",
