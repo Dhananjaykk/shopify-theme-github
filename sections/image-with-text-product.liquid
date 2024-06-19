@@ -1,0 +1,49 @@
+{% assign metaObject_product = shop.metaobjects.image_with_text.values %}
+{% assign metaObject_product = product.metafields.custom.single_image_with_text.value %}
+    <section class="section mobile-video">
+      <div class="container">
+     <div class="section-video">
+        {{ metaObject_product.desktop_image | metafield_tag }}
+        {{ metaObject_product.mobile_image | metafield_tag }}
+    </div>
+      </div>
+      
+    </section>
+    <style>
+      .mobile-video{
+        display:none;
+      }
+      .section-video{
+    width:100%;
+    }
+    .custom-video{
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    }
+      @media only screen and (max-width: 768px) {
+        .mobile-video{
+        display:block;
+      }
+      }
+    </style>
+    
+    {% schema %}
+      {
+        "name": "image-with-text-product",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Heading"
+              }
+        ],
+      "presets": [
+        {
+          "name": "image-with-text-product",
+          "settings": {}
+        }
+      ]
+      }
+      {% endschema %}
