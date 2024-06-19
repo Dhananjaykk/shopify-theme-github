@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -173,6 +182,12 @@
         "include_horizontal_margins": true,
         "include_vertical_margins": true
       }
+    },
+    "image_with_text_product_WExUmx": {
+      "type": "image-with-text-product",
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -181,6 +196,7 @@
     "product_video_Fabddj",
     "custom_image_with_text_a33iKV",
     "product-recommendations",
-    "1717493181be4c08ec"
+    "1717493181be4c08ec",
+    "image_with_text_product_WExUmx"
   ]
 }
