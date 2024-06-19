@@ -149,7 +149,7 @@
                   {%- endcase -%}
 
                   {%- if section.settings.layout == 'grid' and collection_image.aspect_ratio > 2.5 -%}
-                    {%- assign height_constraint = 800 | at_most: collection_image.height -%}
+                    {%- assign height_constraint = 500 | at_most: collection_image.height -%}
 
                     {%- if section.settings.reveal_on_scroll -%}
                       {{- collection_image | image_url: width: collection_image.width, height: height_constraint, crop: 'center' | image_tag: loading: 'eager', reveal: true, class: 'list-collections__item-image' -}}
