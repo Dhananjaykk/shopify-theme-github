@@ -1,7 +1,6 @@
 {% assign metaObject_product = shop.metaobjects.image_with_text.values %}
 {% assign metaObject_product = product.metafields.custom.single_image_with_text.value %}
     <section class="">
-      <div class="container">
      <div class="custom-fabricimage desktopfabricimg">
         {{ metaObject_product.desktop_image | metafield_tag }}
         <div class="fabricimg_content">{{ metaObject_product.content | metafield_tag }}</div>
@@ -10,7 +9,6 @@
         {{ metaObject_product.mobile_image | metafield_tag }}
         <div class="fabricimg_content">{{ metaObject_product.content | metafield_tag }}</div>
     </div>
-      </div>
       
     </section>
     <style>
