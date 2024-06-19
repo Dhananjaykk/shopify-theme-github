@@ -9,9 +9,9 @@
         {%- assign vendor_collection = collections[vendor_handle] -%}
 
         {%- if vendor_collection != blank -%}
-          <a href="{{ vendor_collection.url }}">{{ product.vendor }}</a>
+          <a href="# {% comment %}{{ vendor_collection.url }} {% endcomment %}">{{ product.vendor }}</a>
         {%- else -%}
-          <a href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a>
+          <a href="# {% comment %} {{ product.vendor | url_for_vendor }}  {% endcomment %}">{{ product.vendor }}</a>
         {%- endif -%}
       </h2>
     {%- endif -%}
