@@ -2,6 +2,7 @@
 .product-content__featured-products .product-item {
   background: #fcf7f0;
   border-radius: 8px;
+  padding: 5px;
 }
 
 #sy-whatshelp {
