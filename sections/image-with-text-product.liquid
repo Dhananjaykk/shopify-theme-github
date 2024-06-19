@@ -1,31 +1,39 @@
 {% assign metaObject_product = shop.metaobjects.image_with_text.values %}
 {% assign metaObject_product = product.metafields.custom.single_image_with_text.value %}
-    <section class="section mobile-video">
+    <section class="">
       <div class="container">
-     <div class="section-video">
+     <div class="custom-fabricimage desktopfabricimg">
         {{ metaObject_product.desktop_image | metafield_tag }}
+        <div class="fabricimg_content">{{ metaObject_product.content | metafield_tag }}</div>
+    </div>
+    <div class="custom-fabricimage mobilefabricimg">
         {{ metaObject_product.mobile_image | metafield_tag }}
+        <div class="fabricimg_content">{{ metaObject_product.content | metafield_tag }}</div>
     </div>
       </div>
       
     </section>
     <style>
-      .mobile-video{
-        display:none;
-      }
-      .section-video{
-    width:100%;
+        .custom-fabricimage{
+            position:relative;
+        }
+      .mobilefabricimg{
+        display:none
     }
-    .custom-video{
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+    .fabricimg_content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
     }
       @media only screen and (max-width: 768px) {
-        .mobile-video{
-        display:block;
-      }
+     .desktopfabricimg{
+    display:none
+}
+.mobilefabricimg{
+    display:block
+}
       }
     </style>
     
