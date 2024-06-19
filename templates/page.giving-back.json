@@ -12,10 +12,18 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "givingback_mainbanner_Cy7nic": {
+      "type": "givingback-mainbanner",
+      "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "givingback_mainbanner_Cy7nic"
   ]
 }
