@@ -1,0 +1,98 @@
+<style>
+    .givdesktop{
+      width: 100%;
+      text-align: center;
+    }
+    .givmob{
+      display: none;
+    }
+    .cstmbtn{
+      display: flex;
+      justify-content: center;
+      gap:  30px;
+    }
+    .cstmbtninner{
+      padding: 6px 15px;
+      background: black;
+      color: white;
+      margin: 30px 0;
+      font-size: 18px;
+      border-radius: 0 22px 22px;
+      cursor: pointer;
+      text-align: center;
+    }
+    @media only screen and (max-width: 768px){
+      .givdesktop{
+        display: none;
+      }
+      .givmob{
+        display: block;
+        width: 100%;
+      }
+      .cstmbtn{
+        justify-content: left;
+        overflow-x: scroll;
+        margin-left: 15px;
+      }
+      .cstmbtninner{
+        flex: 0 0 50%;
+        font-size: 12px;
+        padding: 6px 8px;
+      }
+    }
+  </style>
+  <div class="main_giving">
+    <div class="main_giv_banner">
+      <div class="innergiving">
+        <img src="{{ section.settings.image | img_url : 'master' }}" class="givdesktop">
+        <img src="{{ section.settings.imagemobile | img_url : 'master' }}" class="givmob">
+      </div>
+      <div class="cstmbtn">
+          {% for block in section.blocks %}
+              <div class="cstmbtninner" dataid="contentsection_{{ forloop.index }}">{{ block.settings.btn }}</div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+  {% schema %}
+    {
+      "name": "givingback-mainbanner",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label":"Desktop Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "imagemobile",
+          "label":"Mobile Image"
+        }
+      ],
+      "blocks": [
+      {
+        "type": "text",
+        "name": "text field",
+        "settings": [        
+          {
+          "type": "text",
+          "id": "btn",
+          "label":"Button Text"
+        }   
+        ]}
+  ],  
+      "presets": [
+      {
+        "category": "image",
+        "name": "givingback-mainbanner",
+        "settings": {}
+      }
+    ]
+    }
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}
