@@ -160,6 +160,12 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_product_WExUmx": {
+      "type": "image-with-text-product",
+      "settings": {
+        "title": ""
+      }
+    },
     "1717493181be4c08ec": {
       "type": "apps",
       "blocks": {
@@ -180,13 +186,7 @@
       ],
       "settings": {
         "include_horizontal_margins": true,
-        "include_vertical_margins": true
-      }
-    },
-    "image_with_text_product_WExUmx": {
-      "type": "image-with-text-product",
-      "settings": {
-        "title": ""
+        "include_vertical_margins": false
       }
     }
   },
@@ -196,7 +196,7 @@
     "product_video_Fabddj",
     "custom_image_with_text_a33iKV",
     "product-recommendations",
-    "1717493181be4c08ec",
-    "image_with_text_product_WExUmx"
+    "image_with_text_product_WExUmx",
+    "1717493181be4c08ec"
   ]
 }
