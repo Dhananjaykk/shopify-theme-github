@@ -1,0 +1,244 @@
+<style>
+    @media only screen and (min-width: 1000px){
+      h3.heading.h2.givingback::before, h3.heading.h2.givingback::after{
+                            display: inline-block;
+                            content: "";
+                            width: 25%;
+                            border-top: .3rem solid black;
+                            margin: -5px 1rem;
+                            transform: translateY(-1rem);
+      } }
+      .givingbacksectiontwo {
+        margin: 30px auto;
+    }
+      p.givingbck_inner_content {
+        padding: 0 25px;
+        text-align: center;
+        letter-spacing: 0.8px;
+    }
+      .givingback_mainbannersec {
+        width: 95%;
+        margin: 35px auto;
+    }
+      .givingbck_main_content {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+                            padding: 17px;
+    }
+      .givingbck_img_main_cont {
+        width: 30%;
+    }
+      .givingbck_content_main_cont {
+        width: 65%;
+    }
+      .igvimgmain {
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 25px;
+                        }
+      .givingbck_img_main_cont_inn {
+        flex: 0 0 45%;
+    }
+      p.givbck_mn_inn_txt {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+    }
+    @media only screen and (max-width: 768px){
+      p.givingbck_inner_content {
+        padding: 0;
+        text-align: justify;
+    }
+      .givingback_mainbannersec {
+        width: 100%;
+      }
+      .givingbck_main_content {
+                            display: flex;
+                            justify-content: center;
+                            gap: 30px;
+                            padding: 17px;
+                            flex-wrap: wrap;
+                            flex-direction: column-reverse;
+                        }
+      .givingbck_img_main_cont {
+                            flex: 0 0 100%;
+        width: 100%;
+                        }
+      .givingbck_content_main_cont {
+                            flex: 0 0 100%;
+        width: 100%;
+                        }
+      .igvimgmain {
+                            display: flex;
+                            flex-wrap: nowrap;
+                            gap: 10px;
+                        }
+       .givingbck_img_main_cont_inn {
+        flex: 0 0 23%;
+    }
+    }
+    
+    
+    </style>
+    <div class="container">
+    <div class="givingbacksectiontwo" id="{{ section.settings.c_section_id }}">
+      <h3 class="heading h2 givingback" style="text-align: center;margin-bottom: 25px;">{{ section.settings.heading | escape }}</h3>
+      <div class="givingbckmain">
+        <div class="givingbck_content">
+          <p class="givingbck_inner_content">{{ section.settings.headingbelowtext }}</p>
+           <button class="myBtn11_{{ section.id }}" style="font-size: 18px; font-weight: 600;">Read more</button>
+        </div>
+        <div class="givingback_mainbannersec">
+          <img src="{{ section.settings.image | img_url : 'master' }}" style="width: 100%;">
+        </div>
+        <div class="givingbck_main_content">
+          <div class="givingbck_img_main_cont">
+            <div class="igvimgmain">
+            {% for block in section.blocks %}
+              <div class="givingbck_img_main_cont_inn">
+              <img src="{{ block.settings.imageblock | img_url : 'master' }}"></div>
+            {% endfor %}
+          </div></div>
+          <div class="givingbck_content_main_cont givingm_{{ section.id }}">
+            {% if  section.settings.maincontentheading != blank  %}
+            <h3 class="article-item__title heading h4">{{ section.settings.maincontentheading }}</h3>{% endif %}
+            <div>
+            <p class="givbck_mn_inn_txt">{{ section.settings.maincontent }}</p>
+            <button class="myBtn1_{{ section.id }}" style="font-size: 18px; font-weight: 600;">Read more</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      @media only screen and (min-width: 769px){
+       button.myBtn1_template--14937616449587__2844291f-2819-40a6-993d-4970e8a6ae3a {
+        display: none;
+    }
+        span.cdots {
+        display: none;
+    }
+        button.myBtn11_template--14937616449587__2844291f-2819-40a6-993d-4970e8a6ae3a {
+        display: none;
+    }
+    span.cdots11 {
+        display: none;
+    }
+      }
+      @media only screen and (max-width: 768px){
+      .cmore11{
+        display: none;
+      }
+        .cmore1{
+        display: none;
+      }
+        span.cdots1 {
+        display: none;
+    }
+      }
+    </style>
+    <script>
+      if (screen.width < 768) {
+      var btnText11 = document.querySelector(".myBtn11_{{ section.id }}");
+      
+        btnText11.addEventListener('click', function() { 
+          var dots11 = document.querySelector(".cdots11");
+          var moreText11 = document.querySelector(".cmore11");
+          
+           if (dots11.style.display === "none") {
+            btnText11.innerHTML = "Read More"; 
+            dots11.style.display = "inline";
+            moreText11.style.display = "none";
+      } else {
+            dots11.style.display = "none";
+            btnText11.innerHTML = "Read Less"; 
+            moreText11.style.display = "inline";
+      }
+        });}
+    </script>
+    
+    
+    <script>
+      if (screen.width < 768) {
+      var btnText1 = document.querySelector(".myBtn1_{{ section.id }}");
+      
+        btnText1.addEventListener('click', function() { 
+          var dots1 = document.querySelector(".cdots1");
+          var moreText1 = document.querySelector(".cmore1");
+          
+           if (dots1.style.display === "none") {
+            btnText1.innerHTML = "Read More"; 
+            dots1.style.display = "inline";
+            moreText1.style.display = "none";
+      } else {
+            dots1.style.display = "none";
+            btnText1.innerHTML = "Read Less"; 
+            moreText1.style.display = "inline";
+      }
+        });}
+    </script>
+    
+    
+    {% schema %}
+      {
+        "name": "Givingback Section Two1",
+        "settings": [
+          {
+            "type": "text",
+            "id": "c_section_id",
+            "label":"Custom Id"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label":"Heading"
+          },
+          {
+            "type": "html",
+            "id": "headingbelowtext",
+            "label":"Heading Below text"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label":"Main Banner"
+          },
+          {
+            "type": "text",
+            "id": "maincontentheading",
+            "label":"Below Heading"
+          },
+           {
+            "type": "html",
+            "id": "maincontent",
+            "label":"Below Content"
+          }
+        ],
+        "blocks": [
+        {
+          "type": "text",
+          "name": "text field",
+          "settings": [        
+            {
+            "type": "image_picker",
+            "id": "imageblock",
+            "label":"Image Block"
+          }   
+          ]}
+    ],  
+        "presets": [
+        {
+          "category": "image",
+          "name": "Givingback Section Two1",
+          "settings": {}
+        }
+      ]
+      }
+    {% endschema %}
+    
+    {% stylesheet %}
+    {% endstylesheet %}
+    
+    {% javascript %}
+    {% endjavascript %}
