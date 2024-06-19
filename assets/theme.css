@@ -4,6 +4,14 @@
   border-radius: 8px;
   padding: 5px;
 }
+.product-content__featured-products .product-item-meta__title {
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 #sy-whatshelp {
   right: 25px;
