@@ -155,7 +155,7 @@
                       {{- collection_image | image_url: width: collection_image.width, height: height_constraint, crop: 'center' | image_tag: loading: 'eager', reveal: true, class: 'list-collections__item-image' -}}
                     {%- else -%}
 
-                      {{- collection_image | image_url: width: '350px', height: height_constraint, crop: 'center' | image_tag: fetchpriority: 'high', class: 'list-collections__item-image' -}}
+                      {{- collection_image | image_url: width: '300px', height: height_constraint, crop: 'center' | image_tag: fetchpriority: 'high', class: 'list-collections__item-image' -}}
 
                     {%- endif -%}
                   {%- else -%}
@@ -163,7 +163,7 @@
                       {{- collection_image | image_url: width: collection_image.width | image_tag: loading: 'eager', reveal: true, class: 'list-collections__item-image' -}}
                     {%- else -%}
 
-						{{- collection_image | image_url: width: '350px' | image_tag: fetchpriority: 'high', class: 'list-collections__item-image' -}}
+						{{- collection_image | image_url: width: '300px' | image_tag: fetchpriority: 'high', class: 'list-collections__item-image' -}}
 
                     {%- endif -%}
                   {%- endif -%}
