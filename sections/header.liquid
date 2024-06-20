@@ -281,7 +281,9 @@ a.header__icon-wrapper.tap-area.hidden-pocket.hidden-lap {
             <span class="visually-hidden">{{ 'header.general.newsletter' | t }}</span>
             {%- render 'icon' with 'header-email' -%}
           </button>
-
+          <a href="{{ routes.search_url }}" is="toggle-link" class="header__icon-wrapper tap-area {% if section.settings.header_layout == 'logo_center_search_open' %}hidden-lap{% endif %} hidden-desk" aria-controls="search-drawer" aria-expanded="false" aria-label="{{ 'search.general.title' | t | escape }}">
+            {%- render 'icon' with 'header-search' -%}
+          </a>
           {%- if section.settings.header_layout != 'logo_center_search_open' -%}
             <a href="{{ routes.search_url }}" is="toggle-link" class="header__icon-wrapper tap-area hidden-pocket hidden-lap {% unless section.settings.show_icons %}hidden-desk{% endunless %}" aria-label="{{ 'search.general.title' | t | escape }}" aria-controls="search-drawer" aria-expanded="false">
               {%- render 'icon' with 'header-search' -%}
@@ -319,7 +321,7 @@ a.header__icon-wrapper.tap-area.hidden-pocket.hidden-lap {
             </button>
           {%- endif -%}
         </div>
-        
+
 
         {%- unless section.settings.show_icons -%}
           <ul class="header__linklist list--unstyled hidden-pocket hidden-lap" role="list">
