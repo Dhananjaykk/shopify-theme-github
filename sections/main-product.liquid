@@ -46,6 +46,16 @@
       --secondary-button-background: {{ secondary_button_background.red }}, {{ secondary_button_background.green }}, {{ secondary_button_background.blue }};
       --secondary-button-text-color: {{ secondary_button_text_color.red }}, {{ secondary_button_text_color.green }}, {{ secondary_button_text_color.blue }};
     }
+
+    @media only screen and (max-width: 999px) {
+      {% if template.name == 'product' %}
+    .product__media-nav .dots-nav {
+      position: absolute;
+      bottom: 30px;
+      left: -19px;
+  }
+{% endif %}
+}
   </style>
 
   <section>
