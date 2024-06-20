@@ -1,0 +1,82 @@
+<style>
+    .topinner{
+      background: #f3efe8;
+      text-align: center;
+      padding: 35px 0;
+      border-radius: 20px;
+    }
+      .topoffers-inner {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+        margin: 25px;
+    }
+      .topinner img{
+            border-radius: 8px;
+      }
+      @media only screen and (max-width: 768px){
+      .topoffers-inner {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      }
+  </style>
+  <div class="topoffers">
+    <h3 class="heading h2" style="text-align: center;">{{ section.settings.headingtext }}</h3>
+    <div class="topoffers-inner">
+      {% for block in section.blocks %}
+        <div class="topinner">
+            <img src="{{ block.settings.image | img_url: 'master' }}">
+            <h3 class="article-item__title heading h4">{{ block.settings.heading }}</h3>
+            <p style="padding: 0 15px;">{{ block.settings.content }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <p style="text-align: center; padding: 25px 0px 50px;">The outfits are dry clean friendly. Do not bleach or use chlorine.</p>
+  
+  {% schema %}
+     {
+     "name": "Garment Img",
+      "settings": [
+        {
+          "type": "text",
+          "id": "headingtext",
+          "label": "Heading"
+        }
+      ],
+       "blocks" : [
+         {
+           "type" : "image",
+           "name" : "image blocks",
+           "settings":[
+             {
+               "type" : "image_picker",
+               "id" : "image",
+               "label" : "Image"
+             },
+             {
+               "type" : "text",
+               "id" : "heading",
+               "label" : "Heading"
+             },
+             {
+               "type" : "text",
+               "id" : "content",
+               "label" : "Content"
+             }
+           ]
+         }
+       ],
+  "presets": [{
+         "name": "Garment Img",
+         "category": "image"
+       }]
+   }
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}
+  
