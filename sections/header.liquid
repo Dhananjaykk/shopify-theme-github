@@ -312,7 +312,12 @@ a.header__icon-wrapper.tap-area.hidden-pocket.hidden-lap {
 
             <cart-count class="header__cart-count header__cart-count--floating bubble-count" aria-hidden="true">{{ cart.item_count }}</cart-count>
           </a>
-          <a href="">new</a>
+          {%- if menu.links.size > 0 -%}
+            <button is="toggle-button" class="header__icon-wrapper tap-area {% unless section.settings.header_layout == 'drawer' %}hidden-desk{% endunless %}" aria-controls="mobile-menu-drawer" aria-expanded="false">
+              <span class="visually-hidden">{{ 'header.general.navigation' | t }}</span>
+              {%- render 'icon' with 'header-hamburger' -%}
+            </button>
+          {%- endif -%}
         </div>
 
         {%- unless section.settings.show_icons -%}
