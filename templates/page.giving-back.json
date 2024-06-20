@@ -18,14 +18,171 @@
     },
     "givingback_mainbanner_Cy7nic": {
       "type": "givingback-mainbanner",
+      "blocks": {
+        "text_8rL6d4": {
+          "type": "text",
+          "settings": {
+            "btn": "The Women of Purannagar"
+          }
+        },
+        "text_MVyh9x": {
+          "type": "text",
+          "settings": {
+            "btn": "Holy Cow Foundation"
+          }
+        },
+        "text_mJJA6x": {
+          "type": "text",
+          "settings": {
+            "btn": "Threads of Giving"
+          }
+        }
+      },
+      "block_order": [
+        "text_8rL6d4",
+        "text_MVyh9x",
+        "text_mJJA6x"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Desktop_Banner_6f36e231-c72f-4900-8969-be76c5ffd664.jpg",
         "imagemobile": "shopify:\/\/shop_images\/Mobile_Banner_84116daf-d227-4761-8426-6253ec14989d.png"
+      }
+    },
+    "givingbacksectiontwo_f4rh3g": {
+      "type": "givingbacksectiontwo",
+      "blocks": {
+        "text_afqi6k": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/1_861df3fe-e0e0-4a2c-95a0-1fd54edf962c.png"
+          }
+        },
+        "text_FHDjUL": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/Untitled_design_2_fd226f2a-f612-462c-b8c2-76611f36fdf4.png"
+          }
+        },
+        "text_Q9tn8z": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/Untitled_design_c0ea1863-9e2c-4beb-96a8-f45a685012c0.png"
+          }
+        },
+        "text_driDFD": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/Untitled_design_3_c2700f58-8c44-4368-a59d-6b9b84db7f69.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_afqi6k",
+        "text_FHDjUL",
+        "text_Q9tn8z",
+        "text_driDFD"
+      ],
+      "settings": {
+        "c_section_id": "contentsection_1",
+        "heading": "The women of purannagar",
+        "headingbelowtext": "",
+        "image": "shopify:\/\/shop_images\/Untitled_design_1_2_d4a6f69d-dbfc-4d1d-92fa-967433c14c16.png",
+        "maincontentheading": "The Issues of Tissues",
+        "maincontent": "1.5\/10 Tress are cut for Making Tissues. 15% of global deforestation\nMulmul also has another initiative to cancel tissues and replace them with handkerchiefs. <span class=\"cdots\">...<\/span><span class=\"cmore\"> Tussues are the\ncause of 15% of the world’s deforestation. To remedy this, we took the pledge to stop using tissues as much\nas possible and urged our customers to do the same.<br>\nAs part of the 2021 World Environment Day celebration, we packed a free handkerchief with every order\nwe shipped. These handkerchiefs were made in-house by women from Purannager ( a small village in UP\n), using fabric scraps. These handkerchiefs had white lace trim and served the dual purpose of reducing the\nbrand’s textile waste and giving employment to many disadvantaged women\n<\/span>"
+      }
+    },
+    "givingbacksectiontwo1_VXTtHt": {
+      "type": "givingbacksectiontwo1",
+      "blocks": {
+        "text_W8H4wB": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/6_8baae770-60c9-4078-a775-17b68769f2d1.png"
+          }
+        },
+        "text_UDkPmX": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/4_9c85a4a3-f7a0-4585-8f7e-af05550724c6.png"
+          }
+        },
+        "text_cH3Hbp": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/5_ff815ed6-b66a-4786-aeb9-58410fe53c6f.png"
+          }
+        },
+        "text_jyGRyh": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/Untitled_design_1_3_b10baf45-b881-4223-a44b-36a6bc31449e.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_W8H4wB",
+        "text_UDkPmX",
+        "text_cH3Hbp",
+        "text_jyGRyh"
+      ],
+      "settings": {
+        "c_section_id": "contentsection_2",
+        "heading": "Holy Cow Foundation",
+        "headingbelowtext": "Animal welfare, especially that of the cattle in India has always been grossly overlooked and has now become a cause of great concern. The Holy Cow Foundation, founded by Anuradha Modi,<span class=\"cdots11\">...<\/span><span class=\"cmore11\"> guides gaushalas to provide a safe and healthy environment for the animals The Foundation also imparts training to obtain the Panchgavya products – 5 products obtained from\nthe cow, i.e., dung, urine, milk, ghee, and curd. Effective management practices promote a wholesome living and create employment for the disadvantaged women communities who\nmanufacture these products. The mission of Holy Cow Foundation is to sensitize Gaushalas across the country to implement sustainable models that manufacture or market natural and\norganic products, provide a better life for the cows, and help uplift disadvantaged communities. The marketing and use of Panchgavya products encourage eco-friendly practices by the\nconsumers through the use of non-chemical products, recycled bottles, and paper\/cloth bags to limit the ecological footprint.<\/span>",
+        "image": "shopify:\/\/shop_images\/image_42_58df78b5-bcba-41e3-b8f5-45351c632a4d.png",
+        "maincontentheading": "Barnyard",
+        "maincontent": "The Foundation supports several non-profit cow shelters to provide vital resources in ned-based capacities.\nIt has also helped to donate ambulances to the Dhyan Foundation, for better medical services to animals.\nSeveral Gaushals in Vrndavan are provided with essential medicines and food for the cattle by the\nFoundation.<span class=\"cdots1\">...<\/span><span class=\"cmore1\">\nThe Holy Cow Foundation has recently started an animal petting farm called Barnyard, in Delhi\/NCR. It is\na place that brings together animals and people who are passionate about animal welfare. It bridges the gap\nbetween farm animals and pet animals – there are cows, goats, hens, and dogs. Several fun events are held\nat the Barnyard, including Vegan fairs, farmers’ markets, Mothers’ and Fathers’ Day celebrations, etc. The\nfunds from such curated events help strengthen the cause. Barnyard is dedicated to ending pain and\nsuffering among animals and ensuring that the rescued animals are re-homed and rehabilitated.<\/span>"
+      }
+    },
+    "givingbacksection2_HdAX3X": {
+      "type": "givingbacksection2",
+      "blocks": {
+        "text_h4AJYa": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/12_76579a2c-448b-45f7-87ef-772be2ce868f.png"
+          }
+        },
+        "text_AtX6e3": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/11_d87d8598-17f3-411c-a45e-ee728da24776.png"
+          }
+        },
+        "text_3wMkgE": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/14_41f3cda6-f46b-4627-afa7-449ef543d8ce.png"
+          }
+        },
+        "text_GJJwUV": {
+          "type": "text",
+          "settings": {
+            "imageblock": "shopify:\/\/shop_images\/16_1624ce68-ceca-4828-90a5-3f27b7ad023b.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_h4AJYa",
+        "text_AtX6e3",
+        "text_3wMkgE",
+        "text_GJJwUV"
+      ],
+      "settings": {
+        "c_section_id": "contentsection_3",
+        "heading": "Threads of Giving",
+        "headingbelowtext": "",
+        "image": "shopify:\/\/shop_images\/Untitled_design_4_9dc81753-3540-4242-93c5-3b0b407c75f7.png",
+        "maincontentheading": "",
+        "maincontent": "It is heart-warming to witness moments that remind us of goodness and compassion in this world. Our\nteam visited the Udayan Care NGO in Delhi, where we had the privilege of spending time with some\nbeautiful souls.<br><span class=\"cdots2\">...<\/span><span class=\"cmore2\">\nThe room was filled with joy and laughter, and the vibrant energy of the young hearts. We distributed some\nof our favorite Mulmul suits, ensuring every girl felt special. The day was more than just about giving\nclothes. We were there to make memories and nurture dreams. Our interaction with the girls went beyond\njust a small transaction. We involved them in several fun, yet thought-provoking activities. Given a canvas\nfor their dreams, each embarked on her journey of self-discovery. We learned of their dreams and\naspirations, future goals and hopes.<br>\nA simple gratitude jar told us how they found joy even in the smallest things. Their heartfelt expressions of\ngratitude were a humbling reminder to appreciate the small things in life and not take things for granted.\nAs a brand that values empathy, kindness, and connection, days like this remind us to stay committed to\nour purpose to spread happiness in society. To further our bond with these children, Mulmul makes\nmonthly donations to Udayan Care and provides them with internship opportunities within the company.<\/span>"
       }
     }
   },
   "order": [
     "main",
-    "givingback_mainbanner_Cy7nic"
+    "givingback_mainbanner_Cy7nic",
+    "givingbacksectiontwo_f4rh3g",
+    "givingbacksectiontwo1_VXTtHt",
+    "givingbacksection2_HdAX3X"
   ]
 }
