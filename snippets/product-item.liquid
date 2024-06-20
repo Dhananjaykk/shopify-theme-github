@@ -39,6 +39,9 @@
         {{- product_labels -}}
       </div>
     {%- endif -%}
+    {% if template.name == 'collection' %}
+  	  {%- render 'collectionpagemedia', product: product -%}
+   {%else %}
 
     <a href="{{ product.url }}" data-instant class="product-item__aspect-ratio aspect-ratio {% if settings.product_image_size != 'natural' %}aspect-ratio--{{ settings.product_image_size }}{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: product.featured_media.preview_image.aspect_ratio }}%; --aspect-ratio: {{ product.featured_media.preview_image.aspect_ratio }}">
       {%- if product.featured_media -%}
@@ -67,6 +70,7 @@
         {{- next_media | image_url: width: next_media.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'product-item__secondary-image' -}}
       {%- endif -%}
     </a>
+  {% endif %}
     <div class="th_wl_col_btn" style="position: absolute;top: 1%;padding : 5px 0px 4px 6px; background: #ffffff94; border-radius: 50%;right: 1%;cursor: pointer; font-size: 19px;" data-product_id="{{product.id}}" data-variant_id="{{product.selected_or_first_available_variant.id}}"></div>
     <style>
       .th_wlc_product_count {
