@@ -11,11 +11,51 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "slideshow_bTBDbt": {
+      "type": "slideshow",
+      "blocks": {
+        "image_WpBE7P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_cf9ca685-449c-45dd-9078-1f14339a8ebb.png",
+            "text_position": "middle_center",
+            "subheading": "Every Mulmul outfit is made with the finest fabric, intricately embroidered with attention to detailsTo ensure that the delicacy and softness of your garments are maintained, please follow the following instructions:",
+            "title": "Garment Care",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 6
+          }
+        }
+      },
+      "block_order": [
+        "image_WpBE7P"
+      ],
+      "custom_css": [
+        "h2 {font-size: 15px;}"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "slideshow_bTBDbt"
   ]
 }
