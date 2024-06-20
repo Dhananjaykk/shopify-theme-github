@@ -93,17 +93,19 @@
           {%- endcomment -%}
 
           {%- capture section_content -%}
+
+          {%- if block.settings.title != blank -%}
+            <h3 class="heading heading--large">
+              <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | escape }}</split-lines>
+            </h3>
+          {%- endif -%}
             {%- if block.settings.subheading != blank -%}
               <h2 class="heading heading--small">
                 <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.subheading | escape }}</split-lines>
               </h2>
             {%- endif -%}
 
-            {%- if block.settings.title != blank -%}
-              <h3 class="heading heading--large">
-                <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | escape }}</split-lines>
-              </h3>
-            {%- endif -%}
+            
 
             {%- capture buttons -%}
               {%- if block.settings.button_1_text != blank -%}
