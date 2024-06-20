@@ -311,3 +311,14 @@
     {%- endif -%}
   </div>
 </product-item>
+<style>
+  .product-item__image-wrapper.product-item__image-wrapper--multiple .product__media {
+    /* --product-media-width: calc(var(--grid-column-width) * 7 + var(--grid-gap) * 0.5); */
+    --product-media-width: 100%;padding: 0px;
+}
+  @media  only screen and (min-width: 900px){
+    .dots-nav--centered {
+    padding-right: 20px;
+    }
+  }
+</style>
