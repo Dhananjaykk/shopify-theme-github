@@ -19,6 +19,8 @@
     "givingback_mainbanner_Cy7nic": {
       "type": "givingback-mainbanner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Desktop_Banner_6f36e231-c72f-4900-8969-be76c5ffd664.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Mobile_Banner_84116daf-d227-4761-8426-6253ec14989d.png"
       }
     }
   },
