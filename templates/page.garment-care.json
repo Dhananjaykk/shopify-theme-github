@@ -52,10 +52,57 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
+    },
+    "garmentimg_F9dnr4": {
+      "type": "garmentimg",
+      "blocks": {
+        "image_CDLmHy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Water_Temparature_f768cd32-6253-42e2-8435-3ab666a8074e.png",
+            "heading": "Water Temperature",
+            "content": "Use cold water to hand wash toConserve energy and colour! It is notonly better for the environment, butit also helps to conserve the fragilefabric and keep the colour of thegarment intact."
+          }
+        },
+        "image_feCHiq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Washing_4361fbc8-bbf7-49ea-945d-1fbf5bcef329.png",
+            "heading": "Washing",
+            "content": "Avoid vigorous scrubbing, whichwill distort the fibres. Rinse welland do not wring to remove water,gently squeeze instead."
+          }
+        },
+        "image_BxnGaT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Drying_d753df25-6177-45b9-b4f7-e38e25c29bc5.png",
+            "heading": "Drying",
+            "content": "Air drying lace garment isrecommended to avoid snagging inthe dryer."
+          }
+        },
+        "image_hdwX7n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ironing_e0cefa69-d9d0-41cb-b789-39cd792fdfe0.png",
+            "heading": "Ironing",
+            "content": "If ironing is needed, use low heat.Place a thick white towel over theironing board and use a press clothbetween the iron and the lace. Thiswill help prevent crushing thedetails of the lace and snags by theiron tip. Use low heat."
+          }
+        }
+      },
+      "block_order": [
+        "image_CDLmHy",
+        "image_feCHiq",
+        "image_BxnGaT",
+        "image_hdwX7n"
+      ],
+      "settings": {
+        "headingtext": ""
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_bTBDbt"
+    "slideshow_bTBDbt",
+    "garmentimg_F9dnr4"
   ]
 }
