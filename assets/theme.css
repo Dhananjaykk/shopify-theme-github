@@ -10981,7 +10981,7 @@ shopify-payment-terms {
   padding: 10px;
   transition: visibility .2s ease-in-out, opacity .2s ease-in-out;
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
 }
 
 .product-item__quick-form:not(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
