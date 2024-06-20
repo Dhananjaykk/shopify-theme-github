@@ -130,7 +130,7 @@ a.header__icon-wrapper.tap-area.hidden-pocket.hidden-lap {
   <div class="container">
     <div class="header__wrapper">
       <!-- LEFT PART -->
-      <nav class="header__inline-navigation" {% unless section.settings.header_layout == 'logo_center_search_open' %}role="navigation"{% endunless %}>
+      <nav class="header__inline-navigation cstdesc" {% unless section.settings.header_layout == 'logo_center_search_open' %}role="navigation"{% endunless %}>
         {%- if menu.links.size > 0 and section.settings.header_layout == 'logo_left_navigation_inline' or section.settings.header_layout == 'logo_left_navigation_center' or section.settings.header_layout == 'logo_center_navigation_inline' -%}
           {%- render 'desktop-menu', menu: menu -%}
         {%- endif -%}
