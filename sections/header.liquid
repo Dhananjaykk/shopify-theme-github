@@ -122,6 +122,12 @@ a.header__icon-wrapper.tap-area.hidden-pocket.hidden-lap {
       --primary-button-text-color: {{ settings.header_background.red }}, {{ settings.header_background.green }}, {{ settings.header_background.blue }};
     }
   {%- endif -%}
+  @media screen and (max-width: 1199px) {
+    nav.header__inline-navigation.cstdesc {
+      display: none;
+  }
+  }
+
 </style>
 
 <store-header {% if section.settings.enable_sticky_header %}sticky{% endif %} {% if request.page_type == 'index' and section.settings.enable_transparent_header %}transparent{% endif %} class="header {% if settings.background == settings.header_background %}header--bordered{% endif %} {% if request.page_type == 'index' and section.settings.enable_transparent_header %}header--transparent{% endif %}" role="banner">
@@ -306,6 +312,7 @@ a.header__icon-wrapper.tap-area.hidden-pocket.hidden-lap {
 
             <cart-count class="header__cart-count header__cart-count--floating bubble-count" aria-hidden="true">{{ cart.item_count }}</cart-count>
           </a>
+          <a href="">new</a>
         </div>
 
         {%- unless section.settings.show_icons -%}
