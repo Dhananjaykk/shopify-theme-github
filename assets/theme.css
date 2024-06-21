@@ -1549,7 +1549,7 @@ p a:not(.button), .rte a:not(.button), .link {
 
 .page-header__text-wrapper {
   max-width: 850px;
-  margin: 38px auto;
+  margin: 30px auto;
 }
 
 .page-header--small .page-header__text-wrapper {
