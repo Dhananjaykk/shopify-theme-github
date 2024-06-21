@@ -463,24 +463,7 @@
                   {%- endunless -%}
                 {%- endif -%}
               </product-payment-container>
-              <p id="blissPoints">You will earn {{ product.price | money_without_currency | times: 0.1 | money_without_currency | remove: '.0' }} bliss points on this purchase</p>
-
-              <script>
-                document.addEventListener("DOMContentLoaded", function() {
-                  // Fetch product price from Liquid template
-                  var productPrice = {{ product.price | json }};
-                  
-                  // Calculate 10% of the product price
-                  var blissPoints = productPrice * 0.1;
-                  
-                  // Format the bliss points to remove decimal if it's .0
-                  var formattedBlissPoints = blissPoints.toFixed(2).replace(/\.0$/, '');
-                  
-                  // Update the content of the <p> tag
-                  document.getElementById("blissPoints").textContent = "You will earn " + formattedBlissPoints + " bliss points on this purchase";
-                });
-              </script>
-              
+            
                <div  style="margin-top: 10px;"><b>Free Potli</b> Bag Worth Rs 1000 with this purchase</div>
           {% if product.available %}
               {% if product.tags contains '48 hours' %}
