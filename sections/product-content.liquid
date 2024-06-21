@@ -726,13 +726,12 @@
   {%- endif -%}
 
   
-
+{%  if product.metafields.custom.buy_it_with.value != blank %}
   
     <product-recommendations class="product-content__featured-products" intent="complementary" recommendations-count="8" product-id="{{ product.id }}" section-id="{{ section.id }}">
       
-        {%- if complementary_products_block.settings.title != blank -%}
           <p class="product-content__featured-products-title heading heading--small">{{ complementary_products_block.settings.title | escape }}</p>
-        {%- endif -%}
+ 
       {%assign newpro = product.metafields.custom.buy_it_with.value %}
         <div class="scroller">
           <div class="scroller__inner">
@@ -745,6 +744,7 @@
         </div>
      
     </product-recommendations>
+    {%endif %}
   
 {%- endcapture -%}
 
