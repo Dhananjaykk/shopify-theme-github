@@ -4,8 +4,8 @@
   border-radius: 8px;
   padding: 5px;
 }
-button.summary-content{
-  justify-content: center;
+.minimal-header button.summary-content{
+  justify-content: center !important;
     margin: auto !important;
 }
 .product-content__featured-products .product-item-meta__title {
