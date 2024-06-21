@@ -184,6 +184,9 @@
       "block_order": [
         "loox_reviews_loox_dynamic_section_TfgMfY"
       ],
+      "custom_css": [
+        "button.summary-content.b {text-align: center; justify-content: center; margin: auto;}"
+      ],
       "settings": {
         "include_horizontal_margins": true,
         "include_vertical_margins": false
