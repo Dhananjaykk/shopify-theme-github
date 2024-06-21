@@ -254,7 +254,7 @@
 
                      {% if totalsizeblock > il %} <!-- totalblockif --> 
 
-                        {% if loop-index == 0 %} <!-- loop-index -->
+                        {% if loop-index == 1 %} <!-- loop-index -->
                           
  {%- render 'product-item', product: product, collection: collection, block: block, sizes_attribute: sizes_attribute, reveal: settings.stagger_products_apparition, startreview: true -%}
                     
@@ -270,7 +270,7 @@
                       </div>
                      
                        {% assign il = il | plus: 2 %}
-                        {% assign datacheck = datacheck | plus: 2 %}
+                        {% assign datacheck = datacheck | plus: 1 %}
                           
                       	{%endif%}
                         </div>      
