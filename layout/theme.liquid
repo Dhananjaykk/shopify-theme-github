@@ -83,10 +83,12 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
   })(window,document,'script','dataLayer','GTM-5CQBCWK');</script>
   <!-- End Google Tag Manager -->
   <style>
+    {% if variant.available %}
     .block-swatch__radio:checked+.block-swatch__item {
       background: #000 !important;
       color: #fff;
   }
+{% endif %}
   
   </style>
 
