@@ -66,34 +66,32 @@ input#giftboxdesign2:checked ~ label img {
       </div>
                  </div>
 
-        <script>
-     document.addEventListener("DOMContentLoaded", function() {
-    var giftboxDesignInputs = document.querySelectorAll("input[name='giftboxdesign']");
-    
-    giftboxDesignInputs.forEach(function(input) {
-        input.addEventListener("click", function() {
-            var checkedInput = document.querySelector("input[name='giftboxdesign']:checked");
-            var giftboxidother = parseInt(checkedInput.getAttribute('otherid'));
-            var giftboxname = checkedInput.value;
-            
-            fetch('/cart/add.js', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    items: [
-                        { quantity: 1, id: giftboxidother }
-                    ]
-                })
-            })
-            .then(response => response.json())
-            .then(data => console.log(data))
-            .catch(error => console.error('Error:', error));
-        });
-    });
-});
-
-
-
-        </script>
+                 <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        var giftboxDesignInputs = document.querySelectorAll("input[name='giftboxdesign']");
+                        
+                        giftboxDesignInputs.forEach(function(input) {
+                            input.addEventListener("click", function(event) {
+                                var checkedInput = event.target;
+                                var giftboxidother = parseInt(checkedInput.getAttribute('otherid'));
+                                var giftboxname = checkedInput.value;
+                                
+                                fetch('/cart/add.js', {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json'
+                                    },
+                                    body: JSON.stringify({
+                                        items: [
+                                            { quantity: 1, id: giftboxidother }
+                                        ]
+                                    })
+                                })
+                                .then(response => response.json())
+                                .then(data => console.log(data))
+                                .catch(error => console.error('Error:', error));
+                            });
+                        });
+                    });
+                    </script>
+                    
