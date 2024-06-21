@@ -72,7 +72,25 @@
     </a>
   {% endif %}
     <div class="th_wl_col_btn" style="position: absolute;top: 1%;padding : 5px 0px 4px 6px; background: #ffffff94; border-radius: 50%;right: 1%;cursor: pointer; font-size: 19px;" data-product_id="{{product.id}}" data-variant_id="{{product.selected_or_first_available_variant.id}}"></div>
-
+    <style>
+      .th_wlc_product_count {
+    position: absolute;
+    background-color: white;
+    color: black;
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    top: -4px;
+    right: -8px;
+}
+.th_wl_col_btn{
+z-index: 1 !important;
+}
+    </style>
   <!-- Swym Wishlist Plus EPI Button-->
 
     {%- if request.page_type != 'password' and settings.product_add_to_cart and product.available and reduced_content != true and show_cta != true -%}
