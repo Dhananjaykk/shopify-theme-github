@@ -464,6 +464,7 @@
                 {%- endif -%}
               </product-payment-container>
               {% assign prod_price = product.price | money %}
+              {{  prod_price}}
                {% assign discounted_price = prod_price | times: 0.9 %}
               <p>{{ discounted_price }}</p>
             
