@@ -1582,8 +1582,8 @@ p a:not(.button), .rte a:not(.button), .link {
 
 @media screen and (min-width: 741px) {
   .page-header__text-wrapper {
-    margin-block-start: 68px;
-    margin-block-end: 68px;
+    margin-block-start: 40px;
+    margin-block-end: 40px;
   }
 
   .page-header--small .page-header__text-wrapper {
@@ -1596,7 +1596,7 @@ p a:not(.button), .rte a:not(.button), .link {
   }
 
   .breadcrumb--floating + .page-header__text-wrapper {
-    margin-block-start: 80px;
+    margin-block-start: 40px;
   }
 }
 
