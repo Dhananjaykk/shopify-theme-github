@@ -4,10 +4,7 @@
   border-radius: 8px;
   padding: 5px;
 }
-.minimal-header button.summary-content{
-  justify-content: center !important;
-    margin: auto !important;
-}
+
 .product-content__featured-products .product-item-meta__title {
 
   display: -webkit-box;
