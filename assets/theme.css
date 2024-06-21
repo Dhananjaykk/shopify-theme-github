@@ -13,7 +13,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.product-item-meta__title {
+a.product-item-meta__title {
 
   display: -webkit-box;
   -webkit-box-orient: vertical;
