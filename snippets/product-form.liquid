@@ -439,6 +439,10 @@
                 <p class="pdppagechaticon"> Connect with our stylists! </p>
                 </div></a>
             </div> 
+            
+            {% assign discounted_price = product.selected_or_first_available_variant.price | times: 0.9 %}
+            <p>You will earn <b>{{ discounted_price | money_without_currency }} bliss points</b> on this purchase</p>
+          
                 <button id="AddToCart" type="submit" is="loader-button" {% unless block.settings.show_payment_button and template.suffix != 'quick-buy-popover' %}data-use-primary{% endunless %} data-product-add-to-cart-button data-button-content="{% if product.template_suffix == 'pre-order' %}{{ 'product.form.pre_order' | t | escape }}{% else %}{{ 'product.form.add_to_cart' | t | escape }}{% endif %}" class="product-form__add-button button {% unless product.selected_or_first_available_variant.available %}button--ternary{% else %}{% if block.settings.show_payment_button and template.suffix != 'quick-buy-popover' %}button--secondary{% else %}button--primary{% endif %}{% endunless %} button--full" {% unless product.selected_or_first_available_variant.available %}disabled{% endunless %}>
                   {%- if product.selected_or_first_available_variant.available -%}
                     {%- if product.template_suffix == 'pre-order' -%}
@@ -463,11 +467,6 @@
                   {%- endunless -%}
                 {%- endif -%}
               </product-payment-container>
-            
-              
-               {% assign discounted_price = product.selected_or_first_available_variant.price | times: 0.9 %}
-              <p>You will earn <b>{{ discounted_price | money_without_currency }} bliss points</b> on this purchase</p>
-            
 
                <div  style="margin-top: 10px;"><b>Free Potli</b> Bag Worth Rs 1000 with this purchase</div>
           {% if product.available %}
