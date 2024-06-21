@@ -463,7 +463,8 @@
                   {%- endunless -%}
                 {%- endif -%}
               </product-payment-container>
-               {% assign discounted_price = product.price | times: 0.9 %}
+              {% assign prod_price = product.price | money %}
+               {% assign discounted_price = prod_price | times: 0.9 %}
               <p>{{ discounted_price }}</p>
             
                <div  style="margin-top: 10px;"><b>Free Potli</b> Bag Worth Rs 1000 with this purchase</div>
