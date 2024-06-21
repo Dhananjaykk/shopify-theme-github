@@ -463,17 +463,12 @@
                   {%- endunless -%}
                 {%- endif -%}
               </product-payment-container>
-<<<<<<< HEAD
-<<<<<<< HEAD
-             
-=======
-=======
->>>>>>> f8c9799721a4b01b52cea4059ef08c8604736be3
+              {%comment %}
               
                {% assign discounted_price = product.selected_or_first_available_variant.price | times: 0.9 %}
               <p>{{ discounted_price | money_without_currency }}</p>
-            
->>>>>>> f8c9799721a4b01b52cea4059ef08c8604736be3
+            {% endcomment %}
+
                <div  style="margin-top: 10px;"><b>Free Potli</b> Bag Worth Rs 1000 with this purchase</div>
           {% if product.available %}
               {% if product.tags contains '48 hours' %}
