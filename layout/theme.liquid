@@ -150,8 +150,9 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
       {% render 'whatsapp-redirection' %}
 
       {{ content_for_layout }}
+      {% render 'redirection' %}
     </div>
-    {% render 'redirection' %}
+   
 
     {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
       {%- sections 'footer-group' -%}
