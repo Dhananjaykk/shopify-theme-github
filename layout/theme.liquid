@@ -285,6 +285,105 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
      
      
       </div>
+      <script>
+        // Parse cookies and convert to an object
+function getCookies() {
+  return document.cookie.split(';').reduce((cookies, cookie) => {
+    const [key, value] = cookie.split('=');
+    cookies[key.trim()] = decodeURIComponent(value);
+    return cookies;
+  }, {});
+}
+
+function hidePrice() {
+  const css = `
+    .ProductItem__PriceList,#crt-price,span.money.conversion-bear-money,.ProductMeta__Price,.ProductForm__AddToCart,.shopify-payment-button,.sticky { display: none !important; }
+    p.AnnouncementBar__Content.Heading {
+        visibility: hidden;
+    }
+  `;
+  const head = document.head || document.getElementsByTagName('head')[0];
+  const style = document.createElement('style');
+
+  head.appendChild(style);
+  style.type = 'text/css';
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+function setCountryCookies(countryCode, countryName) {
+  document.cookie = `user_country=${countryCode}`;
+  document.cookie = `user_country_fullName=${countryName}`;
+}
+
+function showRedirectionModal(url) {
+  const redirectionModal = document.getElementById("RedirectionModal");
+  const modalContent = redirectionModal.querySelector('div');
+  modalContent.innerHTML = `
+    <a href="${url}">
+      <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/desk-redirection.jpg?v=1716021054" class="onlydesktopredirection">
+      <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/mob-redirection.jpg?v=1716021054" class="onlymobileredirection">
+    </a>
+  `;
+  hidePrice();
+  redirectionModal.style.display = "block";
+  document.body.style.pointerEvents = 'none';
+}
+
+function handleCountryRedirect(countryCode) {
+  const countryRedirects = {
+    "AE": "https://mulmul.ae/",
+    "US": "https://mulmul.co/",
+    "CA": "https://mulmul.co/",
+    "GB": "https://mulmul.uk/",
+    "DK": "https://mulmul.uk/",
+    "MY": "https://mulmulworld.com/",
+    "TH": "https://mulmulworld.com/",
+    "HK": "https://mulmulworld.com/",
+    "AU": "https://mulmulworld.com/",
+    "SG": "https://mulmulworld.com/"
+  };
+
+  if (countryRedirects[countryCode]) {
+    showRedirectionModal(countryRedirects[countryCode]);
+  }
+}
+
+function fetchCountryData() {
+  const apiKey = "24eb2297a21c5fdf0083ba97c85db403fa12642b5b8d677093473af3";
+  fetch(`https://api.ipdata.co?api-key=${apiKey}`)
+    .then(response => response.json())
+    .then(data => {
+      const countryCode = data.country_code;
+      const countryName = data.country_name;
+      setCountryCookies(countryCode, countryName);
+      handleCountryRedirect(countryCode);
+    })
+    .catch(error => console.error('Error fetching country data:', error));
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const cookies = getCookies();
+  const redirectionModal = document.getElementById("RedirectionModal");
+
+  window.onclick = function(event) {
+    if (event.target == redirectionModal) {
+      redirectionModal.style.display = "none";
+    }
+  };
+
+  if (cookies.user_country) {
+    handleCountryRedirect(cookies.user_country);
+  } else {
+    fetchCountryData();
+  }
+});
+
+      
+      </script>
 
       
       {% render 'whatsapp-redirection' %}
