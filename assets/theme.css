@@ -4,6 +4,10 @@
   border-radius: 8px;
   padding: 5px;
 }
+button.summary-content{
+  justify-content: center;
+    margin: auto !important;
+}
 .product-content__featured-products .product-item-meta__title {
 
   display: -webkit-box;
