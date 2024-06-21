@@ -463,6 +463,7 @@
                   {%- endunless -%}
                 {%- endif -%}
               </product-payment-container>
+              <p>You will earn {{ product.price | minus: product.price | times: 100.0 | divided_by: 10 | money_without_currency | times: 100 | remove: '.0'}}bliss points on this purchase</p>
                <div  style="margin-top: 10px;"><b>Free Potli</b> Bag Worth Rs 1000 with this purchase</div>
           {% if product.available %}
               {% if product.tags contains '48 hours' %}
