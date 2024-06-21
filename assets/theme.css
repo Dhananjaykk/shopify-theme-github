@@ -4,6 +4,23 @@
   border-radius: 8px;
   padding: 5px;
 }
+.th_wlc_product_count {
+  position: absolute;
+  background-color: white;
+  color: black;
+  height: 17px;
+  width: 17px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  top: -4px;
+  right: -8px;
+}
+.th_wl_col_btn{
+z-index: 1 !important;
+}
 
 .product-content__featured-products .product-item-meta__title {
 
