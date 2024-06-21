@@ -82,3 +82,105 @@
       </div>
     </center>
   </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let sessionUserIp = sessionStorage.getItem("usersaveip");
+        let userIp = "";
+      
+        if (sessionUserIp) {
+          userIp = sessionUserIp;
+        } else {
+          fetch("https://api.ipdata.co?api-key=24eb2297a21c5fdf0083ba97c85db403fa12642b5b8d677093473af3")
+            .then(response => response.json())
+            .then(data => {
+              userIp = data.ip;
+              sessionStorage.setItem("usersaveip", userIp);
+              checkFakeUserIp(userIp);
+            });
+        }
+      
+        if (sessionUserIp) {
+          checkFakeUserIp(userIp);
+        }
+      
+        const fakeUserIpArray = [
+          "152.58.90.219", "122.176.188.67", // truncated for brevity
+        ];
+      
+        function checkFakeUserIp(ip) {
+          if (fakeUserIpArray.includes(ip)) {
+            document.body.remove();
+          }
+        }
+      
+        const cookies = document.cookie.split(';').reduce((acc, cookie) => {
+          const [key, value] = cookie.split('=').map(c => c.trim());
+          acc[key] = decodeURIComponent(value);
+          return acc;
+        }, {});
+        
+        const redirectionModal = document.getElementById("RedirectionModal");
+      
+        function hidePrice() {
+          const css = `
+            .ProductItem__PriceList, #crt-price, span.money.conversion-bear-money, 
+            .ProductMeta__Price, .ProductForm__AddToCart, .shopify-payment-button, .sticky { 
+              display: none !important; 
+            }
+            p.AnnouncementBar__Content.Heading {
+              visibility: hidden;
+            }
+          `;
+          const style = document.createElement('style');
+          document.head.appendChild(style);
+          style.type = 'text/css';
+          if (style.styleSheet) {
+            style.styleSheet.cssText = css;
+          } else {
+            style.appendChild(document.createTextNode(css));
+          }
+        }
+      
+        if ('user_country' in cookies) {
+          const countryName = cookies.user_country;
+          const countryFullName = cookies.user_country_fullName;
+      
+          if (countryName === "AE") {
+            redirectionModal.innerHTML = `
+              <a href="https://mulmul.ae/">
+                <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/desk-redirection.jpg?v=1716021054" class="onlydesktopredirection">
+                <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/mob-redirection.jpg?v=1716021054" class="onlymobileredirection">
+              </a>`;
+            hidePrice();
+            redirectionModal.style.display = "block";
+            document.body.style.pointerEvents = "none";
+          } else if (countryName === "US" || countryName === "CA") {
+            redirectionModal.innerHTML = `
+              <a href="https://mulmul.co/">
+                <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/desk-redirection.jpg?v=1716021054" class="onlydesktopredirection">
+                <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/mob-redirection.jpg?v=1716021054" class="onlymobileredirection">
+              </a>`;
+            hidePrice();
+            redirectionModal.style.display = "block";
+            document.body.style.pointerEvents = "none";
+          } else if (countryName === "GB" || countryName === "DK") {
+            redirectionModal.innerHTML = `
+              <a href="https://mulmul.uk/">
+                <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/desk-redirection.jpg?v=1716021054" class="onlydesktopredirection">
+                <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/mob-redirection.jpg?v=1716021054" class="onlymobileredirection">
+              </a>`;
+            hidePrice();
+            redirectionModal.style.display = "block";
+            document.body.style.pointerEvents = "none";
+          }
+        }
+      
+        window.addEventListener("click", function(event) {
+          if (event.target === redirectionModal) {
+            redirectionModal.style.display = "none";
+          }
+        });
+      });
+      
+</script>
