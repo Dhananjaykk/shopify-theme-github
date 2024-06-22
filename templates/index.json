@@ -787,6 +787,7 @@
     },
     "custom_html_3jjmaM": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
