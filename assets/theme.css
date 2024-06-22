@@ -10995,7 +10995,9 @@ shopify-payment-terms {
 .product-item__cta {
   margin-block-start: 16px;
 }
-
+.list-collections__item{
+  border-radius: 0;
+}
 .product-item__quick-form {
   visibility: hidden;
   opacity: 0;
