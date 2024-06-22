@@ -149,20 +149,26 @@
                   {%- endcase -%}
 
                   {%- if section.settings.layout == 'grid' and collection_image.aspect_ratio > 2.5 -%}
-                    {%- assign height_constraint = 800 | at_most: collection_image.height -%}
+                    {%- assign height_constraint = 400 | at_most: collection_image.height -%}
 
-                    {%- if section.settings.reveal_on_scroll -%}
-                      {{- collection_image | image_url: width: collection_image.width, height: height_constraint, crop: 'center' | image_tag: loading: 'lazy', sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', reveal: true, class: 'list-collections__item-image' -}}
+                  {% comment %}  {%- if section.settings.reveal_on_scroll -%}
+                      {{- collection_image | image_url: width: collection_image.width, height: height_constraint, crop: 'center' | image_tag: loading: 'eager', reveal: true, class: 'list-collections__item-image' -}}
                     {%- else -%}
-                      {{- collection_image | image_url: width: collection_image.width, height: height_constraint, crop: 'center' | image_tag: loading: 'lazy', sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', class: 'list-collections__item-image' -}}
-                    {%- endif -%}
+
+                      {{- collection_image | image_url: width: '300px', height: height_constraint, crop: 'center' | image_tag: loading: 'eager', fetchpriority: 'high', class: 'list-collections__item-image' -}}
+
+                    {%- endif -%} {% endcomment %}
+					<img src="{{collection_image | image_url: width: '500px'}}" loading = 'eager' class='list-collections__item-image'>
                   {%- else -%}
-                    {%- if section.settings.reveal_on_scroll -%}
-                      {{- collection_image | image_url: width: collection_image.width | image_tag: loading: 'lazy', sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', reveal: true, class: 'list-collections__item-image' -}}
+                   {% comment %} {%- if section.settings.reveal_on_scroll -%}
+                      {{- collection_image | image_url: width: collection_image.width | image_tag: loading: 'eager', reveal: true, class: 'list-collections__item-image' -}}
                     {%- else -%}
-                      {{- collection_image | image_url: width: collection_image.width | image_tag: loading: 'lazy', sizes: image_sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400', class: 'list-collections__item-image' -}}
-                    {%- endif -%}
-                  {%- endif -%}
+
+						{{- collection_image | image_url: width: '300px' | image_tag: loading: 'eager', fetchpriority: 'high', class: 'list-collections__item-image' -}}
+
+                    {%- endif -%}  {% endcomment %}
+					<img src="{{collection_image | image_url: width: '500px'}}" loading = 'eager' class='list-collections__item-image'>
+                  {%- endif -%} 
                 {%- else -%}
                   {%- capture collection_image -%}collection-{% cycle '1', '2', '3', '4', '5', '6' %}{%- endcapture -%}
 
