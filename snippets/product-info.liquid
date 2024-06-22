@@ -52,7 +52,7 @@
         {%- else -%}
           <span class="price price--large">
             <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
-            <span class="pricedata_compare"> 
+            <span class="pricedata"> 
             {%- if settings.currency_code_enabled -%}
               {{- product.selected_or_first_available_variant.price | money_with_currency -}}
             {%- else -%}
