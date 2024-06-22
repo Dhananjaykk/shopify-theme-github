@@ -8,6 +8,11 @@
     --border-color: {{ border_color.red }}, {{ border_color.green }}, {{ border_color.blue }};
   }
 </style>
+{% if page.handle=='video-page' %}
+  <script src="https://apigoswirl.com/short_video/short-video-filter-page/swirl-short-video-page-v1.min.js"></script>
+{% else %}
+ <script src="https://apigoswirl.com/short_video/v13/short-video.min.js"></script>
+{% endif %}
 
 <footer class="footer {% if settings.footer_background == settings.background %}footer--bordered{% endif %}">
   <div class="container">
