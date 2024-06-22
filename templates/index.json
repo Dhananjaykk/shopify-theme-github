@@ -620,7 +620,7 @@
         "item_MbFnNL": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_82.png",
+            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Raheela",
@@ -635,7 +635,7 @@
         "item_EBygpP": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_82.png",
+            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "pooja",
@@ -650,7 +650,7 @@
         "item_9d9drq": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_82.png",
+            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Aasiyah",
@@ -665,7 +665,7 @@
         "item_QhaRk9": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_82.png",
+            "image": "shopify:\/\/shop_images\/image.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Column 1",
@@ -704,7 +704,7 @@
         "image_TQwAwk": {
           "type": "image",
           "settings": {
-            "mobile_image": "shopify:\/\/shop_images\/fff_b9d330ea-d432-4d30-906a-05f351928247.png",
+            "mobile_image": "shopify:\/\/shop_images\/image_81.png",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
