@@ -443,6 +443,20 @@
             "overlay_opacity": 30
           }
         },
+        "collection_6YMz8P": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/8_10bd469a-370c-406b-a0aa-8f788e696891.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Kinjal Mahesh Bhanushali",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-prue-navy-shirt-with-mulmul-cotton-prue-navy-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_NVapd8": {
           "type": "collection",
           "disabled": true,
@@ -495,6 +509,7 @@
         "collection_i68R8D",
         "collection_tyjBT3",
         "collection_xqXwPq",
+        "collection_6YMz8P",
         "collection_NVapd8",
         "collection-3",
         "collection_PdHa9c"
