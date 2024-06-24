@@ -415,6 +415,34 @@
             "overlay_opacity": 30
           }
         },
+        "collection_tyjBT3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/6_6cc1f3da-ddb2-44e6-b719-a66d036397e8.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Aditi BhatiaAditi Bhatia",
+            "link_url": "shopify:\/\/products\/mulmul-organza-ombre-priyur-lavender-saree",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_xqXwPq": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/7_ee01bf8e-f89f-4f52-a25f-09d042f84b63.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Kompal Matta Kapoor",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-carlisle-white-shirt-with-carlisle-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_NVapd8": {
           "type": "collection",
           "disabled": true,
@@ -465,6 +493,8 @@
         "collection_QXNqia",
         "collection_kJ4Ui3",
         "collection_i68R8D",
+        "collection_tyjBT3",
+        "collection_xqXwPq",
         "collection_NVapd8",
         "collection-3",
         "collection_PdHa9c"
