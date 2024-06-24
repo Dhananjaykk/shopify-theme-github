@@ -15,8 +15,8 @@
         "image_UP4XC6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_60106002-f6ae-4691-9df7-bdf2363545b9.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/2_6ba20790-ca58-4f66-b15d-b72a116e2663.jpg",
+            "image": "shopify:\/\/shop_images\/3_374d3776-150a-4204-a899-d6ab82fc8e92.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/3_4643ecc6-d74e-4e04-875e-def750f4110e.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "NEW ARRIVALS",
@@ -30,10 +30,90 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "image_Qmq4tU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_95de5ce4-7d02-4dbd-87f1-6ecc44737efa.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/4_f2150792-702f-43f7-916f-46cb36085f78.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "MULMUL STUDIO",
+            "button_1_text": "DISCOVER NOW",
+            "button_1_link": "shopify:\/\/collections\/mulmul-studio",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Un4FkP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_64c96a1f-5fab-4777-9e5f-29126b6e361f.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/5_35acddd8-c712-499d-abcd-0c033072c49a.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "SUMMER SAREE",
+            "button_1_text": "DISCOVER NOW",
+            "button_1_link": "shopify:\/\/collections\/saree",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_kVQrpQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_f1580aeb-4523-4b4a-8eef-01d91c69ffb5.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/6_88e7a7a1-d796-42ad-83c6-55ce9ed2de74.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "FOOTWEARS",
+            "button_1_text": "DISCOVER NOW",
+            "button_1_link": "shopify:\/\/collections\/mulmul-footwear",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UVTfTW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_9a2972b6-62b4-471b-9788-e8781f911efe.jpg",
+            "split_image": "shopify:\/\/shop_images\/7_ce888f6e-0aee-49c7-a9d1-be562de1399c.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "SUMMER WEDDING",
+            "button_1_text": "DISCOVER NOW",
+            "button_1_link": "shopify:\/\/collections\/ss24",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
-        "image_UP4XC6"
+        "image_UP4XC6",
+        "image_Qmq4tU",
+        "image_Un4FkP",
+        "image_kVQrpQ",
+        "image_UVTfTW"
       ],
       "settings": {
         "section_height": "auto",
