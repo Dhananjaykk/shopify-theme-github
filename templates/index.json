@@ -513,44 +513,29 @@
             "overlay_opacity": 30
           }
         },
-        "collection_NVapd8": {
+        "collection_3J93mV": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/2_c0b59bae-0caa-48b6-9187-74b46d45803b.jpg",
+            "image": "shopify:\/\/shop_images\/13_0411c2e1-4ff8-46bb-b689-5700b78df0c8.jpg",
             "subheading": "",
             "title": "",
-            "link_text": "Sanchita Arora",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "Alia Bhatt",
-            "link_url": "",
+            "link_text": "Saiee M Manjrekar",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-banu-light-blue-kurta-with-mulmul-cotton-banu-light-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
         },
-        "collection_PdHa9c": {
+        "collection_j88awn": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/14_e3b42132-cb58-48c6-98a3-ddca4311cd4a.jpg",
             "subheading": "",
             "title": "",
-            "link_text": "Name",
-            "link_url": "",
+            "link_text": "Jasmine Bhasin",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-malta-blue-kurta-with-mulmul-cotton-malta-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -570,9 +555,8 @@
         "collection_6rXmnW",
         "collection_QaQztf",
         "collection_dCq3Hd",
-        "collection_NVapd8",
-        "collection-3",
-        "collection_PdHa9c"
+        "collection_3J93mV",
+        "collection_j88awn"
       ],
       "custom_css": [
         ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -17px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}",
