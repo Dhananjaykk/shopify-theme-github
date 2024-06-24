@@ -92,7 +92,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/7_9a2972b6-62b4-471b-9788-e8781f911efe.jpg",
-            "split_image": "shopify:\/\/shop_images\/7_ce888f6e-0aee-49c7-a9d1-be562de1399c.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/7_ce888f6e-0aee-49c7-a9d1-be562de1399c.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "SUMMER WEDDING",
@@ -104,7 +104,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
@@ -408,8 +408,8 @@
       "type": "rich-text",
       "settings": {
         "subheading": "",
-        "title": "Rakhi Edit",
-        "content": "<p>This Mother's Day, let us pay homage to the women who have shaped our lives with their boundless love and unwavering support. Let us celebrate their timeless beauty, inner strength, and indomitable spirit. And above all, let us honor them with the gift of elegance and sophistication, for they deserve nothing less than the very best.<\/p>",
+        "title": "Garmi Ke Din",
+        "content": "<p>Celebrates the warmth of summer days and cherished moments at home. Inspired by simple joys like chai, cricket, and champi sessions, each piece evokes nostalgia and comfort. Embrace the spirit of summer with designs that embody the essence of home and timeless rituals.<\/p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
