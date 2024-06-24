@@ -652,6 +652,48 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "collection_3MHdGY": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/23_9425b552-4928-4d97-ac1c-df21dfe857e4.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Meghna Sahijwani",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-yami-green-kurta-with-mulmul-cotton-yami-green-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_nmDm6W": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/24_4e0d3260-8aba-418c-b4dc-6835291954a7.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Rasha Tandon",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-effat-yellow-kurta-with-mulmul-cotton-effat-yellow-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_UXcaHn": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/25_b459ff9d-0d30-44f5-9b41-1f0867040037.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Rasha Tandon",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-effat-yellow-kurta-with-mulmul-cotton-effat-yellow-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
@@ -676,7 +718,10 @@
         "collection_XhDYyw",
         "collection_geN4L8",
         "collection_6CdPYp",
-        "collection_D9ite8"
+        "collection_D9ite8",
+        "collection_3MHdGY",
+        "collection_nmDm6W",
+        "collection_UXcaHn"
       ],
       "custom_css": [
         ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -17px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}",
