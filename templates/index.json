@@ -620,11 +620,11 @@
         "item_MbFnNL": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
+            "image": "shopify:\/\/shop_images\/1_04e0238d-c1af-4482-8a0d-e26d90c1a4ac.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Raheela",
-            "content": "<p>Absolutely loved wearing this one 💖<\/p>",
+            "title": "Dhriti",
+            "content": "<p>“Thanks to u for the outfits Loved both the dresses🫶🏻 We got them shipped from Hyderabad to chicago for rakhi by our moms. Hoping to visit the store for more festive shopping”<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -635,11 +635,11 @@
         "item_EBygpP": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
+            "image": "shopify:\/\/shop_images\/2_8c7ba0ed-3e28-41f0-858f-47beda30ef72.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "pooja",
-            "content": "<p>Thank you so much for the beautiful outfit ♥️ Everybody just loved my outfit Can’t wait to shop more ✨🥹<\/p>",
+            "title": "Pooja",
+            "content": "<p>Thank you so much for the beautiful outfit<br\/>Everybody just loved my outfit<br\/>Can’t wait to shop more<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -650,11 +650,11 @@
         "item_9d9drq": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
+            "image": "shopify:\/\/shop_images\/3_761c6ad8-5d49-491e-909b-e91195cf8b67.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Aasiyah",
-            "content": "<p>Got the most stunning eid outfits! Thank you ♥️<\/p>",
+            "title": "Asiya",
+            "content": "<p>One of best in my mulmul collection, lovin it<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -665,11 +665,26 @@
         "item_QhaRk9": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
+            "image": "shopify:\/\/shop_images\/4_bbe15391-7a4d-440b-9c56-062f11302b62.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Rahila",
+            "content": "<p>Absolutely loved wearing this one 💖<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_LGB8Lc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_40c36c31-c7f9-4232-965c-cd3338e6549e.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Naina",
+            "content": "<p>Love this outfit. So comfortable and lightweight.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -682,7 +697,8 @@
         "item_MbFnNL",
         "item_EBygpP",
         "item_9d9drq",
-        "item_QhaRk9"
+        "item_QhaRk9",
+        "item_LGB8Lc"
       ],
       "settings": {
         "reveal_on_scroll": true,
