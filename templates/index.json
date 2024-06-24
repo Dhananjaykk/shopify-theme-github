@@ -401,6 +401,20 @@
             "overlay_opacity": 0
           }
         },
+        "collection_i68R8D": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/5_400010b1-4b1b-47f5-a12f-0776742b9b1e.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Pragya Jaiswal",
+            "link_url": "shopify:\/\/products\/mulmul-organza-sangli-navy-kurta-with-sleeve-with-mulmul-organza-sangli-navy-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_NVapd8": {
           "type": "collection",
           "disabled": true,
@@ -450,6 +464,7 @@
         "collection-2",
         "collection_QXNqia",
         "collection_kJ4Ui3",
+        "collection_i68R8D",
         "collection_NVapd8",
         "collection-3",
         "collection_PdHa9c"
