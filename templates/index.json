@@ -688,8 +688,92 @@
             "image": "shopify:\/\/shop_images\/25_b459ff9d-0d30-44f5-9b41-1f0867040037.jpg",
             "subheading": "",
             "title": "",
-            "link_text": "Rasha Tandon",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-effat-yellow-kurta-with-mulmul-cotton-effat-yellow-pant",
+            "link_text": "Ilisha Singh",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-banu-light-blue-kurta-with-mulmul-cotton-banu-light-blue-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_NdwY6H": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/26_813d1c60-e15e-46ca-8f4c-06c561a03070.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Priya sidhu",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-ayn-teal-blue-top-with-mulmul-cotton-ayn-teal-blue-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_4fBJNq": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/27_37252deb-a896-4faf-89a6-cd12a235735a.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Priya sidhu",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-neve-white-top-with-mulmul-cotton-neve-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_zYk6iT": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/28_4af192d6-45b0-43ea-9941-4cda7664077e.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Deeksha Khurana",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-deeba-light-blue-kurta-with-mulmul-cotton-deeba-light-blue-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_GczRxM": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/29_71f5796d-2dbd-4eef-b8e1-4860090565a8.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "jully",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-kishi-light-pink-kurta-with-mulmul-cotton-kishi-light-pink-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_JdHQxt": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/30_52feab13-b8f1-4b2f-a419-14a7740cea7a.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "kinjal",
+            "link_url": "shopify:\/\/products\/mulmul-banarsi-luxe-tissue-mangni-light-blue-saree",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_H3E9BJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/31_0db046c1-d257-43a7-a55f-1b25dfc6eb45.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Kiranpreet kaur",
+            "link_url": "shopify:\/\/products\/mulmul-banarsi-paheri-green-kurta-with-mulmul-banarsi-paheri-green-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -721,7 +805,13 @@
         "collection_D9ite8",
         "collection_3MHdGY",
         "collection_nmDm6W",
-        "collection_UXcaHn"
+        "collection_UXcaHn",
+        "collection_NdwY6H",
+        "collection_4fBJNq",
+        "collection_zYk6iT",
+        "collection_GczRxM",
+        "collection_JdHQxt",
+        "collection_H3E9BJ"
       ],
       "custom_css": [
         ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -17px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}",
