@@ -582,6 +582,76 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "collection_VHBTaV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/18_03099e46-d648-41e1-a886-e4af418fd8a8.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Srijan Chanta",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-tess-white-top-with-tess-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_XhDYyw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/19_4b279829-fa1f-4d15-bdae-58feb307f535.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Pralambika Nagar",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-tess-white-top-with-tess-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_geN4L8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/20_59f1aacc-bc30-45e8-ba22-6c6a8df75e21.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "kiran kaur",
+            "link_url": "shopify:\/\/products\/mulmul-banarsi-paheri-green-kurta-with-mulmul-banarsi-paheri-green-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_6CdPYp": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/21_60c6b986-5eaf-47f5-932d-fb093314cc85.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Mahima Chawla",
+            "link_url": "shopify:\/\/products\/mulmul-organza-idika-pink-printed-anarkali-kurta-with-mulmul-cotton-idika-pink-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_D9ite8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/22_d3398bbf-d49a-48ee-aee5-9712c12ace87.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Sruthi jayadevan",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-gulnar-yellow-kurta-with-mulmul-cotton-gulnar-yellow-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
@@ -601,7 +671,12 @@
         "collection_j88awn",
         "collection_CfW9ed",
         "collection_YXqXEC",
-        "collection_dLnQWW"
+        "collection_dLnQWW",
+        "collection_VHBTaV",
+        "collection_XhDYyw",
+        "collection_geN4L8",
+        "collection_6CdPYp",
+        "collection_D9ite8"
       ],
       "custom_css": [
         ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -17px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}",
