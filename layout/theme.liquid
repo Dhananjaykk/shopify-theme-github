@@ -88,7 +88,11 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
       background: #000 !important;
       color: #fff;
   }
-
+  {% if page.handle == 'store-locater' %}
+  div#main {
+    background: #fcf7f0;
+}
+{% endif %}
   </style>
 
   </head>
