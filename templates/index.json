@@ -778,6 +778,132 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "collection_RnyUrd": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/32_1a1a649d-f36f-4808-bbcd-e45b2ed3fb11.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Priya Banerjee",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_z7ETiA": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/33_d3bdbff0-10a8-4e20-ac58-95cded4c3fb6.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_VnfAwY": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/34_ca43829e-f810-41d8-91dd-102d95e04d63.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Kusha Kapila",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-kishi-white-kurta-with-mulmul-cotton-kishi-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_HjNEmT": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/35_9d0f8daf-bc7d-4107-88c2-073af54baf5c.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Shiana Kothari",
+            "link_url": "shopify:\/\/products\/mulmul-organza-idika-pink-printed-anarkali-kurta-with-mulmul-cotton-idika-pink-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_4UgjLF": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/36_0da9448c-2c31-4efe-854b-577074fe45ec.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_zH4UHf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/37_cff99039-bf84-42e1-98b3-93400daa38db.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Hansika Motwani",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-kishi-light-pink-kurta-with-mulmul-cotton-kishi-light-pink-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_KCrRKz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/38_c4324868-b615-4fdc-a389-cb427b3c45ff.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Khushi Kapoor",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-banu-white-kurta-with-mulmul-cotton-banu-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_ngDMTf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/39_1ca68826-c893-4250-8c73-212a15ed6846.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_kJbCad": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/40_0667fbaa-fa6f-499a-a099-ef7727327966.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Mallaikaa Chheda",
+            "link_url": "shopify:\/\/products\/mulmul-organza-bolour-orange-kurta-with-mulmul-cotton-bolour-orange-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
@@ -811,7 +937,16 @@
         "collection_zYk6iT",
         "collection_GczRxM",
         "collection_JdHQxt",
-        "collection_H3E9BJ"
+        "collection_H3E9BJ",
+        "collection_RnyUrd",
+        "collection_z7ETiA",
+        "collection_VnfAwY",
+        "collection_HjNEmT",
+        "collection_4UgjLF",
+        "collection_zH4UHf",
+        "collection_KCrRKz",
+        "collection_ngDMTf",
+        "collection_kJbCad"
       ],
       "custom_css": [
         ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -17px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}",
