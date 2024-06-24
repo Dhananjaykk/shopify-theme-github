@@ -361,6 +361,7 @@
         },
         "collection-2": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/2_7984b09c-de71-4a77-86b2-d1dc824bb86b.jpg",
