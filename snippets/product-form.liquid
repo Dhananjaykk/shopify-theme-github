@@ -301,6 +301,9 @@
           </div>
         {%- endif -%}
 
+        {%- when 'Unstitched-stitched' -%}
+          {% render 'Unstitched-stitched' %}
+
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------
       INVENTORY
@@ -369,8 +372,7 @@
           </product-inventory>
         {%- endif -%}
 
-        {%- when 'Unstitched-stitched' -%}
-          {% render 'Unstitched-stitched' %}
+     
     
 
       {%- comment -%}
