@@ -422,7 +422,7 @@
             "image": "shopify:\/\/shop_images\/6_6cc1f3da-ddb2-44e6-b719-a66d036397e8.jpg",
             "subheading": "",
             "title": "",
-            "link_text": "Aditi BhatiaAditi Bhatia",
+            "link_text": "Aditi Bhatia",
             "link_url": "shopify:\/\/products\/mulmul-organza-ombre-priyur-lavender-saree",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
@@ -452,6 +452,62 @@
             "title": "",
             "link_text": "Kinjal Mahesh Bhanushali",
             "link_url": "shopify:\/\/products\/mulmul-cotton-prue-navy-shirt-with-mulmul-cotton-prue-navy-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_bpKmj3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/9_187fbdee-aa46-4e84-b3f6-8e65eaa7ac42.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Rubina Dilaik",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_6rXmnW": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/10_1de911fa-2e80-4435-a378-bbdaacffba21.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Asna Oberoi",
+            "link_url": "shopify:\/\/products\/mulmul-organza-dell-white-top-with-mulmul-cotton-dell-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_QaQztf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/11_7e80152a-6ff9-41ec-a358-5cf5cdd2b2ac.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Seher Dutta",
+            "link_url": "shopify:\/\/products\/mulmul-organza-dell-white-top-with-mulmul-cotton-dell-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_dCq3Hd": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/12_000623c4-54bb-4e21-a5d2-ada2d70b4fd1.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Priya sidhu",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-reeve-dusty-pink-top-with-mulmul-cotton-reeve-dusty-pink-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -510,6 +566,10 @@
         "collection_tyjBT3",
         "collection_xqXwPq",
         "collection_6YMz8P",
+        "collection_bpKmj3",
+        "collection_6rXmnW",
+        "collection_QaQztf",
+        "collection_dCq3Hd",
         "collection_NVapd8",
         "collection-3",
         "collection_PdHa9c"
