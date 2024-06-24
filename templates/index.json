@@ -720,6 +720,8 @@
         "image_TQwAwk": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1_467a9dfa-6fd2-491f-bec2-7b08982e6032.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1_0485e5ce-c8cf-454d-9de5-627838849945.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
