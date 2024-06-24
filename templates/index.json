@@ -172,14 +172,14 @@
           "type": "collection",
           "settings": {
             "collection": "mulmul-studio",
-            "image": "shopify:\/\/shop_images\/4_0d8b68c8-fa96-4b54-b9e9-3cc41747c664.jpg",
+            "image": "shopify:\/\/shop_images\/NEW_THEME_CATEGORIES_1.jpg",
             "subheading": "",
             "title": "",
             "link_text": "STUDIO",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_y6rXCE": {
