@@ -540,6 +540,48 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "collection_CfW9ed": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/15_7d9443b5-638a-4ae4-a106-d027a71d72cd.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Sania Mirza",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-asota-kurta",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_YXqXEC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/16_6ca35f2f-4b75-4be2-a4cd-01b2109e3dfd.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Prajakta Koli",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-kishi-white-kurta-with-mulmul-cotton-kishi-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_dLnQWW": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/17_4e41cac4-c503-4b66-bd74-8c3793e52403.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Tarini Bhatia",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-neve-navy-top-with-mulmul-cotton-neve-navy-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
@@ -556,7 +598,10 @@
         "collection_QaQztf",
         "collection_dCq3Hd",
         "collection_3J93mV",
-        "collection_j88awn"
+        "collection_j88awn",
+        "collection_CfW9ed",
+        "collection_YXqXEC",
+        "collection_dLnQWW"
       ],
       "custom_css": [
         ".list-collections__item-info {z-index: 1; width: 100%; padding-inline-start: 24px; padding-inline-end: 24px; position: absolute; top: auto; left: 0; bottom: -17px; transform: translateY(-50%); background: #0000002e; padding: 5px 5px;}",
