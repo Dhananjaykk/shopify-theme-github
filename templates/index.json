@@ -50,6 +50,7 @@
           "type": "collection",
           "settings": {
             "collection": "new-in",
+            "image": "shopify:\/\/shop_images\/1_ec0566b2-b258-430c-a650-209343f696eb.jpg",
             "subheading": "",
             "title": "",
             "link_text": "NEW IN",
@@ -63,6 +64,7 @@
           "type": "collection",
           "settings": {
             "collection": "best-sellers",
+            "image": "shopify:\/\/shop_images\/2_09bc230e-56fd-41b6-a156-f267055a7294.jpg",
             "subheading": "",
             "title": "",
             "link_text": "BESTSELLERS",
@@ -76,6 +78,7 @@
           "type": "collection",
           "settings": {
             "collection": "kurta-sets",
+            "image": "shopify:\/\/shop_images\/3_58a81068-3d2f-47d0-9165-6db00b39980d.jpg",
             "subheading": "",
             "title": "",
             "link_text": "KURTA SET",
@@ -85,51 +88,25 @@
             "overlay_opacity": 0
           }
         },
-        "collection_9L4GHY": {
+        "collection_MxKcWt": {
           "type": "collection",
           "settings": {
-            "collection": "lehenga",
-            "image": "shopify:\/\/shop_images\/almora-green-lehenga.jpg",
+            "collection": "mulmul-studio",
+            "image": "shopify:\/\/shop_images\/4_0d8b68c8-fa96-4b54-b9e9-3cc41747c664.jpg",
             "subheading": "",
             "title": "",
-            "link_text": "{{ block.settings.collection.title }}",
+            "link_text": "MULMUL STUDIO",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_q7QkRd": {
-          "type": "collection",
-          "settings": {
-            "collection": "kurtas",
-            "subheading": "",
-            "title": "",
-            "link_text": "{{ block.settings.collection.title }}",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "collection_y6rXCE": {
           "type": "collection",
           "settings": {
             "collection": "saree",
-            "image": "shopify:\/\/shop_images\/7_e22f771c-6af8-4570-aa32-d12cc0458390.jpg",
-            "subheading": "",
-            "title": "",
-            "link_text": "{{ block.settings.collection.title }}",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_FxpBik": {
-          "type": "collection",
-          "settings": {
-            "collection": "mulmul-studio-western",
+            "image": "shopify:\/\/shop_images\/5_34e23274-04c3-44ab-8a7a-ed0213011968.jpg",
             "subheading": "",
             "title": "",
             "link_text": "{{ block.settings.collection.title }}",
@@ -143,6 +120,21 @@
           "type": "collection",
           "settings": {
             "collection": "mulmul-footwear",
+            "image": "shopify:\/\/shop_images\/6_be8b6ad3-3635-480d-9f9e-4bc09e163150.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "{{ block.settings.collection.title }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_9L4GHY": {
+          "type": "collection",
+          "settings": {
+            "collection": "lehenga",
+            "image": "shopify:\/\/shop_images\/7_503a03a3-6d8a-4ff1-a0e3-ac52c18d195e.jpg",
             "subheading": "",
             "title": "",
             "link_text": "{{ block.settings.collection.title }}",
@@ -156,6 +148,7 @@
           "type": "collection",
           "settings": {
             "collection": "mulmul-potli",
+            "image": "shopify:\/\/shop_images\/8_59592f69-9261-4e37-abf6-317061c108bd.jpg",
             "subheading": "",
             "title": "",
             "link_text": "{{ block.settings.collection.title }}",
@@ -169,7 +162,21 @@
           "type": "collection",
           "settings": {
             "collection": "jewelry",
-            "image": "shopify:\/\/shop_images\/11_00693a99-eb6c-45fe-af4a-38c3697d68b2.jpg",
+            "image": "shopify:\/\/shop_images\/9_1f1ed3a9-b90e-4a1f-bb25-7315168b6638.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "JWELLERY",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_FxpBik": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids",
+            "image": "shopify:\/\/shop_images\/10_fe6f07d6-dce5-4e2c-b9aa-4bec532b44a8.jpg",
             "subheading": "",
             "title": "",
             "link_text": "{{ block.settings.collection.title }}",
@@ -178,19 +185,49 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "collection_q7QkRd": {
+          "type": "collection",
+          "settings": {
+            "collection": "mulmul-cottons",
+            "image": "shopify:\/\/shop_images\/11_3b711f93-0453-4006-a198-a2d51412518c.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "COTTONS",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_FykF7L": {
+          "type": "collection",
+          "settings": {
+            "collection": "organza",
+            "image": "shopify:\/\/shop_images\/12_ca0b73be-c063-42d2-884a-a066b887574d.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "ORGANZA",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "collection_4NBCmf",
         "collection_wiPagi",
         "collection_ybqUHf",
-        "collection_9L4GHY",
-        "collection_q7QkRd",
+        "collection_MxKcWt",
         "collection_y6rXCE",
-        "collection_FxpBik",
         "collection_FDzMDr",
+        "collection_9L4GHY",
         "collection_tHGC6W",
-        "collection_JEEW4E"
+        "collection_JEEW4E",
+        "collection_FxpBik",
+        "collection_q7QkRd",
+        "collection_FykF7L"
       ],
       "settings": {
         "reveal_on_scroll": false,
