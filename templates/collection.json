@@ -38,10 +38,29 @@
         "promotion_position": "top",
         "promotion_height": "small"
       }
+    },
+    "rich_text_cAhWAP": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "{{ collection.metafields.custom.bottom_text | metafield_tag }}",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "left",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "collection-banner",
-    "main"
+    "main",
+    "rich_text_cAhWAP"
   ]
 }
