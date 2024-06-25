@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -23,7 +32,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2_0834b923-7a50-4de8-8347-7053dacfa15d.png",
             "mobileimage": "shopify:\/\/shop_images\/1_d99c19d3-69df-439b-a3c6-b1fefbd059b9.png",
-            "button_link": ""
+            "button_link": "https:\/\/shopmulmul.com\/account\/register"
           }
         },
         "4b04c16b-5576-4b6a-90be-428df98f9788": {
@@ -31,7 +40,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/3_af38de37-37fa-4afd-90df-d7073348e86c.png",
             "mobileimage": "shopify:\/\/shop_images\/2_ae5f12a1-2070-4643-8ece-9ff047d79531.png",
-            "button_link": ""
+            "button_link": "https:\/\/shopmulmul.com\/account\/register"
           }
         },
         "5bc8823f-b5ea-4a05-911c-9a2d127531ef": {
