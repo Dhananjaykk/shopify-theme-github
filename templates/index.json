@@ -1048,7 +1048,7 @@
         "subheading": "",
         "title": "",
         "html": "<div class=\"swirl-short-videos-c-ssv13\" data-code=\"hodprmca\" data-playlist=\"V1KCYc\" data-pdp=\"product\/,products\/,collection\/\" data-wt=\"1\"><\/div>",
-        "add_vertical_spacing": false,
+        "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
