@@ -1,0 +1,72 @@
+
+<div class="filter-cat row">
+    <div class="col col-md-3 col-xs-6">
+      <p>Filter by Department</p>
+      <div class="drondown">
+        <select class="form-control">
+          <option value="cat-all">Select</option>
+                          <option value="cat-all">All</option>
+            {% for block in section.blocks %} 
+            <option value="{{ block.settings.option }}">{{ block.settings.option-name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+</div>
+
+<style>
+.drondown{
+    display: inline-block;
+padding: 0px 8px;
+background: #8080802e;
+    margin-bottom: 20px;
+}
+.filter-cat .form-control{
+    border: none;
+width: 200px;
+background:none;
+font-size: 17px;
+padding: 5px;
+}
+.filter-cat select.form-control{
+    box-shadow: none;
+}
+</style>
+
+{% schema %}
+{
+"name": "dropdown",
+"settings": [],
+ "blocks": [
+{
+  "type": "carrer",
+  "name": "Link",
+  "settings": [
+    {
+      "id": "option",
+      "type": "text",
+      "label": "department"
+    },
+    {
+      "id": "option-name",
+      "type": "text",
+      "label": "department-name"
+    }
+    ]
+    }
+  ],
+"presets": [
+{
+  "category": "dropdown",
+  "name": "dropdown"
+  
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
