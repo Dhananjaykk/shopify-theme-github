@@ -152,14 +152,23 @@
   </script>
   
   <script>
-    $(document).ready(function(){
-    $('.cstmbtninner').click(function(){
-      var dataid = $(this).attr('dataid');console.log(dataid);
-       $('html, body').animate({
-         scrollTop: $('#'+dataid).offset().top - 100 
-       }, 'slow');
-    });
-  });  
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('.cstmbtninner').forEach(function(button) {
+          button.addEventListener('click', function() {
+              var dataid = button.getAttribute('dataid');
+              console.log(dataid);
+              var targetElement = document.getElementById(dataid);
+              if (targetElement) {
+                  var targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - 100;
+                  window.scrollTo({
+                      top: targetPosition,
+                      behavior: 'smooth'
+                  });
+              }
+          });
+      });
+  });
+    
   </script>
   {% schema %}
     {
