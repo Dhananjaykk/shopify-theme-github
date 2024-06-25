@@ -115,7 +115,7 @@
   </div>
   <style>
     @media only screen and (min-width: 769px){
-      button.myBtn_template--14937616449587__94296c9c-0728-4f23-97a9-ecb21b7ed5cc {
+      button.myBtn_{{ section.id }} {
       display: none;
   }
       span.cdots {
@@ -136,8 +136,8 @@
     var btnText = document.querySelector(".myBtn_{{ section.id }}");
     
       btnText.addEventListener('click', function() { 
-        var dots = document.querySelector(".givingm_template--14937616449587__94296c9c-0728-4f23-97a9-ecb21b7ed5cc .cdots");
-        var moreText = document.querySelector(".givingm_template--14937616449587__94296c9c-0728-4f23-97a9-ecb21b7ed5cc .cmore");
+        var dots = document.querySelector(".cdots");
+        var moreText = document.querySelector(".cmore");
         
          if (dots.style.display === "none") {
           btnText.innerHTML = "Read More"; 
