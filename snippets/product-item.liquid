@@ -33,7 +33,7 @@
     {%- endif -%}
   {%- endcapture -%}
 
-  <div class="product-item__image-wrapper {% if settings.show_secondary_image and product.media.size > 1 and hide_secondary_image != true %}product-item__image-wrapper--multiple{% endif %}">
+  <div class="product-item__image-wrapper {% if settings.show_secondary_image and product.media.size >= 1 and hide_secondary_image != true %}product-item__image-wrapper--multiple{% endif %}">
     {%- if product_labels != blank and reduced_content != true -%}
       <div class="product-item__label-list label-list">
         {{- product_labels -}}
