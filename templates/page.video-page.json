@@ -12,6 +12,8 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_title": true,
+        "page_width": "large"
       }
     }
   },
