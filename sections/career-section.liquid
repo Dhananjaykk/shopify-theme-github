@@ -1,0 +1,170 @@
+<style>
+    .carrer-box{
+      display: grid;
+      grid-template-columns: auto auto auto;
+          grid-gap: 20px;
+    }
+      .carrer-item{
+            padding: 20px 40px;
+        background: #8080801f;
+      }
+      .carre-heading{
+            font-size: 30px;
+        font-weight: bold;
+      }
+      .carrer-btn{
+        text-decoration: revert;
+      }
+        @media only screen and (max-width: 768px) {
+          .carrer-box{
+      display: grid;
+      grid-template-columns: auto;
+          grid-gap: 20px;
+    }
+      }
+  </style>
+  
+  <style>
+       .popup .overlay {
+        position:fixed;
+        top:0px;
+        left:0px;
+        width:100vw;
+        height:100vh;
+        background:rgba(0,0,0,0.7);
+        z-index:1;
+        display:none;
+      }
+  
+      .popup .content {
+        position:fixed;
+        top:5%;
+        left:50%;
+        transform:translate(-50%,-50%) scale(0);
+        background:#fff;
+        width:45%;
+        z-index:8;
+        padding:20px;
+        height: 90vh;
+        overflow-y: scroll;
+      }
+      .content::-webkit-scrollbar{
+        display: none;
+      }
+  
+      .popup .close-btn {
+        cursor:pointer;
+        position:absolute;
+        right:0px;
+        top:0px;
+        width:30px;
+        height:30px;
+        background:#222;
+        color:#fff;
+        font-size:25px;
+        font-weight:600;
+        line-height:30px;
+        text-align:center;
+        border-radius:50%;
+      }
+  
+      .popup.active .overlay {
+        display:block;
+      }
+  
+      .popup.active .content {
+        transition:all 300ms ease-in-out;
+        transform:translate(-50%,0%) scale(1);
+      }
+      @media only screen and (max-width: 768px){
+        .popup .content {
+          width: 90%;
+        }
+      }
+     .form_btn_cs {
+        margin: 25px auto;
+        width: fit-content;
+        font-size: 18px;
+        background: #000;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+  </style>
+  <div class="filter-cat-results carrer-box">
+    {% for block in section.blocks %}
+      <div class="f-cat carrer-item" data-cat="{{ block.settings.option1 }}">
+        <div class="carre-heading">{{ block.settings.heading }}</div>
+        <div class="carre-description">{{ block.settings.desc }}</div>
+        <br>
+        <button class="open_popup" onclick="togglePopup('popup-{{ forloop.index }}')">View More</button>
+        <div class="popup" id="popup-{{ forloop.index }}">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup('popup-{{ forloop.index }}')">&times;</div>
+            <div class="carre-heading" style="text-align: center;">{{ block.settings.heading }}</div>
+            <div class="jobfull_description">{{ block.settings.fulldescription }}</div>
+            <div class="form_btn_cs">
+              <a class="form_in_link" target="_blank" href="https://forms.gle/LRpoA8vFENhiZEiH7"><h3>Fill Form</h3></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <script>
+      function togglePopup(idname){
+      document.getElementById(idname).classList.toggle("active");
+    }
+  </script>
+  
+  {% schema %}
+  {
+    "name": "career-section",
+    "settings": [],
+  
+      "blocks": [
+    {
+      "type": "career",
+      "name": "Link",
+      "settings": [
+         {
+          "id": "option1",
+          "type": "text",
+          "label": "department"
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "label": "Heading"
+        },
+        {
+          "id": "desc",
+          "type": "text",
+          "label": "Description"
+        },
+        {
+        "type": "richtext",
+        "id": "fulldescription",
+        "label": "Job Full Description"
+        }
+      ]
+        }
+      ],
+  "presets": [
+    {
+      "category": "carrer-section",
+      "name": "team"
+  
+    }
+  ]
+  }
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}
+  
