@@ -21,7 +21,7 @@
             "subheading": "",
             "title": "NEW ARRIVALS",
             "button_1_text": "DISCOVER NOW",
-            "button_1_link": "",
+            "button_1_link": "shopify:\/\/collections\/new-in",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -36,7 +36,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/4_95de5ce4-7d02-4dbd-87f1-6ecc44737efa.jpg",
             "mobile_image": "shopify:\/\/shop_images\/4_f2150792-702f-43f7-916f-46cb36085f78.jpg",
-            "text_position": "middle_center",
+            "text_position": "bottom_center",
             "subheading": "",
             "title": "MULMUL STUDIO",
             "button_1_text": "DISCOVER NOW",
@@ -55,7 +55,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/5_64c96a1f-5fab-4777-9e5f-29126b6e361f.jpg",
             "mobile_image": "shopify:\/\/shop_images\/5_35acddd8-c712-499d-abcd-0c033072c49a.jpg",
-            "text_position": "middle_center",
+            "text_position": "bottom_center",
             "subheading": "",
             "title": "SUMMER SAREE",
             "button_1_text": "DISCOVER NOW",
@@ -74,7 +74,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/6_f1580aeb-4523-4b4a-8eef-01d91c69ffb5.jpg",
             "mobile_image": "shopify:\/\/shop_images\/6_88e7a7a1-d796-42ad-83c6-55ce9ed2de74.jpg",
-            "text_position": "middle_center",
+            "text_position": "bottom_center",
             "subheading": "",
             "title": "FOOTWEARS",
             "button_1_text": "DISCOVER NOW",
@@ -93,7 +93,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/7_9a2972b6-62b4-471b-9788-e8781f911efe.jpg",
             "mobile_image": "shopify:\/\/shop_images\/7_ce888f6e-0aee-49c7-a9d1-be562de1399c.jpg",
-            "text_position": "middle_center",
+            "text_position": "bottom_center",
             "subheading": "",
             "title": "SUMMER WEDDING",
             "button_1_text": "DISCOVER NOW",
@@ -1109,7 +1109,7 @@
         "collection_M8XKWG": {
           "type": "collection",
           "settings": {
-            "collection": "gift",
+            "collection": "mulmul-charm",
             "image": "shopify:\/\/shop_images\/2_8a89ecdc-ba1a-4ee3-9bdc-5a410b45f40e.jpg",
             "subheading": "",
             "title": "",
