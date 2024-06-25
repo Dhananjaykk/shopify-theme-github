@@ -1,0 +1,78 @@
+{% section 'careerheading' %}
+{% section 'slideshow2' %}
+{% section 'careerheadingwithtext' %}
+<div class="container filtering">
+   {% section 'dropdown' %}
+  {% section 'career-section' %}
+ 
+</div>
+
+<style>
+  .filter-cat {
+  margin: 1em 0;
+}
+
+.filtering{
+  margin:40px auto;
+}
+.filter-cat-results .f-cat {
+  opacity: 0;
+  display: none;
+}
+.filter-cat-results .f-cat.active {
+  opacity: 1;
+  display: block;
+  -webkit-animation: fadeIn 0.65s ease forwards;
+  animation: fadeIn 0.65s ease forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+</style>
+
+<script>
+  var filterActive;
+
+function filterCategory(category) {
+    if (filterActive != category) {
+        
+        // reset results list
+        $('.filter-cat-results .f-cat').removeClass('active');
+        
+        // elements to be filtered
+        $('.filter-cat-results .f-cat')
+            .filter('[data-cat="' + category + '"]')
+            .addClass('active');
+        
+        // reset active filter
+        filterActive = category;
+    }
+}
+
+$('.f-cat').addClass('active');
+
+$('.filtering select').change(function() {
+    if ($(this).val() == 'cat-all') {
+        $('.filter-cat-results .f-cat').addClass('active');
+        filterActive = 'cat-all';
+    } else {
+        filterCategory($(this).val());
+    }
+});
+
+</script>
