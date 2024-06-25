@@ -88,6 +88,14 @@
           "settings": {
           }
         },
+        "content_bJNtbC": {
+          "type": "content",
+          "settings": {
+            "title": "Product Specifications",
+            "content": "{{ product.metafields.custom.product_specifications | metafield_tag }}",
+            "page": ""
+          }
+        },
         "fabric_7wEdJg": {
           "type": "fabric",
           "settings": {
@@ -129,6 +137,7 @@
       },
       "block_order": [
         "description",
+        "content_bJNtbC",
         "fabric_7wEdJg",
         "liquid_naXJhy",
         "content_npWDTL",
