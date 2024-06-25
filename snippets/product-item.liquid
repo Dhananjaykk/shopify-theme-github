@@ -43,34 +43,25 @@
   	  {%- render 'collectionpagemedia', product: product -%}
    {%else %}
 
-    <a href="{{ product.url }}" data-instant class="product-item__aspect-ratio aspect-ratio {% if settings.product_image_size != 'natural' %}aspect-ratio--{{ settings.product_image_size }}{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: product.featured_media.preview_image.aspect_ratio }}%; --aspect-ratio: {{ product.featured_media.preview_image.aspect_ratio }}">
-      {%- if product.featured_media -%}
-        {{ product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'product-item__primary-image', data-media-id: product.featured_media.id }}
-      {%- endif -%}
+   <a href="{{ product.url }}" class="product-item__aspect-ratio aspect-ratio {% if settings.product_image_size != 'natural' %}aspect-ratio--{{ settings.product_image_size }}{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: product.featured_media.preview_image.aspect_ratio }}%; --aspect-ratio: {{ product.featured_media.preview_image.aspect_ratio }}">
+    <img class="product-item__primary-image" loading="lazy" data-media-id="{{ product.featured_media.id | escape }}" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: product.featured_media, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
 
-      {%- if settings.product_color_display == 'swatch' -%}
-        {%- for color_label in color_label_list -%}
-          {%- if product.options_by_name[color_label] != blank -%}
-			      {%- for color_option in product.options_by_name[color_label].values -%}
-       		    {%- for variant in product.variants -%}
-      			    {%- if variant.options contains color_option and variant.featured_media != blank -%}
-          		    {%- unless variant.featured_media == product.featured_media -%}
-                    {{ variant.featured_media | image_url: width: variant.featured_media.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'product-item__primary-image', data-media-id: variant.featured_media.id, hidden: true }}
-      				      {% break %}
-          		    {%- endunless -%}
-      			    {%- endif -%}
-              {%- endfor -%}
-	          {%- endfor -%}
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endif -%}
+    {%- if settings.product_color_display == 'swatch' -%}
+      {%- assign featured_media = product.variants | map: 'featured_media' -%}
 
-      {%- if settings.show_secondary_image and product.media.size > 1 and hide_secondary_image != true -%}
-        {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
-        {{- next_media | image_url: width: next_media.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'product-item__secondary-image' -}}
-      {%- endif -%}
-    </a>
-  {% endif %}
+      {%- for media in featured_media -%}
+        {%- unless media == product.featured_media -%}
+          <img class="product-item__primary-image" hidden data-media-id="{{ media.id | escape }}" loading="lazy" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: media, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
+        {%- endunless -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if settings.show_secondary_image and product.media.size > 1 and hide_secondary_image != true -%}
+      {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
+      <img class="product-item__secondary-image" loading="lazy" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: next_media, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
+    {%- endif -%}
+  </a>{% endif %}
+  
     <div class="th_wl_col_btn" style="position: absolute;top: 1%;padding : 5px 0px 4px 6px; background: #ffffff94; border-radius: 50%;right: 1%;cursor: pointer; font-size: 19px;" data-product_id="{{product.id}}" data-variant_id="{{product.selected_or_first_available_variant.id}}"></div>
     <style>
       .th_wlc_product_count {
