@@ -47,33 +47,41 @@
 </style>
 
 <script>
-  var filterActive;
+  document.addEventListener('DOMContentLoaded', (event) => {
+    var filterActive;
 
-function filterCategory(category) {
-    if (filterActive != category) {
-        
-        // reset results list
-        $('.filter-cat-results .f-cat').removeClass('active');
-        
-        // elements to be filtered
-        $('.filter-cat-results .f-cat')
-            .filter('[data-cat="' + category + '"]')
-            .addClass('active');
-        
-        // reset active filter
-        filterActive = category;
+    function filterCategory(category) {
+        if (filterActive != category) {
+            // reset results list
+            document.querySelectorAll('.filter-cat-results .f-cat').forEach((el) => {
+                el.classList.remove('active');
+            });
+
+            // elements to be filtered
+            document.querySelectorAll('.filter-cat-results .f-cat[data-cat="' + category + '"]').forEach((el) => {
+                el.classList.add('active');
+            });
+
+            // reset active filter
+            filterActive = category;
+        }
     }
-}
 
-$('.f-cat').addClass('active');
+    document.querySelectorAll('.f-cat').forEach((el) => {
+        el.classList.add('active');
+    });
 
-$('.filtering select').change(function() {
-    if ($(this).val() == 'cat-all') {
-        $('.filter-cat-results .f-cat').addClass('active');
-        filterActive = 'cat-all';
-    } else {
-        filterCategory($(this).val());
-    }
+    document.querySelector('.filtering select').addEventListener('change', function() {
+        if (this.value == 'cat-all') {
+            document.querySelectorAll('.filter-cat-results .f-cat').forEach((el) => {
+                el.classList.add('active');
+            });
+            filterActive = 'cat-all';
+        } else {
+            filterCategory(this.value);
+        }
+    });
 });
+
 
 </script>
