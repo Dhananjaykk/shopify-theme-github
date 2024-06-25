@@ -595,6 +595,134 @@
           "fullarea_text2": "",
           "fullarea_text3": ""
         }
+      },
+      "careerheading": {
+        "type": "careerheading",
+        "settings": {
+          "heading": "Work at Mulmul"
+        }
+      },
+      "slideshow2": {
+        "type": "slideshow2",
+        "blocks": {
+          "image_cCCXQy": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Team_inage_c20f8967-4e1c-45d8-b197-e05006d4032a.png",
+              "text_position": "middle_center",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": "",
+              "text_color": "#ffffff",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "overlay_color": "#000000",
+              "overlay_opacity": 30
+            }
+          }
+        },
+        "block_order": [
+          "image_cCCXQy"
+        ],
+        "settings": {
+          "section_height": "large",
+          "transition_type": "sweep",
+          "autoplay": true,
+          "cycle_speed": 5,
+          "background": "rgba(0,0,0,0)"
+        }
+      },
+      "careerheadingwithtext": {
+        "type": "careerheadingwithtext",
+        "settings": {
+          "heading": "Who are we? What are we?",
+          "content": "When we started on the Mulmul journey, we had little idea about what to expect or where we were heading, all we had was a vision. A vision to spread happiness because that’s the one emotion we felt so strongly.It was pure happiness. We wanted everyone whose life we touched to feel it too.\n<br>\nCut to today, that’s what we’re known for. \nEveryone who’s been associated with us - in whatever way - has felt it. And that makes us keep doing more, keep doing better."
+        }
+      },
+      "dropdown": {
+        "type": "dropdown",
+        "blocks": {
+          "carrer_Dgk8bV": {
+            "type": "carrer",
+            "settings": {
+              "option": "Design",
+              "option-name": "Design"
+            }
+          },
+          "carrer_9q3FR7": {
+            "type": "carrer",
+            "settings": {
+              "option": "CRM",
+              "option-name": "CRM"
+            }
+          },
+          "carrer_YpBrq7": {
+            "type": "carrer",
+            "settings": {
+              "option": "Merchandising",
+              "option-name": "Merchandising"
+            }
+          }
+        },
+        "block_order": [
+          "carrer_Dgk8bV",
+          "carrer_9q3FR7",
+          "carrer_YpBrq7"
+        ],
+        "settings": {
+        }
+      },
+      "career-section": {
+        "type": "career-section",
+        "blocks": {
+          "career_xPmHYW": {
+            "type": "career",
+            "settings": {
+              "option1": "CRM",
+              "heading": "Store Stylist",
+              "desc": "Fashion Enthusiast with excellent communication and pleasing personality. Experience: 0-1 years.         Multiple Locations.",
+              "fulldescription": "<p><strong>Job Summary:<\/strong><\/p><p> • To help the client by recommending appropriate clothing and accessories.<\/p><p> • Coordinate and help customers in classification of outfits as per the event\/occasion<\/p><p> • Should have an extraordinary ability to manage time effectively.<\/p><p> • Participate in sales promotion activities like discount sales offers, Pre Launches offer<\/p><p> • Should be able to take customised orders, coordinate with back end and deliver to the client as per deadline and as per order received.<\/p><p>.• Responsible for maintain client list, taking feedback and clients details and sending out mails and invitations to clients on regular basis<\/p><p> • Fresher willing to explore career in Hi Fashion Retail Sales, having an entrepreneur mind-set also can apply<\/p><p>Specifications:<\/p><p> • Qualification: Any degree\/ Diploma in Styling<\/p><p> • Experience: 0-2 year<\/p><p> • Excellent communication skill.<\/p>"
+            }
+          },
+          "career_Hp9Lht": {
+            "type": "career",
+            "settings": {
+              "option1": "Design",
+              "heading": "Fashion Designer",
+              "desc": "Fashion Graduates from Premium Institute with  0-5 years’ experience.  Location: Delhi",
+              "fulldescription": "<p>Job Summary:<\/p><p>• Entire product design - from initial market research to mood board creation to sketching\/designing to delivering the end product with the team<\/p><p>• Map Competitor's products and analyse to increase design distinctiveness.<\/p><p>• Sketching, illustration- Designing, sampling, Product development & Production coordination<\/p><p>• Fabric & Colour Trend Research & Forecasting<\/p><p>• Develop new design concepts\/ collections based on consumer needs and tastes<\/p><p>• Theme, fabric, process & finish, production technique and technology, product  <\/p><p>• <strong>We are preferring graduates from premium institutes. ( Delhi based Only). Freshers may apply<\/strong><\/p><p>Specification:<\/p><p>• Qualification: B. Des. From Premium Institute <\/p><p>• Experience:   0-5year<\/p>"
+            }
+          },
+          "career_PhLwWa": {
+            "type": "career",
+            "settings": {
+              "option1": "CRM",
+              "heading": "Stylist",
+              "desc": "Fashion Enthusiast with excellent communication and people skills.  Experience: 0-1 years.  Location:  Work From Home",
+              "fulldescription": "<p>Job summary:<\/p><p>• Identify customers' needs and help them find clothing items that suit their body types.<\/p><p>• Create complete looks to match customers style.<\/p><p>• Offer personalized styling tips.<\/p><p>• Recommend  accessories that complement customers outfit.<\/p><p>• Inform customers about fashion trends.<\/p><p>• Provide product details, including fabrics, wash care instructions, prices and discounts.<\/p><p>• Suggest alternative outfits and colours to create unique looks.<\/p><p>• Build connect with customer to increase the frequency of customers visit to the store.<\/p><p>Specification:<\/p><p>• Location: Multiple(offsite) <\/p><p>• Qualification: Any degree\/ Diploma in Fashion.<\/p><p>• Experience:  0-1 year<\/p><p>• Excellent communication skill<\/p>"
+            }
+          },
+          "career_DiKaJf": {
+            "type": "career",
+            "settings": {
+              "option1": "Merchandising",
+              "heading": "Production Merchandiser",
+              "desc": "5-10 years’ Experience in garment manufacturing (ERP base is a must). Location: Noida.",
+              "fulldescription": "<p>5-10 years’ Experience in garment manufacturing (ERP base is a must). Location: Noida.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "career_xPmHYW",
+          "career_Hp9Lht",
+          "career_PhLwWa",
+          "career_DiKaJf"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
