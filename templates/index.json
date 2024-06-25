@@ -1042,6 +1042,18 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "custom_html_8brxKq": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"swirl-short-videos-c-ssv13\" data-code=\"hodprmca\" data-playlist=\"V1KCYc\" data-pdp=\"product\/,products\/,collection\/\" data-wt=\"1\"><\/div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "shop_the_look_LL7CN8": {
       "type": "shop-the-look",
       "blocks": {
@@ -1437,6 +1449,7 @@
     "image_with_marquee_R3BzXJ",
     "rich_text_VKjBDM",
     "collection-list",
+    "custom_html_8brxKq",
     "shop_the_look_LL7CN8",
     "new_collection_list_amrLP7",
     "new_collection_list_kKfBEK",
