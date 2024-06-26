@@ -39,6 +39,67 @@
         {{- product_labels -}}
       </div>
     {%- endif -%}
+    <style>
+      .sale_image1 img{
+ width: 60%;
+     position: absolute;
+ top: 12px;   
+      }
+   .sale_image2 img{
+ width: 70%;
+     position: absolute;
+ top: 12px;   
+ left:8px;
+
+      }
+   @media only screen and (min-width: 999px){
+     .sale_image1 img{
+         width: 50%!important;  
+       left:0;
+      }
+     .sale_image2 img{
+         width: 60%!important;   
+      }
+   }
+   .sale_image1{
+ width: 60%;
+ position: absolute;
+ top: 0px;
+ z-index: 1;
+ left: 0px;
+   }
+   .sale_image2{
+ width: 60%;
+ position: absolute;
+ top: 0px;
+ z-index: 1;
+ left: 0px;
+   }
+</style>
+ {% if product.tags contains 'RTS' %}
+<div class="sale_image1">
+<img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/Untitled_design_c6c7a09b-1e7f-4a72-8081-0a9e6e62bf3f.png?v=1698230144">
+</div>
+{% elsif product.tags contains 'online exclusive' %}
+<div class="sale_image2">
+<img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/ONLINE_EXCLUSIVE_4.png?v=1698669261">
+</div>
+   {% elsif product.tags contains 'Mothers Day' %}
+<div class="motherday_label">
+<img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/m1.png?v=1714806802">
+</div>
+   <div class="motherday_label2">
+<img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/m2.png?v=1714807148">
+</div>
+{% elsif product.tags contains 'limited edition' %}
+<div class="sale_image2">
+<img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/product_tag_4.png?v=1719312711">
+</div>
+    {% elsif product.tags contains 'vegan_jutti' %}
+<div class="sale_image2">
+<img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/Untitled_100_x_100_px.png?v=1715677559" style="width:50px !important;">
+</div>
+{% endif %}
     {% if template.name == 'collection' %}
   	  {%- render 'collectionpagemedia', product: product -%}
    {%else %}
