@@ -76,7 +76,7 @@
             "mobile_image": "shopify:\/\/shop_images\/6_88e7a7a1-d796-42ad-83c6-55ce9ed2de74.jpg",
             "text_position": "bottom_center",
             "subheading": "",
-            "title": "FOOTWEARS",
+            "title": "Juttis",
             "button_1_text": "DISCOVER NOW",
             "button_1_link": "shopify:\/\/collections\/mulmul-footwear",
             "button_2_text": "",
@@ -400,7 +400,7 @@
         "image": "shopify:\/\/shop_images\/NEW_THEME_DEKTOP_BANNER.jpg",
         "image-2": "shopify:\/\/shop_images\/NEW_THEME_BANNERS_MOBILE.jpg",
         "button_1_text": "SHOP NOW",
-        "button_1_link": "",
+        "button_1_link": "shopify:\/\/collections\/garmi-ke-din",
         "conten": "<p><strong>Your Ultimate Escape from the Heat!<\/strong><\/p>"
       }
     },
