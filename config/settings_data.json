@@ -42,6 +42,7 @@
     "product_color_display": "count",
     "product_image_size": "natural",
     "cart_type": "drawer",
+    "cart_show_free_shipping_threshold": false,
     "social_facebook": "https:\/\/www.facebook.com\/shopmulmul\/",
     "social_instagram": "https:\/\/www.instagram.com\/shopmulmul\/",
     "favicon": "shopify:\/\/shop_images\/mu_96x96_6c4aa08e-e9f4-4366-a6c9-a59e64e8c457.webp",
