@@ -75,6 +75,17 @@
  z-index: 1;
  left: 0px;
    }
+
+   .sale_image3{
+    width: 60%;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    left: 0px;
+  }
+  .sale_image3 img{
+   width:50px;
+  }
 </style>
  {% if product.tags contains 'RTS' %}
 <div class="sale_image1">
@@ -96,8 +107,8 @@
 <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/product_tag_4.png?v=1719312711">
 </div>
     {% elsif product.tags contains 'vegan_jutti' %}
-<div class="sale_image2">
-<img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/Untitled_100_x_100_px.png?v=1715677559" style="width:50px !important;">
+<div class="sale_image3">
+<img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/Untitled_100_x_100_px.png?v=1715677559">
 </div>
 {% endif %}
     {% if template.name == 'collection' %}
