@@ -178,7 +178,10 @@ z-index: 1 !important;
           <button is="toggle-button" loader aria-controls="product-{{ section.id }}-{{ block.id }}-{{ product.id }}-drawer" aria-expanded="false" class="button button--outline button--text button--full {% if section.settings.desktop_products_per_row >= 5 %}button--small{% endif %} hidden-touch hidden-phone">{{ 'collection.product.quick_view' | t }}</button>
           <button is="toggle-button" aria-controls="product-{{ section.id }}-{{ block.id }}-{{ product.id }}-drawer" aria-expanded="false" class="product-item__quick-buy-button hidden-no-touch hidden-phone">
             <span class="visually-hidden">{{ 'collection.product.quick_view' | t }}</span>
+            {% comment %}
             {%- render 'icon' with quick_buy_icon_name -%}
+             {% endcomment %}
+             <img style="width: 16px; vertical-align: middle;" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/Icon-01.png?v=1692338373">
           </button>
 
           <button is="toggle-button" aria-controls="product-{{ section.id }}-{{ block.id }}-{{ product.id }}-popover" aria-expanded="false" class="product-item__quick-buy-button hidden-tablet-and-up">
