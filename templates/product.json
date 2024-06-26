@@ -159,6 +159,32 @@
         "title": ""
       }
     },
+    "1717493181be4c08ec": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_TfgMfY": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_TfgMfY"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": false
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -174,32 +200,6 @@
       "settings": {
         "title": ""
       }
-    },
-    "1717493181be4c08ec": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_TfgMfY": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_TfgMfY"
-      ],
-      "custom_css": [
-        "button.summary-content.b {text-align: center; justify-content: center; margin: auto;}"
-      ],
-      "settings": {
-        "include_horizontal_margins": true,
-        "include_vertical_margins": false
-      }
     }
   },
   "order": [
@@ -207,8 +207,8 @@
     "product-content",
     "product_video_Fabddj",
     "custom_image_with_text_a33iKV",
+    "1717493181be4c08ec",
     "product-recommendations",
-    "image_with_text_product_WExUmx",
-    "1717493181be4c08ec"
+    "image_with_text_product_WExUmx"
   ]
 }

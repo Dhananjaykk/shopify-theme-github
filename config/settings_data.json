@@ -935,5 +935,10 @@
       "checkout_error_color": "#de2a2a",
       "accent_color": "#405de6"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
   }
 }
