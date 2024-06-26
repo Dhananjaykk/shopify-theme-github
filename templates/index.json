@@ -140,20 +140,6 @@
             "overlay_opacity": 0
           }
         },
-        "collection_wiPagi": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-sellers",
-            "image": "shopify:\/\/shop_images\/2_09bc230e-56fd-41b6-a156-f267055a7294.jpg",
-            "subheading": "",
-            "title": "",
-            "link_text": "BESTSELLERS",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "collection_ybqUHf": {
           "type": "collection",
           "settings": {
@@ -291,13 +277,12 @@
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
         "collection_4NBCmf",
-        "collection_wiPagi",
         "collection_ybqUHf",
         "collection_MxKcWt",
         "collection_y6rXCE",
