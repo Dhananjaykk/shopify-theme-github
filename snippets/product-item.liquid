@@ -163,7 +163,10 @@ z-index: 1 !important;
           <button is="loader-button" type="submit" class="button button--outline button--text button--full {% if section.settings.desktop_products_per_row >= 5 %}button--small{% endif %} hidden-touch">{{ 'collection.product.add_to_cart_short' | t }}</button>
           <button type="submit" class="product-item__quick-buy-button hidden-no-touch">
             <span class="visually-hidden">{{ 'collection.product.add_to_cart_short' | t }}</span>
+            {% comment %}
             {%- render 'icon' with quick_buy_icon_name -%}
+             {% endcomment %}
+             <img style="width: 16px; vertical-align: middle;" src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/Icon-01.png?v=1692338373">
           </button>
         {%- endform -%}
       {%- else -%}
