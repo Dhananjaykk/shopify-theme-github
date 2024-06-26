@@ -178,8 +178,7 @@
         "loox_reviews_loox_dynamic_section_TfgMfY"
       ],
       "custom_css": [
-        "button.summary-content.b {text-align: center; justify-content: center; margin: auto;}",
-        ".summary {flex: 1; display: flex; justify-content: center;}"
+
       ],
       "settings": {
         "include_horizontal_margins": true,
