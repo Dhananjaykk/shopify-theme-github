@@ -44,6 +44,7 @@
     "cart_type": "drawer",
     "social_facebook": "https:\/\/www.facebook.com\/shopmulmul\/",
     "social_instagram": "https:\/\/www.instagram.com\/shopmulmul\/",
+    "favicon": "shopify:\/\/shop_images\/mu_96x96_6c4aa08e-e9f4-4366-a6c9-a59e64e8c457.webp",
     "accent_color": "#405de6",
     "checkout_sidebar_background_color": "#f6f3ed",
     "checkout_accent_color": "#353535",
@@ -764,7 +765,7 @@
         "type": "shopify:\/\/apps\/eg-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
         "disabled": false,
         "settings": {
-          "version": "v3"
+          "version": "v2"
         }
       }
     }
