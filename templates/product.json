@@ -170,7 +170,7 @@
             "limit": 20,
             "hide_thumbnails": false,
             "maxwidth": 1080,
-            "is_sample": true
+            "is_sample": false
           }
         }
       },
@@ -178,7 +178,8 @@
         "loox_reviews_loox_dynamic_section_TfgMfY"
       ],
       "custom_css": [
-        "button.summary-content.b {text-align: center; justify-content: center; margin: auto;}"
+        "button.summary-content.b {text-align: center; justify-content: center; margin: auto;}",
+        ".summary {flex: 1; display: flex; justify-content: center;}"
       ],
       "settings": {
         "include_horizontal_margins": true,
