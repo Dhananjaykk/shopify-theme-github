@@ -10,8 +10,18 @@
               <div class="mobilefabricimg">
                {{ item["mobile_image"] }}
               </div>
-                {% if item["content"] != blank %}
-        <div class="fabricimg_content"> {{ item["content"] }}
+                {% if item["content"] == blank %}
+        
+  {% if producttag contains "cotton23" or producttag contains "cotton" %}
+                      <div class="fabricblock">
+                        <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/SupimaLogo.png?v=1678428125">
+                    <ul>
+                       <li>Softest & strongest mul cottons that are soft on your skin & the earth</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+                  {% elsif item["content"] == blank %}
+              <div class="fabricimg_content"> {{ item["content"] }}
     </div>
                   {% endif %}
             </div>
