@@ -3,10 +3,15 @@
       <div>
          {% for item in product.metafields["custom_fields"]["single-fabric-image"] %}
             <div class="custom-fabricimage">
-              <img src="{{ item["desktop_image"] }}" class="desktopfabricimg">
-              <img src=" {{ item["mobile_image"] }}" class="mobilefabricimg">
-        <div class="fabricimg_content"> {{ item["content"] }}</div>
+              <div class="desktopfabricimg">
+              {{ item["desktop_image"] }}
+              </div>
+              <div class="mobilefabricimg">
+               {{ item["mobile_image"] }}
+              </div>
+        <div class="fabricimg_content"> {{ item["content"] }}
     </div>
+            </div>
         {% endfor %}
       </div>
     
