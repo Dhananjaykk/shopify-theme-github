@@ -1,15 +1,15 @@
-{% if product.metafields.custom.single_image_with_text.value !=blank %}
-{% assign metaObject_product = shop.metaobjects.image_with_text.values %}
-{% assign metaObject_product = product.metafields.custom.single_image_with_text.value %}
+{% if product.metafields["custom_fields"]["single-fabric-image"] != blank %}
     <section class="section">
-     <div class="custom-fabricimage desktopfabricimg">
-        {{ metaObject_product.desktop_image | metafield_tag }}
-        <div class="fabricimg_content">{{ metaObject_product.content | metafield_tag }}</div>
+      <div>
+         {% for item in product.metafields["custom_fields"]["single-fabric-image"] %}
+            <div class="custom-fabricimage">
+              <img src="{{ item["desktop_image"] }}" class="desktopfabricimg">
+              <img src=" {{ item["mobile_image"] }}" class="mobilefabricimg">
+        <div class="fabricimg_content"> {{ item["content"] }}</div>
     </div>
-    <div class="custom-fabricimage mobilefabricimg">
-        {{ metaObject_product.mobile_image | metafield_tag }}
-        <div class="fabricimg_content">{{ metaObject_product.content | metafield_tag }}</div>
-    </div>
+        {% endfor %}
+      </div>
+    
       
     </section>
     <style>
