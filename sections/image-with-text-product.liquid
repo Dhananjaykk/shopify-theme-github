@@ -20,7 +20,7 @@
                     </ul>
                       </div>
                     {% endif %}
-                  {% elsif item["content"] == blank %}
+                  {% elsif item["content"] != blank %}
               <div class="fabricimg_content"> {{ item["content"] }}
     </div>
                   {% endif %}
