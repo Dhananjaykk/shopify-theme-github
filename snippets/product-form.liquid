@@ -469,8 +469,11 @@
                   {%- endunless -%}
                 {%- endif -%}
               </product-payment-container>
-
-               <div  style="margin: 20px auto;"><b>Free Potli</b> Bag Worth Rs 1000 with this purchase</div>
+{%- if product.type == 'Footwear' or product.type =='Potli Bag' or product.type =='Jewellery' -%}
+            {%- else -%}
+            <div  style="margin: 20px auto;"><b>Free Potli</b> Bag Worth Rs 1000 with this purchase</div>
+            {% endif %}
+               
           {% if product.available %}
               {% if product.tags contains '48 hours' %}
               <div style="margin-botto: 15px;"><b>Ships within 48 hours</b></div>
@@ -479,7 +482,7 @@
 
            
             {%- endform -%}
-            {%- if product.type == 'Footwear' -%}
+            {%- if product.type == 'Footwear' or product.type =='Potli Bag' or product.type =='Jewellery' -%}
             {%- else -%}
              {% render 'gift-box' %}
             {% endif %}
