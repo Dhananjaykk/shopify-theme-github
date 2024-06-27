@@ -479,7 +479,10 @@
 
            
             {%- endform -%}
+            {%- if product.type == 'footwear' -%}
+            {%- else -%}
              {% render 'gift-box' %}
+            {% endif %}
           </div>
         {%- endif -%}
      
