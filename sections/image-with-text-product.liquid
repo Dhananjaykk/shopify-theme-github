@@ -9,8 +9,10 @@
               <div class="mobilefabricimg">
                {{ item["mobile_image"] }}
               </div>
+                {% if item["content"] != blank %}
         <div class="fabricimg_content"> {{ item["content"] }}
     </div>
+                  {% endif %}
             </div>
         {% endfor %}
       </div>
