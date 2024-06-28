@@ -304,7 +304,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
      
      
       </div>
-      <script>
+   {% comment %}   <script>
         // Parse cookies and convert to an object
 function getCookies() {
   return document.cookie.split(';').reduce((cookies, cookie) => {
@@ -402,7 +402,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
       
-      </script>
+      </script> {% endcomment %}
 
       
       {% render 'whatsapp-redirection' %}
