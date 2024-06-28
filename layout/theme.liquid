@@ -22,8 +22,8 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     <meta name="theme-color" content="{{ settings.header_background }}">
     <meta name="google-site-verification" content="fJC0Yn_lx0Y-JY_WnqGhs_lgE02UB9DPq3tZ6Kq7af4" />
     <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% endif %}</title>
- <link rel="preload" href="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/desk-redirection.jpg?v=1716021054" as="image" type="image/png" />
-    <link rel="preload" href="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/mob-redirection_1_1.png?v=1719576525" as="image" type="image/png" />
+ <link rel="preload" fetchpriority="high" href="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/desk-redirection.jpg?v=1716021054" as="image" type="image/jpg" />
+    <link rel="preload" fetchpriority="high" href="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/mob-redirection_1_1.png?v=1719576525" as="image" type="image/png" />
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
