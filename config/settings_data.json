@@ -768,6 +768,12 @@
         "settings": {
           "version": "v3"
         }
+      },
+      "13581873799926253961": {
+        "type": "shopify:\/\/apps\/payfy-payment-rules\/blocks\/install-snippets\/a3e9996d-434d-48b0-ace2-ba7b3d58826c",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
