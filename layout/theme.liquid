@@ -343,8 +343,8 @@ function showRedirectionModal(url) {
   const modalContent = redirectionModal.querySelector('div');
   modalContent.innerHTML = `  
     <a href="${url}">
-      <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/desk-redirection.jpg?v=1716021054" loading="eager" class="onlydesktopredirection">
-      <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/mob-redirection_1_1.png?v=1719576525" loading="eager" class="onlymobileredirection">
+      <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/desk-redirection.jpg?v=1716021054" loading="eager" fetchpriority="high" class="onlydesktopredirection">
+      <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/mob-redirection_1_1.png?v=1719576525" loading="eager" fetchpriority="high" class="onlymobileredirection">
     </a>
   `;
   hidePrice();
