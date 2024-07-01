@@ -402,7 +402,7 @@
           <div class="product-form__buy-buttons" {{ block.shopify_attributes }}>
             
             {%- form 'product', product, is: 'product-form', id: product_form_id -%}
-              {% assign discounted_price = product.selected_or_first_available_variant.price | times: 0.1 %}
+              {% assign discounted_price = product.selected_or_first_available_variant.price | times: 1 %}
         <div>You will earn <b>{{ discounted_price | money_without_currency }} bliss points</b> on this purchase</div>
 
               {%- if recipient_feature_active -%}
