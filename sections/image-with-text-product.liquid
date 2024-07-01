@@ -10,9 +10,184 @@
               <div class="mobilefabricimg">
                {{ item["mobile_image"] }}
               </div>
-                {% if item["content"] != blank %}
-        <div class="fabricimg_content"> {{ item["content"] }}
+          {% if item["content"] == blank %}
+        <div class="fabricimg_content">
+                      {% if product.tags contains "summer23" or product.tags contains "summer" or product.tags contains "organza" %}
+                      <div class="fabricblock" >
+                        <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/logo.f89dd871.png?v=1678428215">
+                     <h3>Soft and delicate, naturally produced to keep it gentle on the skin </h3>
+                      </div>
+                    {% endif %}
+                  {% if product.tags contains "cotton23" or product.tags contains "cotton" %}
+                      <div class="fabricblock">
+                        <img src="https://cdn.shopify.com/s/files/1/0088/4031/4931/files/SupimaLogo.png?v=1678428125">
+                   <h3>  Softest & strongest mul cottons that are soft on your skin & the earth</h3>
+                      </div>
+                    {% endif %}
+  
+                  {% if product.tags contains "pima" or product.tags contains "Pima" %}
+                      <div class="fabricblock">
+                         <h3>Pima</h3>
+                 <h3>Luxurious Satin weave of crafted to create a soft and opulent texture</h3>
+                      </div>
+                    {% endif %}
+                  {% if product.tags contains "satin" or product.tags contains "Satin" %}
+                      <div class="fabricblock">
+                         <h3>Satin</h3>
+                    <ul>
+                       <li>Plant-based fabric, that is sustainably sourced and is biodegradable</li>
+  <li>Soft fabric with a luxurious sheen, that drapes beautifully</li>
+  <li>Resistant to shrinkage and pilling, and highly absorbent</li>
+  <li>Breathable and comfortable, suitable for wearing all year round</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+                  {% if product.tags contains "cupro"or product.tags contains "Cupro" %}
+                      <div class="fabricblock">
+                         <h3>Cupro</h3>
+                   <pre> Plant-based fabric
+   Made of by-products from cotton production 
+  Resembles authentic silk in texture and sheen 
+  Drapes elegantly to create beautiful silhouette
+                    </pre>
+                      </div>
+                    {% endif %}
+  
+                      {% if product.tags contains "SPACER"or product.tags contains "Spacer" or product.tags contains "spacer" %}
+                      <div class="fabricblock">
+                        <h3>Spacer</h3>
+                    <ul>
+                        <li>A knitted fabric featuring a smooth texture on both sides and boasting a flexible drape</li>
+                        <li>Remarkably breathable, it effectively regulates temperature for enhanced comfort.</li>
+                        <li>Exhibiting exceptional durability, making it a resilient and long-lasting fabric.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+   {% if product.tags contains "crepe"or product.tags contains "Crepe" %}
+                      <div class="fabricblock">
+                         <h3>Crepe</h3>
+                    <ul>
+  <li>A weaving technique that creates a rippled-three-dimensional texture</li>
+  <li>Thin and light-weight</li>
+  <li>Delicate and breathable and drapes beautifully</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+  {% if product.tags contains "LUREX"or product.tags contains "Lurex" or product.tags contains "Lurex Net" %}
+                      <div class="fabricblock">
+                        <h3>Lurex Net</h3>
+                    <ul>
+                        <li>Lurex: A fabric renowned for its elegant sheen.</li>
+                        <li>Lightweight and pliable, it offers a delicate touch</li>
+                        <li>Resistant to tarnishing, ensuring enduring beauty.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+  {% if product.tags contains "HOUNDSTOOTH" or product.tags contains "Houndstooth" %}
+                      <div class="fabricblock">
+                         <h3>Houndstooth</h3>
+                        <ul>
+                        <li>An classic and timeless design</li>
+                        <li>Crafted from woven cotton for cozy warmth during winter</li>
+                        <li>Tailored for a polished and sophisticated silhouette</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+  {% if product.tags contains "FLEECE" or product.tags contains "Fleece" or product.tags contains "fleece" %}
+                      <div class="fabricblock">
+                         <h3>Fleece</h3>
+                        <ul>
+                        <li>Luxuriously warm and snug fabric designed to efficiently retain body heat, making it an ideal choice for the winter season</li>
+                        <li> Guarantees optimal breathability and comfort, ensuring a cozy experience in chilly weather</li>
+                        <li>Exhibits exceptional durability, resistant to fraying, ensuring prolonged and reliable usage.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+                  {% if product.tags contains "VEGAN SILK" or product.tags contains "Vegan silk" or product.tags contains "vegan silk" or product.tags contains "Vegan Silk" %}
+                      <div class="fabricblock">
+                         <h3>VEGAN SILK </h3>
+                        <ul>
+                        <li>Sustainably sourced from wood pulp in carefully managed forests, our silk is a testament to environmental responsibility.</li>
+                        <li>Boasting a robust fiber structure, our fabric exhibits exceptional resistance to wear and tear, ensuring durability.</li>
+                        <li>Indulge in the opulence of a material that mirrors the look and feel of authentic silk, complete with its luxurious sheen and graceful drape.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+                      {% if product.tags contains "COT-NET" or product.tags contains "Cot-Net" or product.tags contains "cot-net" or product.tags contains "Cot-Net" %}
+                      <div class="fabricblock">
+                         <h3>COTTON NET</h3>
+                        <ul>
+                        <li>Crafted from a cotton base using a net weave</li>
+                        <li>Exhibits exceptional breathability</li>
+                        <li>Evokes a mystical allure, making it a coveted choice in the fashion industry</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+      {% if product.tags contains "F-TS" or product.tags contains "F-ts" or product.tags contains "F-Ts" or product.tags contains "FTS" or product.tags contains "fts" %}
+                      <div class="fabricblock">
+                         <h3>Luxe Tissue Satin</h3>
+                        <ul>
+                        <li>Luxe Tissue Satin is known for its sophistication and exquisite composition.</li>
+                        <li>The fabric has a unique dual character with a crisp texture on one side and a smooth satin-like finish on the other.</li>
+                        <li>This duality provides versatility for creative design possibilities in the fashion industry.</li>
+                        <li>Luxe Tissue Satin possesses a lustrous quality that adds opulence to garments made from it.</li>
+                        <li>The fabric's sheen, combined with flexibility, creates a dynamic interplay of light and movement.</li>
+                        <li>It is an ideal choice for garments that require attention and elegance in their design.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+  
+                      {% if product.tags contains "Luxe tissue" or product.tags contains "luxe tissue" or product.tags contains "Luxe Tissue" or product.tags contains "Luxe-tissue" or product.tags contains "Luxe-Tissue" %}
+                      <div class="fabricblock">
+                         <h3>Luxe tissue</h3>
+                        <ul>
+                        <li>Luxe Tissue, is a high-quality and lightweight textile known for its exquisite draping qualities.</li>
+                        <li>The fabric stands out due to the incorporation of metallic threads, giving it a delicate sheen that radiates luxury and sophistication.</li>
+                        <li>The use of metallic elements not only enhances the visual appeal but also gives the fabric a regal aura, justifying its name.</li>
+                        <li>The interplay of metallic threads with the fabric's delicacy creates a stunning visual effect.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+                      {% if product.tags contains "F-OS" or product.tags contains "f-os" or product.tags contains "fos" or product.tags contains "F-Os" or product.tags contains "FOS" %}
+                      <div class="fabricblock">
+                         <h3>Organza Satin</h3>
+                        <ul>
+                        <li>It seamlessly combines the delicate translucency of organza with the sleek, lustrous surface of satin.</li>
+                        <li>The fabric has a unique ability to drape with unparalleled grace, forming a fluid silhouette.</li>
+                        <li>Organza satin exudes opulence, captivating observers with its luxurious sheen.</li>
+                        <li>The combination of organza and satin imparts a luminous quality, enhancing the overall visual appeal.</li>
+                        <li>The result is an ethereal beauty that transcends the ordinary, creating an atmosphere of refined splendor.</li>
+                    </ul>
+                      </div>
+                    {% endif %}
+  
+                  {% if product.tags contains "Luxe Silk" or product.tags contains "Luxe silk" or product.tags contains "luxe silk" or product.tags contains "Luxe-Silk" or product.tags contains "Luxe-silk" %}
+                      <div class="fabricblock">
+                         <h3>Luxe Silk</h3>
+                        <ul>
+                        <li>Luxe silk is highlighted for its exceptional quality and luxurious texture.</li>
+                        <li>It is renowned for its superior grade, ethereal translucency, and remarkably smooth finish.</li>
+                        <li>The fabric's elegance is attributed to both its luxurious nature and refined craftsmanship.</li>
+                       </ul>
+                      </div>
+                    {% endif %}
+  
+                  
+                  
+                  </div>
+                  {% else %}
+            <div class="fabricimg_content"> {{ item["content"] }}
     </div>
+                  
                   {% endif %}
             </div>
         {% endfor %}
