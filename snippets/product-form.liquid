@@ -469,9 +469,9 @@
                   {%- endunless -%}
                 {%- endif -%}
               </product-payment-container>
-{%- if product.type == 'Footwear' or product.type =='Potli Bag' or product.type =='Jewellery' or product.type == 'Perfume' or product.type == 'Gift Box' or product.type == 'Gift Cards' -%}
+{%- if product.type == 'Footwear' or product.type =='Potli Bag' or product.type == 'Perfume' or product.type == 'Gift Box' or product.type == 'Gift Cards' -%}
             {%- else -%}
-            <div  style="margin: 20px auto;"><b>Free Potli</b> Bag Worth Rs 1000 with this purchase</div>
+            <div  style="margin: 20px auto;"><b>Free Potli</b> Bag Worth Rs 1000 on Orders Above Rs 9900</div>
             {% endif %}
                
           {% if product.available %}
