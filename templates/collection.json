@@ -56,11 +56,35 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "faq_H9KD9g": {
+      "type": "faq",
+      "blocks": {
+        "question_hYBbYr": {
+          "type": "question",
+          "repeater": "{{ collection.metafields.custom.faq.value }}",
+          "settings": {
+            "title": "{{ block.repeater.faq_question.value }}",
+            "answer": "<p>{{ block.repeater.faq_desc | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_hYBbYr"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "collection-banner",
     "main",
-    "rich_text_cAhWAP"
+    "rich_text_cAhWAP",
+    "faq_H9KD9g"
   ]
 }
