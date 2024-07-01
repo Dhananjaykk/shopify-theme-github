@@ -74,7 +74,7 @@
       ],
       "settings": {
         "show_navigation": false,
-        "title": "",
+        "title": "{{ collection.metafields.custom.faq_title.value }}",
         "content": "",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
