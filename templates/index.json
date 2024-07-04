@@ -318,82 +318,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "featured_collections_3wbdgX": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_kWzYed": {
-          "type": "collection",
-          "settings": {
-            "collection": "organza",
-            "label": "Mulmul Organzas",
-            "button_text": "",
-            "button_url": "shopify:\/\/collections\/organza"
-          }
-        },
-        "collection_pz7ADt": {
-          "type": "collection",
-          "settings": {
-            "collection": "mulmul-cottons",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_kWzYed",
-        "collection_pz7ADt"
-      ],
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "Most Loved Fabrics",
-        "content": "",
-        "products_count": 4,
-        "products_per_row": 4,
-        "stack_products": true,
-        "show_cta": true,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "slideshow_8GRXMD": {
-      "type": "slideshow",
-      "blocks": {
-        "image_XdkWcG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/rakhi.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Mobile_-_rakhi_section_1.jpg",
-            "text_position": "bottom_center",
-            "subheading": "",
-            "title": "THIS RAKHI STAND OUT WITH MULMUL",
-            "button_1_text": "shop now",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_XdkWcG"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
     "image_with_marquee_R3BzXJ": {
       "type": "image-with-marquee",
       "settings": {
@@ -909,7 +833,7 @@
             "subheading": "",
             "title": "",
             "link_text": "Priya Banerjee",
-            "link_url": "",
+            "link_url": "shopify:\/\/products\/mulmul-organza-valya-blue-kurta-with-mulmul-pima-satin-valya-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -1458,8 +1382,6 @@
   "order": [
     "slideshow",
     "new_collection_list_e8jhYQ",
-    "featured_collections_3wbdgX",
-    "slideshow_8GRXMD",
     "image_with_marquee_R3BzXJ",
     "rich_text_VKjBDM",
     "collection-list",
