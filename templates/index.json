@@ -425,6 +425,48 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
+        "collection_zH4UHf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/37_cff99039-bf84-42e1-98b3-93400daa38db.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Hansika Motwani",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-kishi-light-pink-kurta-with-mulmul-cotton-kishi-light-pink-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_KCrRKz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/38_c4324868-b615-4fdc-a389-cb427b3c45ff.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Khushi Kapoor",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-banu-white-kurta-with-mulmul-cotton-banu-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_j88awn": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/14_e3b42132-cb58-48c6-98a3-ddca4311cd4a.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Jasmine Bhasin",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-malta-blue-kurta-with-mulmul-cotton-malta-blue-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -436,21 +478,6 @@
             "link_url": "shopify:\/\/products\/mulmul-cotton-ensi-orange-kurta-with-mulmul-cotton-round-hem-organza-panel-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/2_7984b09c-de71-4a77-86b2-d1dc824bb86b.jpg",
-            "subheading": "",
-            "title": "",
-            "link_text": "SARA TENDULKAR",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-chapoli-pink-kurta-with-chapoli-pink-pant",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
@@ -603,20 +630,6 @@
             "title": "",
             "link_text": "Saiee M Manjrekar",
             "link_url": "shopify:\/\/products\/mulmul-cotton-banu-light-blue-kurta-with-mulmul-cotton-banu-light-blue-pant",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_j88awn": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/14_e3b42132-cb58-48c6-98a3-ddca4311cd4a.jpg",
-            "subheading": "",
-            "title": "",
-            "link_text": "Jasmine Bhasin",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-malta-blue-kurta-with-mulmul-cotton-malta-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -930,34 +943,6 @@
             "overlay_opacity": 0
           }
         },
-        "collection_zH4UHf": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/37_cff99039-bf84-42e1-98b3-93400daa38db.jpg",
-            "subheading": "",
-            "title": "",
-            "link_text": "Hansika Motwani",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-kishi-light-pink-kurta-with-mulmul-cotton-kishi-light-pink-pant",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_KCrRKz": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/38_c4324868-b615-4fdc-a389-cb427b3c45ff.jpg",
-            "subheading": "",
-            "title": "",
-            "link_text": "Khushi Kapoor",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-banu-white-kurta-with-mulmul-cotton-banu-white-pant",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "collection_ngDMTf": {
           "type": "collection",
           "settings": {
@@ -988,8 +973,10 @@
         }
       },
       "block_order": [
+        "collection_zH4UHf",
+        "collection_KCrRKz",
+        "collection_j88awn",
         "collection-1",
-        "collection-2",
         "collection_QXNqia",
         "collection_kJ4Ui3",
         "collection_i68R8D",
@@ -1001,7 +988,6 @@
         "collection_QaQztf",
         "collection_dCq3Hd",
         "collection_3J93mV",
-        "collection_j88awn",
         "collection_CfW9ed",
         "collection_YXqXEC",
         "collection_dLnQWW",
@@ -1024,8 +1010,6 @@
         "collection_VnfAwY",
         "collection_HjNEmT",
         "collection_4UgjLF",
-        "collection_zH4UHf",
-        "collection_KCrRKz",
         "collection_ngDMTf",
         "collection_kJbCad"
       ],
