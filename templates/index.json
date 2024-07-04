@@ -481,6 +481,48 @@
             "overlay_opacity": 0
           }
         },
+        "collection_HNVDBL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/mal_32997d17-5df8-4b7f-b653-27d931192c93.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Malaika Arora",
+            "link_url": "shopify:\/\/products\/mulmul-organza-cyra-white-kurta-with-mulmul-cotton-cyra-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_DDggLX": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Untitleddesign_bdaf5fba-b4ed-45e5-a13d-b135cd1f8dd3.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Gauhar khan",
+            "link_url": "shopify:\/\/products\/mulmul-cotton-amiya-white-kurta-with-mulmul-cotton-amiya-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_bdpyxf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/as_78bf0d9b-6e42-4803-912c-28062f8d73f9.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Alia Bhatt",
+            "link_url": "shopify:\/\/products\/mulmul-pima-vachi-off-white-kurta-with-mulmul-pima-vachi-off-white-pant",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "collection_QXNqia": {
           "type": "collection",
           "settings": {
@@ -977,6 +1019,9 @@
         "collection_KCrRKz",
         "collection_j88awn",
         "collection-1",
+        "collection_HNVDBL",
+        "collection_DDggLX",
+        "collection_bdpyxf",
         "collection_QXNqia",
         "collection_kJ4Ui3",
         "collection_i68R8D",
