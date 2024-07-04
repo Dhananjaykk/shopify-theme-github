@@ -1076,106 +1076,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "new_collection_list_kKfBEK": {
-      "type": "new-collection-list",
-      "blocks": {
-        "collection_K8HcGr": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "shop now",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_aYi94h": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "shop now",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_443Pbn": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "shop now",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_wrN6cD": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "shop now",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_AgFPxG": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "shop now",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_kift9n": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "shop now",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_K8HcGr",
-        "collection_aYi94h",
-        "collection_443Pbn",
-        "collection_wrN6cD",
-        "collection_AgFPxG",
-        "collection_kift9n"
-      ],
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": false,
-        "layout": "carousel",
-        "subheading": "",
-        "title": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "new_testimonial_6Q8XCh": {
       "type": "new-testimonial",
       "blocks": {
@@ -1364,19 +1264,6 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
-    },
-    "custom_html_3jjmaM": {
-      "type": "custom-html",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<div class=\"swirl-short-videos-c-ssv13\" data-code=\"hodprmca\" data-playlist=\"V1KCYc\" data-pdp=\"product\/,products\/,collection\/\" data-wt=\"1\"><\/div>",
-        "add_vertical_spacing": false,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
@@ -1388,10 +1275,8 @@
     "custom_html_8brxKq",
     "shop_the_look_LL7CN8",
     "new_collection_list_amrLP7",
-    "new_collection_list_kKfBEK",
     "new_testimonial_6Q8XCh",
     "slideshow_JGPKBj",
-    "text_with_icons_TDyHYe",
-    "custom_html_3jjmaM"
+    "text_with_icons_TDyHYe"
   ]
 }
