@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -15,13 +15,13 @@
         "image_UP4XC6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_374d3776-150a-4204-a899-d6ab82fc8e92.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/3_4643ecc6-d74e-4e04-875e-def750f4110e.jpg",
+            "image": "shopify://shop_images/3_374d3776-150a-4204-a899-d6ab82fc8e92.jpg",
+            "mobile_image": "shopify://shop_images/3_4643ecc6-d74e-4e04-875e-def750f4110e.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "NEW ARRIVALS",
             "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/new-in",
+            "button_1_link": "shopify://collections/new-in",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -34,13 +34,13 @@
         "image_Qmq4tU": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_95de5ce4-7d02-4dbd-87f1-6ecc44737efa.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/4_f2150792-702f-43f7-916f-46cb36085f78.jpg",
+            "image": "shopify://shop_images/4_95de5ce4-7d02-4dbd-87f1-6ecc44737efa.jpg",
+            "mobile_image": "shopify://shop_images/4_f2150792-702f-43f7-916f-46cb36085f78.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "MULMUL STUDIO",
             "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/mulmul-studio",
+            "button_1_link": "shopify://collections/mulmul-studio",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -53,13 +53,13 @@
         "image_Un4FkP": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_64c96a1f-5fab-4777-9e5f-29126b6e361f.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/5_35acddd8-c712-499d-abcd-0c033072c49a.jpg",
+            "image": "shopify://shop_images/5_64c96a1f-5fab-4777-9e5f-29126b6e361f.jpg",
+            "mobile_image": "shopify://shop_images/5_35acddd8-c712-499d-abcd-0c033072c49a.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "SUMMER SAREE",
             "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/saree",
+            "button_1_link": "shopify://collections/saree",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -72,13 +72,13 @@
         "image_kVQrpQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_f1580aeb-4523-4b4a-8eef-01d91c69ffb5.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/6_88e7a7a1-d796-42ad-83c6-55ce9ed2de74.jpg",
+            "image": "shopify://shop_images/6_f1580aeb-4523-4b4a-8eef-01d91c69ffb5.jpg",
+            "mobile_image": "shopify://shop_images/6_88e7a7a1-d796-42ad-83c6-55ce9ed2de74.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "MULMUL FOOTWEAR",
             "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/mulmul-footwear",
+            "button_1_link": "shopify://collections/mulmul-footwear",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -91,13 +91,13 @@
         "image_UVTfTW": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7_9a2972b6-62b4-471b-9788-e8781f911efe.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/7_ce888f6e-0aee-49c7-a9d1-be562de1399c.jpg",
+            "image": "shopify://shop_images/7_9a2972b6-62b4-471b-9788-e8781f911efe.jpg",
+            "mobile_image": "shopify://shop_images/7_ce888f6e-0aee-49c7-a9d1-be562de1399c.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "SUMMER WEDDING",
             "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/summer-wedding",
+            "button_1_link": "shopify://collections/shaadi-ka-ghar",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -130,7 +130,7 @@
           "type": "collection",
           "settings": {
             "collection": "new-in",
-            "image": "shopify:\/\/shop_images\/NEW_THEME_CATEGORIES.jpg",
+            "image": "shopify://shop_images/NEW_THEME_CATEGORIES.jpg",
             "subheading": "",
             "title": "",
             "link_text": "NEW IN",
@@ -144,7 +144,7 @@
           "type": "collection",
           "settings": {
             "collection": "best-sellers",
-            "image": "shopify:\/\/shop_images\/NEW_THEME_CATEGORIES_3.jpg",
+            "image": "shopify://shop_images/NEW_THEME_CATEGORIES_3.jpg",
             "subheading": "",
             "title": "",
             "link_text": "BESTSELLERS",
@@ -158,7 +158,7 @@
           "type": "collection",
           "settings": {
             "collection": "kurta-sets",
-            "image": "shopify:\/\/shop_images\/3_58a81068-3d2f-47d0-9165-6db00b39980d.jpg",
+            "image": "shopify://shop_images/3_58a81068-3d2f-47d0-9165-6db00b39980d.jpg",
             "subheading": "",
             "title": "",
             "link_text": "KURTA SETS",
@@ -172,7 +172,7 @@
           "type": "collection",
           "settings": {
             "collection": "mulmul-studio",
-            "image": "shopify:\/\/shop_images\/NEW_THEME_CATEGORIES_1.jpg",
+            "image": "shopify://shop_images/NEW_THEME_CATEGORIES_1.jpg",
             "subheading": "",
             "title": "",
             "link_text": "STUDIO",
@@ -186,7 +186,7 @@
           "type": "collection",
           "settings": {
             "collection": "saree",
-            "image": "shopify:\/\/shop_images\/5_34e23274-04c3-44ab-8a7a-ed0213011968.jpg",
+            "image": "shopify://shop_images/5_34e23274-04c3-44ab-8a7a-ed0213011968.jpg",
             "subheading": "",
             "title": "",
             "link_text": "{{ block.settings.collection.title }}",
@@ -200,7 +200,7 @@
           "type": "collection",
           "settings": {
             "collection": "mulmul-footwear",
-            "image": "shopify:\/\/shop_images\/6_be8b6ad3-3635-480d-9f9e-4bc09e163150.jpg",
+            "image": "shopify://shop_images/6_be8b6ad3-3635-480d-9f9e-4bc09e163150.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Footwear",
@@ -214,7 +214,7 @@
           "type": "collection",
           "settings": {
             "collection": "lehenga",
-            "image": "shopify:\/\/shop_images\/7_503a03a3-6d8a-4ff1-a0e3-ac52c18d195e.jpg",
+            "image": "shopify://shop_images/7_503a03a3-6d8a-4ff1-a0e3-ac52c18d195e.jpg",
             "subheading": "",
             "title": "",
             "link_text": "{{ block.settings.collection.title }}",
@@ -228,7 +228,7 @@
           "type": "collection",
           "settings": {
             "collection": "mulmul-potli",
-            "image": "shopify:\/\/shop_images\/8_59592f69-9261-4e37-abf6-317061c108bd.jpg",
+            "image": "shopify://shop_images/8_59592f69-9261-4e37-abf6-317061c108bd.jpg",
             "subheading": "",
             "title": "",
             "link_text": "bAGS",
@@ -242,7 +242,7 @@
           "type": "collection",
           "settings": {
             "collection": "jewelry",
-            "image": "shopify:\/\/shop_images\/NEW_THEME_CATEGORIES_2.jpg",
+            "image": "shopify://shop_images/NEW_THEME_CATEGORIES_2.jpg",
             "subheading": "",
             "title": "",
             "link_text": "JEWELLERY",
@@ -256,7 +256,7 @@
           "type": "collection",
           "settings": {
             "collection": "kids",
-            "image": "shopify:\/\/shop_images\/10_fe6f07d6-dce5-4e2c-b9aa-4bec532b44a8.jpg",
+            "image": "shopify://shop_images/10_fe6f07d6-dce5-4e2c-b9aa-4bec532b44a8.jpg",
             "subheading": "",
             "title": "",
             "link_text": "{{ block.settings.collection.title }}",
@@ -270,7 +270,7 @@
           "type": "collection",
           "settings": {
             "collection": "mulmul-cottons",
-            "image": "shopify:\/\/shop_images\/11_3b711f93-0453-4006-a198-a2d51412518c.jpg",
+            "image": "shopify://shop_images/11_3b711f93-0453-4006-a198-a2d51412518c.jpg",
             "subheading": "",
             "title": "",
             "link_text": "COTTONS",
@@ -284,7 +284,7 @@
           "type": "collection",
           "settings": {
             "collection": "organza",
-            "image": "shopify:\/\/shop_images\/12_ca0b73be-c063-42d2-884a-a066b887574d.jpg",
+            "image": "shopify://shop_images/12_ca0b73be-c063-42d2-884a-a066b887574d.jpg",
             "subheading": "",
             "title": "",
             "link_text": "ORGANZA",
@@ -321,11 +321,11 @@
     "image_with_marquee_R3BzXJ": {
       "type": "image-with-marquee",
       "settings": {
-        "image": "shopify:\/\/shop_images\/NEW_THEME_DEKTOP_BANNER.jpg",
-        "image-2": "shopify:\/\/shop_images\/NEW_THEME_BANNERS_MOBILE.jpg",
+        "image": "shopify://shop_images/NEW_THEME_DEKTOP_BANNER.jpg",
+        "image-2": "shopify://shop_images/NEW_THEME_BANNERS_MOBILE.jpg",
         "button_1_text": "SHOP NOW",
-        "button_1_link": "shopify:\/\/collections\/garmi-ke-din",
-        "conten": "<p><strong>Your Ultimate Escape from the Heat!<\/strong><\/p>"
+        "button_1_link": "shopify://collections/garmi-ke-din",
+        "conten": "<p><strong>Your Ultimate Escape from the Heat!</strong></p>"
       }
     },
     "rich_text_VKjBDM": {
@@ -333,7 +333,7 @@
       "settings": {
         "subheading": "",
         "title": "Garmi Ke Din",
-        "content": "<p>Celebrates the warmth of summer days and cherished moments at home. Inspired by simple joys like chai, cricket, and champi sessions, each piece evokes nostalgia and comfort. Embrace the spirit of summer with designs that embody the essence of home and timeless rituals.<\/p>",
+        "content": "<p>Celebrates the warmth of summer days and cherished moments at home. Inspired by simple joys like chai, cricket, and champi sessions, each piece evokes nostalgia and comfort. Embrace the spirit of summer with designs that embody the essence of home and timeless rituals.</p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -353,11 +353,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/37_cff99039-bf84-42e1-98b3-93400daa38db.jpg",
+            "image": "shopify://shop_images/37_cff99039-bf84-42e1-98b3-93400daa38db.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Hansika Motwani",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-kishi-light-pink-kurta-with-mulmul-cotton-kishi-light-pink-pant",
+            "link_url": "shopify://products/mulmul-cotton-kishi-light-pink-kurta-with-mulmul-cotton-kishi-light-pink-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -367,11 +367,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/38_c4324868-b615-4fdc-a389-cb427b3c45ff.jpg",
+            "image": "shopify://shop_images/38_c4324868-b615-4fdc-a389-cb427b3c45ff.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Khushi Kapoor",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-banu-white-kurta-with-mulmul-cotton-banu-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-banu-white-kurta-with-mulmul-cotton-banu-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -381,11 +381,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/as_78bf0d9b-6e42-4803-912c-28062f8d73f9.jpg",
+            "image": "shopify://shop_images/as_78bf0d9b-6e42-4803-912c-28062f8d73f9.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Alia Bhatt",
-            "link_url": "shopify:\/\/products\/mulmul-pima-vachi-off-white-kurta-with-mulmul-pima-vachi-off-white-pant",
+            "link_url": "shopify://products/mulmul-pima-vachi-off-white-kurta-with-mulmul-pima-vachi-off-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -395,11 +395,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/14_e3b42132-cb58-48c6-98a3-ddca4311cd4a.jpg",
+            "image": "shopify://shop_images/14_e3b42132-cb58-48c6-98a3-ddca4311cd4a.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Jasmine Bhasin",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-malta-blue-kurta-with-mulmul-cotton-malta-blue-pant",
+            "link_url": "shopify://products/mulmul-cotton-malta-blue-kurta-with-mulmul-cotton-malta-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -409,11 +409,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/1_3248fa95-ae14-46cc-bc18-b4be7179706a.jpg",
+            "image": "shopify://shop_images/1_3248fa95-ae14-46cc-bc18-b4be7179706a.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Soha Ali khan",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-ensi-orange-kurta-with-mulmul-cotton-round-hem-organza-panel-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-ensi-orange-kurta-with-mulmul-cotton-round-hem-organza-panel-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0
@@ -423,11 +423,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Untitleddesign_bdaf5fba-b4ed-45e5-a13d-b135cd1f8dd3.jpg",
+            "image": "shopify://shop_images/Untitleddesign_bdaf5fba-b4ed-45e5-a13d-b135cd1f8dd3.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Gauhar khan",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-amiya-white-kurta-with-mulmul-cotton-amiya-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-amiya-white-kurta-with-mulmul-cotton-amiya-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -437,11 +437,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/mal_32997d17-5df8-4b7f-b653-27d931192c93.jpg",
+            "image": "shopify://shop_images/mal_32997d17-5df8-4b7f-b653-27d931192c93.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Malaika Arora",
-            "link_url": "shopify:\/\/products\/mulmul-organza-cyra-white-kurta-with-mulmul-cotton-cyra-white-pant",
+            "link_url": "shopify://products/mulmul-organza-cyra-white-kurta-with-mulmul-cotton-cyra-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -451,11 +451,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/3_d0f25305-8567-401c-bc47-25c7f65d2e39.jpg",
+            "image": "shopify://shop_images/3_d0f25305-8567-401c-bc47-25c7f65d2e39.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Medha Bahuguna",
-            "link_url": "shopify:\/\/products\/mulmul-organza-sangli-off-white-kurta-with-sleeve-with-mulmul-organza-sangli-off-white-sharara",
+            "link_url": "shopify://products/mulmul-organza-sangli-off-white-kurta-with-sleeve-with-mulmul-organza-sangli-off-white-sharara",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -465,11 +465,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/4_4a2cc3ea-ee51-452d-89fd-34ee4ca672cf.jpg",
+            "image": "shopify://shop_images/4_4a2cc3ea-ee51-452d-89fd-34ee4ca672cf.jpg",
             "subheading": "",
             "title": "",
             "link_text": "DIKSHA RAWAT",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-narika-white-printed-kurta-with-mulmul-cotton-narika-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-narika-white-printed-kurta-with-mulmul-cotton-narika-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -479,11 +479,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/5_400010b1-4b1b-47f5-a12f-0776742b9b1e.jpg",
+            "image": "shopify://shop_images/5_400010b1-4b1b-47f5-a12f-0776742b9b1e.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Pragya Jaiswal",
-            "link_url": "shopify:\/\/products\/mulmul-organza-sangli-navy-kurta-with-sleeve-with-mulmul-organza-sangli-navy-pant",
+            "link_url": "shopify://products/mulmul-organza-sangli-navy-kurta-with-sleeve-with-mulmul-organza-sangli-navy-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -493,11 +493,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/6_6cc1f3da-ddb2-44e6-b719-a66d036397e8.jpg",
+            "image": "shopify://shop_images/6_6cc1f3da-ddb2-44e6-b719-a66d036397e8.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Aditi Bhatia",
-            "link_url": "shopify:\/\/products\/mulmul-organza-ombre-priyur-lavender-saree",
+            "link_url": "shopify://products/mulmul-organza-ombre-priyur-lavender-saree",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -507,11 +507,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/7_ee01bf8e-f89f-4f52-a25f-09d042f84b63.jpg",
+            "image": "shopify://shop_images/7_ee01bf8e-f89f-4f52-a25f-09d042f84b63.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Kompal Matta Kapoor",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-carlisle-white-shirt-with-carlisle-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-carlisle-white-shirt-with-carlisle-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -521,11 +521,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/8_10bd469a-370c-406b-a0aa-8f788e696891.jpg",
+            "image": "shopify://shop_images/8_10bd469a-370c-406b-a0aa-8f788e696891.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Kinjal Mahesh Bhanushali",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-prue-navy-shirt-with-mulmul-cotton-prue-navy-pant",
+            "link_url": "shopify://products/mulmul-cotton-prue-navy-shirt-with-mulmul-cotton-prue-navy-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -535,11 +535,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/9_187fbdee-aa46-4e84-b3f6-8e65eaa7ac42.jpg",
+            "image": "shopify://shop_images/9_187fbdee-aa46-4e84-b3f6-8e65eaa7ac42.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Rubina Dilaik",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-trent-blue-kurta-with-trent-blue-pant",
+            "link_url": "shopify://products/mulmul-cotton-trent-blue-kurta-with-trent-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -549,11 +549,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/10_1de911fa-2e80-4435-a378-bbdaacffba21.jpg",
+            "image": "shopify://shop_images/10_1de911fa-2e80-4435-a378-bbdaacffba21.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Asna Oberoi",
-            "link_url": "shopify:\/\/products\/mulmul-organza-dell-white-top-with-mulmul-cotton-dell-white-pant",
+            "link_url": "shopify://products/mulmul-organza-dell-white-top-with-mulmul-cotton-dell-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -563,11 +563,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/11_7e80152a-6ff9-41ec-a358-5cf5cdd2b2ac.jpg",
+            "image": "shopify://shop_images/11_7e80152a-6ff9-41ec-a358-5cf5cdd2b2ac.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Seher Dutta",
-            "link_url": "shopify:\/\/products\/mulmul-organza-dell-white-top-with-mulmul-cotton-dell-white-pant",
+            "link_url": "shopify://products/mulmul-organza-dell-white-top-with-mulmul-cotton-dell-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -577,11 +577,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/12_000623c4-54bb-4e21-a5d2-ada2d70b4fd1.jpg",
+            "image": "shopify://shop_images/12_000623c4-54bb-4e21-a5d2-ada2d70b4fd1.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Priya sidhu",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-reeve-dusty-pink-top-with-mulmul-cotton-reeve-dusty-pink-pant",
+            "link_url": "shopify://products/mulmul-cotton-reeve-dusty-pink-top-with-mulmul-cotton-reeve-dusty-pink-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -591,11 +591,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/13_0411c2e1-4ff8-46bb-b689-5700b78df0c8.jpg",
+            "image": "shopify://shop_images/13_0411c2e1-4ff8-46bb-b689-5700b78df0c8.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Saiee M Manjrekar",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-banu-light-blue-kurta-with-mulmul-cotton-banu-light-blue-pant",
+            "link_url": "shopify://products/mulmul-cotton-banu-light-blue-kurta-with-mulmul-cotton-banu-light-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -605,11 +605,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/15_7d9443b5-638a-4ae4-a106-d027a71d72cd.jpg",
+            "image": "shopify://shop_images/15_7d9443b5-638a-4ae4-a106-d027a71d72cd.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Sania Mirza",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-asota-kurta",
+            "link_url": "shopify://products/mulmul-cotton-asota-kurta",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -619,11 +619,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/16_6ca35f2f-4b75-4be2-a4cd-01b2109e3dfd.jpg",
+            "image": "shopify://shop_images/16_6ca35f2f-4b75-4be2-a4cd-01b2109e3dfd.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Prajakta Koli",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-kishi-white-kurta-with-mulmul-cotton-kishi-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-kishi-white-kurta-with-mulmul-cotton-kishi-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -633,11 +633,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/17_4e41cac4-c503-4b66-bd74-8c3793e52403.jpg",
+            "image": "shopify://shop_images/17_4e41cac4-c503-4b66-bd74-8c3793e52403.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Tarini Bhatia",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-neve-navy-top-with-mulmul-cotton-neve-navy-pant",
+            "link_url": "shopify://products/mulmul-cotton-neve-navy-top-with-mulmul-cotton-neve-navy-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -647,11 +647,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/18_03099e46-d648-41e1-a886-e4af418fd8a8.jpg",
+            "image": "shopify://shop_images/18_03099e46-d648-41e1-a886-e4af418fd8a8.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Srijan Chanta",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-tess-white-top-with-tess-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-tess-white-top-with-tess-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -661,11 +661,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/19_4b279829-fa1f-4d15-bdae-58feb307f535.jpg",
+            "image": "shopify://shop_images/19_4b279829-fa1f-4d15-bdae-58feb307f535.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Pralambika Nagar",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-tess-white-top-with-tess-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-tess-white-top-with-tess-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -675,11 +675,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/20_59f1aacc-bc30-45e8-ba22-6c6a8df75e21.jpg",
+            "image": "shopify://shop_images/20_59f1aacc-bc30-45e8-ba22-6c6a8df75e21.jpg",
             "subheading": "",
             "title": "",
             "link_text": "kiran kaur",
-            "link_url": "shopify:\/\/products\/mulmul-banarsi-paheri-green-kurta-with-mulmul-banarsi-paheri-green-pant",
+            "link_url": "shopify://products/mulmul-banarsi-paheri-green-kurta-with-mulmul-banarsi-paheri-green-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -689,11 +689,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/21_60c6b986-5eaf-47f5-932d-fb093314cc85.jpg",
+            "image": "shopify://shop_images/21_60c6b986-5eaf-47f5-932d-fb093314cc85.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Mahima Chawla",
-            "link_url": "shopify:\/\/products\/mulmul-organza-idika-pink-printed-anarkali-kurta-with-mulmul-cotton-idika-pink-pant",
+            "link_url": "shopify://products/mulmul-organza-idika-pink-printed-anarkali-kurta-with-mulmul-cotton-idika-pink-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -703,11 +703,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/22_d3398bbf-d49a-48ee-aee5-9712c12ace87.jpg",
+            "image": "shopify://shop_images/22_d3398bbf-d49a-48ee-aee5-9712c12ace87.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Sruthi jayadevan",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-gulnar-yellow-kurta-with-mulmul-cotton-gulnar-yellow-pant",
+            "link_url": "shopify://products/mulmul-cotton-gulnar-yellow-kurta-with-mulmul-cotton-gulnar-yellow-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -717,11 +717,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/23_9425b552-4928-4d97-ac1c-df21dfe857e4.jpg",
+            "image": "shopify://shop_images/23_9425b552-4928-4d97-ac1c-df21dfe857e4.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Meghna Sahijwani",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-yami-green-kurta-with-mulmul-cotton-yami-green-pant",
+            "link_url": "shopify://products/mulmul-cotton-yami-green-kurta-with-mulmul-cotton-yami-green-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -731,11 +731,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/24_4e0d3260-8aba-418c-b4dc-6835291954a7.jpg",
+            "image": "shopify://shop_images/24_4e0d3260-8aba-418c-b4dc-6835291954a7.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Rasha Tandon",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-effat-yellow-kurta-with-mulmul-cotton-effat-yellow-pant",
+            "link_url": "shopify://products/mulmul-cotton-effat-yellow-kurta-with-mulmul-cotton-effat-yellow-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -745,11 +745,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/25_b459ff9d-0d30-44f5-9b41-1f0867040037.jpg",
+            "image": "shopify://shop_images/25_b459ff9d-0d30-44f5-9b41-1f0867040037.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Ilisha Singh",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-banu-light-blue-kurta-with-mulmul-cotton-banu-light-blue-pant",
+            "link_url": "shopify://products/mulmul-cotton-banu-light-blue-kurta-with-mulmul-cotton-banu-light-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -759,11 +759,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/26_813d1c60-e15e-46ca-8f4c-06c561a03070.jpg",
+            "image": "shopify://shop_images/26_813d1c60-e15e-46ca-8f4c-06c561a03070.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Priya sidhu",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-ayn-teal-blue-top-with-mulmul-cotton-ayn-teal-blue-pant",
+            "link_url": "shopify://products/mulmul-cotton-ayn-teal-blue-top-with-mulmul-cotton-ayn-teal-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -773,11 +773,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/27_37252deb-a896-4faf-89a6-cd12a235735a.jpg",
+            "image": "shopify://shop_images/27_37252deb-a896-4faf-89a6-cd12a235735a.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Priya sidhu",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-neve-white-top-with-mulmul-cotton-neve-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-neve-white-top-with-mulmul-cotton-neve-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -787,11 +787,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/28_4af192d6-45b0-43ea-9941-4cda7664077e.jpg",
+            "image": "shopify://shop_images/28_4af192d6-45b0-43ea-9941-4cda7664077e.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Deeksha Khurana",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-deeba-light-blue-kurta-with-mulmul-cotton-deeba-light-blue-pant",
+            "link_url": "shopify://products/mulmul-cotton-deeba-light-blue-kurta-with-mulmul-cotton-deeba-light-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -801,11 +801,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/29_71f5796d-2dbd-4eef-b8e1-4860090565a8.jpg",
+            "image": "shopify://shop_images/29_71f5796d-2dbd-4eef-b8e1-4860090565a8.jpg",
             "subheading": "",
             "title": "",
             "link_text": "jully",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-kishi-light-pink-kurta-with-mulmul-cotton-kishi-light-pink-pant",
+            "link_url": "shopify://products/mulmul-cotton-kishi-light-pink-kurta-with-mulmul-cotton-kishi-light-pink-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -815,11 +815,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/30_52feab13-b8f1-4b2f-a419-14a7740cea7a.jpg",
+            "image": "shopify://shop_images/30_52feab13-b8f1-4b2f-a419-14a7740cea7a.jpg",
             "subheading": "",
             "title": "",
             "link_text": "kinjal",
-            "link_url": "shopify:\/\/products\/mulmul-banarsi-luxe-tissue-mangni-light-blue-saree",
+            "link_url": "shopify://products/mulmul-banarsi-luxe-tissue-mangni-light-blue-saree",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -829,11 +829,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/32_1a1a649d-f36f-4808-bbcd-e45b2ed3fb11.jpg",
+            "image": "shopify://shop_images/32_1a1a649d-f36f-4808-bbcd-e45b2ed3fb11.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Priya Banerjee",
-            "link_url": "shopify:\/\/products\/mulmul-organza-valya-blue-kurta-with-mulmul-pima-satin-valya-blue-pant",
+            "link_url": "shopify://products/mulmul-organza-valya-blue-kurta-with-mulmul-pima-satin-valya-blue-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -843,11 +843,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/33_d3bdbff0-10a8-4e20-ac58-95cded4c3fb6.jpg",
+            "image": "shopify://shop_images/33_d3bdbff0-10a8-4e20-ac58-95cded4c3fb6.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Upasana",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-ensi-orange-kurta-with-mulmul-cotton-round-hem-organza-panel-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-ensi-orange-kurta-with-mulmul-cotton-round-hem-organza-panel-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -857,11 +857,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/34_ca43829e-f810-41d8-91dd-102d95e04d63.jpg",
+            "image": "shopify://shop_images/34_ca43829e-f810-41d8-91dd-102d95e04d63.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Kusha Kapila",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-kishi-white-kurta-with-mulmul-cotton-kishi-white-pant",
+            "link_url": "shopify://products/mulmul-cotton-kishi-white-kurta-with-mulmul-cotton-kishi-white-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -871,11 +871,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/35_9d0f8daf-bc7d-4107-88c2-073af54baf5c.jpg",
+            "image": "shopify://shop_images/35_9d0f8daf-bc7d-4107-88c2-073af54baf5c.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Shiana Kothari",
-            "link_url": "shopify:\/\/products\/mulmul-organza-idika-pink-printed-anarkali-kurta-with-mulmul-cotton-idika-pink-pant",
+            "link_url": "shopify://products/mulmul-organza-idika-pink-printed-anarkali-kurta-with-mulmul-cotton-idika-pink-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -885,11 +885,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/36_0da9448c-2c31-4efe-854b-577074fe45ec.jpg",
+            "image": "shopify://shop_images/36_0da9448c-2c31-4efe-854b-577074fe45ec.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Malavika Mohanan",
-            "link_url": "shopify:\/\/products\/mulmul-cotton-gulnar-yellow-kurta-with-mulmul-cotton-gulnar-yellow-pant",
+            "link_url": "shopify://products/mulmul-cotton-gulnar-yellow-kurta-with-mulmul-cotton-gulnar-yellow-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -899,11 +899,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/39_1ca68826-c893-4250-8c73-212a15ed6846.jpg",
+            "image": "shopify://shop_images/39_1ca68826-c893-4250-8c73-212a15ed6846.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Nandita Maglani",
-            "link_url": "shopify:\/\/products\/mulmul-organza-hiyti-pink-kurta-with-mulmul-cotton-hiyti-pink-pant",
+            "link_url": "shopify://products/mulmul-organza-hiyti-pink-kurta-with-mulmul-cotton-hiyti-pink-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -913,11 +913,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/40_0667fbaa-fa6f-499a-a099-ef7727327966.jpg",
+            "image": "shopify://shop_images/40_0667fbaa-fa6f-499a-a099-ef7727327966.jpg",
             "subheading": "",
             "title": "",
             "link_text": "Mallaikaa Chheda",
-            "link_url": "shopify:\/\/products\/mulmul-organza-bolour-orange-kurta-with-mulmul-cotton-bolour-orange-pant",
+            "link_url": "shopify://products/mulmul-organza-bolour-orange-kurta-with-mulmul-cotton-bolour-orange-pant",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -985,7 +985,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div class=\"swirl-short-videos-c-ssv13\" data-code=\"hodprmca\" data-playlist=\"V1KCYc\" data-pdp=\"product\/,products\/,collection\/\" data-wt=\"1\"><\/div>",
+        "html": "<div class=\"swirl-short-videos-c-ssv13\" data-code=\"hodprmca\" data-playlist=\"V1KCYc\" data-pdp=\"product/,products/,collection/\" data-wt=\"1\"></div>",
         "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -998,8 +998,8 @@
         "look_aKMcAP": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SHOP_THE_LOOK_NEW_THEME_DEKTOP_1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/SHOP_THE_LOOK_NEW_THEME_MOBILE_2.jpg",
+            "image": "shopify://shop_images/SHOP_THE_LOOK_NEW_THEME_DEKTOP_1.jpg",
+            "mobile_image": "shopify://shop_images/SHOP_THE_LOOK_NEW_THEME_MOBILE_2.jpg",
             "dot_type": "normal",
             "product_1": "mulmul-organza-paniz-white-kurta-with-mulmul-cotton-paniz-white-pant",
             "product_1_horizontal_position": 71,
@@ -1034,7 +1034,7 @@
           "type": "collection",
           "settings": {
             "collection": "mulmul-accessories",
-            "image": "shopify:\/\/shop_images\/1_5f94f04d-6e8f-4c1a-bd82-d19c62c373be.jpg",
+            "image": "shopify://shop_images/1_5f94f04d-6e8f-4c1a-bd82-d19c62c373be.jpg",
             "subheading": "",
             "title": "",
             "link_text": "ACCESSORIES",
@@ -1048,7 +1048,7 @@
           "type": "collection",
           "settings": {
             "collection": "mulmul-charm",
-            "image": "shopify:\/\/shop_images\/2_8a89ecdc-ba1a-4ee3-9bdc-5a410b45f40e.jpg",
+            "image": "shopify://shop_images/2_8a89ecdc-ba1a-4ee3-9bdc-5a410b45f40e.jpg",
             "subheading": "",
             "title": "",
             "link_text": "MULMUL GIFTS",
@@ -1065,7 +1065,7 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 1000px) {.list-collections--collage .list-collections__item-list {margin-inline: 0; }}",
-        "@media screen and (min-width: 741px) {.list-collections__item-list {grid-template-columns: repeat( auto-fit, calc(100% \/ 2 - var(--container-gutter) * 2 \/ 3) ); grid-gap: var(--container-gutter); justify-content: safe center; }}"
+        "@media screen and (min-width: 741px) {.list-collections__item-list {grid-template-columns: repeat( auto-fit, calc(100% / 2 - var(--container-gutter) * 2 / 3) ); grid-gap: var(--container-gutter); justify-content: safe center; }}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -1082,11 +1082,11 @@
         "item_MbFnNL": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_04e0238d-c1af-4482-8a0d-e26d90c1a4ac.jpg",
+            "image": "shopify://shop_images/1_04e0238d-c1af-4482-8a0d-e26d90c1a4ac.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Dhriti",
-            "content": "<p>“Thanks to u for the outfits Loved both the dresses🫶🏻 We got them shipped from Hyderabad to chicago for rakhi by our moms. Hoping to visit the store for more festive shopping”<\/p>",
+            "content": "<p>“Thanks to u for the outfits Loved both the dresses🫶🏻 We got them shipped from Hyderabad to chicago for rakhi by our moms. Hoping to visit the store for more festive shopping”</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -1097,11 +1097,11 @@
         "item_EBygpP": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_8c7ba0ed-3e28-41f0-858f-47beda30ef72.jpg",
+            "image": "shopify://shop_images/2_8c7ba0ed-3e28-41f0-858f-47beda30ef72.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Pooja",
-            "content": "<p>Thank you so much for the beautiful outfit<br\/>Everybody just loved my outfit<br\/>Can’t wait to shop more<\/p>",
+            "content": "<p>Thank you so much for the beautiful outfit<br/>Everybody just loved my outfit<br/>Can’t wait to shop more</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -1112,11 +1112,11 @@
         "item_9d9drq": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_761c6ad8-5d49-491e-909b-e91195cf8b67.jpg",
+            "image": "shopify://shop_images/3_761c6ad8-5d49-491e-909b-e91195cf8b67.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Asiya",
-            "content": "<p>One of best in my mulmul collection, lovin it<\/p>",
+            "content": "<p>One of best in my mulmul collection, lovin it</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -1127,11 +1127,11 @@
         "item_QhaRk9": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_bbe15391-7a4d-440b-9c56-062f11302b62.jpg",
+            "image": "shopify://shop_images/4_bbe15391-7a4d-440b-9c56-062f11302b62.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Rahila",
-            "content": "<p>Absolutely loved wearing this one 💖<\/p>",
+            "content": "<p>Absolutely loved wearing this one 💖</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -1142,11 +1142,11 @@
         "item_LGB8Lc": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_40c36c31-c7f9-4232-965c-cd3338e6549e.jpg",
+            "image": "shopify://shop_images/5_40c36c31-c7f9-4232-965c-cd3338e6549e.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Naina",
-            "content": "<p>Love this outfit. So comfortable and lightweight.<\/p>",
+            "content": "<p>Love this outfit. So comfortable and lightweight.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -1167,7 +1167,7 @@
         "stack_items": false,
         "subheading": "Love shared by you",
         "title": "MULMUL AND ME",
-        "content": "<p><a href=\"\/pages\/mulmul-and-me\" title=\"Mulmul and Me\">View all<\/a><\/p>",
+        "content": "<p><a href=\"/pages/mulmul-and-me\" title=\"Mulmul and Me\">View all</a></p>",
         "column_alignment": "center",
         "mobile_item_size": "large",
         "desktop_item_size": "medium",
@@ -1182,13 +1182,13 @@
         "image_TQwAwk": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OUR_FABRIC_DESKTOP.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/OUR_FABRIC_MOBILE.jpg",
+            "image": "shopify://shop_images/OUR_FABRIC_DESKTOP.jpg",
+            "mobile_image": "shopify://shop_images/OUR_FABRIC_MOBILE.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
             "button_1_text": "OUR FABRICS",
-            "button_1_link": "shopify:\/\/pages\/fabrics",
+            "button_1_link": "shopify://pages/fabrics",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -1217,40 +1217,40 @@
           "type": "item",
           "settings": {
             "icon": "picto-box",
-            "custom_icon": "shopify:\/\/shop_images\/4_120x-removebg-preview_706f170a-510d-4e31-8e17-7780ad198f0b.png",
+            "custom_icon": "shopify://shop_images/4_120x-removebg-preview_706f170a-510d-4e31-8e17-7780ad198f0b.png",
             "custom_icon_width": 105,
             "title": "OUR FABRICS",
-            "content": "<p>Made with love and 100% vegan fabrics<\/p>"
+            "content": "<p>Made with love and 100% vegan fabrics</p>"
           }
         },
         "item_yBJL4B": {
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "custom_icon": "shopify:\/\/shop_images\/2_180x-removebg-preview_c85f1246-5982-4676-8595-7fcded9af8c7.png",
+            "custom_icon": "shopify://shop_images/2_180x-removebg-preview_c85f1246-5982-4676-8595-7fcded9af8c7.png",
             "custom_icon_width": 170,
             "title": "EXPRESS DELIVERY",
-            "content": "<p>We love getting our Muls to you as soon as you choose your favourites<\/p>"
+            "content": "<p>We love getting our Muls to you as soon as you choose your favourites</p>"
           }
         },
         "item_cAAa8r": {
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "custom_icon": "shopify:\/\/shop_images\/1_120x-removebg-preview_14f569ea-a676-486e-bfa8-bc1f124a0353.png",
+            "custom_icon": "shopify://shop_images/1_120x-removebg-preview_14f569ea-a676-486e-bfa8-bc1f124a0353.png",
             "custom_icon_width": 125,
             "title": "HAPPINESS GURENTEED",
-            "content": "<p>100% money back guaranteed & easy exchanges. No questions asked<\/p>"
+            "content": "<p>100% money back guaranteed & easy exchanges. No questions asked</p>"
           }
         },
         "item_rKKndG": {
           "type": "item",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/3_140x-removebg-preview_0962bf48-96c8-47ee-b633-2b5cc03a1779.png",
+            "custom_icon": "shopify://shop_images/3_140x-removebg-preview_0962bf48-96c8-47ee-b633-2b5cc03a1779.png",
             "custom_icon_width": 130,
             "title": "MADE IN INDIA",
-            "content": "<p>A brand of Indian values, we are made completely in India from thought to creation<\/p>"
+            "content": "<p>A brand of Indian values, we are made completely in India from thought to creation</p>"
           }
         }
       },

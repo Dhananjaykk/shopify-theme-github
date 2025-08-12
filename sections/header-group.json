@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -72,14 +72,14 @@
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/1_26c22dc6-22f0-46f6-ae60-2a0da51d4768.jpg",
+            "image_1": "shopify://shop_images/1_26c22dc6-22f0-46f6-ae60-2a0da51d4768.jpg",
             "image_1_heading": "KURTA SET",
             "image_1_text": "",
-            "image_1_link": "shopify:\/\/collections\/kurta-sets",
-            "image_2": "shopify:\/\/shop_images\/mega_menu_images.jpg",
+            "image_1_link": "shopify://collections/kurta-sets",
+            "image_2": "shopify://shop_images/mega_menu_images.jpg",
             "image_2_heading": "MULMUL STUDIO",
             "image_2_text": "",
-            "image_2_link": "shopify:\/\/collections\/mulmul-studio",
+            "image_2_link": "shopify://collections/mulmul-studio",
             "image_3_heading": "",
             "image_3_text": "",
             "image_3_link": "",
@@ -99,18 +99,18 @@
           "settings": {
             "menu_item": "Collection",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/mega_menu_images_1.jpg",
+            "image_1": "shopify://shop_images/mega_menu_images_1.jpg",
             "image_1_heading": "MULMUL STUDIO",
             "image_1_text": "",
-            "image_1_link": "shopify:\/\/collections\/mulmul-studio",
-            "image_2": "shopify:\/\/shop_images\/4_79799eaa-e594-4921-8512-6e06bee5546d.jpg",
+            "image_1_link": "shopify://collections/mulmul-studio",
+            "image_2": "shopify://shop_images/4_79799eaa-e594-4921-8512-6e06bee5546d.jpg",
             "image_2_heading": "GARMI KE DIN",
             "image_2_text": "",
-            "image_2_link": "shopify:\/\/collections\/garmi-ke-din",
-            "image_3": "shopify:\/\/shop_images\/5_293c5d8c-e7b9-4864-b45d-f4947329549e.jpg",
+            "image_2_link": "shopify://collections/garmi-ke-din",
+            "image_3": "shopify://shop_images/5_293c5d8c-e7b9-4864-b45d-f4947329549e.jpg",
             "image_3_heading": "Summer Wedding",
             "image_3_text": "",
-            "image_3_link": "shopify:\/\/collections\/summer-wedding",
+            "image_3_link": "shopify://collections/shaadi-ka-ghar",
             "image_4_heading": "",
             "image_4_text": "",
             "image_4_link": "",
@@ -127,18 +127,18 @@
           "settings": {
             "menu_item": "Accessories",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/6_da0a9b1d-58e8-4320-ba4c-262d850bd792.jpg",
+            "image_1": "shopify://shop_images/6_da0a9b1d-58e8-4320-ba4c-262d850bd792.jpg",
             "image_1_heading": "FOOTWEAR",
             "image_1_text": "",
-            "image_1_link": "shopify:\/\/collections\/mulmul-footwear",
-            "image_2": "shopify:\/\/shop_images\/7_327e2946-614a-4c58-b20a-9196f49d1379.jpg",
+            "image_1_link": "shopify://collections/mulmul-footwear",
+            "image_2": "shopify://shop_images/7_327e2946-614a-4c58-b20a-9196f49d1379.jpg",
             "image_2_heading": "JEWELLERY",
             "image_2_text": "",
-            "image_2_link": "shopify:\/\/collections\/jewelry",
-            "image_3": "shopify:\/\/shop_images\/8_2581bc93-ba6e-42bf-9367-0cc91719b0d7.jpg",
+            "image_2_link": "shopify://collections/jewelry",
+            "image_3": "shopify://shop_images/8_2581bc93-ba6e-42bf-9367-0cc91719b0d7.jpg",
             "image_3_heading": "BAGS",
             "image_3_text": "",
-            "image_3_link": "shopify:\/\/collections\/mulmul-potli",
+            "image_3_link": "shopify://collections/mulmul-potli",
             "image_4_heading": "",
             "image_4_text": "",
             "image_4_link": "",
